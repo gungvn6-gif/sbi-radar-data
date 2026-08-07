@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0f14">
+<title>SBI Radar</title>
+<link rel="manifest" href="manifest.json">
+<style>
+  :root{
+    --bg:#0b0f14; --card:#121a23; --card2:#0f151d; --line:#1e2a38;
+    --ink:#e8eef5; --mut:#8ba0b5; --dim:#5a6c7e;
+    --buy:#2dd4a0; --watch:#e8c94a; --near:#5ab0f0; --sell:#f0655a; --chip:#1a2634;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:48px}
+  header{position:sticky;top:0;z-index:5;background:rgba(11,15,20,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 16px 10px}
+  header h1{font-size:19px;letter-spacing:.3px}
+  header h1 b{color:var(--buy)}
+  .sub{color:var(--mut);font-size:12.5px;margin-top:2px}
+  .sub .dot{color:var(--dim);margin:0 6px}
+  main{max-width:640px;margin:0 auto;padding:12px 12px 24px}
+  section{margin-top:18px}
+  .sec-h{display:flex;align-items:baseline;gap:8px;margin:0 4px 8px}
+  .sec-h h2{font-size:14px;font-weight:600;letter-spacing:.4px;text-transform:uppercase}
+  .sec-h .cnt{color:var(--mut);font-size:12px}
+  .sec-h .hint{color:var(--dim);font-size:11.5px;margin-left:auto;text-align:right}
+  .empty{color:var(--dim);font-size:13px;padding:10px 14px;background:var(--card2);border:1px dashed var(--line);border-radius:12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+  .row1{display:flex;align-items:baseline;gap:10px}
+  .sym{font-size:17px;font-weight:700;letter-spacing:.3px}
+  .px{color:var(--mut);font-variant-numeric:tabular-nums}
+  .score{margin-left:auto;font-size:12px;font-weight:700;padding:3px 9px;border-radius:99px;background:var(--chip);font-variant-numeric:tabular-nums}
+  .s-buy{color:var(--buy)} .s-watch{color:var(--watch)} .s-near{color:var(--near)} .s-sell{color:var(--sell)}
+  .zone{margin-top:6px;font-size:13.5px;color:var(--ink);font-variant-numeric:tabular-nums}
+  .zone .src{color:var(--mut)}
+  .meta{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .chip{font-size:11.5px;color:var(--mut);background:var(--chip);border-radius:99px;padding:3px 8px;font-variant-numeric:tabular-nums}
+  .cf{display:flex;gap:4px;margin-top:8px;flex-wrap:wrap}
+  .cf i{font-style:normal;font-size:11.5px;padding:3px 8px;border-radius:7px;background:var(--card2);border:1px solid var(--line);color:var(--dim)}
+  .cf i.on{color:var(--buy);border-color:rgba(45,212,160,.4)}
+  .cf.sellside i.on{color:var(--sell);border-color:rgba(240,101,90,.4)}
+  .advice{margin-top:8px;font-size:12.5px;color:var(--mut)}
+  footer{max-width:640px;margin:26px auto 0;padding:0 16px;color:var(--dim);font-size:11.5px;line-height:1.6}
+  footer b{color:var(--mut)}
+  #err{display:none;margin:14px 4px 0;color:var(--sell);font-size:13px}
+  .skel{color:var(--dim);padding:26px 8px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎯 SBI <b>Radar</b></h1>
+  <div class="sub" id="sub">yükleniyor…</div>
+</header>
+<main id="app"><div class="skel">Tarama verisi yükleniyor…</div></main>
+<div id="err">Veri alınamadı — radar_latest.json bulunamadı. Gece taraması henüz çalışmamış olabilir.</div>
+<footer>
+  <b>Dürüstlük notu:</b> Bu liste olasılık sıralamasıdır, kehanet değildir. Dayanak: bölge + teyit≥3 girişleri
+  geçmiş replay'de %51.3 isabet / +0.38% ort. 12-bar getiri vs teyitsiz %44.4 / −0.35% (kripto 4H×9000 bar;
+  hisse karnesi ayrıca birikiyor). v0 sınırı: SR pivot motoru portu henüz yok — bölgeler BB/SMA yapısından.
+  Kesin sinyal TradingView'daki SB/SS marker'ıdır; burası radar/ön eleme katmanıdır.
+</footer>
+<script>
+const F=["yesil","yukari","hacim","rsi"], FL={yesil:"yeşil",yukari:"yukarı",hacim:"hacim",rsi:"RSI"};
+const fmt=n=>n==null?"—":Number(n).toLocaleString("tr-TR",{maximumFractionDigits:4});
+function cfHtml(flags,cnt,sell){
+  if(!flags) return "";
+  const items=F.map(k=>`<i class="${flags[k]?"on":""}">${flags[k]?"✓":"✗"} ${FL[k]}</i>`).join("");
+  return `<div class="cf ${sell?"sellside":""}"><i class="${cnt>=3?"on":""}">Teyit ${cnt}/4</i>${items}</div>`;
+}
+function card(r,cls){
+  const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} <span class="src">(${r.buy_src==="pullback"?"Pullback":"Dip"})</span>`:"—";
+  const dist=r.in_buy?`<span class="chip">bölge İÇİNDE</span>`:(r.dist_atr!=null?`<span class="chip">alıma ${Math.abs(r.dist_atr).toFixed(2)} ATR</span>`:"");
+  const sellz=r.in_sell?`<span class="chip" style="color:var(--sell)">satış bölgesinde · teyit ${r.sell_conf}/4</span>`:"";
+  return `<div class="card">
+    <div class="row1"><span class="sym">${r.symbol}</span><span class="px">${fmt(r.close)}</span>
+      <span class="score ${cls}">skor ${r.score}</span></div>
+    <div class="zone">🟢 Alım bölgesi: ${zone}</div>
+    <div class="meta">${dist}${sellz}<span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span></div>
+    ${cfHtml(r.conf_flags,r.conf,false)}
+  </div>`;
+}
+function section(title,hint,rows,cls,adviceEmpty){
+  const body=rows.length?rows.map(r=>card(r,cls)).join(""):`<div class="empty">${adviceEmpty}</div>`;
+  return `<section><div class="sec-h"><h2 class="${cls}">${title}</h2><span class="cnt">${rows.length}</span><span class="hint">${hint}</span></div>${body}</section>`;
+}
+const DATA_URLS=["radar_latest.json","https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/radar_latest.json"];
+async function fetchData(){
+  for(const u of DATA_URLS){
+    try{const r=await fetch(u+"?t="+Date.now());if(r.ok)return await r.json();}catch(e){}
+  }
+  throw 0;
+}
+async function load(){
+  try{
+    const d=await fetchData();
+    const rows=d.rows||[];
+    const buys=rows.filter(r=>r.in_buy&&r.conf>=2);
+    const watch=rows.filter(r=>r.in_buy&&r.conf<2);
+    const near=rows.filter(r=>!r.in_buy&&r.dist_atr!=null&&Math.abs(r.dist_atr)<=1.0).sort((a,b)=>Math.abs(a.dist_atr)-Math.abs(b.dist_atr));
+    const sells=rows.filter(r=>r.in_sell&&r.sell_conf>=2);
+    const rest=rows.filter(r=>!buys.includes(r)&&!watch.includes(r)&&!near.includes(r));
+    document.getElementById("sub").innerHTML=
+      `Son tarama: <b>${d.generated_at}</b><span class="dot">·</span>${d.tf} <span class="dot">·</span>${rows.length} sembol`+
+      (d.errors&&d.errors.length?`<span class="dot">·</span><span style="color:var(--sell)">${d.errors.length} veri hatası</span>`:"");
+    document.getElementById("app").innerHTML=
+      section("🟢 Bölgede + Teyitli","kademeli giriş düşünülebilir (teyit ≥2)",buys,"s-buy","Şu an bölge+teyit kurulumu yok — sabır da bir pozisyondur.")+
+      section("👀 Bölgede · Teyit Bekliyor","dönüş barı bekleniyor",watch,"s-watch","Bölgede teyitsiz hisse yok.")+
+      section("📡 Bölgeye Yaklaşanlar","≤1 ATR — alarm kur, hazırlan",near,"s-near","1 ATR içinde yaklaşan yok.")+
+      section("🔴 Satış / Kâr-Al Bölgesinde","pozisyon taşıyorsan azaltmayı düşün",sells,"s-sell","Satış bölgesinde teyitli hisse yok.")+
+      section("📋 Diğerleri (skora göre)","iki bölge arasında — izlemede",rest,"","—");
+  }catch(e){
+    document.getElementById("app").innerHTML="";
+    document.getElementById("err").style.display="block";
+  }
+}
+load();
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
