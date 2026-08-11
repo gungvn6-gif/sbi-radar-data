@@ -1,0 +1,37 @@
+{
+ "tf": "4h",
+ "symbols": 44,
+ "failed": [
+  "SPCX"
+ ],
+ "buy_zone_entry": {
+  "n": 1234,
+  "wr": 0.507,
+  "fwd12": 0.925
+ },
+ "buy_zone_conf2": {
+  "n": 820,
+  "wr": 0.506,
+  "fwd12": 0.901
+ },
+ "buy_zone_conf3": {
+  "n": 446,
+  "wr": 0.514,
+  "fwd12": 0.812
+ },
+ "sell_zone_entry": {
+  "n": 1185,
+  "wr": 0.472,
+  "fwd12": 0.916
+ },
+ "baseline_all_bars_long": {
+  "n": 19821,
+  "wr": 0.516,
+  "fwd12": 0.83
+ },
+ "baseline_conf3_anywhere": {
+  "n": 4052,
+  "wr": 0.524,
+  "fwd12": 0.915
+ }
+}

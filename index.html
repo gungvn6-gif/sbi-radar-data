@@ -95,7 +95,7 @@ const RAW="https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/";
 const F=["yesil","yukari","hacim","rsi"], FL={yesil:"yeşil",yukari:"yukarı",hacim:"hacim",rsi:"RSI"};
 const fmt=n=>n==null?"—":Number(n).toLocaleString("tr-TR",{maximumFractionDigits:4});
 const stars=new Set(JSON.parse(localStorage.getItem("sbi_stars")||"[]"));
-let DATA=null,PREV={},onlyStars=false,TF=localStorage.getItem("sbi_tf")||"4h";
+let DATA=null,PREV={},KARNE=null,onlyStars=false,TF=localStorage.getItem("sbi_tf")||"4h";
 
 async function getJson(name){
   for(const u of [name, RAW+name]){
@@ -144,7 +144,22 @@ function explain(r){
     <div class="zone" style="color:var(--ink)"><b>🧭 Ne yapmalı:</b> ${nextStep(r,statusOf(r))}</div>
     <div class="zone" style="margin-top:6px"><b style="color:var(--ink)">🔬 Teyit ${r.conf}/4:</b> ${teyLine} <span style="color:var(--dim)">(teyit≥3 → isabet ölçümde %44→%51)</span></div>
     <div class="zone" style="margin-top:6px">📖 ATR %${r.atr_pct} (${atrT}) · skor ${r.score} (sıralama içindir, emir değil) · kaynak: ${r.buy_src==="pullback"?"trend geri çekilme bandı":"BB dip yapısı"}</div>
-    <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>`;
+    <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>
+    ${sirket(r)}`;
+}
+const RECTR={strong_buy:"güçlü al",buy:"al",hold:"tut",sell:"sat",strong_sell:"güçlü sat",underperform:"zayıf",overweight:"öne çıkar"};
+function sirket(r){
+  const co=r.co;if(!co)return"";
+  const m=[];
+  if(co.pe!=null)m.push(`F/K ${co.pe}`);
+  if(co.margin!=null)m.push(`net marj %${co.margin}`);
+  if(co.growth!=null)m.push(`gelir büyüme %${co.growth}`);
+  if(co.de!=null)m.push(`borç/öz ${co.de}`);
+  const tgt=co.target!=null&&r.close?` · hedef ${fmt(co.target)} (${co.target>=r.close?"+":""}${((co.target/r.close-1)*100).toFixed(0)}%)`:"";
+  const an=co.rec?`👔 Analist eğilimi: ${RECTR[co.rec]||co.rec}${tgt}`:"";
+  const ew=co.earn_days!=null?`<div class="zone" style="${co.earn_days>=0&&co.earn_days<=7?"color:var(--sell);font-weight:600":""}">📅 Bilanço: ${co.earn_days>=0?co.earn_days+" gün sonra"+(co.earn_days<=7?" — sinyal olsa bile pozisyon riski, dikkat":""):(-co.earn_days)+" gün önce açıklandı"}</div>`:"";
+  const news=(co.news||[]).slice(0,2).map(n=>`<div class="zone">📰 ${n.u?`<a href="${n.u}" target="_blank" rel="noopener" style="color:var(--near);text-decoration:none">${n.t}</a>`:n.t}</div>`).join("");
+  return `<div class="zone" style="color:var(--ink);margin-top:8px"><b>🏢 Şirket:</b> Temel görünüm <b>${co.flabel}</b>${m.length?` — ${m.join(" · ")}`:""}</div>${an?`<div class="zone">${an}</div>`:""}${ew}${news}<div class="zone" style="color:var(--dim);font-size:11px">Yahoo verisi — eksik/gecikmeli olabilir · temel görünüm teknik skora karışmaz</div>`;
 }
 function card(r){
   const s=statusOf(r);
@@ -157,7 +172,7 @@ function card(r){
     <div class="durum">${s.t}</div>
     <div class="zone">🎯 Alım bölgesi: ${zone} — fiyat bu aralığa gelirse alım DÜŞÜNÜLÜR, üstünden kovalanmaz</div>
     <div>${diffBadges(r)}</div>
-    <div class="meta"><span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span><span class="chip">skor ${r.score}</span></div>
+    <div class="meta">${r.co&&r.co.earn_days!=null&&r.co.earn_days>=0&&r.co.earn_days<=7?`<span class="chip" style="color:var(--sell);border:1px solid rgba(244,104,92,.45);font-weight:700">⚠ bilanço ${r.co.earn_days}g</span>`:""}<span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span><span class="chip">skor ${r.score}</span></div>
     ${cfs}
     <div class="det">${explain(r)}</div>
     <div class="hintline">dokun: açıklamalı analiz ▾</div>
@@ -192,11 +207,16 @@ function render(){
     `<a class="sum c-buy" href="#s-buy">🟢 Bölgede<b>${inzone.length}</b></a>`+
     `<a class="sum c-near" href="#s-near">📡 Yakın<b>${near.length}</b></a>`+
     `<a class="sum c-sell" href="#s-sell">🔴 Satış<b>${sells.length}</b></a>`;
+  const pctK=v=>v==null?"—":(v*100).toFixed(1);
+  const kz=KARNE?.buy_zone_entry||{},kc=KARNE?.buy_zone_conf3||{},kb=KARNE?.baseline_all_bars_long||{};
+  const karneBlok=KARNE?`<section id="s-karne"><div class="sec-h"><h2>📊 Sistem Karnesi</h2><span class="hint">senin ${KARNE.symbols} hissende geçmiş replay · ${barTxt()}</span></div>
+    <div class="empty" style="border-style:solid;color:var(--mut)">Bölgeye her girişte alsaydın: isabet <b style="color:var(--ink)">%${pctK(kz.wr)}</b> (${kz.n??"—"} giriş) · <b>bölge + teyit≥3</b> bekleseydin: <b style="color:var(--buy)">%${pctK(kc.wr)}</b> (${kc.n??"—"}) · rastgele bar: %${pctK(kb.wr)}. Ort. 12-bar getiri: teyitli <b style="color:var(--ink)">%${kc.fwd12??"—"}</b> / rastgele %${kb.fwd12??"—"}. <span style="color:var(--dim)">İsabet = stop'tan önce +1 ATR hedefe varış. Dürüst okuma: boğa piyasasında dev hisselerde neredeyse her alım tutuyor — sistemin bugünkü asıl değeri isabet kenarı değil, DOĞRU FİYATTAN alma ve tepeden kovalamama disiplini. SR portu + rejim filtresi bu karneyi güçlendirecek.</span></div></section>`:"";
   document.getElementById("app").innerHTML=
     (starred.length?sec("s-star","⭐ Takiptekiler","senin listen",starred,""):`<section id="s-star"></section>`)+
     sec("s-buy","🟢 Alım Bölgesinde","teyide göre sıralı",inzone,"Şu an alım bölgesinde hisse yok — sabır da bir pozisyondur.")+
     sec("s-near","📡 Bölgeye Yaklaşanlar","≤1 ATR — hazırlan",near,"1 ATR içinde yaklaşan yok.")+
     sec("s-sell","🔴 Satış / Kâr-Al Bölgesinde","pozisyon taşıyorsan",sells,"Satış bölgesinde hisse yok.")+
+    karneBlok+
     `<section id="s-rest"><details><summary>📋 Beklemede olanlar (${rest.length}) — iki bölge arasında</summary>${grid(rest,"—")}</details></section>`;
 }
 async function load(){
@@ -207,6 +227,7 @@ async function load(){
   PREV={};
   const prev=await getJson(`radar_prev${suf}.json`);
   if(prev&&prev.rows)prev.rows.forEach(r=>PREV[r.symbol]=r);
+  KARNE=await getJson(`isabet${suf}.json`);
   document.getElementById("err").style.display="none";
   render();
 }
