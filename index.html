@@ -3,117 +3,165 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0b0f14">
+<meta name="theme-color" content="#0a0e13">
 <title>SBI Radar</title>
 <link rel="manifest" href="manifest.json">
 <style>
   :root{
-    --bg:#0b0f14; --card:#121a23; --card2:#0f151d; --line:#1e2a38;
-    --ink:#e8eef5; --mut:#8ba0b5; --dim:#5a6c7e;
-    --buy:#2dd4a0; --watch:#e8c94a; --near:#5ab0f0; --sell:#f0655a; --chip:#1a2634;
+    --bg:#0a0e13; --card:#131b25; --card2:#0e141c; --line:#20303f; --line2:#182430;
+    --ink:#eaf1f8; --mut:#93a8bc; --dim:#5d7183;
+    --buy:#2ee0a4; --form:#9ade5c; --wait:#e8c94a; --near:#57b1f2; --sell:#f4685c; --chip:#1b2836;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
-  body{background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:48px}
-  header{position:sticky;top:0;z-index:5;background:rgba(11,15,20,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 16px 10px}
-  header h1{font-size:19px;letter-spacing:.3px}
-  header h1 b{color:var(--buy)}
+  body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:56px}
+  header{position:sticky;top:0;z-index:9;background:rgba(10,14,19,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line2)}
+  .hwrap{max-width:1080px;margin:0 auto;padding:13px 16px 10px}
+  h1{font-size:19px;letter-spacing:.3px}
+  h1 b{color:var(--buy)}
   .sub{color:var(--mut);font-size:12.5px;margin-top:2px}
   .sub .dot{color:var(--dim);margin:0 6px}
-  main{max-width:640px;margin:0 auto;padding:12px 12px 24px}
-  section{margin-top:18px}
-  .sec-h{display:flex;align-items:baseline;gap:8px;margin:0 4px 8px}
-  .sec-h h2{font-size:14px;font-weight:600;letter-spacing:.4px;text-transform:uppercase}
-  .sec-h .cnt{color:var(--mut);font-size:12px}
+  .sumbar{display:flex;gap:8px;margin-top:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
+  .sumbar::-webkit-scrollbar{display:none}
+  .sum{flex:0 0 auto;font-size:12px;font-weight:600;padding:6px 11px;border-radius:99px;background:var(--chip);border:1px solid var(--line);color:var(--mut);text-decoration:none;white-space:nowrap}
+  .sum b{font-variant-numeric:tabular-nums;margin-left:4px}
+  .sum.c-buy b{color:var(--buy)} .sum.c-near b{color:var(--near)} .sum.c-sell b{color:var(--sell)} .sum.c-star b{color:var(--wait)}
+  main{max-width:1080px;margin:0 auto;padding:10px 12px 24px}
+  section{margin-top:22px;scroll-margin-top:110px}
+  .sec-h{display:flex;align-items:baseline;gap:8px;margin:0 4px 10px}
+  .sec-h h2{font-size:14.5px;font-weight:700;letter-spacing:.4px}
+  .sec-h .cnt{color:var(--dim);font-size:12px;font-variant-numeric:tabular-nums}
   .sec-h .hint{color:var(--dim);font-size:11.5px;margin-left:auto;text-align:right}
-  .empty{color:var(--dim);font-size:13px;padding:10px 14px;background:var(--card2);border:1px dashed var(--line);border-radius:12px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
-  .row1{display:flex;align-items:baseline;gap:10px}
-  .sym{font-size:17px;font-weight:700;letter-spacing:.3px}
-  .px{color:var(--mut);font-variant-numeric:tabular-nums}
-  .score{margin-left:auto;font-size:12px;font-weight:700;padding:3px 9px;border-radius:99px;background:var(--chip);font-variant-numeric:tabular-nums}
-  .s-buy{color:var(--buy)} .s-watch{color:var(--watch)} .s-near{color:var(--near)} .s-sell{color:var(--sell)}
-  .zone{margin-top:6px;font-size:13.5px;color:var(--ink);font-variant-numeric:tabular-nums}
-  .zone .src{color:var(--mut)}
-  .meta{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-  .chip{font-size:11.5px;color:var(--mut);background:var(--chip);border-radius:99px;padding:3px 8px;font-variant-numeric:tabular-nums}
+  .grid{display:grid;grid-template-columns:1fr;gap:10px}
+  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+  .empty{color:var(--dim);font-size:13px;padding:12px 15px;background:var(--card2);border:1px dashed var(--line);border-radius:13px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:13px 14px}
+  .r1{display:flex;align-items:center;gap:9px}
+  .star{background:none;border:none;font-size:19px;line-height:1;color:var(--dim);cursor:pointer;padding:2px}
+  .star.on{color:var(--wait)}
+  .sym{font-size:17.5px;font-weight:750;letter-spacing:.3px}
+  .px{color:var(--mut);font-size:14px;font-variant-numeric:tabular-nums}
+  .pill{margin-left:auto;font-size:11px;font-weight:800;letter-spacing:.5px;padding:4px 10px;border-radius:8px;background:var(--chip)}
+  .p-buy{color:#04120c;background:var(--buy)} .p-form{color:#111500;background:var(--form)}
+  .p-wait{color:var(--wait)} .p-near{color:var(--near)} .p-sell{color:#170604;background:var(--sell)} .p-izle{color:var(--sell)} .p-bekle{color:var(--dim)}
+  .durum{margin-top:8px;font-size:13.5px;color:var(--ink)}
+  .zone{margin-top:5px;font-size:12.5px;color:var(--mut);font-variant-numeric:tabular-nums}
+  .diff{display:inline-block;margin-top:8px;font-size:11.5px;font-weight:650;color:var(--near);background:rgba(87,177,242,.12);border:1px solid rgba(87,177,242,.35);padding:3px 9px;border-radius:99px;margin-right:5px}
+  .diff.up{color:var(--buy);background:rgba(46,224,164,.1);border-color:rgba(46,224,164,.35)}
+  .diff.dn{color:var(--sell);background:rgba(244,104,92,.1);border-color:rgba(244,104,92,.35)}
+  .meta{margin-top:9px;display:flex;flex-wrap:wrap;gap:5px}
+  .chip{font-size:11px;color:var(--mut);background:var(--chip);border-radius:99px;padding:3px 8px;font-variant-numeric:tabular-nums}
   .cf{display:flex;gap:4px;margin-top:8px;flex-wrap:wrap}
-  .cf i{font-style:normal;font-size:11.5px;padding:3px 8px;border-radius:7px;background:var(--card2);border:1px solid var(--line);color:var(--dim)}
-  .cf i.on{color:var(--buy);border-color:rgba(45,212,160,.4)}
-  .cf.sellside i.on{color:var(--sell);border-color:rgba(240,101,90,.4)}
-  .advice{margin-top:8px;font-size:12.5px;color:var(--mut)}
-  footer{max-width:640px;margin:26px auto 0;padding:0 16px;color:var(--dim);font-size:11.5px;line-height:1.6}
+  .cf i{font-style:normal;font-size:10.5px;padding:2.5px 7px;border-radius:6px;background:var(--card2);border:1px solid var(--line2);color:var(--dim)}
+  .cf i.on{color:var(--buy);border-color:rgba(46,224,164,.45)}
+  details{margin-top:8px}
+  details summary{list-style:none;cursor:pointer;color:var(--mut);font-size:13px;padding:11px 14px;background:var(--card2);border:1px solid var(--line);border-radius:13px}
+  details summary::-webkit-details-marker{display:none}
+  details[open] summary{margin-bottom:10px}
+  footer{max-width:1080px;margin:30px auto 0;padding:0 16px;color:var(--dim);font-size:11.5px;line-height:1.6}
   footer b{color:var(--mut)}
-  #err{display:none;margin:14px 4px 0;color:var(--sell);font-size:13px}
-  .skel{color:var(--dim);padding:26px 8px;text-align:center}
+  #err{display:none;max-width:1080px;margin:14px auto;padding:0 16px;color:var(--sell);font-size:13px}
+  .skel{color:var(--dim);padding:30px 8px;text-align:center}
 </style>
 </head>
 <body>
-<header>
+<header><div class="hwrap">
   <h1>🎯 SBI <b>Radar</b></h1>
   <div class="sub" id="sub">yükleniyor…</div>
-</header>
+  <div class="sumbar" id="sumbar"></div>
+</div></header>
 <main id="app"><div class="skel">Tarama verisi yükleniyor…</div></main>
-<div id="err">Veri alınamadı — radar_latest.json bulunamadı. Gece taraması henüz çalışmamış olabilir.</div>
+<div id="err">Veri alınamadı — gece taraması henüz çalışmamış veya bağlantı yok olabilir.</div>
 <footer>
-  <b>Dürüstlük notu:</b> Bu liste olasılık sıralamasıdır, kehanet değildir. Dayanak: bölge + teyit≥3 girişleri
-  geçmiş replay'de %51.3 isabet / +0.38% ort. 12-bar getiri vs teyitsiz %44.4 / −0.35% (kripto 4H×9000 bar;
-  hisse karnesi ayrıca birikiyor). v0 sınırı: SR pivot motoru portu henüz yok — bölgeler BB/SMA yapısından.
-  Kesin sinyal TradingView'daki SB/SS marker'ıdır; burası radar/ön eleme katmanıdır.
+  <b>Nasıl okunur:</b> Yeşil etiket = bölge + güçlü teyit (kademeli giriş düşünülebilir); sarı = bölgede ama dönüş
+  teyidi eksik — bekle; mavi = bölgeye yaklaşıyor, alarm kur. ⭐ ile hisseyi takibe al — hep en üstte görürsün.
+  Mavi rozetler dünkü taramaya göre DEĞİŞENLERİ işaretler.<br><br>
+  <b>Dürüstlük notu:</b> Olasılık sıralamasıdır, kehanet değildir. Dayanak: bölge+teyit≥3 girişleri geçmiş replay'de
+  %51.3 isabet / +0.38% ort. getiri vs teyitsiz %44.4 / −0.35% (kripto 4H×9000 bar; hisse karnesi birikiyor).
+  v0: SR pivot portu henüz yok. Kesin sinyal TradingView'daki SB/SS marker'ıdır.
 </footer>
 <script>
+const RAW="https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/";
 const F=["yesil","yukari","hacim","rsi"], FL={yesil:"yeşil",yukari:"yukarı",hacim:"hacim",rsi:"RSI"};
 const fmt=n=>n==null?"—":Number(n).toLocaleString("tr-TR",{maximumFractionDigits:4});
-function cfHtml(flags,cnt,sell){
-  if(!flags) return "";
-  const items=F.map(k=>`<i class="${flags[k]?"on":""}">${flags[k]?"✓":"✗"} ${FL[k]}</i>`).join("");
-  return `<div class="cf ${sell?"sellside":""}"><i class="${cnt>=3?"on":""}">Teyit ${cnt}/4</i>${items}</div>`;
-}
-function card(r,cls){
-  const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} <span class="src">(${r.buy_src==="pullback"?"Pullback":"Dip"})</span>`:"—";
-  const dist=r.in_buy?`<span class="chip">bölge İÇİNDE</span>`:(r.dist_atr!=null?`<span class="chip">alıma ${Math.abs(r.dist_atr).toFixed(2)} ATR</span>`:"");
-  const sellz=r.in_sell?`<span class="chip" style="color:var(--sell)">satış bölgesinde · teyit ${r.sell_conf}/4</span>`:"";
-  return `<div class="card">
-    <div class="row1"><span class="sym">${r.symbol}</span><span class="px">${fmt(r.close)}</span>
-      <span class="score ${cls}">skor ${r.score}</span></div>
-    <div class="zone">🟢 Alım bölgesi: ${zone}</div>
-    <div class="meta">${dist}${sellz}<span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span></div>
-    ${cfHtml(r.conf_flags,r.conf,false)}
-  </div>`;
-}
-function section(title,hint,rows,cls,adviceEmpty){
-  const body=rows.length?rows.map(r=>card(r,cls)).join(""):`<div class="empty">${adviceEmpty}</div>`;
-  return `<section><div class="sec-h"><h2 class="${cls}">${title}</h2><span class="cnt">${rows.length}</span><span class="hint">${hint}</span></div>${body}</section>`;
-}
-const DATA_URLS=["radar_latest.json","https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/radar_latest.json"];
-async function fetchData(){
-  for(const u of DATA_URLS){
+const stars=new Set(JSON.parse(localStorage.getItem("sbi_stars")||"[]"));
+let DATA=null,PREV={};
+
+async function getJson(name){
+  for(const u of [name, RAW+name]){
     try{const r=await fetch(u+"?t="+Date.now());if(r.ok)return await r.json();}catch(e){}
   }
-  throw 0;
+  return null;
+}
+function statusOf(r){
+  if(r.in_buy&&r.conf>=3)return{cls:"p-buy",pill:"GİRİŞ ADAYI",t:"Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir."};
+  if(r.in_buy&&r.conf===2)return{cls:"p-form",pill:"TEYİT OLUŞUYOR",t:"Bölge içinde — teyit oluşuyor, dönüş barını izle."};
+  if(r.in_buy)return{cls:"p-wait",pill:"TEYİT BEKLE",t:"Bölge içinde ama dönüş teyidi yok — acele etme."};
+  if(r.in_sell&&r.sell_conf>=2)return{cls:"p-sell",pill:"AZALT",t:"Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt."};
+  if(r.in_sell)return{cls:"p-izle",pill:"TEPEDE",t:"Satış bölgesinde — zayıflama teyidi henüz yok."};
+  if(r.dist_atr!=null&&Math.abs(r.dist_atr)<=1.0)return{cls:"p-near",pill:"YAKIN",t:`Alım bölgesine ${Math.abs(r.dist_atr).toFixed(2)} ATR kaldı — alarmını kur.`};
+  return{cls:"p-bekle",pill:"BEKLE",t:"İki bölge arasında — net avantaj yok."};
+}
+function diffBadges(r){
+  const p=PREV[r.symbol]; if(!p)return "";
+  const out=[];
+  if(!p.in_buy&&r.in_buy)out.push('<span class="diff up">🆕 bölgeye girdi</span>');
+  if(p.in_buy&&!r.in_buy)out.push('<span class="diff dn">bölgeden çıktı</span>');
+  if(r.in_buy&&p.in_buy&&p.conf!==r.conf)out.push(`<span class="diff ${r.conf>p.conf?"up":"dn"}">teyit ${p.conf}→${r.conf}</span>`);
+  if(!p.in_sell&&r.in_sell)out.push('<span class="diff dn">satış bölgesine girdi</span>');
+  return out.join("");
+}
+function card(r){
+  const s=statusOf(r);
+  const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} (${r.buy_src==="pullback"?"Pullback":"Dip"})`:"—";
+  const cfs=r.conf_flags?`<div class="cf"><i class="${r.conf>=3?"on":""}">Teyit ${r.conf}/4</i>`+F.map(k=>`<i class="${r.conf_flags[k]?"on":""}">${r.conf_flags[k]?"✓":"✗"} ${FL[k]}</i>`).join("")+`</div>`:"";
+  return `<div class="card">
+    <div class="r1"><button class="star ${stars.has(r.symbol)?"on":""}" onclick="tstar('${r.symbol}')">${stars.has(r.symbol)?"★":"☆"}</button>
+      <span class="sym">${r.symbol}</span><span class="px">${fmt(r.close)}</span><span class="pill ${s.cls}">${s.pill}</span></div>
+    <div class="durum">${s.t}</div>
+    <div class="zone">🎯 Alım bölgesi: ${zone}</div>
+    <div>${diffBadges(r)}</div>
+    <div class="meta"><span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span><span class="chip">skor ${r.score}</span></div>
+    ${cfs}
+  </div>`;
+}
+function grid(rows,emptyMsg){return rows.length?`<div class="grid">${rows.map(card).join("")}</div>`:`<div class="empty">${emptyMsg}</div>`;}
+function sec(id,title,hint,rows,emptyMsg){
+  return `<section id="${id}"><div class="sec-h"><h2>${title}</h2><span class="cnt">${rows.length}</span><span class="hint">${hint}</span></div>${grid(rows,emptyMsg)}</section>`;
+}
+function tstar(sym){
+  stars.has(sym)?stars.delete(sym):stars.add(sym);
+  localStorage.setItem("sbi_stars",JSON.stringify([...stars]));
+  render();
+}
+function render(){
+  const rows=DATA.rows||[];
+  const starred=rows.filter(r=>stars.has(r.symbol));
+  const inzone=rows.filter(r=>r.in_buy).sort((a,b)=>b.conf-a.conf||b.score-a.score);
+  const near=rows.filter(r=>!r.in_buy&&r.dist_atr!=null&&Math.abs(r.dist_atr)<=1.0).sort((a,b)=>Math.abs(a.dist_atr)-Math.abs(b.dist_atr));
+  const sells=rows.filter(r=>r.in_sell).sort((a,b)=>b.sell_conf-a.sell_conf);
+  const rest=rows.filter(r=>!r.in_buy&&!near.includes(r)&&!sells.includes(r));
+  document.getElementById("sub").innerHTML=
+    `Son tarama: <b>${DATA.generated_at}</b><span class="dot">·</span>${DATA.tf}<span class="dot">·</span>${rows.length} sembol`+
+    (DATA.errors&&DATA.errors.length?`<span class="dot">·</span><span style="color:var(--sell)">${DATA.errors.length} veri hatası</span>`:"");
+  document.getElementById("sumbar").innerHTML=
+    `<a class="sum c-star" href="#s-star">⭐ Takip<b>${starred.length}</b></a>`+
+    `<a class="sum c-buy" href="#s-buy">🟢 Bölgede<b>${inzone.length}</b></a>`+
+    `<a class="sum c-near" href="#s-near">📡 Yakın<b>${near.length}</b></a>`+
+    `<a class="sum c-sell" href="#s-sell">🔴 Satış<b>${sells.length}</b></a>`;
+  document.getElementById("app").innerHTML=
+    (starred.length?sec("s-star","⭐ Takiptekiler","senin listen",starred,""):`<section id="s-star"></section>`)+
+    sec("s-buy","🟢 Alım Bölgesinde","teyide göre sıralı",inzone,"Şu an alım bölgesinde hisse yok — sabır da bir pozisyondur.")+
+    sec("s-near","📡 Bölgeye Yaklaşanlar","≤1 ATR — hazırlan",near,"1 ATR içinde yaklaşan yok.")+
+    sec("s-sell","🔴 Satış / Kâr-Al Bölgesinde","pozisyon taşıyorsan",sells,"Satış bölgesinde hisse yok.")+
+    `<section id="s-rest"><details><summary>📋 Beklemede olanlar (${rest.length}) — iki bölge arasında</summary>${grid(rest,"—")}</details></section>`;
 }
 async function load(){
-  try{
-    const d=await fetchData();
-    const rows=d.rows||[];
-    const buys=rows.filter(r=>r.in_buy&&r.conf>=2);
-    const watch=rows.filter(r=>r.in_buy&&r.conf<2);
-    const near=rows.filter(r=>!r.in_buy&&r.dist_atr!=null&&Math.abs(r.dist_atr)<=1.0).sort((a,b)=>Math.abs(a.dist_atr)-Math.abs(b.dist_atr));
-    const sells=rows.filter(r=>r.in_sell&&r.sell_conf>=2);
-    const rest=rows.filter(r=>!buys.includes(r)&&!watch.includes(r)&&!near.includes(r));
-    document.getElementById("sub").innerHTML=
-      `Son tarama: <b>${d.generated_at}</b><span class="dot">·</span>${d.tf} <span class="dot">·</span>${rows.length} sembol`+
-      (d.errors&&d.errors.length?`<span class="dot">·</span><span style="color:var(--sell)">${d.errors.length} veri hatası</span>`:"");
-    document.getElementById("app").innerHTML=
-      section("🟢 Bölgede + Teyitli","kademeli giriş düşünülebilir (teyit ≥2)",buys,"s-buy","Şu an bölge+teyit kurulumu yok — sabır da bir pozisyondur.")+
-      section("👀 Bölgede · Teyit Bekliyor","dönüş barı bekleniyor",watch,"s-watch","Bölgede teyitsiz hisse yok.")+
-      section("📡 Bölgeye Yaklaşanlar","≤1 ATR — alarm kur, hazırlan",near,"s-near","1 ATR içinde yaklaşan yok.")+
-      section("🔴 Satış / Kâr-Al Bölgesinde","pozisyon taşıyorsan azaltmayı düşün",sells,"s-sell","Satış bölgesinde teyitli hisse yok.")+
-      section("📋 Diğerleri (skora göre)","iki bölge arasında — izlemede",rest,"","—");
-  }catch(e){
-    document.getElementById("app").innerHTML="";
-    document.getElementById("err").style.display="block";
-  }
+  DATA=await getJson("radar_latest.json");
+  if(!DATA){document.getElementById("app").innerHTML="";document.getElementById("err").style.display="block";return;}
+  const prev=await getJson("radar_prev.json");
+  if(prev&&prev.rows)prev.rows.forEach(r=>PREV[r.symbol]=r);
+  render();
 }
 load();
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
