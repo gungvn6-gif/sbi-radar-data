@@ -17,7 +17,8 @@
   html{-webkit-text-size-adjust:100%}
   body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:56px}
   header{position:sticky;top:0;z-index:9;background:rgba(10,14,19,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line2)}
-  .hwrap{max-width:1080px;margin:0 auto;padding:13px 16px 10px}
+  .hwrap{max-width:1080px;margin:0 auto;padding:13px 16px 10px;position:relative}
+  .bell{position:absolute;top:11px;right:14px;background:var(--chip);border:1px solid var(--line);border-radius:99px;padding:7px 12px;font-size:15px;cursor:pointer;color:var(--ink)}
   h1{font-size:19px;letter-spacing:.3px}
   h1 b{color:var(--buy)}
   .sub{color:var(--mut);font-size:12.5px;margin-top:2px}
@@ -75,6 +76,7 @@
 </head>
 <body>
 <header><div class="hwrap">
+  <button class="bell" onclick="enablePush()" title="Bildirimleri aç">🔔</button>
   <h1>🎯 SBI <b>Radar</b></h1>
   <div class="sub" id="sub">yükleniyor…</div>
   <div class="sumbar" id="sumbar"></div>
@@ -183,10 +185,12 @@ function card(r){
   const s=statusOf(r);
   const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} (${SRCTR[r.buy_src]||r.buy_src}${r.buy_src==="sr"&&r.buy_touch?` · ${r.buy_touch} dokunuş`:""})`:"—";
   const cfs=r.conf_flags?`<div class="cf"><i class="${r.conf>=3?"on":""}">Teyit ${r.conf}/4</i>`+F.map(k=>`<i class="${r.conf_flags[k]?"on":""}">${r.conf_flags[k]?"✓":"✗"} ${FL[k]}</i>`).join("")+`</div>`:"";
-  const mkt=r.symbol.endsWith(".IS")?"BIST":"ABD";
+  const MAKRO={"XU100.IS":"BIST100","SPY":"SPY","GC=F":"ALTIN $","SI=F":"GÜMÜŞ $","USDTRY=X":"USD/TRY","REMX":"REMX","BZ=F":"BRENT"};
+  const mkt=MAKRO[r.symbol]?"MAKRO":r.symbol.endsWith(".IS")?"BIST":"ABD";
+  const symTxt=MAKRO[r.symbol]||r.symbol.replace(".IS","");
   return `<div class="card" onclick="this.classList.toggle('open')">
     <div class="r1"><button class="star ${stars.has(r.symbol)?"on":""}" onclick="event.stopPropagation();tstar('${r.symbol}')">${stars.has(r.symbol)?"★":"☆"}</button>
-      <span class="sym">${r.symbol.replace(".IS","")}</span><span class="mkt">${mkt}</span><span class="px">${fmt(r.close)}</span><span class="pill ${s.cls}">${s.pill}</span></div>
+      <span class="sym">${symTxt}</span><span class="mkt">${mkt}</span><span class="px">${fmt(r.close)}</span><span class="pill ${s.cls}">${s.pill}</span></div>
     <div class="durum">${s.t}</div>
     <div class="zone">🎯 Alım bölgesi: ${zone} — fiyat bu aralığa gelirse alım DÜŞÜNÜLÜR, üstünden kovalanmaz</div>
     <div>${diffBadges(r)}</div>
@@ -226,8 +230,7 @@ function render(){
     `<a class="sum c-star ${onlyStars?"act":""}" href="#" onclick="onlyStars=!onlyStars;render();return false">⭐ Takip<b>${starred.length}</b>${onlyStars?" ✕":""}</a>`+
     `<a class="sum c-buy" href="#s-buy">🟢 Bölgede<b>${inzone.length}</b></a>`+
     `<a class="sum c-near" href="#s-near">📡 Yakın<b>${near.length}</b></a>`+
-    `<a class="sum c-sell" href="#s-sell">🔴 Satış<b>${sells.length}</b></a>`+
-    `<a class="sum" href="#" onclick="enablePush();return false">🔔 Bildirim</a>`;
+    `<a class="sum c-sell" href="#s-sell">🔴 Satış<b>${sells.length}</b></a>`;
   const pctK=v=>v==null?"—":(v*100).toFixed(1);
   const kz=KARNE?.buy_zone_entry||{},kc=KARNE?.buy_zone_conf3||{},kb=KARNE?.baseline_all_bars_long||{};
   const karneBlok=KARNE?`<section id="s-karne"><div class="sec-h"><h2>📊 Sistem Karnesi</h2><span class="hint">senin ${KARNE.symbols} hissende geçmiş replay · ${barTxt()}</span></div>
