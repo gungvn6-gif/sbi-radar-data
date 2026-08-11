@@ -145,6 +145,7 @@ function explain(r){
     <div class="zone" style="margin-top:6px"><b style="color:var(--ink)">🔬 Teyit ${r.conf}/4:</b> ${teyLine} <span style="color:var(--dim)">(teyit≥3 → isabet ölçümde %44→%51)</span></div>
     <div class="zone" style="margin-top:6px">📖 ATR %${r.atr_pct} (${atrT}) · skor ${r.score} (sıralama içindir, emir değil) · kaynak: ${r.buy_src==="pullback"?"trend geri çekilme bandı":r.buy_src==="sr"?`SR destek kümesi${r.buy_touch?` (${r.buy_touch} dokunuş — Pine ile aynı pivot motoru)`:""}`:"BB dip yapısı (yakında SR kümesi yok)"}</div>
     <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>
+    ${r.verify?`<div class="zone" style="color:${r.verify.warn?"var(--sell)":"var(--dim)"}">🧾 Çapraz veri hakemi (Stooq): kapanış farkı %${r.verify.diff_pct}${r.verify.warn?" — UYARI: kaynaklar uyuşmuyor, bu karta güvenme":" ✓ kaynaklar uyumlu"}</div>`:""}
     ${sirket(r)}`;
 }
 const RECTR={strong_buy:"güçlü al",buy:"al",hold:"tut",sell:"sat",strong_sell:"güçlü sat",underperform:"zayıf",overweight:"öne çıkar"};
@@ -173,7 +174,7 @@ function card(r){
     <div class="durum">${s.t}</div>
     <div class="zone">🎯 Alım bölgesi: ${zone} — fiyat bu aralığa gelirse alım DÜŞÜNÜLÜR, üstünden kovalanmaz</div>
     <div>${diffBadges(r)}</div>
-    <div class="meta">${r.co&&r.co.earn_days!=null&&r.co.earn_days>=0&&r.co.earn_days<=7?`<span class="chip" style="color:var(--sell);border:1px solid rgba(244,104,92,.45);font-weight:700">⚠ bilanço ${r.co.earn_days}g</span>`:""}<span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span><span class="chip">skor ${r.score}</span></div>
+    <div class="meta">${r.verify&&r.verify.warn?`<span class="chip" style="color:var(--sell);border:1px solid rgba(244,104,92,.45);font-weight:700">✗ veri şüpheli</span>`:""}${r.co&&r.co.earn_days!=null&&r.co.earn_days>=0&&r.co.earn_days<=7?`<span class="chip" style="color:var(--sell);border:1px solid rgba(244,104,92,.45);font-weight:700">⚠ bilanço ${r.co.earn_days}g</span>`:""}<span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span><span class="chip">skor ${r.score}</span></div>
     ${cfs}
     <div class="det">${explain(r)}</div>
     <div class="hintline">dokun: açıklamalı analiz ▾</div>
