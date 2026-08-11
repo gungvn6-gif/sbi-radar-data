@@ -151,6 +151,19 @@ function explain(r){
     ${r.verify?`<div class="zone" style="color:${r.verify.warn?"var(--sell)":"var(--dim)"}">🧾 Çapraz veri hakemi (Stooq): kapanış farkı %${r.verify.diff_pct}${r.verify.warn?" — UYARI: ya kaynak uyuşmazlığı ya da bugün sert hareket var; karar öncesi TradingView'dan taze fiyata bak":" ✓ kaynaklar uyumlu"}</div>`:""}
     ${sirket(r)}`;
 }
+const VAPID_PUB="BBX0TD2pNjvK1j02cDmTrzJLnD2a1JYnwGiSRfKAe3WWTJ19ZJCPPOjflUC3IVDzGH0u6VMwyF3mV9M9ORiFQik";
+function u8(b64){const p="=".repeat((4-b64.length%4)%4);const r=atob((b64+p).replace(/-/g,"+").replace(/_/g,"/"));return Uint8Array.from([...r].map(c=>c.charCodeAt(0)));}
+async function enablePush(){
+  try{
+    if(!("serviceWorker" in navigator)||!("PushManager" in window)){alert("Bu tarayıcı web bildirimi desteklemiyor.\n\niPhone: siteyi önce Paylaş → Ana Ekrana Ekle ile kur, SONRA ana ekrandaki simgeden açıp 🔔'ye tekrar bas (iOS şartı).");return;}
+    const reg=await navigator.serviceWorker.ready;
+    if(await Notification.requestPermission()!=="granted"){alert("Bildirim izni verilmedi.");return;}
+    const sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:u8(VAPID_PUB)});
+    const code=btoa(unescape(encodeURIComponent(JSON.stringify(sub))));
+    try{await navigator.clipboard.writeText(code);}catch(e){}
+    prompt("✅ Kurulum kodu panoya kopyalandı.\nBu kodu Claude'a (bana) tek sefer yapıştır — gece göndericisine kaydedilecek:",code);
+  }catch(e){alert("Bildirim kurulumunda hata: "+e.message);}
+}
 const RECTR={strong_buy:"güçlü al",buy:"al",hold:"tut",sell:"sat",strong_sell:"güçlü sat",underperform:"zayıf",overweight:"öne çıkar"};
 function sirket(r){
   const co=r.co;if(!co)return"";
@@ -213,7 +226,8 @@ function render(){
     `<a class="sum c-star ${onlyStars?"act":""}" href="#" onclick="onlyStars=!onlyStars;render();return false">⭐ Takip<b>${starred.length}</b>${onlyStars?" ✕":""}</a>`+
     `<a class="sum c-buy" href="#s-buy">🟢 Bölgede<b>${inzone.length}</b></a>`+
     `<a class="sum c-near" href="#s-near">📡 Yakın<b>${near.length}</b></a>`+
-    `<a class="sum c-sell" href="#s-sell">🔴 Satış<b>${sells.length}</b></a>`;
+    `<a class="sum c-sell" href="#s-sell">🔴 Satış<b>${sells.length}</b></a>`+
+    `<a class="sum" href="#" onclick="enablePush();return false">🔔 Bildirim</a>`;
   const pctK=v=>v==null?"—":(v*100).toFixed(1);
   const kz=KARNE?.buy_zone_entry||{},kc=KARNE?.buy_zone_conf3||{},kb=KARNE?.baseline_all_bars_long||{};
   const karneBlok=KARNE?`<section id="s-karne"><div class="sec-h"><h2>📊 Sistem Karnesi</h2><span class="hint">senin ${KARNE.symbols} hissende geçmiş replay · ${barTxt()}</span></div>
