@@ -95,7 +95,7 @@ const RAW="https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/";
 const F=["yesil","yukari","hacim","rsi"], FL={yesil:"yeşil",yukari:"yukarı",hacim:"hacim",rsi:"RSI"};
 const fmt=n=>n==null?"—":Number(n).toLocaleString("tr-TR",{maximumFractionDigits:4});
 const stars=new Set(JSON.parse(localStorage.getItem("sbi_stars")||"[]"));
-let DATA=null,PREV={},onlyStars=false;
+let DATA=null,PREV={},onlyStars=false,TF=localStorage.getItem("sbi_tf")||"4h";
 
 async function getJson(name){
   for(const u of [name, RAW+name]){
@@ -103,6 +103,8 @@ async function getJson(name){
   }
   return null;
 }
+const barTxt=()=>TF==="4h"?"4 saatlik":"günlük";
+function setTF(t){TF=t;localStorage.setItem("sbi_tf",t);document.getElementById("app").innerHTML='<div class="skel">Yükleniyor…</div>';load();}
 function statusOf(r){
   if(r.in_buy&&r.conf>=3)return{cls:"p-buy",pill:"GİRİŞ ADAYI",t:"Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir."};
   if(r.in_buy&&r.conf===2)return{cls:"p-form",pill:"TEYİT OLUŞUYOR",t:"Bölge içinde — teyit oluşuyor, dönüş barını izle."};
@@ -122,33 +124,27 @@ function diffBadges(r){
   return out.join("");
 }
 function nextStep(r,s){
-  if(s.pill==="GİRİŞ ADAYI")return "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4H kapanışı planı bozar — o zaman alma.";
-  if(r.in_buy)return `Beklenen: bölge içinde YEŞİL + hacimli bir 4H kapanışı. Teyit ${r.conf}/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.`;
+  if(s.pill==="GİRİŞ ADAYI")return `Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir ${barTxt()} kapanış planı bozar — o zaman alma.`;
+  if(r.in_buy)return `Beklenen: bölge içinde YEŞİL + hacimli bir ${barTxt()} kapanış. Teyit ${r.conf}/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.`;
   if(s.pill==="AZALT")return "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.";
   if(s.pill==="TEPEDE")return "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.";
   if(s.pill==="YAKIN")return `Fiyat ${Math.abs(r.dist_atr).toFixed(2)} ATR daha inerse alım bölgesine girer ve bu kart 'Bölgede'ye taşınır — TradingView'da bölge tabanına alarm kur.`;
   return "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.";
 }
+const NEDEN={yesil:"mum kırmızı",yukari:"kapanış düşük",hacim:"hacim zayıf",rsi:"momentum dönmedi"};
+const VARN={yesil:"yeşil mum",yukari:"yukarı kapanış",hacim:"hacim geldi",rsi:"momentum döndü"};
 function explain(r){
   const cf=r.conf_flags||{};
-  const tey=[
-    [cf.yesil,`Yeşil kapanış: son 4H mumu ${cf.yesil?"yeşil kapandı — alıcılar geldi":"KIRMIZI kapandı — satıcı baskısı henüz sürüyor"}`],
-    [cf.yukari,`Yukarı kapanış: fiyat önceki barın ${cf.yukari?"üstünde kapandı — kısa vade yön yukarı":"altında kapandı — düşüş henüz durmadı"}`],
-    [cf.hacim,`Hacim: ortalamanın ${r.rel_vol??"?"} katı — ${cf.hacim?"işlem ilgisi var, hareket güvenilir":"ortalamanın altında; dönüş olsa bile katılım zayıf"}`],
-    [cf.rsi,`RSI kıvrımı: momentum 3 bardır ${cf.rsi?"yukarı dönüyor — toparlanma sinyali":"yukarı dönmedi — momentum hâlâ zayıf"}`]
-  ].map(([on,t])=>`<div class="zone">${on?"✅":"❌"} ${t}</div>`).join("");
-  const atrT=r.atr_pct<2?"sakin — normal pozisyon boyutu uygun":r.atr_pct<4?"orta — standart dikkat":"YÜKSEK — oynak hisse, pozisyonu küçük tut";
+  const eks=F.filter(k=>!cf[k]).map(k=>NEDEN[k]);
+  const varr=F.filter(k=>cf[k]).map(k=>VARN[k]);
+  const teyLine=r.conf>=4?"✅ 4/4 tam — dönüş kanıtları yerinde.":
+    (varr.length?`✅ ${varr.join(", ")}. `:"")+(eks.length?`❌ Eksik: ${eks.join(", ")}.`:"");
+  const atrT=r.atr_pct<2?"sakin":r.atr_pct<4?"orta":"YÜKSEK → pozisyonu küçük tut";
   return `
-    <div class="zone" style="color:var(--ink);margin-bottom:2px"><b>🧭 Şimdi ne yapmalı?</b></div>
-    <div class="zone">${nextStep(r,statusOf(r))}</div>
-    <div class="zone" style="color:var(--ink);margin-top:8px"><b>🔬 4 teyit tek tek ne diyor?</b> (dönüş kanıtları — ölçümde teyit≥3 isabeti %44→%51'e çıkarıyor)</div>
-    ${tey}
-    <div class="zone" style="color:var(--ink);margin-top:8px"><b>📖 Diğer sayılar</b></div>
-    <div class="zone">• ATR %${r.atr_pct}: bar başına ortalama oynaklık — ${atrT}</div>
-    <div class="zone">• Skor ${r.score}: sıralama puanı (bölgede+3, teyit başına+1, pullback+1, aşırı oynaklık−1) — AL/SAT emri değil</div>
-    <div class="zone">• Bölge kaynağı "${r.buy_src==="pullback"?"Pullback":"Dip"}": ${r.buy_src==="pullback"?"yükselen trendde geri çekilme bandı (SMA yapısı)":"BB alt bandı çevresindeki dip yapısı"}</div>
-    <div class="zone">• 🔴 Satış/kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) — fiyat oraya çıkarsa kâr alma yeri</div>
-    <div class="zone">• Veri: ${r.bars} adet 4H bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye uzaklık ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>`;
+    <div class="zone" style="color:var(--ink)"><b>🧭 Ne yapmalı:</b> ${nextStep(r,statusOf(r))}</div>
+    <div class="zone" style="margin-top:6px"><b style="color:var(--ink)">🔬 Teyit ${r.conf}/4:</b> ${teyLine} <span style="color:var(--dim)">(teyit≥3 → isabet ölçümde %44→%51)</span></div>
+    <div class="zone" style="margin-top:6px">📖 ATR %${r.atr_pct} (${atrT}) · skor ${r.score} (sıralama içindir, emir değil) · kaynak: ${r.buy_src==="pullback"?"trend geri çekilme bandı":"BB dip yapısı"}</div>
+    <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>`;
 }
 function card(r){
   const s=statusOf(r);
@@ -190,6 +186,8 @@ function render(){
     `Son tarama: <b>${DATA.generated_at}</b><span class="dot">·</span>${DATA.tf}<span class="dot">·</span>${rows.length} sembol`+
     (DATA.errors&&DATA.errors.length?`<span class="dot">·</span><span style="color:var(--sell)">${DATA.errors.length} veri hatası</span>`:"");
   document.getElementById("sumbar").innerHTML=
+    `<a class="sum ${TF==="4h"?"act":""}" href="#" onclick="setTF('4h');return false">4 Saat</a>`+
+    `<a class="sum ${TF==="1d"?"act":""}" href="#" onclick="setTF('1d');return false">1 Gün</a>`+
     `<a class="sum c-star ${onlyStars?"act":""}" href="#" onclick="onlyStars=!onlyStars;render();return false">⭐ Takip<b>${starred.length}</b>${onlyStars?" ✕":""}</a>`+
     `<a class="sum c-buy" href="#s-buy">🟢 Bölgede<b>${inzone.length}</b></a>`+
     `<a class="sum c-near" href="#s-near">📡 Yakın<b>${near.length}</b></a>`+
@@ -202,10 +200,14 @@ function render(){
     `<section id="s-rest"><details><summary>📋 Beklemede olanlar (${rest.length}) — iki bölge arasında</summary>${grid(rest,"—")}</details></section>`;
 }
 async function load(){
-  DATA=await getJson("radar_latest.json");
+  const suf=TF==="4h"?"":"_1d";
+  DATA=await getJson(`radar_latest${suf}.json`);
+  if(!DATA&&TF==="1d"){document.getElementById("app").innerHTML='<div class="skel">Günlük tarama henüz üretilmedi — ilk gece taramasından sonra dolar.</div>';return;}
   if(!DATA){document.getElementById("app").innerHTML="";document.getElementById("err").style.display="block";return;}
-  const prev=await getJson("radar_prev.json");
+  PREV={};
+  const prev=await getJson(`radar_prev${suf}.json`);
   if(prev&&prev.rows)prev.rows.forEach(r=>PREV[r.symbol]=r);
+  document.getElementById("err").style.display="none";
   render();
 }
 load();
