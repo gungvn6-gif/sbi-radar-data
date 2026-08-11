@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#0a0e13">
 <title>SBI Radar</title>
 <link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
 <style>
   :root{
     --bg:#0a0e13; --card:#131b25; --card2:#0e141c; --line:#20303f; --line2:#182430;
@@ -62,6 +63,14 @@
   footer b{color:var(--mut)}
   #err{display:none;max-width:1080px;margin:14px auto;padding:0 16px;color:var(--sell);font-size:13px}
   .skel{color:var(--dim);padding:30px 8px;text-align:center}
+  .search{width:100%;margin-top:9px;padding:9px 13px;border-radius:11px;border:1px solid var(--line);background:var(--card2);color:var(--ink);font-size:14px;outline:none}
+  .search::placeholder{color:var(--dim)}
+  .sum.act{border-color:var(--wait);color:var(--wait)}
+  .card{cursor:pointer}
+  .mkt{font-size:9.5px;font-weight:800;letter-spacing:.5px;color:var(--dim);border:1px solid var(--line);border-radius:5px;padding:2px 5px}
+  .det{display:none;margin-top:9px;padding-top:9px;border-top:1px dashed var(--line2)}
+  .card.open .det{display:block}
+  .hintline{margin-top:7px;font-size:10.5px;color:var(--dim)}
 </style>
 </head>
 <body>
@@ -69,6 +78,7 @@
   <h1>🎯 SBI <b>Radar</b></h1>
   <div class="sub" id="sub">yükleniyor…</div>
   <div class="sumbar" id="sumbar"></div>
+  <input id="q" class="search" placeholder="🔎 Hisse ara (THYAO, NVDA…)" oninput="render()">
 </div></header>
 <main id="app"><div class="skel">Tarama verisi yükleniyor…</div></main>
 <div id="err">Veri alınamadı — gece taraması henüz çalışmamış veya bağlantı yok olabilir.</div>
@@ -85,7 +95,7 @@ const RAW="https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/";
 const F=["yesil","yukari","hacim","rsi"], FL={yesil:"yeşil",yukari:"yukarı",hacim:"hacim",rsi:"RSI"};
 const fmt=n=>n==null?"—":Number(n).toLocaleString("tr-TR",{maximumFractionDigits:4});
 const stars=new Set(JSON.parse(localStorage.getItem("sbi_stars")||"[]"));
-let DATA=null,PREV={};
+let DATA=null,PREV={},onlyStars=false;
 
 async function getJson(name){
   for(const u of [name, RAW+name]){
@@ -115,14 +125,21 @@ function card(r){
   const s=statusOf(r);
   const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} (${r.buy_src==="pullback"?"Pullback":"Dip"})`:"—";
   const cfs=r.conf_flags?`<div class="cf"><i class="${r.conf>=3?"on":""}">Teyit ${r.conf}/4</i>`+F.map(k=>`<i class="${r.conf_flags[k]?"on":""}">${r.conf_flags[k]?"✓":"✗"} ${FL[k]}</i>`).join("")+`</div>`:"";
-  return `<div class="card">
-    <div class="r1"><button class="star ${stars.has(r.symbol)?"on":""}" onclick="tstar('${r.symbol}')">${stars.has(r.symbol)?"★":"☆"}</button>
-      <span class="sym">${r.symbol}</span><span class="px">${fmt(r.close)}</span><span class="pill ${s.cls}">${s.pill}</span></div>
+  const mkt=r.symbol.endsWith(".IS")?"BIST":"ABD";
+  return `<div class="card" onclick="this.classList.toggle('open')">
+    <div class="r1"><button class="star ${stars.has(r.symbol)?"on":""}" onclick="event.stopPropagation();tstar('${r.symbol}')">${stars.has(r.symbol)?"★":"☆"}</button>
+      <span class="sym">${r.symbol.replace(".IS","")}</span><span class="mkt">${mkt}</span><span class="px">${fmt(r.close)}</span><span class="pill ${s.cls}">${s.pill}</span></div>
     <div class="durum">${s.t}</div>
     <div class="zone">🎯 Alım bölgesi: ${zone}</div>
     <div>${diffBadges(r)}</div>
     <div class="meta"><span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span><span class="chip">skor ${r.score}</span></div>
     ${cfs}
+    <div class="det">
+      <div class="zone">🔴 Satış / kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} · zayıflama teyidi ${r.sell_conf}/4</div>
+      <div class="zone">📏 Alım bölgesine uzaklık: ${r.dist_atr!=null?Math.abs(r.dist_atr).toFixed(2)+" ATR":"içinde/—"} · ${r.bars} bar 4H veri</div>
+      <div class="zone">💡 Kaynak: ${r.buy_src==="pullback"?"Uptrend geri çekilme bandı (SMA yapısı)":"Dip bölgesi (BB alt yapısı)"} — SR pivot portu v1'de gelecek</div>
+    </div>
+    <div class="hintline">dokun: detay ${"▾"}</div>
   </div>`;
 }
 function grid(rows,emptyMsg){return rows.length?`<div class="grid">${rows.map(card).join("")}</div>`:`<div class="empty">${emptyMsg}</div>`;}
@@ -135,7 +152,10 @@ function tstar(sym){
   render();
 }
 function render(){
-  const rows=DATA.rows||[];
+  const qv=(document.getElementById("q").value||"").trim().toUpperCase();
+  let rows=DATA.rows||[];
+  if(qv)rows=rows.filter(r=>r.symbol.toUpperCase().includes(qv));
+  if(onlyStars)rows=rows.filter(r=>stars.has(r.symbol));
   const starred=rows.filter(r=>stars.has(r.symbol));
   const inzone=rows.filter(r=>r.in_buy).sort((a,b)=>b.conf-a.conf||b.score-a.score);
   const near=rows.filter(r=>!r.in_buy&&r.dist_atr!=null&&Math.abs(r.dist_atr)<=1.0).sort((a,b)=>Math.abs(a.dist_atr)-Math.abs(b.dist_atr));
@@ -145,7 +165,7 @@ function render(){
     `Son tarama: <b>${DATA.generated_at}</b><span class="dot">·</span>${DATA.tf}<span class="dot">·</span>${rows.length} sembol`+
     (DATA.errors&&DATA.errors.length?`<span class="dot">·</span><span style="color:var(--sell)">${DATA.errors.length} veri hatası</span>`:"");
   document.getElementById("sumbar").innerHTML=
-    `<a class="sum c-star" href="#s-star">⭐ Takip<b>${starred.length}</b></a>`+
+    `<a class="sum c-star ${onlyStars?"act":""}" href="#" onclick="onlyStars=!onlyStars;render();return false">⭐ Takip<b>${starred.length}</b>${onlyStars?" ✕":""}</a>`+
     `<a class="sum c-buy" href="#s-buy">🟢 Bölgede<b>${inzone.length}</b></a>`+
     `<a class="sum c-near" href="#s-near">📡 Yakın<b>${near.length}</b></a>`+
     `<a class="sum c-sell" href="#s-sell">🔴 Satış<b>${sells.length}</b></a>`;
