@@ -121,6 +121,35 @@ function diffBadges(r){
   if(!p.in_sell&&r.in_sell)out.push('<span class="diff dn">satış bölgesine girdi</span>');
   return out.join("");
 }
+function nextStep(r,s){
+  if(s.pill==="GİRİŞ ADAYI")return "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4H kapanışı planı bozar — o zaman alma.";
+  if(r.in_buy)return `Beklenen: bölge içinde YEŞİL + hacimli bir 4H kapanışı. Teyit ${r.conf}/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.`;
+  if(s.pill==="AZALT")return "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.";
+  if(s.pill==="TEPEDE")return "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.";
+  if(s.pill==="YAKIN")return `Fiyat ${Math.abs(r.dist_atr).toFixed(2)} ATR daha inerse alım bölgesine girer ve bu kart 'Bölgede'ye taşınır — TradingView'da bölge tabanına alarm kur.`;
+  return "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.";
+}
+function explain(r){
+  const cf=r.conf_flags||{};
+  const tey=[
+    [cf.yesil,`Yeşil kapanış: son 4H mumu ${cf.yesil?"yeşil kapandı — alıcılar geldi":"KIRMIZI kapandı — satıcı baskısı henüz sürüyor"}`],
+    [cf.yukari,`Yukarı kapanış: fiyat önceki barın ${cf.yukari?"üstünde kapandı — kısa vade yön yukarı":"altında kapandı — düşüş henüz durmadı"}`],
+    [cf.hacim,`Hacim: ortalamanın ${r.rel_vol??"?"} katı — ${cf.hacim?"işlem ilgisi var, hareket güvenilir":"ortalamanın altında; dönüş olsa bile katılım zayıf"}`],
+    [cf.rsi,`RSI kıvrımı: momentum 3 bardır ${cf.rsi?"yukarı dönüyor — toparlanma sinyali":"yukarı dönmedi — momentum hâlâ zayıf"}`]
+  ].map(([on,t])=>`<div class="zone">${on?"✅":"❌"} ${t}</div>`).join("");
+  const atrT=r.atr_pct<2?"sakin — normal pozisyon boyutu uygun":r.atr_pct<4?"orta — standart dikkat":"YÜKSEK — oynak hisse, pozisyonu küçük tut";
+  return `
+    <div class="zone" style="color:var(--ink);margin-bottom:2px"><b>🧭 Şimdi ne yapmalı?</b></div>
+    <div class="zone">${nextStep(r,statusOf(r))}</div>
+    <div class="zone" style="color:var(--ink);margin-top:8px"><b>🔬 4 teyit tek tek ne diyor?</b> (dönüş kanıtları — ölçümde teyit≥3 isabeti %44→%51'e çıkarıyor)</div>
+    ${tey}
+    <div class="zone" style="color:var(--ink);margin-top:8px"><b>📖 Diğer sayılar</b></div>
+    <div class="zone">• ATR %${r.atr_pct}: bar başına ortalama oynaklık — ${atrT}</div>
+    <div class="zone">• Skor ${r.score}: sıralama puanı (bölgede+3, teyit başına+1, pullback+1, aşırı oynaklık−1) — AL/SAT emri değil</div>
+    <div class="zone">• Bölge kaynağı "${r.buy_src==="pullback"?"Pullback":"Dip"}": ${r.buy_src==="pullback"?"yükselen trendde geri çekilme bandı (SMA yapısı)":"BB alt bandı çevresindeki dip yapısı"}</div>
+    <div class="zone">• 🔴 Satış/kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) — fiyat oraya çıkarsa kâr alma yeri</div>
+    <div class="zone">• Veri: ${r.bars} adet 4H bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye uzaklık ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>`;
+}
 function card(r){
   const s=statusOf(r);
   const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} (${r.buy_src==="pullback"?"Pullback":"Dip"})`:"—";
@@ -130,16 +159,12 @@ function card(r){
     <div class="r1"><button class="star ${stars.has(r.symbol)?"on":""}" onclick="event.stopPropagation();tstar('${r.symbol}')">${stars.has(r.symbol)?"★":"☆"}</button>
       <span class="sym">${r.symbol.replace(".IS","")}</span><span class="mkt">${mkt}</span><span class="px">${fmt(r.close)}</span><span class="pill ${s.cls}">${s.pill}</span></div>
     <div class="durum">${s.t}</div>
-    <div class="zone">🎯 Alım bölgesi: ${zone}</div>
+    <div class="zone">🎯 Alım bölgesi: ${zone} — fiyat bu aralığa gelirse alım DÜŞÜNÜLÜR, üstünden kovalanmaz</div>
     <div>${diffBadges(r)}</div>
     <div class="meta"><span class="chip">ATR %${r.atr_pct}</span><span class="chip">hacim ${r.rel_vol??"—"}x</span><span class="chip">skor ${r.score}</span></div>
     ${cfs}
-    <div class="det">
-      <div class="zone">🔴 Satış / kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} · zayıflama teyidi ${r.sell_conf}/4</div>
-      <div class="zone">📏 Alım bölgesine uzaklık: ${r.dist_atr!=null?Math.abs(r.dist_atr).toFixed(2)+" ATR":"içinde/—"} · ${r.bars} bar 4H veri</div>
-      <div class="zone">💡 Kaynak: ${r.buy_src==="pullback"?"Uptrend geri çekilme bandı (SMA yapısı)":"Dip bölgesi (BB alt yapısı)"} — SR pivot portu v1'de gelecek</div>
-    </div>
-    <div class="hintline">dokun: detay ${"▾"}</div>
+    <div class="det">${explain(r)}</div>
+    <div class="hintline">dokun: açıklamalı analiz ▾</div>
   </div>`;
 }
 function grid(rows,emptyMsg){return rows.length?`<div class="grid">${rows.map(card).join("")}</div>`:`<div class="empty">${emptyMsg}</div>`;}
