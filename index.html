@@ -83,7 +83,7 @@
 <main id="app"><div class="skel">Tarama verisi yükleniyor…</div></main>
 <div id="err">Veri alınamadı — gece taraması henüz çalışmamış veya bağlantı yok olabilir.</div>
 <footer>
-  <b>📅 <a href="denetim.html" style="color:var(--near)">Günlük Denetim</a></b> — son 4 ayın her günü: radar ne dedi, sonra ne oldu (gün gün tablo).<br><br>
+  <b>📅 <a href="denetim.html" style="color:var(--near)">Günlük Denetim</a></b> — son 4 ayın her günü: radar ne dedi, sonra ne oldu · <b>🧾 <a href="hisse.html" style="color:var(--near)">Hisse Karnesi</a></b> — teker teker her hissenin geçmiş isabeti.<br><br>
   <b>Nasıl okunur:</b> Yeşil etiket = bölge + güçlü teyit (kademeli giriş düşünülebilir); sarı = bölgede ama dönüş
   teyidi eksik — bekle; mavi = bölgeye yaklaşıyor, alarm kur. ⭐ ile hisseyi takibe al — hep en üstte görürsün.
   Mavi rozetler dünkü taramaya göre DEĞİŞENLERİ işaretler.<br><br>
@@ -96,7 +96,7 @@ const RAW="https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/";
 const F=["yesil","yukari","hacim","rsi"], FL={yesil:"yeşil",yukari:"yukarı",hacim:"hacim",rsi:"RSI"};
 const fmt=n=>n==null?"—":Number(n).toLocaleString("tr-TR",{maximumFractionDigits:4});
 const stars=new Set(JSON.parse(localStorage.getItem("sbi_stars")||"[]"));
-let DATA=null,PREV={},KARNE=null,onlyStars=false,TF=localStorage.getItem("sbi_tf")||"4h";
+let DATA=null,PREV={},KARNE=null,HKM=null,onlyStars=false,TF=localStorage.getItem("sbi_tf")||"4h";
 
 async function getJson(name){
   for(const u of [name, RAW+name]){
@@ -146,6 +146,7 @@ function explain(r){
     <div class="zone" style="margin-top:6px"><b style="color:var(--ink)">🔬 Teyit ${r.conf}/4:</b> ${teyLine} <span style="color:var(--dim)">(teyit≥3 → isabet ölçümde %44→%51)</span></div>
     <div class="zone" style="margin-top:6px">📖 ATR %${r.atr_pct} (${atrT}) · skor ${r.score} (sıralama içindir, emir değil) · kaynak: ${r.buy_src==="pullback"?"trend geri çekilme bandı":r.buy_src==="sr"?`SR destek kümesi${r.buy_touch?` (${r.buy_touch} dokunuş — Pine ile aynı pivot motoru)`:""}`:"BB dip yapısı (yakında SR kümesi yok)"}</div>
     <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>
+    ${(()=>{const hk=HKM&&HKM[r.symbol];if(!hk)return"";const f=(s)=>s&&s.wr!=null?`%${(s.wr*100).toFixed(0)} (${s.n} giriş)`:"—";return `<div class="zone">📜 Bu hissede geçmiş isabet: 1G <b>${f(hk["1d"])}</b> · 4H <b>${f(hk["4h"])}</b>${hk.flags&&hk.flags.length?` · <span style="color:var(--wait)">⚠ ${hk.flags.join(", ")}</span>`:""}</div>`;})()}
     ${r.verify?`<div class="zone" style="color:${r.verify.warn?"var(--sell)":"var(--dim)"}">🧾 Çapraz veri hakemi (Stooq): kapanış farkı %${r.verify.diff_pct}${r.verify.warn?" — UYARI: ya kaynak uyuşmazlığı ya da bugün sert hareket var; karar öncesi TradingView'dan taze fiyata bak":" ✓ kaynaklar uyumlu"}</div>`:""}
     ${sirket(r)}`;
 }
@@ -233,6 +234,7 @@ async function load(){
   const prev=await getJson(`radar_prev${suf}.json`);
   if(prev&&prev.rows)prev.rows.forEach(r=>PREV[r.symbol]=r);
   KARNE=await getJson(`isabet${suf}.json`);
+  if(!HKM){const hk=await getJson("hisse_karne.json");if(hk&&hk.rows){HKM={};hk.rows.forEach(x=>HKM[x.symbol]=x);}}
   document.getElementById("err").style.display="none";
   render();
 }
