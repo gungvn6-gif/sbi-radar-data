@@ -143,7 +143,7 @@ function explain(r){
   return `
     <div class="zone" style="color:var(--ink)"><b>🧭 Ne yapmalı:</b> ${nextStep(r,statusOf(r))}</div>
     <div class="zone" style="margin-top:6px"><b style="color:var(--ink)">🔬 Teyit ${r.conf}/4:</b> ${teyLine} <span style="color:var(--dim)">(teyit≥3 → isabet ölçümde %44→%51)</span></div>
-    <div class="zone" style="margin-top:6px">📖 ATR %${r.atr_pct} (${atrT}) · skor ${r.score} (sıralama içindir, emir değil) · kaynak: ${r.buy_src==="pullback"?"trend geri çekilme bandı":"BB dip yapısı"}</div>
+    <div class="zone" style="margin-top:6px">📖 ATR %${r.atr_pct} (${atrT}) · skor ${r.score} (sıralama içindir, emir değil) · kaynak: ${r.buy_src==="pullback"?"trend geri çekilme bandı":r.buy_src==="sr"?`SR destek kümesi${r.buy_touch?` (${r.buy_touch} dokunuş — Pine ile aynı pivot motoru)`:""}`:"BB dip yapısı (yakında SR kümesi yok)"}</div>
     <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>
     ${sirket(r)}`;
 }
@@ -161,9 +161,10 @@ function sirket(r){
   const news=(co.news||[]).slice(0,2).map(n=>`<div class="zone">📰 ${n.u?`<a href="${n.u}" target="_blank" rel="noopener" style="color:var(--near);text-decoration:none">${n.t}</a>`:n.t}</div>`).join("");
   return `<div class="zone" style="color:var(--ink);margin-top:8px"><b>🏢 Şirket:</b> Temel görünüm <b>${co.flabel}</b>${m.length?` — ${m.join(" · ")}`:""}</div>${an?`<div class="zone">${an}</div>`:""}${ew}${news}<div class="zone" style="color:var(--dim);font-size:11px">Yahoo verisi — eksik/gecikmeli olabilir · temel görünüm teknik skora karışmaz</div>`;
 }
+const SRCTR={pullback:"Pullback",sr:"SR destek",dip:"BB dip"};
 function card(r){
   const s=statusOf(r);
-  const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} (${r.buy_src==="pullback"?"Pullback":"Dip"})`:"—";
+  const zone=r.buy_low!=null?`${fmt(r.buy_low)} – ${fmt(r.buy_high)} (${SRCTR[r.buy_src]||r.buy_src}${r.buy_src==="sr"&&r.buy_touch?` · ${r.buy_touch} dokunuş`:""})`:"—";
   const cfs=r.conf_flags?`<div class="cf"><i class="${r.conf>=3?"on":""}">Teyit ${r.conf}/4</i>`+F.map(k=>`<i class="${r.conf_flags[k]?"on":""}">${r.conf_flags[k]?"✓":"✗"} ${FL[k]}</i>`).join("")+`</div>`:"";
   const mkt=r.symbol.endsWith(".IS")?"BIST":"ABD";
   return `<div class="card" onclick="this.classList.toggle('open')">
@@ -197,8 +198,10 @@ function render(){
   const near=rows.filter(r=>!r.in_buy&&r.dist_atr!=null&&Math.abs(r.dist_atr)<=1.0).sort((a,b)=>Math.abs(a.dist_atr)-Math.abs(b.dist_atr));
   const sells=rows.filter(r=>r.in_sell).sort((a,b)=>b.sell_conf-a.sell_conf);
   const rest=rows.filter(r=>!r.in_buy&&!near.includes(r)&&!sells.includes(r));
+  const mk=DATA.market;
   document.getElementById("sub").innerHTML=
     `Son tarama: <b>${DATA.generated_at}</b><span class="dot">·</span>${DATA.tf}<span class="dot">·</span>${rows.length} sembol`+
+    (mk?`<span class="dot">·</span><span style="color:${mk.spx_up?"var(--buy)":"var(--sell)"}">SPX ${mk.spx_up?"↑":"↓"}</span> <span style="color:${mk.xu_up?"var(--buy)":"var(--sell)"}">BIST ${mk.xu_up?"↑":"↓"}</span>${(!mk.spx_up||!mk.xu_up)?` <span style="color:var(--sell)">— rejim aşağı, alımda temkin</span>`:""}`:"")+
     (DATA.errors&&DATA.errors.length?`<span class="dot">·</span><span style="color:var(--sell)">${DATA.errors.length} veri hatası</span>`:"");
   document.getElementById("sumbar").innerHTML=
     `<a class="sum ${TF==="4h"?"act":""}" href="#" onclick="setTF('4h');return false">4 Saat</a>`+
@@ -210,7 +213,7 @@ function render(){
   const pctK=v=>v==null?"—":(v*100).toFixed(1);
   const kz=KARNE?.buy_zone_entry||{},kc=KARNE?.buy_zone_conf3||{},kb=KARNE?.baseline_all_bars_long||{};
   const karneBlok=KARNE?`<section id="s-karne"><div class="sec-h"><h2>📊 Sistem Karnesi</h2><span class="hint">senin ${KARNE.symbols} hissende geçmiş replay · ${barTxt()}</span></div>
-    <div class="empty" style="border-style:solid;color:var(--mut)">Bölgeye her girişte alsaydın: isabet <b style="color:var(--ink)">%${pctK(kz.wr)}</b> (${kz.n??"—"} giriş) · <b>bölge + teyit≥3</b> bekleseydin: <b style="color:var(--buy)">%${pctK(kc.wr)}</b> (${kc.n??"—"}) · rastgele bar: %${pctK(kb.wr)}. Ort. 12-bar getiri: teyitli <b style="color:var(--ink)">%${kc.fwd12??"—"}</b> / rastgele %${kb.fwd12??"—"}. <span style="color:var(--dim)">İsabet = stop'tan önce +1 ATR hedefe varış. Dürüst okuma: boğa piyasasında dev hisselerde neredeyse her alım tutuyor — sistemin bugünkü asıl değeri isabet kenarı değil, DOĞRU FİYATTAN alma ve tepeden kovalamama disiplini. SR portu + rejim filtresi bu karneyi güçlendirecek.</span></div></section>`:"";
+    <div class="empty" style="border-style:solid;color:var(--mut)">Bölgeye her girişte alsaydın: isabet <b style="color:var(--ink)">%${pctK(kz.wr)}</b> (${kz.n??"—"} giriş) · <b>bölge + teyit≥3</b> bekleseydin: <b style="color:var(--buy)">%${pctK(kc.wr)}</b> (${kc.n??"—"}) · rastgele bar: %${pctK(kb.wr)}. Ort. 12-bar getiri: teyitli <b style="color:var(--ink)">%${kc.fwd12??"—"}</b> / rastgele %${kb.fwd12??"—"}. <span style="color:var(--dim)">İsabet = stop'tan önce +1 ATR hedefe varış. Dürüst okuma: boğa piyasasında dev hisselerde neredeyse her alım tutuyor — sistemin asıl değeri DOĞRU FİYATTAN alma ve tepeden kovalamama disiplini. Motor: Pine SR pivot portu dahil (v1) · rejim filtresi ölçümü sırada.</span></div></section>`:"";
   document.getElementById("app").innerHTML=
     (starred.length?sec("s-star","⭐ Takiptekiler","senin listen",starred,""):`<section id="s-star"></section>`)+
     sec("s-buy","🟢 Alım Bölgesinde","teyide göre sıralı",inzone,"Şu an alım bölgesinde hisse yok — sabır da bir pozisyondur.")+
