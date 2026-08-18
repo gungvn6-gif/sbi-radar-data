@@ -1,343 +1,13 @@
 {
- "generated_at": "2026-08-17 23:46",
+ "generated_at": "2026-08-18 10:03",
  "tf": "1d",
  "rows": [
-  {
-   "symbol": "CAT",
-   "close": 856.57,
-   "in_buy": true,
-   "buy_low": 827.5647,
-   "buy_high": 863.5353,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 915.1897,
-   "sell_high": 951.1603,
-   "sell_conf": 1,
-   "atr_pct": 4.2,
-   "rel_vol": 0.62,
-   "dist_atr": 0.0,
-   "score": 7.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 38.0,
-    "margin": 14.5,
-    "de": 232.8,
-    "growth": 24.0,
-    "target": 979.2,
-    "rec": "buy",
-    "earn_days": 73,
-    "news": [
-     {
-      "t": "Stock Market Today: Dow Falls, Oil Up After Trump Oman Threat; This Peter Thiel Stock Jumps (Live Coverage)",
-      "u": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-stock-sandisk-stock-sndk/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "Palantir Makes Its Case Against Frontier AI",
-      "u": "https://www.fool.com/investing/2026/08/15/palantir-makes-its-case-against-frontier-ai/"
-     },
-     {
-      "t": "Caterpillar (CAT) Is Gaining Attention For Long Term AI Infrastructure Demand",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-gaining-attention-long-200936573.html"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 881.7,
-    "diff_pct": -2.85,
-    "warn": true
-   }
-  },
-  {
-   "symbol": "TSLA",
-   "close": 342.27,
-   "in_buy": true,
-   "buy_low": 330.2985,
-   "buy_high": 344.1815,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 402.3385,
-   "sell_high": 416.2215,
-   "sell_conf": 2,
-   "atr_pct": 4.06,
-   "rel_vol": 1.14,
-   "dist_atr": 0.0,
-   "score": 7.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 308.5,
-    "margin": 3.7,
-    "de": 18.4,
-    "growth": 25.5,
-    "target": 395.3,
-    "rec": "buy",
-    "earn_days": 65,
-    "news": [
-     {
-      "t": "BYD Keeps Global EV Lead as Tesla Sales Rebound",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/byd-keeps-global-ev-lead-203216285.html"
-     },
-     {
-      "t": "Tesla to launch Cybercab in Austin this month - report",
-      "u": "https://autos.yahoo.com/ev-and-future-tech/articles/tesla-launch-cybercab-austin-month-201352516.html"
-     },
-     {
-      "t": "Nvidia, Alphabet, Peter Thiel: SpaceX Top Shareholders Disclosed",
-      "u": "https://www.investors.com/news/spacex-stock-elon-musk-nvidia-alphabet-google-peter-thiel/?src=A00220&yptr=yahoo"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 339.44,
-    "diff_pct": 0.83,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "REMX",
-   "close": 78.55,
-   "in_buy": true,
-   "buy_low": 77.1625,
-   "buy_high": 79.7175,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 80.4325,
-   "sell_high": 82.9875,
-   "sell_conf": 0,
-   "atr_pct": 3.25,
-   "rel_vol": 0.75,
-   "dist_atr": 0.0,
-   "score": 7.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 35.9,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "USA Rare Earth Gains 7%, MP Materials Jumps 8%: Here’s Why Critical Minerals Are Moving Today",
-      "u": "https://247wallst.com/investing/2026/08/14/usa-rare-earth-gains-7-mp-materials-jumps-8-heres-why-critical-minerals-are-moving-today/"
-     },
-     {
-      "t": "United States Antimony Plummets 25% After Slashing 2026 Guidance on Plunging Antimony Prices",
-      "u": "https://247wallst.com/investing/2026/08/12/united-states-antimony-plummets-25-after-slashing-2026-guidance-on-plunging-antimony-prices/"
-     },
-     {
-      "t": "Semiconductors to Stablecoins: Jan van Eck on 2026 Markets",
-      "u": "http://www.etf.com/sections/conferences/semiconductors-stablecoins-jan-van-eck-2026-markets?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
-     }
-    ],
-    "flabel": "Veri yok"
-   },
-   "verify": {
-    "close2": 79.95,
-    "diff_pct": -1.75,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "RKLB",
-   "close": 80.25,
-   "in_buy": true,
-   "buy_low": 76.8522,
-   "buy_high": 83.1478,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 89.9521,
-   "sell_high": 96.2478,
-   "sell_conf": 1,
-   "atr_pct": 7.85,
-   "rel_vol": 0.72,
-   "dist_atr": 0.0,
-   "score": 6.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 1641.6,
-    "margin": -21.5,
-    "de": 3.8,
-    "growth": 62.0,
-    "target": 112.9,
-    "rec": "buy",
-    "earn_days": 84,
-    "news": [
-     {
-      "t": "Rocket Lab Rallies After Winning Space Force Contract",
-      "u": "https://www.barrons.com/articles/rocket-lab-stock-space-force-8b4d01e1?siteid=yhoof2&yptr=yahoo"
-     },
-     {
-      "t": "Should You Buy Rocket Lab Stock While It's Under $90?",
-      "u": "https://www.fool.com/investing/2026/08/17/should-you-buy-rocket-lab-stock-while-its-under-90/"
-     },
-     {
-      "t": "Rocket Lab Stock's Next Leg Rides On A Vehicle That Has Not Flown Yet",
-      "u": "https://www.trefis.com/articles/611678/rocket-lab-stocks-next-leg-rides-on-a-vehicle-that-has-not-flown-yet/2026-08-17"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 81.85,
-    "diff_pct": -1.95,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "RGTI",
-   "close": 18.82,
-   "in_buy": true,
-   "buy_low": 17.864,
-   "buy_high": 19.076,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 18.604,
-   "sell_high": 19.816,
-   "sell_conf": 1,
-   "atr_pct": 6.44,
-   "rel_vol": 0.81,
-   "dist_atr": 0.0,
-   "score": 6.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": -90.6,
-    "margin": 0.0,
-    "de": 1.4,
-    "growth": 185.3,
-    "target": 28.8,
-    "rec": "buy",
-    "earn_days": -11,
-    "news": [
-     {
-      "t": "IonQ Stock Up 16% Since Q2 Earnings: Should You Buy or Book Profits?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/ionq-stock-16-since-q2-190000075.html"
-     },
-     {
-      "t": "Rigetti's Expanding Commercial Base Strengthens Growth Prospects",
-      "u": "https://finance.yahoo.com/technology/ai/articles/rigettis-expanding-commercial-strengthens-growth-172300196.html"
-     },
-     {
-      "t": "Got $200? 1 Quantum Computing ETF to Buy Right Now.",
-      "u": "https://www.fool.com/investing/2026/08/17/got-200-1-quantum-computing-etf-to-buy-right-now/"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 18.61,
-    "diff_pct": 1.13,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "COST",
-   "close": 961.1,
-   "in_buy": true,
-   "buy_low": 951.9458,
-   "buy_high": 969.5142,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 954.2158,
-   "sell_high": 971.7842,
-   "sell_conf": 2,
-   "atr_pct": 1.83,
-   "rel_vol": 0.64,
-   "dist_atr": 0.0,
-   "score": 5.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 47.9,
-    "margin": 3.0,
-    "de": 60.3,
-    "growth": 21.5,
-    "target": 1077.3,
-    "rec": "buy",
-    "earn_days": 38,
-    "news": [
-     {
-      "t": "Branchout Food inc (BOF) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/branchout-food-inc-bof-q2-190201273.html"
-     },
-     {
-      "t": "This Retail Stock May Be an Even Better Buy Than Walmart and Costco Right Now",
-      "u": "https://www.fool.com/investing/2026/08/17/this-retail-stock-may-be-an-even-better-buy-than-w/"
-     },
-     {
-      "t": "Can Costco Stock Reach New Highs in Member Monetization?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-reach-highs-member-140800271.html"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 952.74,
-    "diff_pct": 0.88,
-    "warn": false
-   }
-  },
   {
    "symbol": "TUPRS.IS",
    "close": 361.75,
    "in_buy": false,
-   "buy_low": 268.839,
-   "buy_high": 313.7625,
+   "buy_low": 267.447,
+   "buy_high": 312.7,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 4,
@@ -348,14 +18,14 @@
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 351.4465,
-   "sell_high": 364.8228,
+   "sell_low": 351.8756,
+   "sell_high": 365.3485,
    "sell_conf": 0,
-   "atr_pct": 3.7,
-   "rel_vol": 1.12,
-   "dist_atr": 3.59,
+   "atr_pct": 3.72,
+   "rel_vol": 1.14,
+   "dist_atr": 3.64,
    "score": 5.0,
-   "bars": 693,
+   "bars": 691,
    "rejim_up": true,
    "co": {
     "pe": 10.5,
@@ -364,7 +34,7 @@
     "growth": 59.7,
     "target": 342.0,
     "rec": "buy",
-    "earn_days": 74,
+    "earn_days": 73,
     "news": [
      {
       "t": "Tupras-Turkiye Petrol Rafineleri AS (IST:TUPRS) (Q2 2026) Earnings Call Highlights: Record ...",
@@ -398,7 +68,7 @@
    "rel_vol": 1.03,
    "dist_atr": 0.09,
    "score": 5.0,
-   "bars": 694,
+   "bars": 693,
    "rejim_up": true,
    "co": {
     "pe": 4.5,
@@ -407,7 +77,7 @@
     "growth": 24.5,
     "target": 180.9,
     "rec": "strong_buy",
-    "earn_days": 72,
+    "earn_days": 71,
     "news": [
      {
       "t": "Middle Eastern Dividend Stocks To Consider In June 2026",
@@ -427,224 +97,55 @@
    "verify": null
   },
   {
-   "symbol": "TSM",
-   "close": 426.35,
+   "symbol": "GC=F",
+   "close": 4417.7998,
    "in_buy": true,
-   "buy_low": 412.0126,
-   "buy_high": 426.3674,
+   "buy_low": 4363.3474,
+   "buy_high": 4436.6526,
    "buy_src": "sr",
    "buy_touch": 1,
-   "conf": 1,
+   "conf": 2,
    "conf_flags": {
-    "yesil": false,
-    "yukari": false,
+    "yesil": true,
+    "yukari": true,
     "hacim": false,
-    "rsi": true
+    "rsi": false
    },
    "in_sell": false,
-   "sell_low": 442.9826,
-   "sell_high": 457.3374,
-   "sell_conf": 2,
-   "atr_pct": 3.37,
-   "rel_vol": 0.5,
+   "sell_low": 4537.3972,
+   "sell_high": 4610.7024,
+   "sell_conf": 1,
+   "atr_pct": 1.66,
+   "rel_vol": 0.11,
    "dist_atr": 0.0,
-   "score": 4.0,
-   "bars": 699,
-   "rejim_up": true,
+   "score": 5.0,
+   "bars": 577,
+   "rejim_up": false,
    "co": {
-    "pe": 32.5,
-    "margin": 49.9,
-    "de": 16.5,
-    "growth": 36.0,
-    "target": 547.1,
-    "rec": "strong_buy",
-    "earn_days": 59,
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
     "news": [
      {
-      "t": "Nvidia's Next AI Infrastructure Bet Is Scaling Fast",
-      "u": "https://finance.yahoo.com/technology/ai/articles/nvidias-next-ai-infrastructure-bet-203610188.html"
+      "t": "Gold prices today, Monday, August 17, 2026: Gold ticks up after lower retail sales report",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-17-2026-gold-ticks-up-after-lower-retail-sales-report-134755206.html"
      },
      {
-      "t": "Four Reasons To Put This Nvidia, AMD Partner On Your Watchlist Right Now",
-      "u": "https://www.investors.com/research/how-to-find-the-best-stocks-to-buy/teradyne-stock-eyes-breakout-semiconductor-partners-nvidia-taiwan-semi-apple-tech-markets/?src=A00220&yptr=yahoo"
+      "t": "Gold slips on firmer Treasury yields, oil prices; Fed minutes in focus",
+      "u": "https://sg.finance.yahoo.com/news/gold-extends-gains-easing-rate-010510667.html"
      },
      {
-      "t": "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026",
-      "u": "https://qz.com/druckenmiller-duquesne-micron-intel-amazon-081726"
+      "t": "Peter Schiff Calls Latest Bitcoin Rally A Sell Opportunity as BTC Approaches $65,000",
+      "u": "https://beincrypto.com/peter-schiff-bitcoin-rally-sell-opportunity/"
      }
     ],
-    "flabel": "Sağlam"
+    "flabel": "Veri yok"
    },
-   "verify": {
-    "close2": 430.7958,
-    "diff_pct": -1.03,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "NOC",
-   "close": 585.87,
-   "in_buy": false,
-   "buy_low": 561.7574,
-   "buy_high": 575.1026,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 588.0074,
-   "sell_high": 601.3526,
-   "sell_conf": 0,
-   "atr_pct": 2.28,
-   "rel_vol": 0.74,
-   "dist_atr": 0.81,
-   "score": 4.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 18.1,
-    "margin": 10.5,
-    "de": 95.3,
-    "growth": 5.1,
-    "target": 645.7,
-    "rec": "buy",
-    "earn_days": 64,
-    "news": [
-     {
-      "t": "Rocket Lab Stock's Next Leg Rides On A Vehicle That Has Not Flown Yet",
-      "u": "https://www.trefis.com/articles/611678/rocket-lab-stocks-next-leg-rides-on-a-vehicle-that-has-not-flown-yet/2026-08-17"
-     },
-     {
-      "t": "Can L3Harris' New Rhode Island Facility Strengthen Undersea Growth?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/l3harris-rhode-island-facility-strengthen-143300358.html"
-     },
-     {
-      "t": "Romania shoots down drone that breached its airspace",
-      "u": "https://www.yahoo.com/news/world/articles/romania-shoots-down-drone-breached-051906032.html"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 572.6,
-    "diff_pct": 2.32,
-    "warn": true
-   }
-  },
-  {
-   "symbol": "LMT",
-   "close": 608.68,
-   "in_buy": false,
-   "buy_low": 586.2488,
-   "buy_high": 601.5112,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 630.2888,
-   "sell_high": 645.5512,
-   "sell_conf": 0,
-   "atr_pct": 2.51,
-   "rel_vol": 0.69,
-   "dist_atr": 0.47,
-   "score": 4.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 21.9,
-    "margin": 8.2,
-    "de": 234.2,
-    "growth": 10.5,
-    "target": 632.9,
-    "rec": "hold",
-    "earn_days": 64,
-    "news": [
-     {
-      "t": "RTX, Pentagon Sign $23 Billion Tomahawk Missile Contract",
-      "u": "https://www.investors.com/news/rtx-pentagon-department-of-defense-tomahawk-boeing-lockheed-marting/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "United Launch Alliance names new CEO amid Vulcan rocket travails",
-      "u": "https://www.orlandosentinel.com/2026/08/17/united-launch-alliance-names-new-ceo-amid-vulcan-rocket-travails/"
-     },
-     {
-      "t": "Rocket Lab Stock's Next Leg Rides On A Vehicle That Has Not Flown Yet",
-      "u": "https://www.trefis.com/articles/611678/rocket-lab-stocks-next-leg-rides-on-a-vehicle-that-has-not-flown-yet/2026-08-17"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 594.25,
-    "diff_pct": 2.43,
-    "warn": true
-   }
-  },
-  {
-   "symbol": "UMAC",
-   "close": 34.06,
-   "in_buy": false,
-   "buy_low": 22.4694,
-   "buy_high": 23.2085,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 32.9384,
-   "sell_high": 35.7816,
-   "sell_conf": 0,
-   "atr_pct": 8.35,
-   "rel_vol": 3.65,
-   "dist_atr": 3.82,
-   "score": 4.0,
-   "bars": 627,
-   "rejim_up": true,
-   "co": {
-    "pe": -93.2,
-    "margin": -20.3,
-    "de": 0.8,
-    "growth": 687.3,
-    "target": 37.8,
-    "rec": "strong_buy",
-    "earn_days": 80,
-    "news": [
-     {
-      "t": "Red Cat Slides 4% on Maritime Autonomy Deal, Ondas Holdings Pulls Back",
-      "u": "https://247wallst.com/investing/2026/08/17/red-cat-slides-4-on-maritime-autonomy-deal-ondas-holdings-pulls-back/"
-     },
-     {
-      "t": "Why Unusual Machines Stock Is Plummeting Today",
-      "u": "https://www.fool.com/investing/2026/08/17/why-unusual-machines-stock-is-plummeting-today/"
-     },
-     {
-      "t": "4 Leveraged ETFs of Last Week",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/4-leveraged-etfs-last-week-120000850.html"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 29.924,
-    "diff_pct": 13.82,
-    "warn": true
-   }
+   "verify": null
   },
   {
    "symbol": "KCHOL.IS",
@@ -669,7 +170,7 @@
    "rel_vol": 1.13,
    "dist_atr": 1.2,
    "score": 4.0,
-   "bars": 694,
+   "bars": 693,
    "rejim_up": true,
    "co": {
     "pe": 22.4,
@@ -678,7 +179,7 @@
     "growth": 12.8,
     "target": 309.6,
     "rec": "strong_buy",
-    "earn_days": 80,
+    "earn_days": 79,
     "news": [
      {
       "t": "Koc Holding AS (KHOLY) (Q2 2026) Earnings Call Highlights: Net Income Soars 147% on Energy ...",
@@ -693,8 +194,8 @@
    "symbol": "FROTO.IS",
    "close": 79.1,
    "in_buy": true,
-   "buy_low": 77.7639,
-   "buy_high": 79.9361,
+   "buy_low": 77.7423,
+   "buy_high": 79.9577,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -705,14 +206,14 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 83.7639,
-   "sell_high": 85.9361,
+   "sell_low": 83.7423,
+   "sell_high": 85.9577,
    "sell_conf": 3,
-   "atr_pct": 2.75,
+   "atr_pct": 2.8,
    "rel_vol": 0.77,
    "dist_atr": 0.0,
    "score": 4.0,
-   "bars": 695,
+   "bars": 692,
    "rejim_up": true,
    "co": {
     "pe": 10.2,
@@ -721,7 +222,7 @@
     "growth": -14.1,
     "target": 131.3,
     "rec": "buy",
-    "earn_days": 79,
+    "earn_days": 78,
     "news": [
      {
       "t": "Ford Otomotiv Sanayi AS (FOVSY) (Q2 2026) Earnings Call Highlights: Navigating Inflation ...",
@@ -744,8 +245,8 @@
    "symbol": "XU100.IS",
    "close": 14172.2998,
    "in_buy": false,
-   "buy_low": 13910.9846,
-   "buy_high": 14152.4158,
+   "buy_low": 13908.0232,
+   "buy_high": 14155.3772,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -756,748 +257,14 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 14460.4846,
-   "sell_high": 14701.9158,
+   "sell_low": 14457.5232,
+   "sell_high": 14704.8772,
    "sell_conf": 1,
-   "atr_pct": 1.7,
-   "rel_vol": 0.78,
-   "dist_atr": 0.08,
-   "score": 4.0,
-   "bars": 689,
-   "rejim_up": true,
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Veri yok"
-   },
-   "verify": null
-  },
-  {
-   "symbol": "MSFT",
-   "close": 495.4,
-   "in_buy": true,
-   "buy_low": 485.4685,
-   "buy_high": 499.2715,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 524.1285,
-   "sell_high": 537.9315,
-   "sell_conf": 4,
-   "atr_pct": 2.79,
-   "rel_vol": 0.43,
-   "dist_atr": 0.0,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 26.8,
-    "margin": 40.3,
-    "de": 29.1,
-    "growth": 17.7,
-    "target": 569.6,
-    "rec": "strong_buy",
-    "earn_days": 72,
-    "news": [
-     {
-      "t": "Could Microsoft spin off Xbox? Why it might be worth billions",
-      "u": "https://finance.yahoo.com/video/could-microsoft-spin-off-xbox-why-it-might-be-worth-billions-110000182.html"
-     },
-     {
-      "t": "What You Actually Pay To Join The AAPL Run",
-      "u": "https://www.trefis.com/articles/611667/what-you-actually-pay-to-join-the-aapl-run-2/2026-08-17"
-     },
-     {
-      "t": "Why Microsoft Stock Dropped Today",
-      "u": "https://www.fool.com/investing/2026/08/17/why-microsoft-stock-dropped-today/"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 480.35,
-    "diff_pct": 3.13,
-    "warn": true
-   }
-  },
-  {
-   "symbol": "F",
-   "close": 14.37,
-   "in_buy": false,
-   "buy_low": 13.2918,
-   "buy_high": 13.7482,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 14.2718,
-   "sell_high": 14.7282,
-   "sell_conf": 0,
-   "atr_pct": 3.18,
-   "rel_vol": 0.93,
-   "dist_atr": 1.36,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 7.3,
-    "margin": -3.9,
-    "de": 456.7,
-    "growth": -3.8,
-    "target": 15.8,
-    "rec": "buy",
-    "earn_days": 66,
-    "news": [
-     {
-      "t": "Howard Lutnick Says Trump's Auto Tariffs Are Bringing Thousands of Jobs Into the US: 'Ford Is Going To Rock…'",
-      "u": "https://finance.yahoo.com/economy/policy/articles/howard-lutnick-says-trumps-auto-193111243.html"
-     },
-     {
-      "t": "Stellantis Recalls Almost 1 Million Cars; Stock Falls To All-Time Low",
-      "u": "https://www.investors.com/news/stellantis-recall-dodge-jeep-chrysler-ford-general-motors/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "Ford is done chasing the budget buyer",
-      "u": "https://www.thestreet.com/automotive/ford-is-done-chasing-the-budget-buyer"
-     }
-    ],
-    "flabel": "Zayıf"
-   },
-   "verify": {
-    "close2": 14.051,
-    "diff_pct": 2.27,
-    "warn": true
-   }
-  },
-  {
-   "symbol": "UNF",
-   "close": 286.76,
-   "in_buy": true,
-   "buy_low": 278.651,
-   "buy_high": 291.8465,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 304.2699,
-   "sell_high": 309.0701,
-   "sell_conf": 3,
-   "atr_pct": 1.67,
-   "rel_vol": 0.48,
-   "dist_atr": 0.0,
-   "score": 3.0,
-   "bars": 699,
-   "hk_weak": true,
-   "rejim_up": true,
-   "co": {
-    "pe": 45.2,
-    "margin": 4.6,
-    "de": 3.9,
-    "growth": 3.9,
-    "target": 273.3,
-    "rec": "none",
-    "earn_days": 65,
-    "news": [
-     {
-      "t": "What a Cintas Operating Chief Insider Filing Signals as the Firm Moves to Absorb UniFirst",
-      "u": "https://www.fool.com/coverage/filings/2026/08/15/what-a-cintas-operating-chief-insider-filing-signals-as-the-firm-moves-to-absorb-unifirst/"
-     },
-     {
-      "t": "What a Cintas CEO Insider Filing Signals as It Pursues UniFirst",
-      "u": "https://www.fool.com/coverage/filings/2026/08/15/cintas-ceo-todd-schneider-sells-35599-shares-for-72-million/"
-     },
-     {
-      "t": "UniFirst (UNF) Is Up 1.00% in One Week: What You Should Know",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-1-00-one-160002567.html"
-     }
-    ],
-    "flabel": "Zayıf"
-   },
-   "verify": {
-    "close2": 286.47,
-    "diff_pct": 0.1,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "KTOS",
-   "close": 64.58,
-   "in_buy": false,
-   "buy_low": 60.7719,
-   "buy_high": 64.4681,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": true,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 64.9819,
-   "sell_high": 68.6781,
-   "sell_conf": 2,
-   "atr_pct": 5.72,
-   "rel_vol": 1.39,
-   "dist_atr": 0.03,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 372.3,
-    "margin": 2.0,
-    "de": 5.7,
-    "growth": 30.5,
-    "target": 105.6,
-    "rec": "strong_buy",
-    "earn_days": 78,
-    "news": [
-     {
-      "t": "3 Market-Beating Stocks for Long-Term Investors",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-long-163020054.html"
-     },
-     {
-      "t": "Kratos and GE Aerospace secure U.S. Air Force JASSM engine development contract",
-      "u": "https://investorshub.advfn.com/market-news/article/34424/kratos-and-ge-aerospace-secure-u-s-air-force-jassm-engine-development-contract"
-     },
-     {
-      "t": "Kratos (KTOS) Is Up 9.4% After Raising 2026 Outlook And Securing New Missile Defense Work",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/kratos-ktos-9-4-raising-171102296.html"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 63.16,
-    "diff_pct": 2.25,
-    "warn": true
-   }
-  },
-  {
-   "symbol": "AAPL",
-   "close": 305.93,
-   "in_buy": false,
-   "buy_low": 296.0696,
-   "buy_high": 303.9304,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 313.4696,
-   "sell_high": 321.3304,
-   "sell_conf": 2,
-   "atr_pct": 2.57,
-   "rel_vol": 0.54,
-   "dist_atr": 0.25,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 35.0,
-    "margin": 27.6,
-    "de": 78.4,
-    "growth": 16.4,
-    "target": 322.3,
-    "rec": "buy",
-    "earn_days": 73,
-    "news": [
-     {
-      "t": "Trump admin. urges Apple not to purchase Chinese memory chips, but this presents a problem",
-      "u": "https://finance.yahoo.com/video/trump-admin-urges-apple-not-203543932.html"
-     },
-     {
-      "t": "Apple Changes App Tracking Rules in Europe",
-      "u": "https://finance.yahoo.com/technology/articles/apple-changes-app-tracking-rules-201438480.html"
-     },
-     {
-      "t": "Four Reasons To Put This Nvidia, AMD Partner On Your Watchlist Right Now",
-      "u": "https://www.investors.com/research/how-to-find-the-best-stocks-to-buy/teradyne-stock-eyes-breakout-semiconductor-partners-nvidia-taiwan-semi-apple-tech-markets/?src=A00220&yptr=yahoo"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 305.25,
-    "diff_pct": 0.22,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "META",
-   "close": 589.85,
-   "in_buy": true,
-   "buy_low": 569.8135,
-   "buy_high": 591.4365,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 626.0335,
-   "sell_high": 647.6565,
-   "sell_conf": 4,
-   "atr_pct": 3.67,
-   "rel_vol": 0.55,
-   "dist_atr": 0.0,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 21.4,
-    "margin": 29.8,
-    "de": 43.0,
-    "growth": 28.0,
-    "target": 754.1,
-    "rec": "strong_buy",
-    "earn_days": 72,
-    "news": [
-     {
-      "t": "What AGs will be looking at in Meta's latest social media addiction trial",
-      "u": "https://finance.yahoo.com/video/ags-looking-metas-latest-social-201700367.html"
-     },
-     {
-      "t": "Tech searches for gains as stocks teeter at the open: AlphaCheck",
-      "u": "https://finance.yahoo.com/markets/article/tech-searches-for-gains-as-stocks-teeter-at-the-open-alphacheck-135155576.html"
-     },
-     {
-      "t": "Apple Changes App Tracking Rules in Europe",
-      "u": "https://finance.yahoo.com/technology/articles/apple-changes-app-tracking-rules-201438480.html"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 569.2644,
-    "diff_pct": 3.62,
-    "warn": true
-   }
-  },
-  {
-   "symbol": "HAL",
-   "close": 34.42,
-   "in_buy": false,
-   "buy_low": 32.9739,
-   "buy_high": 34.0061,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 35.0339,
-   "sell_high": 36.0661,
-   "sell_conf": 0,
-   "atr_pct": 3.0,
-   "rel_vol": 0.81,
-   "dist_atr": 0.4,
-   "score": 3.0,
-   "bars": 699,
-   "hk_weak": true,
-   "rejim_up": true,
-   "co": {
-    "pe": 18.2,
-    "margin": 7.2,
-    "de": 74.2,
-    "growth": 3.7,
-    "target": 43.4,
-    "rec": "buy",
-    "earn_days": 64,
-    "news": [
-     {
-      "t": "DTI Q2 Loss Narrower Than Expected, Revenues Match Estimates",
-      "u": "https://finance.yahoo.com/energy/articles/dti-q2-loss-narrower-expected-155800611.html"
-     },
-     {
-      "t": "Peabody Energy, Borr Drilling, Texas Pacific Land, Halliburton, and Transocean Stocks Trade Up, What You Need To Know",
-      "u": "https://finance.yahoo.com/energy/articles/peabody-energy-borr-drilling-texas-030100646.html"
-     },
-     {
-      "t": "1 Profitable Stock for Long-Term Investors and 2 We Brush Off",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-long-term-001300607.html"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 34.73,
-    "diff_pct": -0.89,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "RTX",
-   "close": 222.97,
-   "in_buy": false,
-   "buy_low": 199.5252,
-   "buy_high": 215.2075,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 232.0967,
-   "sell_high": 236.876,
-   "sell_conf": 1,
-   "atr_pct": 2.14,
-   "rel_vol": 0.55,
-   "dist_atr": 1.62,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 39.0,
-    "margin": 8.3,
-    "de": 57.0,
-    "growth": 14.5,
-    "target": 232.3,
-    "rec": "buy",
-    "earn_days": 64,
-    "news": [
-     {
-      "t": "RTX, Pentagon Sign $23 Billion Tomahawk Missile Contract",
-      "u": "https://www.investors.com/news/rtx-pentagon-department-of-defense-tomahawk-boeing-lockheed-marting/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "1 Unpopular Stock That Deserves Some Love and 2 Facing Headwinds",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/1-unpopular-stock-deserves-love-191020096.html"
-     },
-     {
-      "t": "RTX Stock Rises on Massive $22.9 Billion Tomahawk Contract",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/rtx-stock-rises-massive-22-171805645.html"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 221.9661,
-    "diff_pct": 0.45,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "INTC",
-   "close": 102.5,
-   "in_buy": true,
-   "buy_low": 96.7648,
-   "buy_high": 103.9652,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 123.0398,
-   "sell_high": 130.2402,
-   "sell_conf": 3,
-   "atr_pct": 7.02,
+   "atr_pct": 1.75,
    "rel_vol": 0.8,
-   "dist_atr": 0.0,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 50.7,
-    "margin": -19.8,
-    "de": 49.0,
-    "growth": 25.4,
-    "target": 114.9,
-    "rec": "hold",
-    "earn_days": 66,
-    "news": [
-     {
-      "t": "Tech searches for gains as stocks teeter at the open: AlphaCheck",
-      "u": "https://finance.yahoo.com/markets/article/tech-searches-for-gains-as-stocks-teeter-at-the-open-alphacheck-135155576.html"
-     },
-     {
-      "t": "Nvidia, Alphabet, Peter Thiel: SpaceX Top Shareholders Disclosed",
-      "u": "https://www.investors.com/news/spacex-stock-elon-musk-nvidia-alphabet-google-peter-thiel/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "Billionaire Masayoshi Son  Put 66% of His $18 Billion US Portfolio Into 1 Stock",
-      "u": "https://247wallst.com/investing/2026/08/17/billionaire-masayoshi-son-put-66-of-its-18-billion-us-portfolio-into-1-stock/"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 103.49,
-    "diff_pct": -0.96,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "AMD",
-   "close": 514.39,
-   "in_buy": false,
-   "buy_low": 479.1725,
-   "buy_high": 511.5275,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 563.2875,
-   "sell_high": 595.6425,
-   "sell_conf": 0,
-   "atr_pct": 6.29,
-   "rel_vol": 0.89,
-   "dist_atr": 0.09,
-   "score": 3.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 129.4,
-    "margin": 15.6,
-    "de": 6.4,
-    "growth": 50.1,
-    "target": 612.8,
-    "rec": "strong_buy",
-    "earn_days": 78,
-    "news": [
-     {
-      "t": "Micron stock heats up again, crossing $1,000",
-      "u": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html"
-     },
-     {
-      "t": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
-      "u": "https://www.investors.com/news/nvidia-stock-asml-avnet-cve-nue-buy-points-bulls-take-charge/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "AMD filing reveals unexpected SpaceX and Nutanix bet",
-      "u": "https://www.thestreet.com/investing/stocks/amd-spacex-nutanix-stakes-13f-filing"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 505.64,
-    "diff_pct": 1.73,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "FLY",
-   "close": 26.67,
-   "in_buy": true,
-   "buy_low": 24.9766,
-   "buy_high": 27.1234,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 27.6666,
-   "sell_high": 29.8134,
-   "sell_conf": 2,
-   "atr_pct": 8.05,
-   "rel_vol": 0.98,
-   "dist_atr": 0.0,
-   "score": 3.0,
-   "bars": 257,
-   "rejim_up": true,
-   "co": {
-    "pe": -15.6,
-    "margin": -129.1,
-    "de": 4.4,
-    "growth": 656.9,
-    "target": 41.6,
-    "rec": "buy",
-    "earn_days": 86,
-    "news": [
-     {
-      "t": "Space Exploration Technologies Corp. (SPCX) Says $100 Billion in Revenue Is Coming by December. Here’s the Math Behind It",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-corp-spcx-140305877.html"
-     },
-     {
-      "t": "Firefly Aerospace Is Awarded New Orbital Contract From Department of Defense",
-      "u": "https://www.fool.com/investing/2026/08/15/firefly-aerospace-is-awarded-new-orbital-contract-from-department-of-defense/"
-     },
-     {
-      "t": "Firefly Aerospace (FLY) Is Up 16.2% After Record Q2 Sales And New Lockheed Launch Deal - Has The Bull Case Changed?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-fly-16-2-043114479.html"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 27.04,
-    "diff_pct": -1.37,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "ASELS.IS",
-   "close": 387.5,
-   "in_buy": false,
-   "buy_low": 362.0861,
-   "buy_high": 378.9139,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 382.8361,
-   "sell_high": 399.6639,
-   "sell_conf": 3,
-   "atr_pct": 4.34,
-   "rel_vol": 1.46,
-   "dist_atr": 0.51,
-   "score": 3.0,
-   "bars": 694,
-   "rejim_up": true,
-   "co": {
-    "pe": 49.4,
-    "margin": 18.1,
-    "de": 23.8,
-    "growth": 32.6,
-    "target": 421.7,
-    "rec": "buy",
-    "earn_days": 78,
-    "news": [],
-    "flabel": "Sağlam"
-   },
-   "verify": null
-  },
-  {
-   "symbol": "GC=F",
-   "close": 4380.3999,
-   "in_buy": false,
-   "buy_low": 4247.378,
-   "buy_high": 4322.622,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 4536.4278,
-   "sell_high": 4611.6718,
-   "sell_conf": 1,
-   "atr_pct": 1.72,
-   "rel_vol": 0.25,
-   "dist_atr": 0.77,
-   "score": 3.0,
-   "bars": 577,
-   "rejim_up": true,
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Gold prices today, Monday, August 17, 2026: Gold ticks up after lower retail sales report",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-17-2026-gold-ticks-up-after-lower-retail-sales-report-134755206.html"
-     },
-     {
-      "t": "TSX Closer: The Index Closes Lower as Technology Weighs, Canadian Inflation Accelerates to 3.0%",
-      "u": "https://finance.yahoo.com/economy/articles/tsx-closer-index-closes-lower-202055412.html"
-     },
-     {
-      "t": "Chevron (CVX) Discovers New Oil And Gas Condensate In Angola Block 0",
-      "u": "https://finance.yahoo.com/energy/articles/chevron-cvx-discovers-oil-gas-190928592.html"
-     }
-    ],
-    "flabel": "Veri yok"
-   },
-   "verify": null
-  },
-  {
-   "symbol": "USDTRY=X",
-   "close": 47.8797,
-   "in_buy": false,
-   "buy_low": 42.6278,
-   "buy_high": 42.6957,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 47.874,
-   "sell_high": 47.9419,
-   "sell_conf": 0,
-   "atr_pct": 0.14,
-   "rel_vol": null,
-   "dist_atr": 76.38,
-   "score": 3.0,
-   "bars": 694,
+   "dist_atr": 0.07,
+   "score": 4.0,
+   "bars": 685,
    "rejim_up": true,
    "co": {
     "pe": null,
@@ -1514,29 +281,29 @@
   },
   {
    "symbol": "BZ=F",
-   "close": 88.52,
+   "close": 90.87,
    "in_buy": false,
-   "buy_low": 83.8971,
-   "buy_high": 88.2629,
+   "buy_low": 83.9402,
+   "buy_high": 88.2198,
    "buy_src": "sr",
    "buy_touch": 1,
-   "conf": 2,
+   "conf": 3,
    "conf_flags": {
     "yesil": true,
     "yukari": true,
     "hacim": false,
-    "rsi": false
+    "rsi": true
    },
    "in_sell": false,
-   "sell_low": 99.8271,
-   "sell_high": 104.1929,
-   "sell_conf": 1,
-   "atr_pct": 4.93,
-   "rel_vol": 0.75,
-   "dist_atr": 0.06,
-   "score": 3.0,
+   "sell_low": 99.8702,
+   "sell_high": 104.1498,
+   "sell_conf": 0,
+   "atr_pct": 4.71,
+   "rel_vol": 0.79,
+   "dist_atr": 0.62,
+   "score": 4.0,
    "bars": 577,
-   "rejim_up": true,
+   "rejim_up": false,
    "co": {
     "pe": null,
     "margin": null,
@@ -1564,233 +331,157 @@
    "verify": null
   },
   {
-   "symbol": "AVGO",
-   "close": 392.99,
+   "symbol": "ASELS.IS",
+   "close": 387.5,
    "in_buy": false,
-   "buy_low": 362.0179,
-   "buy_high": 378.6421,
+   "buy_low": 361.9392,
+   "buy_high": 379.0608,
    "buy_src": "sr",
    "buy_touch": 1,
-   "conf": 1,
+   "conf": 2,
    "conf_flags": {
     "yesil": false,
     "yukari": false,
     "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 403.9445,
-   "sell_high": 420.5688,
-   "sell_conf": 3,
-   "atr_pct": 4.23,
-   "rel_vol": 1.63,
-   "dist_atr": 0.86,
-   "score": 2.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 65.3,
-    "margin": 38.8,
-    "de": 74.0,
-    "growth": 47.9,
-    "target": 527.9,
-    "rec": "strong_buy",
-    "earn_days": 16,
-    "news": [
-     {
-      "t": "Broadcom's AI Financing Could Reach $370 Billion. But It's Not as Bad as It Sounds.",
-      "u": "https://www.fool.com/investing/2026/08/17/broadcom-s-ai-financing-could-reach-usd370-billion-but-it-s-not-as-bad-as-it-sounds/"
-     },
-     {
-      "t": "Stanley Druckenmiller Opens Positions in Hut 8, Riot Platforms And Bitdeer",
-      "u": "https://www.cryptoprowl.com/releases/stanley-druckenmiller-opens-positions-in-hut-8-riot-platforms-and-bitdeer-6450"
-     },
-     {
-      "t": "MaxLinear Stock Sells At A Price Its Trailing Year Cannot Explain",
-      "u": "https://www.trefis.com/articles/611681/maxlinear-stock-sells-at-a-price-its-trailing-year-cannot-explain/2026-08-17"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 392.48,
-    "diff_pct": 0.13,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "NVDA",
-   "close": 225.16,
-   "in_buy": false,
-   "buy_low": 206.5196,
-   "buy_high": 210.395,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 228.8168,
-   "sell_high": 235.7432,
-   "sell_conf": 2,
-   "atr_pct": 3.08,
-   "rel_vol": 0.63,
-   "dist_atr": 2.13,
-   "score": 2.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 34.5,
-    "margin": 63.0,
-    "de": 6.6,
-    "growth": 85.2,
-    "target": 302.8,
-    "rec": "strong_buy",
-    "earn_days": 9,
-    "news": [
-     {
-      "t": "Nvidia to finance $105B for an OpenAI data center: What to know",
-      "u": "https://finance.yahoo.com/video/nvidia-finance-105b-openai-data-202533699.html"
-     },
-     {
-      "t": "Micron stock heats up again, crossing $1,000",
-      "u": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html"
-     },
-     {
-      "t": "Morgan Stanley Delivers a Bullish Message for Nvidia Stock Investors",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-delivers-bullish-message-204121851.html"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 224.94,
-    "diff_pct": 0.1,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "GOOGL",
-   "close": 345.9,
-   "in_buy": false,
-   "buy_low": 324.6967,
-   "buy_high": 335.7033,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 343.4967,
-   "sell_high": 354.5033,
+   "sell_low": 382.6892,
+   "sell_high": 399.8108,
    "sell_conf": 3,
-   "atr_pct": 3.18,
-   "rel_vol": 0.57,
-   "dist_atr": 0.93,
-   "score": 2.0,
-   "bars": 699,
+   "atr_pct": 4.42,
+   "rel_vol": 1.45,
+   "dist_atr": 0.49,
+   "score": 3.0,
+   "bars": 691,
    "rejim_up": true,
    "co": {
-    "pe": 17.3,
-    "margin": 54.8,
-    "de": 18.9,
-    "growth": 24.2,
-    "target": 427.5,
-    "rec": "strong_buy",
-    "earn_days": 72,
-    "news": [
-     {
-      "t": "SpaceX's biggest investors are finally visible — just as millions more shares unlock: Chart of the Day",
-      "u": "https://finance.yahoo.com/markets/article/spacexs-biggest-investors-are-finally-visible--just-as-millions-more-shares-unlock-chart-of-the-day-154946600.html"
-     },
-     {
-      "t": "Why indie games are the next big tech investment: Gaming CEO",
-      "u": "https://finance.yahoo.com/video/why-indie-games-next-big-100000670.html"
-     },
-     {
-      "t": "Alphabet Eyes First Australian Dollar Bond Sale",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/alphabet-eyes-first-australian-dollar-202414977.html"
-     }
-    ],
+    "pe": 49.4,
+    "margin": 18.1,
+    "de": 23.8,
+    "growth": 32.6,
+    "target": 421.7,
+    "rec": "buy",
+    "earn_days": 77,
+    "news": [],
     "flabel": "Sağlam"
    },
-   "verify": {
-    "close2": 343.81,
-    "diff_pct": 0.61,
-    "warn": false
-   }
+   "verify": null
   },
   {
-   "symbol": "XOM",
-   "close": 160.1,
+   "symbol": "SI=F",
+   "close": 66.121,
    "in_buy": false,
-   "buy_low": 146.5526,
-   "buy_high": 150.1974,
+   "buy_low": 60.3415,
+   "buy_high": 61.8385,
    "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 2,
+   "buy_touch": 1,
+   "conf": 3,
    "conf_flags": {
     "yesil": true,
     "yukari": true,
     "hacim": false,
-    "rsi": false
+    "rsi": true
    },
    "in_sell": false,
-   "sell_low": 161.8576,
-   "sell_high": 165.5024,
-   "sell_conf": 2,
-   "atr_pct": 2.28,
-   "rel_vol": 0.73,
-   "dist_atr": 2.72,
-   "score": 2.0,
-   "bars": 699,
-   "rejim_up": true,
+   "sell_low": 82.0815,
+   "sell_high": 83.5785,
+   "sell_conf": 0,
+   "atr_pct": 2.26,
+   "rel_vol": 0.0,
+   "dist_atr": 2.86,
+   "score": 3.0,
+   "bars": 577,
+   "rejim_up": false,
    "co": {
-    "pe": 20.8,
-    "margin": 9.1,
-    "de": 15.9,
-    "growth": 44.1,
-    "target": 168.5,
-    "rec": "buy",
-    "earn_days": 74,
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
     "news": [
      {
-      "t": "Why Exxon Mobil (XOM) Is Expanding Beyond Traditional Oil and Gas",
-      "u": "https://finance.yahoo.com/energy/articles/why-exxon-mobil-xom-expanding-194805744.html"
+      "t": "Silver prices today, Monday, August 17, 2026: Buoyed by softer economic data, while industrial outlook remains uncertain",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-17-2026-buoyed-by-softer-economic-data-while-industrial-outlook-remains-uncertain-135247624.html"
      },
      {
-      "t": "APA and Woodside Energy Have Fuel in the Tank to Go Higher",
-      "u": "https://www.barrons.com/articles/apa-woodside-energy-stocks-technical-analysis-2cdc555e?siteid=yhoof2&yptr=yahoo"
+      "t": "Peter Schiff Calls Latest Bitcoin Rally A Sell Opportunity as BTC Approaches $65,000",
+      "u": "https://beincrypto.com/peter-schiff-bitcoin-rally-sell-opportunity/"
      },
      {
-      "t": "Exxon and Chevron Just Posted a Combined $26.5 Billion Profit -- Here's the One I'd Buy Right Now",
-      "u": "https://www.fool.com/investing/2026/08/17/exxon-and-chevron-the-one-id-buy-right-now/"
+      "t": "Gold and Silver Prices Are Rising. Here's Which Precious Metal May Have More Upside",
+      "u": "https://www.fool.com/investing/2026/08/17/gold-and-silver-prices-are-rising-heres-which-prec/"
+     }
+    ],
+    "flabel": "Veri yok"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "META",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 1.06,
+   "dist_atr": null,
+   "score": 2.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 22.2,
+    "margin": 29.8,
+    "de": 43.0,
+    "growth": 28.0,
+    "target": 754.1,
+    "rec": "strong_buy",
+    "earn_days": 71,
+    "news": [
+     {
+      "t": "Meta to face massive social media addiction trial Tuesday",
+      "u": "https://finance.yahoo.com/technology/article/meta-to-face-massive-social-media-addiction-trial-tuesday-135141870.html"
+     },
+     {
+      "t": "Meta faces major social media addiction trial this week: What to watch",
+      "u": "https://finance.yahoo.com/video/meta-faces-major-social-media-145105633.html"
+     },
+     {
+      "t": "Meta social media addiction trial, earnings from Walmart & Target: What to watch on Monday",
+      "u": "https://finance.yahoo.com/video/meta-social-media-addiction-trial-120000243.html"
      }
     ],
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 161.85,
-    "diff_pct": -1.08,
+    "close2": 568.97,
+    "diff_pct": NaN,
     "warn": false
    }
   },
   {
    "symbol": "V",
-   "close": 364.15,
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 346.7799,
-   "buy_high": 353.9401,
-   "buy_src": "sr",
-   "buy_touch": 2,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
    "conf": 2,
    "conf_flags": {
     "yesil": false,
@@ -1799,24 +490,28 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 364.2649,
-   "sell_high": 371.4251,
-   "sell_conf": 2,
-   "atr_pct": 1.97,
-   "rel_vol": 1.22,
-   "dist_atr": 1.43,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 1.61,
+   "dist_atr": null,
    "score": 2.0,
-   "bars": 699,
-   "rejim_up": true,
+   "bars": 700,
+   "rejim_up": false,
    "co": {
-    "pe": 30.5,
+    "pe": 31.0,
     "margin": 50.8,
     "de": 67.8,
     "growth": 14.4,
     "target": 416.2,
     "rec": "strong_buy",
-    "earn_days": 71,
+    "earn_days": 70,
     "news": [
+     {
+      "t": "Visa Stock Slips After Ackman Reveals New Payment Bet",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-slips-ackman-reveals-204441833.html"
+     },
      {
       "t": "Should You Buy, Sell or Hold PayPal Stock After a 36.1% 3-Month Rise?",
       "u": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-paypal-stock-163500698.html"
@@ -1824,100 +519,96 @@
      {
       "t": "Can Visa Direct Give Visa's Growth Story a New Direction?",
       "u": "https://finance.yahoo.com/markets/stocks/articles/visa-direct-visas-growth-story-155700036.html"
-     },
-     {
-      "t": "Billionaire Bill Ackman's Hedge Fund Just Bought These 2 Financial Stocks That Warren Buffett-Led Berkshire Hathaway Sold in Q1. Here's What",
-      "u": "https://www.fool.com/investing/2026/08/17/billionaire-bill-ackman-warren-buffett-berkshire/"
      }
     ],
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 359.2,
-    "diff_pct": 1.38,
+    "close2": 358.84,
+    "diff_pct": NaN,
     "warn": false
    }
   },
   {
-   "symbol": "WMT",
-   "close": 115.27,
+   "symbol": "UMAC",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 111.4785,
-   "buy_high": 113.9815,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 2,
    "conf_flags": {
     "yesil": false,
     "yukari": false,
-    "hacim": false,
+    "hacim": true,
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 116.5185,
-   "sell_high": 119.0215,
-   "sell_conf": 3,
-   "atr_pct": 2.17,
-   "rel_vol": 0.68,
-   "dist_atr": 0.51,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 1.75,
+   "dist_atr": null,
    "score": 2.0,
-   "bars": 699,
-   "rejim_up": true,
+   "bars": 628,
+   "rejim_up": false,
    "co": {
-    "pe": 40.3,
-    "margin": 3.1,
-    "de": 74.8,
-    "growth": 7.3,
-    "target": 138.0,
-    "rec": "buy",
-    "earn_days": 3,
+    "pe": -93.2,
+    "margin": -20.3,
+    "de": 0.8,
+    "growth": 687.3,
+    "target": 39.0,
+    "rec": "strong_buy",
+    "earn_days": 79,
     "news": [
      {
-      "t": "What this week's Walmart & Target earnings could tell us about the consumer landscape",
-      "u": "https://finance.yahoo.com/video/weeks-walmart-target-earnings-could-130000793.html"
+      "t": "Red Cat Slides 4% on Maritime Autonomy Deal, Ondas Holdings Pulls Back",
+      "u": "https://247wallst.com/investing/2026/08/17/red-cat-slides-4-on-maritime-autonomy-deal-ondas-holdings-pulls-back/"
      },
      {
-      "t": "Meta social media addiction trial, earnings from Walmart & Target: What to watch on Monday",
-      "u": "https://finance.yahoo.com/video/meta-social-media-addiction-trial-120000243.html"
+      "t": "Why Unusual Machines Stock Is Plummeting Today",
+      "u": "https://www.fool.com/investing/2026/08/17/why-unusual-machines-stock-is-plummeting-today/"
      },
      {
-      "t": "Uber and Zipline Target a Million Drone Deliveries a Day",
-      "u": "https://finance.yahoo.com/technology/articles/uber-zipline-target-million-drone-200843989.html"
+      "t": "4 Leveraged ETFs of Last Week",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/4-leveraged-etfs-last-week-120000850.html"
      }
     ],
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 114.3723,
-    "diff_pct": 0.78,
+    "close2": 30.15,
+    "diff_pct": NaN,
     "warn": false
    }
   },
   {
    "symbol": "FDVV",
-   "close": 64.2,
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 61.9596,
-   "buy_high": 63.1475,
-   "buy_src": "pullback",
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
    "buy_touch": 0,
-   "conf": 1,
+   "conf": 2,
    "conf_flags": {
     "yesil": false,
     "yukari": false,
-    "hacim": false,
+    "hacim": true,
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 64.4919,
-   "sell_high": 65.0559,
-   "sell_conf": 2,
-   "atr_pct": 0.88,
-   "rel_vol": 0.69,
-   "dist_atr": 1.87,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 1.05,
+   "dist_atr": null,
    "score": 2.0,
-   "bars": 699,
-   "rejim_up": true,
+   "bars": 700,
+   "rejim_up": false,
    "co": {
     "pe": 19.3,
     "margin": null,
@@ -1943,8 +634,8 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 63.83,
-    "diff_pct": 0.58,
+    "close2": 63.64,
+    "diff_pct": NaN,
     "warn": false
    }
   },
@@ -1952,8 +643,8 @@
    "symbol": "THYAO.IS",
    "close": 305.25,
    "in_buy": false,
-   "buy_low": 293.928,
-   "buy_high": 302.2387,
+   "buy_low": 293.7568,
+   "buy_high": 302.4099,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 1,
@@ -1964,14 +655,14 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 321.9697,
-   "sell_high": 330.2803,
+   "sell_low": 321.7985,
+   "sell_high": 330.4515,
    "sell_conf": 2,
-   "atr_pct": 2.72,
-   "rel_vol": 0.68,
-   "dist_atr": 0.36,
+   "atr_pct": 2.83,
+   "rel_vol": 0.69,
+   "dist_atr": 0.33,
    "score": 2.0,
-   "bars": 694,
+   "bars": 691,
    "rejim_up": true,
    "co": {
     "pe": 4.2,
@@ -1980,7 +671,7 @@
     "growth": 20.5,
     "target": 463.5,
     "rec": "buy",
-    "earn_days": 80,
+    "earn_days": 79,
     "news": [
      {
       "t": "Air Transat Launches New Non-Stop Service Between Montreal and Istanbul",
@@ -2022,7 +713,7 @@
    "rel_vol": 1.28,
    "dist_atr": 1.69,
    "score": 2.0,
-   "bars": 694,
+   "bars": 693,
    "rejim_up": true,
    "co": {
     "pe": 10.2,
@@ -2031,7 +722,7 @@
     "growth": 1.1,
     "target": 58.2,
     "rec": "buy",
-    "earn_days": 81,
+    "earn_days": 80,
     "news": [
      {
       "t": "Turkiye Sise ve Cam Fabrikalari AS (IST:SISE) Q2 2025 Earnings Call Highlights: Strong Revenue ...",
@@ -2046,8 +737,8 @@
    "symbol": "EREGL.IS",
    "close": 37.38,
    "in_buy": false,
-   "buy_low": 34.2497,
-   "buy_high": 35.7903,
+   "buy_low": 34.2533,
+   "buy_high": 35.7867,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 2,
@@ -2058,14 +749,14 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 40.4497,
-   "sell_high": 41.9903,
+   "sell_low": 40.4533,
+   "sell_high": 41.9867,
    "sell_conf": 2,
-   "atr_pct": 4.12,
-   "rel_vol": 1.24,
-   "dist_atr": 1.03,
+   "atr_pct": 4.1,
+   "rel_vol": 1.23,
+   "dist_atr": 1.04,
    "score": 2.0,
-   "bars": 694,
+   "bars": 692,
    "rejim_up": true,
    "co": {
     "pe": 33.0,
@@ -2074,19 +765,74 @@
     "growth": 56.7,
     "target": 39.8,
     "rec": "hold",
-    "earn_days": 63,
+    "earn_days": 62,
     "news": [],
     "flabel": "Sağlam"
    },
    "verify": null
   },
   {
-   "symbol": "SPY",
-   "close": 776.34,
+   "symbol": "AVGO",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 748.9264,
-   "buy_high": 756.1965,
-   "buy_src": "pullback",
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 1.09,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 65.4,
+    "margin": 38.8,
+    "de": 74.0,
+    "growth": 47.9,
+    "target": 527.9,
+    "rec": "strong_buy",
+    "earn_days": 15,
+    "news": [
+     {
+      "t": "Broadcom's AI Financing Could Reach $370 Billion. But It's Not as Bad as It Sounds.",
+      "u": "https://www.fool.com/investing/2026/08/17/broadcom-s-ai-financing-could-reach-usd370-billion-but-it-s-not-as-bad-as-it-sounds/"
+     },
+     {
+      "t": "Stanley Druckenmiller Opens Positions in Hut 8, Riot Platforms And Bitdeer",
+      "u": "https://www.cryptoprowl.com/releases/stanley-druckenmiller-opens-positions-in-hut-8-riot-platforms-and-bitdeer-6450"
+     },
+     {
+      "t": "MaxLinear Stock Sells At A Price Its Trailing Year Cannot Explain",
+      "u": "https://www.trefis.com/articles/611681/maxlinear-stock-sells-at-a-price-its-trailing-year-cannot-explain/2026-08-17"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 392.43,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "NVDA",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
    "buy_touch": 0,
    "conf": 1,
    "conf_flags": {
@@ -2096,15 +842,730 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 783.9978,
-   "sell_high": 791.5764,
-   "sell_conf": 2,
-   "atr_pct": 0.98,
-   "rel_vol": 0.67,
-   "dist_atr": 2.66,
-   "score": 2.0,
-   "bars": 699,
-   "rejim_up": true,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.68,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 34.5,
+    "margin": 63.0,
+    "de": 6.6,
+    "growth": 85.2,
+    "target": 302.8,
+    "rec": "strong_buy",
+    "earn_days": 8,
+    "news": [
+     {
+      "t": "Tech stocks today: Anthropic's huge haul, Meta trial to kick off",
+      "u": "https://finance.yahoo.com/technology/live/tech-stocks-today-anthropics-huge-haul-meta-trial-to-kick-off-132945569.html"
+     },
+     {
+      "t": "WSJ reports $3T in AI spending commitments is kept off balance sheets: A full breakdown",
+      "u": "https://finance.yahoo.com/video/wsj-reports-3t-ai-spending-144501122.html"
+     },
+     {
+      "t": "Micron stock heats up again, crossing $1,000",
+      "u": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 225.01,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "GOOGL",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.59,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 17.4,
+    "margin": 54.8,
+    "de": 18.9,
+    "growth": 24.2,
+    "target": 427.5,
+    "rec": "strong_buy",
+    "earn_days": 71,
+    "news": [
+     {
+      "t": "SpaceX's biggest investors are finally visible — just as millions more shares unlock: Chart of the Day",
+      "u": "https://finance.yahoo.com/markets/article/spacexs-biggest-investors-are-finally-visible--just-as-millions-more-shares-unlock-chart-of-the-day-154946600.html"
+     },
+     {
+      "t": "Why indie games are the next big tech investment: Gaming CEO",
+      "u": "https://finance.yahoo.com/video/why-indie-games-next-big-100000670.html"
+     },
+     {
+      "t": "Global Bond Rout Sends Long-Term Borrowing Costs to Highest in Decades",
+      "u": "https://finance.yahoo.com/economy/policy/articles/global-bond-rout-sends-long-042511507.html"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 344.0,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "MSFT",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.75,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 27.6,
+    "margin": 40.3,
+    "de": 29.1,
+    "growth": 17.7,
+    "target": 569.6,
+    "rec": "strong_buy",
+    "earn_days": 71,
+    "news": [
+     {
+      "t": "Could Microsoft spin off Xbox? Why it might be worth billions",
+      "u": "https://finance.yahoo.com/video/could-microsoft-spin-off-xbox-why-it-might-be-worth-billions-110000182.html"
+     },
+     {
+      "t": "CRWV vs NBIS vs IREN: Which Neocloud Operator To Bet On Right Now?",
+      "u": "https://stocktwits.com/news-articles/markets/equity/crwv-vs-nbis-vs-iren-which-neocloud-operator-to-bet-on-right-now/cZYcGJzRJSl"
+     },
+     {
+      "t": "Microsoft Just Announced Great News for AMD Investors",
+      "u": "https://www.fool.com/investing/2026/08/18/microsoft-just-announced-great-news-for-amd-invest/"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 480.35,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "F",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.53,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 7.3,
+    "margin": -3.9,
+    "de": 456.7,
+    "growth": -3.8,
+    "target": 15.8,
+    "rec": "buy",
+    "earn_days": 65,
+    "news": [
+     {
+      "t": "Howard Lutnick Says Trump's Auto Tariffs Are Bringing Thousands of Jobs Into the US: 'Ford Is Going To Rock…'",
+      "u": "https://finance.yahoo.com/economy/policy/articles/howard-lutnick-says-trumps-auto-193111243.html"
+     },
+     {
+      "t": "Stellantis Recalls Almost 1 Million Cars; Stock Falls To All-Time Low",
+      "u": "https://www.investors.com/news/stellantis-recall-dodge-jeep-chrysler-ford-general-motors/?src=A00220&yptr=yahoo"
+     },
+     {
+      "t": "Ford is done chasing the budget buyer",
+      "u": "https://www.thestreet.com/automotive/ford-is-done-chasing-the-budget-buyer"
+     }
+    ],
+    "flabel": "Zayıf"
+   },
+   "verify": {
+    "close2": 14.05,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "CAT",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.55,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 36.9,
+    "margin": 14.5,
+    "de": 232.8,
+    "growth": 24.0,
+    "target": 979.2,
+    "rec": "buy",
+    "earn_days": 72,
+    "news": [
+     {
+      "t": "2 Cash-Producing Stocks Worth Your Attention and 1 We Ignore",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-worth-224620096.html"
+     },
+     {
+      "t": "Stock Market Today: Dow Slides As This Key Yield Hits 19-Year High; Warren Buffett Stock Falls (Live Coverage)",
+      "u": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-stock-sandisk-stock-sndk/?src=A00220&yptr=yahoo"
+     },
+     {
+      "t": "Palantir Makes Its Case Against Frontier AI",
+      "u": "https://www.fool.com/investing/2026/08/15/palantir-makes-its-case-against-frontier-ai/"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 881.65,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "AAPL",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.63,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 35.0,
+    "margin": 27.6,
+    "de": 78.4,
+    "growth": 16.4,
+    "target": 325.7,
+    "rec": "buy",
+    "earn_days": 72,
+    "news": [
+     {
+      "t": "Trump admin. urges Apple not to purchase Chinese memory chips, but this presents a problem",
+      "u": "https://finance.yahoo.com/video/trump-admin-urges-apple-not-203543932.html"
+     },
+     {
+      "t": "Apple vs. CoreWeave: Comparing Revenue Trends Between a Stable Tech Giant and a Rapidly Growing AI Neocloud",
+      "u": "https://www.fool.com/coverage/charts/2026/08/17/apple-vs-coreweave-comparing-revenue-trends-between-a-stable-tech-giant-and-a-rapidly-growing-ai-neocloud/"
+     },
+     {
+      "t": "Trump Wanted Advanced Tech Made in America, Tim Cook Brought Mac Mini Production to Texas: 'Thank You' for the $600 Billion Commitment, Says",
+      "u": "https://finance.yahoo.com/technology/articles/trump-wanted-advanced-tech-made-033053059.html"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 305.59,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "TSLA",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.65,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 311.3,
+    "margin": 3.7,
+    "de": 18.4,
+    "growth": 25.5,
+    "target": 395.3,
+    "rec": "buy",
+    "earn_days": 64,
+    "news": [
+     {
+      "t": "Ex-Tesla President Says Roadster Reveal Is A ‘Not-So-Hidden Attempt’ To Knit Tesla And SpaceX Together",
+      "u": "https://stocktwits.com/news-articles/markets/equity/ex-tesla-president-roadster-attempt-knit-tesla-spacex-together/cZYTzqqRJSK"
+     },
+     {
+      "t": "Elon Musk to Merge SpaceX and Tesla? Prediction Markets Are Betting on This Date",
+      "u": "https://www.benzinga.com/markets/prediction-markets/26/08/61264378/elon-musk-spacex-tesla-merger-prediction-markets-date?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
+     },
+     {
+      "t": "5-star analyst sets alarming SpaceX stock price target",
+      "u": "https://www.thestreet.com/investing/5-star-analyst-sets-alarming-spacex-stock-price-target"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 339.3,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "COST",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.62,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 48.3,
+    "margin": 3.0,
+    "de": 60.3,
+    "growth": 21.5,
+    "target": 1077.3,
+    "rec": "buy",
+    "earn_days": 37,
+    "news": [
+     {
+      "t": "Branchout Food inc (BOF) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/branchout-food-inc-bof-q2-190201273.html"
+     },
+     {
+      "t": "This Retail Stock May Be an Even Better Buy Than Walmart and Costco Right Now",
+      "u": "https://www.fool.com/investing/2026/08/17/this-retail-stock-may-be-an-even-better-buy-than-w/"
+     },
+     {
+      "t": "Can Costco Stock Reach New Highs in Member Monetization?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-reach-highs-member-140800271.html"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 953.5,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "NOC",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.63,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 18.6,
+    "margin": 10.5,
+    "de": 95.3,
+    "growth": 5.1,
+    "target": 645.2,
+    "rec": "buy",
+    "earn_days": 63,
+    "news": [
+     {
+      "t": "Boeing Stock Commands a Massive Premium: Is It Truly Earned?",
+      "u": "https://www.trefis.com/articles/611666/boeing-stock-commands-a-massive-premium-is-it-truly-earned/2026-08-17"
+     },
+     {
+      "t": "Rocket Lab Stock's Next Leg Rides On A Vehicle That Has Not Flown Yet",
+      "u": "https://www.trefis.com/articles/611678/rocket-lab-stocks-next-leg-rides-on-a-vehicle-that-has-not-flown-yet/2026-08-17"
+     },
+     {
+      "t": "Can L3Harris' New Rhode Island Facility Strengthen Undersea Growth?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/l3harris-rhode-island-facility-strengthen-143300358.html"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 570.2,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "RGTI",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.49,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": -90.6,
+    "margin": 0.0,
+    "de": 1.4,
+    "growth": 185.3,
+    "target": 28.8,
+    "rec": "buy",
+    "earn_days": -12,
+    "news": [
+     {
+      "t": "IonQ Stock Up 16% Since Q2 Earnings: Should You Buy or Book Profits?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/ionq-stock-16-since-q2-190000075.html"
+     },
+     {
+      "t": "Rigetti's Expanding Commercial Base Strengthens Growth Prospects",
+      "u": "https://finance.yahoo.com/technology/ai/articles/rigettis-expanding-commercial-strengthens-growth-172300196.html"
+     },
+     {
+      "t": "Got $200? 1 Quantum Computing ETF to Buy Right Now.",
+      "u": "https://www.fool.com/investing/2026/08/17/got-200-1-quantum-computing-etf-to-buy-right-now/"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 18.67,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "INTC",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.73,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 50.7,
+    "margin": -19.8,
+    "de": 49.0,
+    "growth": 25.4,
+    "target": 114.9,
+    "rec": "hold",
+    "earn_days": 65,
+    "news": [
+     {
+      "t": "Tech searches for gains as stocks teeter at the open: AlphaCheck",
+      "u": "https://finance.yahoo.com/markets/article/tech-searches-for-gains-as-stocks-teeter-at-the-open-alphacheck-135155576.html"
+     },
+     {
+      "t": "Intel (INTC) Is Up 6.1% After $20 Billion Equity Raise To Fund AI Build-Out - What's Changed",
+      "u": "https://finance.yahoo.com/technology/ai/articles/intel-intc-6-1-20-020946989.html"
+     },
+     {
+      "t": "Intel Costs 62 Times Next Year's Earnings. It Lost $11 Billion Over the Past Year.",
+      "u": "https://www.fool.com/investing/2026/08/17/intel-costs-62-times-next-year-s-earnings-it-lost-usd11-billion-over-the-past-year/"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 103.49,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "AMD",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.7,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 131.4,
+    "margin": 15.6,
+    "de": 6.4,
+    "growth": 50.1,
+    "target": 612.8,
+    "rec": "strong_buy",
+    "earn_days": 77,
+    "news": [
+     {
+      "t": "Micron stock heats up again, crossing $1,000",
+      "u": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html"
+     },
+     {
+      "t": "Advanced Micro Devices (AMD) Unveils Instinct Coder For Private Enterprise AI",
+      "u": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-unveils-043313270.html"
+     },
+     {
+      "t": "Microsoft Just Announced Great News for AMD Investors",
+      "u": "https://www.fool.com/investing/2026/08/18/microsoft-just-announced-great-news-for-amd-invest/"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 506.0,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "FLY",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.71,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 258,
+   "rejim_up": false,
+   "co": {
+    "pe": -15.6,
+    "margin": -129.1,
+    "de": 4.4,
+    "growth": 656.9,
+    "target": 41.6,
+    "rec": "buy",
+    "earn_days": 85,
+    "news": [
+     {
+      "t": "Space Exploration Technologies Corp. (SPCX) Says $100 Billion in Revenue Is Coming by December. Here’s the Math Behind It",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-corp-spcx-140305877.html"
+     },
+     {
+      "t": "Firefly Aerospace Is Awarded New Orbital Contract From Department of Defense",
+      "u": "https://www.fool.com/investing/2026/08/15/firefly-aerospace-is-awarded-new-orbital-contract-from-department-of-defense/"
+     },
+     {
+      "t": "Firefly Aerospace (FLY) Is Up 16.2% After Record Q2 Sales And New Lockheed Launch Deal - Has The Bull Case Changed?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-fly-16-2-043114479.html"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 27.18,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "SPY",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.72,
+   "dist_atr": null,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": false,
    "co": {
     "pe": 26.0,
     "margin": null,
@@ -2115,143 +1576,88 @@
     "earn_days": null,
     "news": [
      {
-      "t": "CoreWeave for $105: A Reasonable Bull Case On Offer",
-      "u": "https://247wallst.com/investing/2026/08/17/coreweave-for-105-a-reasonable-bull-case-on-offer/"
+      "t": "Situational Awareness’ 13F Reveals an $11 Billion AI Bet That Unraveled in Under a Month",
+      "u": "https://247wallst.com/investing/2026/08/17/situational-awareness-13f-reveals-an-11-billion-ai-bet-that-unraveled-in-under-a-month/"
      },
      {
-      "t": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday Amid Lower Rate Hike Expectations",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131346618.html"
+      "t": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
+      "u": "https://stocktwits.com/news-articles/markets/equity/us-stocks-drop-geopolitics-and-oil-price-risk-take-center-stage/cZYG0TMRJSc"
      },
      {
-      "t": "KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart",
-      "u": "https://247wallst.com/investing/2026/08/17/kla-corporation-had-a-tough-month-60-returns-will-come-according-to-this-wall-street-stalwart/"
+      "t": "FactSet’s Kashner: Active Investors Prefer Performance to Cost",
+      "u": "http://www.etf.com/sections/advisor-center/factsets-kashner-active-investors-prefer-performance-cost?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
      }
     ],
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 772.3499,
-    "diff_pct": 0.52,
+    "close2": 772.67,
+    "diff_pct": NaN,
     "warn": false
    }
   },
   {
-   "symbol": "LLY",
-   "close": 1180.16,
+   "symbol": "REMX",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 1114.1607,
-   "buy_high": 1154.6394,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
    "conf_flags": {
     "yesil": false,
     "yukari": false,
     "hacim": false,
-    "rsi": false
-   },
-   "in_sell": true,
-   "sell_low": 1162.4906,
-   "sell_high": 1202.9694,
-   "sell_conf": 3,
-   "atr_pct": 3.43,
-   "rel_vol": 0.85,
-   "dist_atr": 0.63,
-   "score": 1.0,
-   "bars": 699,
-   "rejim_up": true,
-   "co": {
-    "pe": 39.8,
-    "margin": 33.5,
-    "de": 162.1,
-    "growth": 47.7,
-    "target": 1310.9,
-    "rec": "buy",
-    "earn_days": 73,
-    "news": [
-     {
-      "t": "Jim Cramer Says One Group of Stocks is ‘So Hated’ Right Now. Is it Time to Buy?",
-      "u": "https://247wallst.com/investing/2026/08/17/jim-cramer-says-one-group-of-stocks-is-so-hated-right-now-is-it-time-to-buy/"
-     },
-     {
-      "t": "Three Center-Stage AI Players Join Eli Lilly On Elite Screen",
-      "u": "https://www.investors.com/research/stock-market-ai-data-center-hewlett-packard-enterprise-hpe/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "Top Midday Gainers",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/top-midday-gainers-174029108.html"
-     }
-    ],
-    "flabel": "Sağlam"
-   },
-   "verify": {
-    "close2": 1184.0,
-    "diff_pct": -0.32,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "AMZN",
-   "close": 262.65,
-   "in_buy": false,
-   "buy_low": 251.1025,
-   "buy_high": 259.2775,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
+    "rsi": true
    },
    "in_sell": false,
-   "sell_low": 270.6625,
-   "sell_high": 278.8375,
-   "sell_conf": 3,
-   "atr_pct": 3.11,
-   "rel_vol": 0.57,
-   "dist_atr": 0.41,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.64,
+   "dist_atr": null,
    "score": 1.0,
-   "bars": 699,
-   "rejim_up": true,
+   "bars": 700,
+   "rejim_up": false,
    "co": {
-    "pe": 21.0,
-    "margin": 17.4,
-    "de": 45.6,
-    "growth": 19.6,
-    "target": 327.0,
-    "rec": "strong_buy",
-    "earn_days": 73,
+    "pe": 35.9,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
     "news": [
      {
-      "t": "AI hyperscalers or memory chips: Which is the better investment right now?",
-      "u": "https://finance.yahoo.com/video/ai-hyperscalers-memory-chips-better-142329824.html"
+      "t": "USA Rare Earth Gains 7%, MP Materials Jumps 8%: Here’s Why Critical Minerals Are Moving Today",
+      "u": "https://247wallst.com/investing/2026/08/14/usa-rare-earth-gains-7-mp-materials-jumps-8-heres-why-critical-minerals-are-moving-today/"
      },
      {
-      "t": "Goldman Sachs warns of consumer spending slowdown as tax refund boost fades",
-      "u": "https://finance.yahoo.com/economy/article/goldman-sachs-warns-of-consumer-spending-slowdown-as-tax-refund-boost-fades-125557282.html"
+      "t": "United States Antimony Plummets 25% After Slashing 2026 Guidance on Plunging Antimony Prices",
+      "u": "https://247wallst.com/investing/2026/08/12/united-states-antimony-plummets-25-after-slashing-2026-guidance-on-plunging-antimony-prices/"
      },
      {
-      "t": "What You Actually Pay To Join The AAPL Run",
-      "u": "https://www.trefis.com/articles/611667/what-you-actually-pay-to-join-the-aapl-run-2/2026-08-17"
+      "t": "Semiconductors to Stablecoins: Jan van Eck on 2026 Markets",
+      "u": "http://www.etf.com/sections/conferences/semiconductors-stablecoins-jan-van-eck-2026-markets?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
      }
     ],
-    "flabel": "Sağlam"
+    "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 261.25,
-    "diff_pct": 0.54,
+    "close2": 78.93,
+    "diff_pct": NaN,
     "warn": false
    }
   },
   {
-   "symbol": "JPM",
-   "close": 362.84,
+   "symbol": "RKLB",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 339.3736,
-   "buy_high": 354.623,
-   "buy_src": "pullback",
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
    "buy_touch": 0,
    "conf": 0,
    "conf_flags": {
@@ -2261,53 +1667,434 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 364.9435,
-   "sell_high": 371.2781,
-   "sell_conf": 4,
-   "atr_pct": 1.75,
-   "rel_vol": 0.77,
-   "dist_atr": 1.3,
-   "score": 1.0,
-   "bars": 699,
-   "rejim_up": true,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.93,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
    "co": {
-    "pe": 15.5,
+    "pe": 1641.6,
+    "margin": -21.5,
+    "de": 3.8,
+    "growth": 62.0,
+    "target": 112.9,
+    "rec": "buy",
+    "earn_days": 83,
+    "news": [
+     {
+      "t": "Rocket Lab clears 1st hurdle in its biggest satellite deal",
+      "u": "https://www.thestreet.com/technology/rocket-lab-mda-space-satellite-launch"
+     },
+     {
+      "t": "Rocket Lab (RKLB) Q2 2026 Earnings Call Transcript",
+      "u": "https://www.fool.com/earnings/call-transcripts/2026/08/17/rocket-lab-rklb-q2-2026-earnings-call-transcript/"
+     },
+     {
+      "t": "Rocket Lab Secures Spot On $981M Space Force Infrastructure Defense Program",
+      "u": "https://stocktwits.com/news-articles/markets/equity/rocket-lab-secures-spot-on-981-m-space-force-infrastructure-defense-program/cZYGjA8RJSd"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 82.08,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "LLY",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.48,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 39.7,
+    "margin": 33.5,
+    "de": 162.1,
+    "growth": 47.7,
+    "target": 1310.9,
+    "rec": "buy",
+    "earn_days": 72,
+    "news": [
+     {
+      "t": "Why Isn't Eli Lilly Stock Trading At The Top Of Its Peer Group?",
+      "u": "https://www.trefis.com/articles/611665/why-isnt-eli-lilly-stock-trading-at-the-top-of-its-peer-group/2026-08-17"
+     },
+     {
+      "t": "OmniAb Jumps 18% as Lilly Deal Lifts Cash Outlook",
+      "u": "https://finance.yahoo.com/healthcare/articles/omniab-jumps-18-lilly-deal-204708905.html"
+     },
+     {
+      "t": "Jim Cramer Says One Group of Stocks is ‘So Hated’ Right Now. Is it Time to Buy?",
+      "u": "https://247wallst.com/investing/2026/08/17/jim-cramer-says-one-group-of-stocks-is-so-hated-right-now-is-it-time-to-buy/"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 1183.16,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "TSM",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.58,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 32.2,
+    "margin": 49.9,
+    "de": 16.5,
+    "growth": 36.0,
+    "target": 547.1,
+    "rec": "strong_buy",
+    "earn_days": 58,
+    "news": [
+     {
+      "t": "Situational Awareness’ 13F Reveals an $11 Billion AI Bet That Unraveled in Under a Month",
+      "u": "https://247wallst.com/investing/2026/08/17/situational-awareness-13f-reveals-an-11-billion-ai-bet-that-unraveled-in-under-a-month/"
+     },
+     {
+      "t": "Nvidia's Next AI Infrastructure Bet Is Scaling Fast",
+      "u": "https://finance.yahoo.com/technology/ai/articles/nvidias-next-ai-infrastructure-bet-203610188.html"
+     },
+     {
+      "t": "Four Reasons To Put This Nvidia, AMD Partner On Your Watchlist Right Now",
+      "u": "https://www.investors.com/research/how-to-find-the-best-stocks-to-buy/teradyne-stock-eyes-breakout-semiconductor-partners-nvidia-taiwan-semi-apple-tech-markets/?src=A00220&yptr=yahoo"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 430.97,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "KTOS",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.87,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 395.6,
+    "margin": 2.0,
+    "de": 5.7,
+    "growth": 30.5,
+    "target": 105.6,
+    "rec": "strong_buy",
+    "earn_days": 77,
+    "news": [
+     {
+      "t": "3 Market-Beating Stocks for Long-Term Investors",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-long-163020054.html"
+     },
+     {
+      "t": "Kratos and GE Aerospace secure U.S. Air Force JASSM engine development contract",
+      "u": "https://investorshub.advfn.com/market-news/article/34424/kratos-and-ge-aerospace-secure-u-s-air-force-jassm-engine-development-contract"
+     },
+     {
+      "t": "Kratos (KTOS) Is Up 9.4% After Raising 2026 Outlook And Securing New Missile Defense Work",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/kratos-ktos-9-4-raising-171102296.html"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 63.29,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "AMZN",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.86,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 21.1,
+    "margin": 17.4,
+    "de": 45.6,
+    "growth": 19.6,
+    "target": 327.0,
+    "rec": "strong_buy",
+    "earn_days": 72,
+    "news": [
+     {
+      "t": "Amazon Alexa+ assistance is the way consumers 'actually want to shop': VP",
+      "u": "https://finance.yahoo.com/video/amazon-alexa-assistance-way-consumers-211500608.html"
+     },
+     {
+      "t": "Morgan Stanley resets Amazon stock price target after earnings",
+      "u": "https://www.thestreet.com/investing/stocks/morgan-stanley-resets-amazon-stock-price-target-after-earnings-for-2026-aws"
+     },
+     {
+      "t": "Cloudways Bets That Enterprises Will Pay to Rehabilitate the Agent Every Hyperscaler Banned",
+      "u": "https://finance.yahoo.com/technology/ai/articles/cloudways-bets-enterprises-pay-rehabilitate-001904217.html"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 261.31,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "BRK-B",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.84,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 12.7,
+    "margin": 22.3,
+    "de": 17.1,
+    "growth": 10.0,
+    "target": 547.7,
+    "rec": "buy",
+    "earn_days": 81,
+    "news": [
+     {
+      "t": "Berkshire Hathaway (BRK.A) Makes First Net Stock Move In 14 Quarters",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-makes-first-231328126.html"
+     },
+     {
+      "t": "Financial Advisors Love Warren Buffett, but They Don’t Always Agree With Him",
+      "u": "https://www.barrons.com/advisor/articles/warren-buffett-wisdom-financial-advisors-ec4db144?siteid=yhoof2&yptr=yahoo"
+     },
+     {
+      "t": "Top US Stock Picks From Warren Buffett Successor Greg Abel",
+      "u": "https://beincrypto.com/greg-abel-warren-buffett-top-us-stock-picks/"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "JPM",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.5,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 15.6,
     "margin": 34.9,
     "de": null,
     "growth": 30.4,
     "target": 374.6,
     "rec": "buy",
-    "earn_days": 57,
+    "earn_days": 56,
     "news": [
      {
-      "t": "Sector Update: Financial Stocks Decline Late Afternoon",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195353964.html"
+      "t": "Global Bond Rout Sends Long-Term Borrowing Costs to Highest in Decades",
+      "u": "https://finance.yahoo.com/economy/policy/articles/global-bond-rout-sends-long-042511507.html"
      },
      {
-      "t": "JPMorgan revamps SanDisk stock with massive price target",
-      "u": "https://www.thestreet.com/investing/stocks/sndk-sandisk-jpmorgan-raises-stock-price-target-after-investors-day-august-2026"
+      "t": "SanDisk (SNDK) Gets New ‘Buy’ Reco, Surges 8.88%",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-gets-buy-reco-012552380.html"
      },
      {
-      "t": "SanDisk Rallied On Contracts It Had Already Signed",
-      "u": "https://www.trefis.com/articles/611683/sandisk-rallied-on-contracts-it-had-already-signed/2026-08-17"
+      "t": "Jane Street’s $15 Billion Loss Lays Bare Its Hedge Fund Side",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/jane-street-15-billion-loss-204522531.html"
      }
     ],
     "flabel": "Sağlam"
    },
    "verify": {
     "close2": 360.96,
-    "diff_pct": 0.52,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "XOM",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.91,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 20.6,
+    "margin": 9.1,
+    "de": 15.9,
+    "growth": 44.1,
+    "target": 168.5,
+    "rec": "buy",
+    "earn_days": 73,
+    "news": [
+     {
+      "t": "ExxonMobil Holdings (XOM) Awards $1.1 Billion To Start Mozambique LNG Work",
+      "u": "https://finance.yahoo.com/energy/articles/exxonmobil-holdings-xom-awards-1-061235796.html"
+     },
+     {
+      "t": "Exxon Awards $1.1 Billion in Contracts for Mozambique Rovuma LNG",
+      "u": "https://finance.yahoo.com/energy/articles/exxon-awards-1-1-billion-020000199.html"
+     },
+     {
+      "t": "The Questions That Decide CVX Stock",
+      "u": "https://www.trefis.com/articles/611674/the-questions-that-decide-cvx-stock/2026-08-17"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 161.46,
+    "diff_pct": NaN,
     "warn": false
    }
   },
   {
    "symbol": "NFLX",
-   "close": 78.16,
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 73.8439,
-   "buy_high": 76.1761,
-   "buy_src": "sr",
-   "buy_touch": 1,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
    "conf": 1,
    "conf_flags": {
     "yesil": false,
@@ -2315,26 +2102,30 @@
     "hacim": false,
     "rsi": true
    },
-   "in_sell": true,
-   "sell_low": 77.2739,
-   "sell_high": 79.6061,
-   "sell_conf": 2,
-   "atr_pct": 2.98,
-   "rel_vol": 0.7,
-   "dist_atr": 0.85,
-   "score": 1.0,
-   "bars": 699,
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 0,
+   "atr_pct": NaN,
+   "rel_vol": 0.83,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
    "hk_weak": true,
-   "rejim_up": true,
+   "rejim_up": false,
    "co": {
-    "pe": 23.9,
+    "pe": 24.6,
     "margin": 28.2,
     "de": 55.2,
     "growth": 13.4,
-    "target": 94.0,
+    "target": 93.4,
     "rec": "buy",
-    "earn_days": 64,
+    "earn_days": 63,
     "news": [
+     {
+      "t": "Paramount Wants $1.88 Billion Bond From States, Writers Challenging Warner Deal",
+      "u": "https://www.wsj.com/business/media/paramount-wants-states-writers-challenging-warner-deal-to-post-1-88-billion-bond-e16c1147?siteid=yhoof2&yptr=yahoo"
+     },
      {
       "t": "Here’s How Nancy Pelosi Beat the Stock Market and Warren Buffett",
       "u": "https://247wallst.com/investing/2025/11/23/heres-how-nancy-pelosi-beat-the-stock-market-and-warren-buffett/"
@@ -2342,28 +2133,24 @@
      {
       "t": "Billionaire Bill Ackman Just Invested in Netflix Stock. Here's Why Investors Should Care.",
       "u": "https://www.fool.com/investing/2026/08/17/billionaire-bill-ackman-netflix-stock-investors/"
-     },
-     {
-      "t": "Netflix Is Down 42% From Its High. History Says This Is the Setup to Watch.",
-      "u": "https://www.fool.com/investing/2026/08/17/netflix-is-down-42-from-its-high-history-says-this/"
      }
     ],
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 76.0299,
-    "diff_pct": 2.8,
-    "warn": true
+    "close2": 76.02,
+    "diff_pct": NaN,
+    "warn": false
    }
   },
   {
-   "symbol": "ORCL",
-   "close": 150.52,
+   "symbol": "HAL",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 132.7381,
-   "buy_high": 140.3169,
-   "buy_src": "sr",
-   "buy_touch": 4,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
    "conf": 1,
    "conf_flags": {
     "yesil": false,
@@ -2372,52 +2159,53 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 167.9706,
-   "sell_high": 175.5494,
-   "sell_conf": 2,
-   "atr_pct": 5.04,
-   "rel_vol": 0.68,
-   "dist_atr": 1.35,
-   "score": 1.0,
-   "bars": 699,
-   "rejim_up": true,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.59,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "hk_weak": true,
+   "rejim_up": false,
    "co": {
-    "pe": 25.2,
-    "margin": 25.4,
-    "de": 388.9,
-    "growth": 20.6,
-    "target": 246.4,
+    "pe": 18.0,
+    "margin": 7.2,
+    "de": 74.2,
+    "growth": 3.7,
+    "target": 43.2,
     "rec": "buy",
-    "earn_days": 24,
+    "earn_days": 63,
     "news": [
      {
-      "t": "Nvidia to finance $105B for an OpenAI data center: What to know",
-      "u": "https://finance.yahoo.com/video/nvidia-finance-105b-openai-data-202533699.html"
+      "t": "1 Mid-Cap Stock with Exciting Potential and 2 We Brush Off",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/1-mid-cap-stock-exciting-211820256.html"
      },
      {
-      "t": "Oracle (ORCL) Is Exposed To Open Source AI Pricing Risk",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-exposed-open-source-171014236.html"
+      "t": "DTI Q2 Loss Narrower Than Expected, Revenues Match Estimates",
+      "u": "https://finance.yahoo.com/energy/articles/dti-q2-loss-narrower-expected-155800611.html"
      },
      {
-      "t": "Microsoft's Cloud Pitch Moved From Migrations To Meters",
-      "u": "https://www.trefis.com/articles/611680/microsofts-cloud-pitch-moved-from-migrations-to-meters/2026-08-17"
+      "t": "Peabody Energy, Borr Drilling, Texas Pacific Land, Halliburton, and Transocean Stocks Trade Up, What You Need To Know",
+      "u": "https://finance.yahoo.com/energy/articles/peabody-energy-borr-drilling-texas-030100646.html"
      }
     ],
-    "flabel": "Sağlam"
+    "flabel": "Orta"
    },
    "verify": {
-    "close2": 146.8282,
-    "diff_pct": 2.51,
-    "warn": true
+    "close2": 34.73,
+    "diff_pct": NaN,
+    "warn": false
    }
   },
   {
-   "symbol": "PANW",
-   "close": 384.27,
+   "symbol": "RTX",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 326.3242,
-   "buy_high": 350.9545,
-   "buy_src": "pullback",
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
    "buy_touch": 0,
    "conf": 0,
    "conf_flags": {
@@ -2427,52 +2215,52 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 395.4007,
-   "sell_high": 410.5338,
-   "sell_conf": 3,
-   "atr_pct": 3.94,
-   "rel_vol": 0.74,
-   "dist_atr": 2.2,
-   "score": 1.0,
-   "bars": 699,
-   "rejim_up": true,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.86,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
    "co": {
-    "pe": 326.7,
-    "margin": 7.9,
-    "de": 7.7,
-    "growth": 31.1,
-    "target": 347.2,
+    "pe": 39.2,
+    "margin": 8.3,
+    "de": 57.0,
+    "growth": 14.5,
+    "target": 232.3,
     "rec": "buy",
-    "earn_days": 15,
+    "earn_days": 63,
     "news": [
      {
-      "t": "Cisco Grew Faster By Selling Hardware And Charging More For It",
-      "u": "https://www.trefis.com/articles/611686/cisco-grew-faster-by-selling-hardware-and-charging-more-for-it/2026-08-17"
+      "t": "RTX (RTX) Lands $22.9 Billion Tomahawk Deal With Seven Year Production Ramp",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/rtx-rtx-lands-22-9-010728674.html"
      },
      {
-      "t": "PANW vs. NET: Which Cybersecurity Stock Has an Edge Right Now?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/panw-vs-net-cybersecurity-stock-135100696.html"
+      "t": "North America’s Only Cesium Project Moves Closer to Production",
+      "u": "https://finance.yahoo.com/energy/articles/north-america-only-cesium-project-000000475.html"
      },
      {
-      "t": "Citi analysts downgrade SentinelOne, Netskope on valuation concerns",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/citi-analysts-downgrade-sentinelone-netskope-122856077.html"
+      "t": "Boeing Stock Commands a Massive Premium: Is It Truly Earned?",
+      "u": "https://www.trefis.com/articles/611666/boeing-stock-commands-a-massive-premium-is-it-truly-earned/2026-08-17"
      }
     ],
-    "flabel": "Orta"
+    "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 375.51,
-    "diff_pct": 2.33,
-    "warn": true
+    "close2": 221.64,
+    "diff_pct": NaN,
+    "warn": false
    }
   },
   {
-   "symbol": "CRWD",
-   "close": 216.95,
+   "symbol": "LMT",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 189.6363,
-   "buy_high": 200.944,
-   "buy_src": "pullback",
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
    "buy_touch": 0,
    "conf": 0,
    "conf_flags": {
@@ -2481,24 +2269,189 @@
     "hacim": false,
     "rsi": false
    },
-   "in_sell": true,
-   "sell_low": 212.8735,
-   "sell_high": 222.1265,
-   "sell_conf": 3,
-   "atr_pct": 4.27,
-   "rel_vol": 0.9,
-   "dist_atr": 1.73,
-   "score": 1.0,
-   "bars": 699,
-   "rejim_up": true,
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.54,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 22.4,
+    "margin": 8.2,
+    "de": 234.2,
+    "growth": 10.5,
+    "target": 632.9,
+    "rec": "hold",
+    "earn_days": 63,
+    "news": [
+     {
+      "t": "North America’s Only Cesium Project Moves Closer to Production",
+      "u": "https://finance.yahoo.com/energy/articles/north-america-only-cesium-project-000000475.html"
+     },
+     {
+      "t": "Boeing Stock Commands a Massive Premium: Is It Truly Earned?",
+      "u": "https://www.trefis.com/articles/611666/boeing-stock-commands-a-massive-premium-is-it-truly-earned/2026-08-17"
+     },
+     {
+      "t": "Tomahawk Missile Production Is Surging—and These Stocks Could Benefit",
+      "u": "https://www.barrons.com/articles/rtx-stock-tomahawk-missile-production-defense-stocks-5afeb7d2?siteid=yhoof2&yptr=yahoo"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 593.74,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "ORCL",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.66,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 25.8,
+    "margin": 25.4,
+    "de": 388.9,
+    "growth": 20.6,
+    "target": 246.4,
+    "rec": "buy",
+    "earn_days": 23,
+    "news": [
+     {
+      "t": "Nvidia to finance $105B for an OpenAI data center: What to know",
+      "u": "https://finance.yahoo.com/video/nvidia-finance-105b-openai-data-202533699.html"
+     },
+     {
+      "t": "Why Is Citi Optimistic on CoreWeave (CRWV) Despite Higher AI Spending",
+      "u": "https://finance.yahoo.com/technology/ai/articles/why-citi-optimistic-coreweave-crwv-043643213.html"
+     },
+     {
+      "t": "Why Oracle (ORCL) Dipped More Than Broader Market Today",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/why-oracle-orcl-dipped-more-214503271.html"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": {
+    "close2": 146.65,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "PANW",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 1,
+   "atr_pct": NaN,
+   "rel_vol": 0.72,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 326.7,
+    "margin": 7.9,
+    "de": 7.7,
+    "growth": 31.1,
+    "target": 348.0,
+    "rec": "buy",
+    "earn_days": 14,
+    "news": [
+     {
+      "t": "What Kept Coming Up When Analysts Grilled CSCO",
+      "u": "https://www.trefis.com/articles/611673/what-kept-coming-up-when-analysts-grilled-csco/2026-08-17"
+     },
+     {
+      "t": "Micron Stock Has A New Profit Floor, But Did It Build A Ceiling Too?",
+      "u": "https://www.trefis.com/articles/611676/micron-stock-has-a-new-profit-floor-but-did-it-build-a-ceiling-too/2026-08-17"
+     },
+     {
+      "t": "Cisco Grew Faster By Selling Hardware And Charging More For It",
+      "u": "https://www.trefis.com/articles/611686/cisco-grew-faster-by-selling-hardware-and-charging-more-for-it/2026-08-17"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 375.76,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "CRWD",
+   "close": NaN,
+   "in_buy": false,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.86,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
    "co": {
     "pe": 136.5,
     "margin": -0.6,
     "de": 17.6,
     "growth": 25.6,
-    "target": 198.3,
+    "target": 199.6,
     "rec": "buy",
-    "earn_days": 9,
+    "earn_days": 8,
     "news": [
      {
       "t": "Citi analysts downgrade SentinelOne, Netskope on valuation concerns",
@@ -2517,35 +2470,90 @@
    },
    "verify": {
     "close2": 213.9,
-    "diff_pct": 1.43,
+    "diff_pct": NaN,
     "warn": false
    }
   },
   {
-   "symbol": "SI=F",
-   "close": 64.988,
+   "symbol": "WMT",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 60.3275,
-   "buy_high": 61.8525,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
    "conf_flags": {
     "yesil": false,
-    "yukari": true,
+    "yukari": false,
     "hacim": false,
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 82.0675,
-   "sell_high": 83.5925,
-   "sell_conf": 1,
-   "atr_pct": 2.35,
-   "rel_vol": 0.02,
-   "dist_atr": 2.06,
-   "score": 1.0,
-   "bars": 577,
-   "rejim_up": true,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.75,
+   "dist_atr": null,
+   "score": 0.0,
+   "bars": 700,
+   "rejim_up": false,
+   "co": {
+    "pe": 40.7,
+    "margin": 3.1,
+    "de": 74.8,
+    "growth": 7.3,
+    "target": 137.9,
+    "rec": "buy",
+    "earn_days": 2,
+    "news": [
+     {
+      "t": "What this week's Walmart & Target earnings could tell us about the consumer landscape",
+      "u": "https://finance.yahoo.com/video/weeks-walmart-target-earnings-could-130000793.html"
+     },
+     {
+      "t": "Meta social media addiction trial, earnings from Walmart & Target: What to watch on Monday",
+      "u": "https://finance.yahoo.com/video/meta-social-media-addiction-trial-120000243.html"
+     },
+     {
+      "t": "Top analyst reveals the gas price that could break Walmart shoppers",
+      "u": "https://www.thestreet.com/economy/top-analyst-reveals-gas-price-that-could-break-walmart-shoppers"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 114.33,
+    "diff_pct": NaN,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "USDTRY=X",
+   "close": 47.8574,
+   "in_buy": false,
+   "buy_low": 42.629,
+   "buy_high": 42.6945,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 47.9104,
+   "sell_high": 47.9759,
+   "sell_conf": 4,
+   "atr_pct": 0.14,
+   "rel_vol": null,
+   "dist_atr": 78.82,
+   "score": 0.0,
+   "bars": 694,
+   "rejim_up": false,
    "co": {
     "pe": null,
     "margin": null,
@@ -2554,32 +2562,19 @@
     "target": null,
     "rec": null,
     "earn_days": null,
-    "news": [
-     {
-      "t": "Silver prices today, Monday, August 17, 2026: Buoyed by softer economic data, while industrial outlook remains uncertain",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-17-2026-buoyed-by-softer-economic-data-while-industrial-outlook-remains-uncertain-135247624.html"
-     },
-     {
-      "t": "Nine Mile Metals CEO: Strong VMS hit points to Wedge Mine upside",
-      "u": "https://finance.yahoo.com/video/nine-mile-metals-ceo-strong-172255268.html"
-     },
-     {
-      "t": "PAAS Q2 Earnings Miss Estimates, Revenues Rise Y/Y on Metal Prices",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/paas-q2-earnings-miss-estimates-161000398.html"
-     }
-    ],
+    "news": [],
     "flabel": "Veri yok"
    },
    "verify": null
   },
   {
-   "symbol": "BRK-B",
-   "close": 504.03,
+   "symbol": "UNF",
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 483.4209,
-   "buy_high": 491.5791,
-   "buy_src": "sr",
-   "buy_touch": 4,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
    "conf": 0,
    "conf_flags": {
     "yesil": false,
@@ -2587,76 +2582,81 @@
     "hacim": false,
     "rsi": false
    },
-   "in_sell": true,
-   "sell_low": 502.5489,
-   "sell_high": 510.7071,
-   "sell_conf": 4,
-   "atr_pct": 1.62,
-   "rel_vol": 0.93,
-   "dist_atr": 1.53,
-   "score": 0.0,
-   "bars": 699,
-   "rejim_up": true,
+   "in_sell": false,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.78,
+   "dist_atr": null,
+   "score": -1.0,
+   "bars": 700,
+   "hk_weak": true,
+   "rejim_up": false,
    "co": {
-    "pe": 12.5,
-    "margin": 22.3,
-    "de": 17.1,
-    "growth": 10.0,
-    "target": 547.7,
-    "rec": "buy",
-    "earn_days": 82,
+    "pe": 45.3,
+    "margin": 4.6,
+    "de": 3.9,
+    "growth": 3.9,
+    "target": 273.3,
+    "rec": "none",
+    "earn_days": 64,
     "news": [
      {
-      "t": "Warren Buffett's Portfolio Is Looking Even More Like The Dow Jones Index. This Is Why.",
-      "u": "https://www.investors.com/news/warren-buffett-berkshire-hathaway-portfolio-looking-more-like-dow-jones/?src=A00220&yptr=yahoo"
+      "t": "What a Cintas Operating Chief Insider Filing Signals as the Firm Moves to Absorb UniFirst",
+      "u": "https://www.fool.com/coverage/filings/2026/08/15/what-a-cintas-operating-chief-insider-filing-signals-as-the-firm-moves-to-absorb-unifirst/"
      },
      {
-      "t": "This Has Far and Away Been the Biggest Surprise at Berkshire Hathaway Since Greg Abel Took Over From Warren Buffett",
-      "u": "https://www.fool.com/investing/2026/08/17/this-has-far-and-away-been-the-biggest-surprise-at/"
+      "t": "What a Cintas CEO Insider Filing Signals as It Pursues UniFirst",
+      "u": "https://www.fool.com/coverage/filings/2026/08/15/cintas-ceo-todd-schneider-sells-35599-shares-for-72-million/"
      },
      {
-      "t": "Warren Buffett Is Still Making Big Bets at Berkshire",
-      "u": "https://www.barrons.com/articles/berkshire-hathaway-buffett-stock-portfolio-alphabet-3c26151d?siteid=yhoof2&yptr=yahoo"
+      "t": "UniFirst (UNF) Is Up 1.00% in One Week: What You Should Know",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-1-00-one-160002377.html"
      }
     ],
-    "flabel": "Sağlam"
+    "flabel": "Zayıf"
    },
-   "verify": null
+   "verify": {
+    "close2": 286.47,
+    "diff_pct": NaN,
+    "warn": false
+   }
   },
   {
    "symbol": "ILMN",
-   "close": 190.89,
+   "close": NaN,
    "in_buy": false,
-   "buy_low": 175.1796,
-   "buy_high": 182.5805,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
+   "buy_low": null,
+   "buy_high": null,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 0,
    "conf_flags": {
-    "yesil": true,
+    "yesil": false,
     "yukari": false,
     "hacim": false,
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 192.9596,
-   "sell_high": 200.3605,
-   "sell_conf": 3,
-   "atr_pct": 3.88,
-   "rel_vol": 0.51,
-   "dist_atr": 1.12,
-   "score": 0.0,
-   "bars": 699,
+   "sell_low": null,
+   "sell_high": null,
+   "sell_conf": 2,
+   "atr_pct": NaN,
+   "rel_vol": 0.56,
+   "dist_atr": null,
+   "score": -1.0,
+   "bars": 697,
    "hk_weak": true,
-   "rejim_up": true,
+   "rejim_up": false,
    "co": {
-    "pe": 36.0,
+    "pe": 35.6,
     "margin": 18.3,
     "de": 89.0,
     "growth": 9.4,
     "target": 198.9,
     "rec": "buy",
-    "earn_days": 73,
+    "earn_days": 72,
     "news": [
      {
       "t": "1 Unpopular Stock That Deserves Some Love and 2 Facing Headwinds",
@@ -2674,8 +2674,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 190.0048,
-    "diff_pct": 0.47,
+    "close2": 193.135,
+    "diff_pct": NaN,
     "warn": false
    }
   }
@@ -2684,7 +2684,7 @@
   "SPCX"
  ],
  "market": {
-  "spx_up": true,
+  "spx_up": false,
   "xu_up": true
  }
 }
