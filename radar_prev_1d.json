@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23 23:44",
+ "generated_at": "2026-08-24 10:06",
  "tf": "1d",
  "rows": [
   {
@@ -35,7 +35,7 @@
     "growth": 3.9,
     "target": 273.3,
     "rec": "none",
-    "earn_days": 59,
+    "earn_days": 58,
     "news": [
      {
       "t": "UniFirst (UNF) Upgraded to Buy: Here's Why",
@@ -57,57 +57,6 @@
     "diff_pct": 0.0,
     "warn": false
    }
-  },
-  {
-   "symbol": "SI=F",
-   "close": 69.53,
-   "in_buy": true,
-   "buy_low": 67.7843,
-   "buy_high": 69.6357,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 81.9043,
-   "sell_high": 83.7557,
-   "sell_conf": 0,
-   "atr_pct": 2.66,
-   "rel_vol": 19.54,
-   "dist_atr": 0.0,
-   "score": 8.0,
-   "bars": 578,
-   "rejim_up": true,
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Gold, Silver, and Copper Are Rebounding in August. Here's One Stock to Invest in to Own All of Them.",
-      "u": "https://www.fool.com/investing/2026/08/22/gold-silver-and-copper-are-rebounding-in-august/"
-     },
-     {
-      "t": "Why Artemis Gold (TSXV:ARTG) Is Up 8.9% After Deeper Blackwater Drill Hits Hint at Zinc Potential",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/why-artemis-gold-tsxv-artg-101002017.html"
-     },
-     {
-      "t": "How Bessent’s Efforts to Calm Bond Market Set Gold Prices Ablaze",
-      "u": "https://www.barrons.com/articles/scott-bessent-bond-market-gold-treasury-6e52036f?siteid=yhoof2&yptr=yahoo"
-     }
-    ],
-    "flabel": "Veri yok"
-   },
-   "verify": null
   },
   {
    "symbol": "META",
@@ -141,19 +90,19 @@
     "growth": 28.0,
     "target": 754.1,
     "rec": "strong_buy",
-    "earn_days": 66,
+    "earn_days": 65,
     "news": [
      {
       "t": "Nvidia's Q2 earnings to test resurgent AI trade",
       "u": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html"
      },
      {
-      "t": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-      "u": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-gets-australia-news-170738761.html"
+      "t": "Peter Thiel’s Fund Shows the Next Big AI Bet Is Power, Not Chips",
+      "u": "https://beincrypto.com/peter-thiel-13f-ai-power-bet/"
      },
      {
-      "t": "The $1.7 Trillion Job Apocalypse: Why Investors Can’t Ignore Humanoid Robots",
-      "u": "https://247wallst.com/investing/2026/08/23/the-1-7-trillion-job-apocalypse-why-investors-cant-ignore-humanoid-robots/"
+      "t": "Will Meta be found guilty of driving social media addiction?",
+      "u": "https://www.socialmediatoday.com/news/will-meta-be-found-guilty-of-driving-social-media-addiction/828553/"
      }
     ],
     "flabel": "Sağlam"
@@ -187,7 +136,7 @@
    "rel_vol": 1.33,
    "dist_atr": 0.0,
    "score": 7.0,
-   "bars": 696,
+   "bars": 695,
    "rejim_up": true,
    "co": {
     "pe": 33.2,
@@ -196,7 +145,7 @@
     "growth": 56.7,
     "target": 39.8,
     "rec": "hold",
-    "earn_days": 57,
+    "earn_days": 56,
     "news": [],
     "flabel": "Sağlam"
    },
@@ -225,7 +174,7 @@
    "rel_vol": 0.86,
    "dist_atr": 0.0,
    "score": 7.0,
-   "bars": 695,
+   "bars": 694,
    "rejim_up": true,
    "co": {
     "pe": 4.5,
@@ -234,7 +183,7 @@
     "growth": 24.5,
     "target": 181.5,
     "rec": "strong_buy",
-    "earn_days": 66,
+    "earn_days": 65,
     "news": [
      {
       "t": "Middle Eastern Dividend Stocks To Consider In June 2026",
@@ -250,6 +199,57 @@
      }
     ],
     "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "SI=F",
+   "close": 69.466,
+   "in_buy": true,
+   "buy_low": 67.7949,
+   "buy_high": 69.6251,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 81.9149,
+   "sell_high": 83.7451,
+   "sell_conf": 0,
+   "atr_pct": 2.63,
+   "rel_vol": 0.29,
+   "dist_atr": 0.0,
+   "score": 7.0,
+   "bars": 577,
+   "rejim_up": true,
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Tertiary Minerals latest drill results sees Discovery Zone advancing",
+      "u": "https://www.proactiveinvestors.com/companies/news/1097463/tertiary-minerals-latest-drill-results-sees-discovery-zone-advancing-1097463.html"
+     },
+     {
+      "t": "Gold, Silver, and Copper Are Rebounding in August. Here's One Stock to Invest in to Own All of Them.",
+      "u": "https://www.fool.com/investing/2026/08/22/gold-silver-and-copper-are-rebounding-in-august/"
+     },
+     {
+      "t": "Why Artemis Gold (TSXV:ARTG) Is Up 8.9% After Deeper Blackwater Drill Hits Hint at Zinc Potential",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/why-artemis-gold-tsxv-artg-101002017.html"
+     }
+    ],
+    "flabel": "Veri yok"
    },
    "verify": null
   },
@@ -285,8 +285,12 @@
     "growth": 30.4,
     "target": 374.6,
     "rec": "buy",
-    "earn_days": 51,
+    "earn_days": 50,
     "news": [
+     {
+      "t": "Walmart stock price target reset by JPMorgan after earnings",
+      "u": "https://www.thestreet.com/investing/stocks/jpmorgan-cuts-wmt-walmart-stock-price-target"
+     },
      {
       "t": "If a Bear Market Is Coming, Here's What All of the Smartest Investors Are Doing Right Now",
       "u": "https://www.fool.com/investing/2026/08/23/if-a-bear-market-is-coming-heres-what-all-of-the-s/"
@@ -294,10 +298,6 @@
      {
       "t": "Bessent Has No Easy Fix for What’s Really Driving Bond Yields Up",
       "u": "https://finance.yahoo.com/economy/policy/articles/bessent-no-easy-fix-really-130000330.html"
-     },
-     {
-      "t": "Got $2M saved? You should (probably) retire immediately. Don't sacrifice it all for nothing",
-      "u": "https://finance.yahoo.com/markets/articles/got-2m-saved-probably-retire-124500785.html"
      }
     ],
     "flabel": "Sağlam"
@@ -395,19 +395,19 @@
     "growth": -3.8,
     "target": 15.7,
     "rec": "buy",
-    "earn_days": 60,
+    "earn_days": 59,
     "news": [
+     {
+      "t": "An $808 monthly payment is reshaping who can afford a new car",
+      "u": "https://www.thestreet.com/automotive/808-monthly-payment-reshaping-who-can-afford-new-car"
+     },
+     {
+      "t": "US-Canada Talks Fell Apart Over Fine Print in Deal, Envoy Says",
+      "u": "https://finance.yahoo.com/economy/policy/articles/us-canada-talks-fell-apart-185340457.html"
+     },
      {
       "t": "Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval",
       "u": "https://www.fool.com/coverage/stock-market-today/2026/08/21/stock-market-today-aug-21-tesla-gains-on-nevada-robotaxi-permit-approval/"
-     },
-     {
-      "t": "Dana Targets $250M in Eaton Synergies as Cost Cuts and Buybacks Gain Speed",
-      "u": "https://www.marketbeat.com/instant-alerts/dana-targets-250m-in-eaton-synergies-as-cost-cuts-and-buybacks-gain-speed-2026-08-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
-     },
-     {
-      "t": "Ford Drops 4% as Bronco Pickup Rally Fades, Tesla Slips, General Motors Inches Higher: What’s Behind the Auto Stock Differential?",
-      "u": "https://247wallst.com/investing/2026/08/20/ford-drops-4-as-bronco-pickup-rally-fades-tesla-slips-general-motors-inches-higher-whats-behind-the-auto-stock-differential/"
      }
     ],
     "flabel": "Zayıf"
@@ -450,19 +450,19 @@
     "growth": 25.5,
     "target": 390.1,
     "rec": "buy",
-    "earn_days": 59,
+    "earn_days": 58,
     "news": [
      {
-      "t": "The $1.7 Trillion Job Apocalypse: Why Investors Can’t Ignore Humanoid Robots",
-      "u": "https://247wallst.com/investing/2026/08/23/the-1-7-trillion-job-apocalypse-why-investors-cant-ignore-humanoid-robots/"
+      "t": "Elon Musk's Tesla Has 'Massive Advantage' Before Selling Optimus in the Market, Says This Analyst — Crypto Prediction Market Weighs 2026 Lau",
+      "u": "https://www.benzinga.com/markets/prediction-markets/26/08/61374326/elon-musk-tesla-optimus-2026-launch-crypto-prediction-market?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
      },
      {
-      "t": "500 Reasons to Buy Einride Stock Today",
-      "u": "https://www.barchart.com/story/news/3992216/500-reasons-to-buy-einride-stock-today"
+      "t": "Forget the Headlines: Tesla (TSLA) Is Still a Hold Based on What the Data Shows",
+      "u": "https://www.fool.com/investing/2026/08/24/forget-the-headlines-tesla-tsla-is-still-a-hold-ba/"
      },
      {
-      "t": "Tesla Stock in 2027: Why I Think It Still Has Room to Run",
-      "u": "https://www.fool.com/investing/2026/08/23/tesla-stock-in-2027-why-i-think-tsla-still-has-roo/"
+      "t": "A New SEC Filing Reveals Exactly How Many Shares of SpaceX Elon Musk Owns. Here's Why It Matters.",
+      "u": "https://www.fool.com/investing/2026/08/23/a-new-sec-filing-reveals-exactly-how-many-shares-o/"
      }
     ],
     "flabel": "Orta"
@@ -505,7 +505,7 @@
     "growth": 21.5,
     "target": 1077.3,
     "rec": "none",
-    "earn_days": 32,
+    "earn_days": 31,
     "news": [
      {
       "t": "The Ultimate Growth Stock to Buy With $10,000 Right Now",
@@ -560,7 +560,7 @@
     "growth": 20.6,
     "target": 246.4,
     "rec": "buy",
-    "earn_days": 18,
+    "earn_days": 17,
     "news": [
      {
       "t": "Oracle vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?",
@@ -615,10 +615,10 @@
     "growth": 25.6,
     "target": 209.7,
     "rec": "buy",
-    "earn_days": 3,
+    "earn_days": 2,
     "news": [
      {
-      "t": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+      "t": "Dow Jones Futures Waver; Nvidia, Tariffs, Warsh In Focus",
       "u": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
      },
      {
@@ -626,8 +626,8 @@
       "u": "https://www.barrons.com/articles/nvidia-fed-confab-inflation-gdp-and-more-to-watch-this-week-15bd2070?siteid=yhoof2&yptr=yahoo"
      },
      {
-      "t": "Jim Cramer Argued It’s A New World For Palo Alto Networks & CrowdStrike Holdings",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-argued-world-palo-001602176.html"
+      "t": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
+      "u": "https://www.barchart.com/story/news/3993117/nvidia-earnings-jackson-hole-and-other-key-things-to-watch-this-week"
      }
     ],
     "flabel": "Orta"
@@ -670,7 +670,7 @@
     "growth": 656.9,
     "target": 41.6,
     "rec": "buy",
-    "earn_days": 80,
+    "earn_days": 79,
     "news": [
      {
       "t": "It’s Not Just SpaceX. Firefly Aerospace is Scoring Big Wins for Itself",
@@ -716,7 +716,7 @@
    "rel_vol": 0.92,
    "dist_atr": 0.0,
    "score": 4.0,
-   "bars": 695,
+   "bars": 694,
    "rejim_up": true,
    "co": {
     "pe": 4.2,
@@ -725,7 +725,7 @@
     "growth": 20.5,
     "target": 463.5,
     "rec": "buy",
-    "earn_days": 74,
+    "earn_days": 73,
     "news": [
      {
       "t": "Air Transat Launches New Non-Stop Service Between Montreal and Istanbul",
@@ -767,7 +767,7 @@
    "rel_vol": 0.83,
    "dist_atr": 5.24,
    "score": 4.0,
-   "bars": 695,
+   "bars": 694,
    "rejim_up": true,
    "co": {
     "pe": 11.6,
@@ -776,7 +776,7 @@
     "growth": 59.7,
     "target": 346.4,
     "rec": "buy",
-    "earn_days": 68,
+    "earn_days": 67,
     "news": [
      {
       "t": "Tupras-Turkiye Petrol Rafineleri AS (IST:TUPRS) (Q2 2026) Earnings Call Highlights: Record ...",
@@ -810,7 +810,7 @@
    "rel_vol": 0.99,
    "dist_atr": 3.13,
    "score": 4.0,
-   "bars": 695,
+   "bars": 694,
    "rejim_up": true,
    "co": {
     "pe": 24.3,
@@ -819,7 +819,7 @@
     "growth": 12.8,
     "target": 309.6,
     "rec": "strong_buy",
-    "earn_days": 74,
+    "earn_days": 73,
     "news": [
      {
       "t": "Koc Holding AS (KHOLY) (Q2 2026) Earnings Call Highlights: Net Income Soars 147% on Energy ...",
@@ -853,7 +853,7 @@
    "rel_vol": 1.0,
    "dist_atr": 0.19,
    "score": 4.0,
-   "bars": 696,
+   "bars": 695,
    "rejim_up": true,
    "co": {
     "pe": 10.3,
@@ -862,7 +862,7 @@
     "growth": -14.1,
     "target": 131.3,
     "rec": "buy",
-    "earn_days": 73,
+    "earn_days": 72,
     "news": [
      {
       "t": "Ford Otomotiv Sanayi AS (FOVSY) (Q2 2026) Earnings Call Highlights: Navigating Inflation ...",
@@ -904,7 +904,7 @@
    "rel_vol": 1.06,
    "dist_atr": 1.46,
    "score": 4.0,
-   "bars": 690,
+   "bars": 689,
    "rejim_up": true,
    "co": {
     "pe": null,
@@ -921,28 +921,28 @@
   },
   {
    "symbol": "GC=F",
-   "close": 4680.6001,
+   "close": 4624.1001,
    "in_buy": false,
-   "buy_low": 4468.7654,
-   "buy_high": 4556.635,
+   "buy_low": 4471.1332,
+   "buy_high": 4554.2672,
    "buy_src": "sr",
    "buy_touch": 1,
-   "conf": 4,
+   "conf": 3,
    "conf_flags": {
     "yesil": true,
     "yukari": true,
-    "hacim": true,
+    "hacim": false,
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 4721.2654,
-   "sell_high": 4809.135,
+   "sell_low": 4723.6332,
+   "sell_high": 4806.7672,
    "sell_conf": 0,
-   "atr_pct": 1.88,
-   "rel_vol": 12.18,
-   "dist_atr": 1.41,
+   "atr_pct": 1.8,
+   "rel_vol": 0.08,
+   "dist_atr": 0.84,
    "score": 4.0,
-   "bars": 578,
+   "bars": 577,
    "rejim_up": true,
    "co": {
     "pe": null,
@@ -958,12 +958,12 @@
       "u": "https://finance.yahoo.com/markets/crypto/article/scott-bessent-just-kicked-the-bitcoin-debasement-trade-into-another-gear-chart-of-the-day-110841942.html"
      },
      {
-      "t": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+      "t": "Dow Jones Futures Waver; Nvidia, Tariffs, Warsh In Focus",
       "u": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
      },
      {
-      "t": "Why Bank of America strategist Michael Hartnett says the trade is still long gold",
-      "u": "https://investorshub.advfn.com/market-news/article/34837/why-bank-of-america-strategist-michael-hartnett-says-the-trade-is-still-long-gold"
+      "t": "Resolution Minerals confirms major Golden Gate gold extension with 305.7-metre intercept",
+      "u": "https://www.proactiveinvestors.com/companies/news/1097444/resolution-minerals-confirms-major-golden-gate-gold-extension-with-305-7-metre-intercept-1097444.html"
      }
     ],
     "flabel": "Veri yok"
@@ -1002,19 +1002,19 @@
     "growth": 24.2,
     "target": 428.1,
     "rec": "strong_buy",
-    "earn_days": 66,
+    "earn_days": 65,
     "news": [
      {
       "t": "Nvidia's Q2 earnings to test resurgent AI trade",
       "u": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html"
      },
      {
-      "t": "Hugging Face exploring sale valuing it at $13 billion, Business Insider says",
-      "u": "https://finance.yahoo.com/technology/ai/articles/hugging-face-exploring-sale-valuing-200012818.html"
+      "t": "Broadcom Has Seen Its Biggest Customer Drop a Key Chip Before. History Says What the Stock Did Next.",
+      "u": "https://www.fool.com/investing/2026/08/23/broadcom-has-seen-its-biggest-customer-drop-a-key-chip-before-history-says-what-the-stock-did-next/"
      },
      {
-      "t": "Verizon Communications (VZ) Rolls Out New Wireless Plans With AI Perks And Upgrades",
-      "u": "https://finance.yahoo.com/technology/ai/articles/verizon-communications-vz-rolls-wireless-190709855.html"
+      "t": "Anthropic makes quiet move Nvidia investors must consider",
+      "u": "https://www.thestreet.com/technology/anthropic-silicon-team-amir-salek-hire"
      }
     ],
     "flabel": "Sağlam"
@@ -1057,19 +1057,19 @@
     "growth": 47.7,
     "target": 1315.0,
     "rec": "buy",
-    "earn_days": 67,
+    "earn_days": 66,
     "news": [
+     {
+      "t": "Snoring, subways and stealth ads: how big pharma targets China's waistline",
+      "u": "https://finance.yahoo.com/healthcare/articles/snoring-subways-stealth-ads-big-052104796.html"
+     },
+     {
+      "t": "Eli Lilly and Novo Nordisk Can't Treat This Form of Obesity. Billionaire Stanley Druckenmiller Is Betting Rhythm Pharmaceuticals Can",
+      "u": "https://www.fool.com/investing/2026/08/23/eli-lilly-and-novo-nordisk-cant-treat-this-form-of/"
+     },
      {
       "t": "Prediction: Eli Lilly Could Be One of the Biggest Winners of the Next Decade. Here’s Why.",
       "u": "https://247wallst.com/investing/2026/08/23/prediction-eli-lilly-could-be-one-of-the-biggest-winners-of-the-next-decade-heres-why/"
-     },
-     {
-      "t": "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock. Should You?",
-      "u": "https://www.fool.com/investing/2026/08/23/billionaire-ken-griffin-just-loaded-up-on-eli-lill/"
-     },
-     {
-      "t": "2 Biotech Stocks Shaping Up for Major Breakouts",
-      "u": "https://www.marketbeat.com/articles/2-biotech-stocks-shaping-up-for-major-breakouts/?utm_source=yahoofinance&utm_medium=yahoofinance"
      }
     ],
     "flabel": "Orta"
@@ -1112,19 +1112,19 @@
     "growth": 17.7,
     "target": 569.5,
     "rec": "strong_buy",
-    "earn_days": 66,
+    "earn_days": 65,
     "news": [
      {
       "t": "Nvidia's Q2 earnings to test resurgent AI trade",
       "u": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html"
      },
      {
-      "t": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-      "u": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-gets-australia-news-170738761.html"
+      "t": "How Farmers & Merchants Bancorp’s Dividend Hike Shapes FMCB’s Capital Return Strategy for Investors",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/farmers-merchants-bancorp-dividend-hike-042949456.html"
      },
      {
-      "t": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
-      "u": "https://www.thestreet.com/investing/stocks/bill-ackman-pershing-square-visa-stock-new-position"
+      "t": "NVDA Stock Comes Off Rough Week: AI Darling Reportedly Plans Major Price Hike As Q2 Earnings Loom",
+      "u": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-comes-off-rough-week-ai-darling-reportedly-plans-major-price-hike-as-q2-earnings-loom/cZYKTZqRJnc"
      }
     ],
     "flabel": "Sağlam"
@@ -1167,8 +1167,12 @@
     "growth": 36.0,
     "target": 554.5,
     "rec": "strong_buy",
-    "earn_days": 53,
+    "earn_days": 52,
     "news": [
+     {
+      "t": "Xiaomi launches new Xring chip, partners with TSMC for production, sources say",
+      "u": "https://finance.yahoo.com/technology/articles/xiaomi-launches-xring-chip-partners-062221305.html"
+     },
      {
       "t": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC. Here's What Lisa Su Is Actually Buying With Tha",
       "u": "https://www.fool.com/investing/2026/08/23/amd-is-investing-more-than-xx-billion-in-taiwan-to/"
@@ -1176,10 +1180,6 @@
      {
       "t": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence (AI) Stocks",
       "u": "https://www.fool.com/investing/2026/08/22/billionaire-stanley-druckenmiller-just-sold-sandis/"
-     },
-     {
-      "t": "TSMC's $100 Billion Arizona Expansion Shows The Stock Is a No-Brainer Buy",
-      "u": "https://www.fool.com/investing/2026/08/22/tsmcs-100-billion-arizona-expansion-stock-buy/"
      }
     ],
     "flabel": "Sağlam"
@@ -1222,19 +1222,19 @@
     "growth": 19.6,
     "target": 327.0,
     "rec": "strong_buy",
-    "earn_days": 67,
+    "earn_days": 66,
     "news": [
      {
       "t": "Nvidia's Q2 earnings to test resurgent AI trade",
       "u": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html"
      },
      {
-      "t": "Oracle vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?",
-      "u": "https://www.fool.com/investing/2026/08/23/oracle-vs-amazon-which-is-the-better-ai-cloud-stoc/"
+      "t": "WMT Stock Heads For Fourth Month In Red: Walmart Reportedly Bets On Under-$25 Fashion Line To Take On Amazon",
+      "u": "https://stocktwits.com/news-articles/markets/equity/wmt-stock-heads-for-fourth-month-in-red-walmart-reportedly-bets-on-under-25-fashion-line-to-take-on-amazon/cZYKTyZRJnP"
      },
      {
-      "t": "Amazon's hidden outlet store has cooling blankets up to 76% off",
-      "u": "https://www.thestreet.com/shopping/cooling-blanket-deals-at-amazon-hidden-outlet"
+      "t": "Elon Musk just got into another airline disagreement",
+      "u": "https://www.thestreet.com/technology/elon-musk-just-got-into-another-airline-disagreement-delta-airlines-amazon"
      }
     ],
     "flabel": "Sağlam"
@@ -1277,7 +1277,7 @@
     "growth": 14.4,
     "target": 416.6,
     "rec": "strong_buy",
-    "earn_days": 65,
+    "earn_days": 64,
     "news": [
      {
       "t": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
@@ -1332,7 +1332,7 @@
     "growth": 185.3,
     "target": 28.8,
     "rec": "none",
-    "earn_days": -17,
+    "earn_days": -18,
     "news": [
      {
       "t": "Rigetti Computing's COO Sells Over 9,000 Company Shares. What Does That Mean for Investors?",
@@ -1387,19 +1387,19 @@
     "growth": 5.9,
     "target": 128.4,
     "rec": "buy",
-    "earn_days": 88,
+    "earn_days": 87,
     "news": [
      {
       "t": "Walmart isn't losing any retail war",
       "u": "https://finance.yahoo.com/markets/article/walmart-isnt-losing-any-retail-war-123000472.html"
      },
      {
-      "t": "Walmart Just Posted Its Biggest One-Day Drop Since 2022. History Says What Its Big Drops Have Been Worth.",
-      "u": "https://www.fool.com/investing/2026/08/23/walmart-just-posted-its-biggest-one-day-drop-since-2022-history-says-what-its-big-drops-have-been-worth/"
+      "t": "WMT Stock Heads For Fourth Month In Red: Walmart Reportedly Bets On Under-$25 Fashion Line To Take On Amazon",
+      "u": "https://stocktwits.com/news-articles/markets/equity/wmt-stock-heads-for-fourth-month-in-red-walmart-reportedly-bets-on-under-25-fashion-line-to-take-on-amazon/cZYKTyZRJnP"
      },
      {
-      "t": "Walmart Keeps Pushing Into Fashion With New Clothing Brand",
-      "u": "https://www.wsj.com/business/retail/walmart-keeps-pushing-into-fashion-with-new-clothing-brand-5b2f9046?siteid=yhoof2&yptr=yahoo"
+      "t": "Walmart stock price target reset by JPMorgan after earnings",
+      "u": "https://www.thestreet.com/investing/stocks/jpmorgan-cuts-wmt-walmart-stock-price-target"
      }
     ],
     "flabel": "Sağlam"
@@ -1443,7 +1443,7 @@
     "growth": 9.4,
     "target": 198.9,
     "rec": "buy",
-    "earn_days": 67,
+    "earn_days": 66,
     "news": [
      {
       "t": "1 Unpopular Stock That Deserves Some Love and 2 Facing Headwinds",
@@ -1489,7 +1489,7 @@
    "rel_vol": 0.91,
    "dist_atr": 1.53,
    "score": 3.0,
-   "bars": 695,
+   "bars": 694,
    "rejim_up": true,
    "co": {
     "pe": 51.3,
@@ -1498,7 +1498,7 @@
     "growth": 32.6,
     "target": 421.7,
     "rec": "buy",
-    "earn_days": 72,
+    "earn_days": 71,
     "news": [],
     "flabel": "Sağlam"
    },
@@ -1579,10 +1579,10 @@
    "sell_high": 103.8986,
    "sell_conf": 0,
    "atr_pct": 4.0,
-   "rel_vol": 0.48,
+   "rel_vol": 0.82,
    "dist_atr": 1.7,
    "score": 3.0,
-   "bars": 578,
+   "bars": 577,
    "rejim_up": true,
    "co": {
     "pe": null,
@@ -1642,19 +1642,19 @@
     "growth": 47.9,
     "target": 526.3,
     "rec": "strong_buy",
-    "earn_days": 10,
+    "earn_days": 9,
     "news": [
+     {
+      "t": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center",
+      "u": "https://www.fool.com/investing/2026/08/24/billionaire-stanley-druckenmiller-sold-micron-2027/"
+     },
+     {
+      "t": "Broadcom Has Seen Its Biggest Customer Drop a Key Chip Before. History Says What the Stock Did Next.",
+      "u": "https://www.fool.com/investing/2026/08/23/broadcom-has-seen-its-biggest-customer-drop-a-key-chip-before-history-says-what-the-stock-did-next/"
+     },
      {
       "t": "Billionaires Stanley Druckenmiller and Dan Loeb Both Sold Broadcom and Piled Into This Virtual Monopoly Artificial Intelligence (AI) Stock I",
       "u": "https://www.fool.com/investing/2026/08/23/stanley-druckenmiller-and-dan-loeb-piled-into/"
-     },
-     {
-      "t": "Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock",
-      "u": "https://www.fool.com/investing/2026/08/23/broadcom-vs-marvell-technology-1-critical-metric-d/"
-     },
-     {
-      "t": "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
-      "u": "https://www.fool.com/investing/2026/08/23/forget-broadcom-nvidia-nvda-is-still-the-top-semic/"
      }
     ],
     "flabel": "Sağlam"
@@ -1697,8 +1697,12 @@
     "growth": 10.0,
     "target": 547.7,
     "rec": "buy",
-    "earn_days": 76,
+    "earn_days": 75,
     "news": [
+     {
+      "t": "Bill Gates' Foundation Holds Berkshire Hathaway as Its Top Stock, a Signal of Its Preference for Steady Compounders Over Flashy Tech",
+      "u": "https://www.fool.com/investing/2026/08/23/bill-gates-foundation-holds-berkshire-hathaway-as/"
+     },
      {
       "t": "Greg Abel Just Spent $23.5 Billion on 9 Stocks for Berkshire Hathaway. Here's the Best of the Bunch.",
       "u": "https://www.fool.com/investing/2026/08/23/warren-greg-abel-just-spent-23-billion-on-9-stocks/"
@@ -1706,10 +1710,6 @@
      {
       "t": "Iconic bank stock pays Buffett's Berkshire $619M in annual dividends",
       "u": "https://www.thestreet.com/investing/stocks/bank-of-america-dividend-warren-buffett-berkshire-bac-stock"
-     },
-     {
-      "t": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
-      "u": "https://www.fool.com/investing/2026/08/23/berkshire-ceo-greg-abel-is-sitting-on-nearly-400-b/"
      }
     ],
     "flabel": "Sağlam"
@@ -1748,7 +1748,7 @@
     "growth": 44.1,
     "target": 169.7,
     "rec": "buy",
-    "earn_days": 68,
+    "earn_days": 67,
     "news": [
      {
       "t": "Prediction: ExxonMobil Raises Its Dividend More Than Wall Street Expects",
@@ -1803,7 +1803,7 @@
     "growth": 5.1,
     "target": 647.1,
     "rec": "buy",
-    "earn_days": 58,
+    "earn_days": 57,
     "news": [
      {
       "t": "Rocket Lab Stock's Twelve-Month Gain Hides A Long Slide From Its High",
@@ -1858,7 +1858,7 @@
     "growth": 31.1,
     "target": 360.4,
     "rec": "buy",
-    "earn_days": 9,
+    "earn_days": 8,
     "news": [
      {
       "t": "Jim Cramer Argued It’s A New World For Palo Alto Networks & CrowdStrike Holdings",
@@ -1904,7 +1904,7 @@
    "rel_vol": 0.86,
    "dist_atr": 0.34,
    "score": 2.0,
-   "bars": 695,
+   "bars": 694,
    "rejim_up": true,
    "co": {
     "pe": 10.8,
@@ -1913,7 +1913,7 @@
     "growth": 1.1,
     "target": 58.2,
     "rec": "buy",
-    "earn_days": 75,
+    "earn_days": 74,
     "news": [],
     "flabel": "Orta"
    },
@@ -1942,7 +1942,7 @@
    "rel_vol": null,
    "dist_atr": 81.11,
    "score": 2.0,
-   "bars": 695,
+   "bars": 694,
    "rejim_up": true,
    "co": {
     "pe": null,
@@ -1989,8 +1989,12 @@
     "growth": 24.0,
     "target": 979.2,
     "rec": "buy",
-    "earn_days": 67,
+    "earn_days": 66,
     "news": [
+     {
+      "t": "Bill Gates has made $2.3 billion on Michael Burry's former favorite",
+      "u": "https://www.thestreet.com/investing/stocks/cat-caterpillar-bill-gates-2-3-billion-profit-on-michael-burry-favorite-dow-jones-stock"
+     },
      {
       "t": "Bill Gates makes $180 million bet on backbone of America's economy",
       "u": "https://www.thestreet.com/investing/stocks/fdxf-fedex-freight-holding-company-bill-gates-opens-180-million-fedex-freight-bet-in-latest-13f-filing-alongside-home-depot"
@@ -1998,10 +2002,6 @@
      {
       "t": "What Separates DE Stock From Its Peers Right Now",
       "u": "https://www.trefis.com/articles/612371/what-separates-de-stock-from-its-peers-right-now/2026-08-21"
-     },
-     {
-      "t": "Deere Faces Delayed Agricultural Recovery Amid Weak International Markets, BofA Says",
-      "u": "https://finance.yahoo.com/markets/commodities/articles/deere-faces-delayed-agricultural-recovery-162601691.html"
      }
     ],
     "flabel": "Sağlam"
@@ -2044,7 +2044,7 @@
     "growth": 30.5,
     "target": 105.6,
     "rec": "strong_buy",
-    "earn_days": 72,
+    "earn_days": 71,
     "news": [
      {
       "t": "General Electric (GE) Could Be 14% Overvalued On Air Force Contract Win And Capital Returns",
@@ -2099,25 +2099,80 @@
     "growth": 16.4,
     "target": 324.5,
     "rec": "buy",
-    "earn_days": 67,
+    "earn_days": 66,
     "news": [
+     {
+      "t": "Xiaomi launches new Xring chip, partners with TSMC for production, sources say",
+      "u": "https://finance.yahoo.com/technology/articles/xiaomi-launches-xring-chip-partners-062221305.html"
+     },
+     {
+      "t": "A $650 smartphone takes aim at Apple and Samsung’s surging repair costs",
+      "u": "https://www.thestreet.com/retail/a-650-smartphone-takes-aim-at-apple-and-samsungs-surging-repair-costs"
+     },
      {
       "t": "Nvidia’s 15% Price Hike Reveals the Hidden Cost of the AI Boom",
       "u": "https://247wallst.com/investing/2026/08/23/nvidias-15-price-hike-reveals-the-hidden-cost-of-the-ai-boom/"
-     },
-     {
-      "t": "Prediction: Nvidia Will Be a $6 Trillion Company Before 2026 Is Over and Its Run Kickstarts This Week",
-      "u": "https://www.fool.com/investing/2026/08/23/prediction-nvidia-will-be-a-6-trillion-company-bef/"
-     },
-     {
-      "t": "4 Low-Cost ETFs Every Investor Should Own",
-      "u": "https://247wallst.com/investing/2026/08/23/4-low-cost-etfs-every-investor-should-own/"
      }
     ],
     "flabel": "Sağlam"
    },
    "verify": {
     "close2": 309.35,
+    "diff_pct": 0.0,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "HAL",
+   "close": 35.34,
+   "in_buy": false,
+   "buy_low": 33.0062,
+   "buy_high": 33.9738,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 35.0662,
+   "sell_high": 36.0338,
+   "sell_conf": 2,
+   "atr_pct": 2.74,
+   "rel_vol": 0.86,
+   "dist_atr": 1.41,
+   "score": 1.0,
+   "bars": 700,
+   "rejim_up": true,
+   "co": {
+    "pe": 18.5,
+    "margin": 7.2,
+    "de": 74.2,
+    "growth": 3.7,
+    "target": 43.2,
+    "rec": "buy",
+    "earn_days": 57,
+    "news": [
+     {
+      "t": "How Strong Quarterly Results And New Tech Partnerships At Halliburton (HAL) Have Changed Its Investment Story",
+      "u": "https://finance.yahoo.com/energy/articles/strong-quarterly-results-tech-partnerships-011012799.html"
+     },
+     {
+      "t": "Halliburton (HAL) Brings Three Startups Into Its Labs Push Beyond Oilfield Services",
+      "u": "https://finance.yahoo.com/energy/articles/halliburton-hal-brings-three-startups-230938347.html"
+     },
+     {
+      "t": "Halliburton (HAL) Beat Estimates, Is It Still Below Fair Value?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/halliburton-hal-beat-estimates-still-190922499.html"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": {
+    "close2": 35.34,
     "diff_pct": 0.0,
     "warn": false
    }
@@ -2154,7 +2209,7 @@
     "growth": 687.3,
     "target": 39.0,
     "rec": "strong_buy",
-    "earn_days": 74,
+    "earn_days": 73,
     "news": [
      {
       "t": "Unusual Machines (UMAC) Changes Stockholder Voting Rules",
@@ -2264,8 +2319,12 @@
     "growth": 62.0,
     "target": 112.9,
     "rec": "buy",
-    "earn_days": 78,
+    "earn_days": 77,
     "news": [
+     {
+      "t": "RKLB Stock Rockets Toward Best Month Since May: ‘Hungry Hippo’ Begins Flight-Like Testing Ahead Of Neutron Debut",
+      "u": "https://stocktwits.com/news-articles/markets/equity/rklb-hungry-hippo-flight-like-testing-neutron-debut/cZY0CFRRJVy"
+     },
      {
       "t": "Trump Orders 1,000 Space Launches a Year by 2030 — That's 5x Today's Pace",
       "u": "https://finance.yahoo.com/technology/articles/trump-orders-1-000-space-094555877.html"
@@ -2273,10 +2332,6 @@
      {
       "t": "Rocket Lab Trades at 59 Times Revenue With Neutron Still Unflown",
       "u": "https://www.fool.com/investing/2026/08/22/rocket-lab-trades-at-59-times-revenue-with-neutron-still-unflown/"
-     },
-     {
-      "t": "Rocket Lab's HASTE Is Flying Hypersonic Missions for the Pentagon. Here's the Defense Business Hiding Inside a Space Stock.",
-      "u": "https://www.fool.com/investing/2026/08/22/rocket-labs-haste-fly-hypersonic-space-stock/"
      }
     ],
     "flabel": "Orta"
@@ -2319,7 +2374,7 @@
     "growth": 85.2,
     "target": 304.7,
     "rec": "strong_buy",
-    "earn_days": 3,
+    "earn_days": 2,
     "news": [
      {
       "t": "Nvidia's Q2 earnings to test resurgent AI trade",
@@ -2330,8 +2385,8 @@
       "u": "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html"
      },
      {
-      "t": "Better Dividend King to Buy Right Now: Abbott Labs or Johnson & Johnson?",
-      "u": "https://www.fool.com/investing/2026/08/23/better-dividend-king-to-buy-right-now-abbott-labs/"
+      "t": "Li Lu, \"the Chinese Warren Buffett,\" Has Invested 70% of Himalaya's Capital in Just 2 Stocks",
+      "u": "https://www.fool.com/investing/2026/08/24/li-lu-the-chinese-warren-buffett-has-invested-70-o/"
      }
     ],
     "flabel": "Sağlam"
@@ -2375,8 +2430,12 @@
     "growth": 13.4,
     "target": 93.4,
     "rec": "buy",
-    "earn_days": 58,
+    "earn_days": 57,
     "news": [
+     {
+      "t": "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Y",
+      "u": "https://www.fool.com/investing/2026/08/23/does-billionaire-bill-ackman-know-something-wall-street-doesn-t-he-invested-in-these-2-stocks-that-have-dropped-33-and-18-over-the-past-year/"
+     },
      {
       "t": "The Ultimate Growth Stock to Buy With $1,000 Right Now -- It's Been My Best Stock Performer by Far",
       "u": "https://www.fool.com/investing/2026/08/23/the-ultimate-growth-stock-to-buy-with-1000-right-n/"
@@ -2384,72 +2443,12 @@
      {
       "t": "Could Investing $10,000 in Netflix Set You Up for Life?",
       "u": "https://www.fool.com/investing/2026/08/22/could-investing-10000-in-netflix-set-you-up-for-li/"
-     },
-     {
-      "t": "Consumer Subscription Stocks Q2 Results: Benchmarking Netflix (NASDAQ:NFLX)",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/consumer-subscription-stocks-q2-results-213147753.html"
      }
     ],
     "flabel": "Sağlam"
    },
    "verify": {
     "close2": 79.59,
-    "diff_pct": 0.0,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "HAL",
-   "close": 35.34,
-   "in_buy": false,
-   "buy_low": 33.0062,
-   "buy_high": 33.9738,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 35.0662,
-   "sell_high": 36.0338,
-   "sell_conf": 2,
-   "atr_pct": 2.74,
-   "rel_vol": 0.86,
-   "dist_atr": 1.41,
-   "score": 0.0,
-   "bars": 700,
-   "hk_weak": true,
-   "rejim_up": true,
-   "co": {
-    "pe": 18.5,
-    "margin": 7.2,
-    "de": 74.2,
-    "growth": 3.7,
-    "target": 43.2,
-    "rec": "buy",
-    "earn_days": 58,
-    "news": [
-     {
-      "t": "How Strong Quarterly Results And New Tech Partnerships At Halliburton (HAL) Have Changed Its Investment Story",
-      "u": "https://finance.yahoo.com/energy/articles/strong-quarterly-results-tech-partnerships-011012799.html"
-     },
-     {
-      "t": "Halliburton (HAL) Brings Three Startups Into Its Labs Push Beyond Oilfield Services",
-      "u": "https://finance.yahoo.com/energy/articles/halliburton-hal-brings-three-startups-230938347.html"
-     },
-     {
-      "t": "Halliburton (HAL) Beat Estimates, Is It Still Below Fair Value?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/halliburton-hal-beat-estimates-still-190922499.html"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": {
-    "close2": 35.34,
     "diff_pct": 0.0,
     "warn": false
    }
@@ -2486,7 +2485,7 @@
     "growth": 14.5,
     "target": 234.8,
     "rec": "buy",
-    "earn_days": 58,
+    "earn_days": 57,
     "news": [
      {
       "t": "MarketBeat Week in Review – 08/17 - 08/21",
@@ -2541,7 +2540,7 @@
     "growth": 10.5,
     "target": 632.9,
     "rec": "hold",
-    "earn_days": 58,
+    "earn_days": 57,
     "news": [
      {
       "t": "Elon Musk Says China Is ‘By Far’ Strongest AI Competitor, Echoing 2011 Warning as SPCX Faces New Rocket Rival",
@@ -2596,19 +2595,19 @@
     "growth": 25.4,
     "target": 114.9,
     "rec": "hold",
-    "earn_days": 60,
+    "earn_days": 59,
     "news": [
+     {
+      "t": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center",
+      "u": "https://www.fool.com/investing/2026/08/24/billionaire-stanley-druckenmiller-sold-micron-2027/"
+     },
+     {
+      "t": "Alibaba shares fall 8% after $10 billion Hong Kong share sale",
+      "u": "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-fall-8-10-015142834.html"
+     },
      {
       "t": "Alibaba Launches Record $10 Billion Share Sale to Enter the AI Race",
       "u": "https://beincrypto.com/alibaba-10-billion-share-sale-ai/"
-     },
-     {
-      "t": "Intel Sold $20 Billion of Stock at $95 a Share. It Now Trades Below $93.",
-      "u": "https://www.fool.com/investing/2026/08/21/intel-sold-usd20-billion-of-stock-at-usd95-a-share-it-now-trades-below-usd93/"
-     },
-     {
-      "t": "3 American Stocks Showing the Same Setup That Sent Moderna Up 177%",
-      "u": "https://beincrypto.com/stocks-like-moderna-three-names-fit/"
      }
     ],
     "flabel": "Orta"
@@ -2651,8 +2650,12 @@
     "growth": 50.1,
     "target": 613.1,
     "rec": "strong_buy",
-    "earn_days": 72,
+    "earn_days": 71,
     "news": [
+     {
+      "t": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center",
+      "u": "https://www.fool.com/investing/2026/08/24/billionaire-stanley-druckenmiller-sold-micron-2027/"
+     },
      {
       "t": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC. Here's What Lisa Su Is Actually Buying With Tha",
       "u": "https://www.fool.com/investing/2026/08/23/amd-is-investing-more-than-xx-billion-in-taiwan-to/"
@@ -2660,10 +2663,6 @@
      {
       "t": "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
       "u": "https://www.fool.com/investing/2026/08/23/forget-broadcom-nvidia-nvda-is-still-the-top-semic/"
-     },
-     {
-      "t": "Nvidia Stock Doesn’t Look as Expensive as You Think",
-      "u": "https://247wallst.com/investing/2026/08/22/nvidia-stock-doesnt-look-as-expensive-as-you-think/"
      }
     ],
     "flabel": "Sağlam"
