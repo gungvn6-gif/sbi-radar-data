@@ -2,16 +2,81 @@
  "summary": {
   "days": 85,
   "symbols": 50,
-  "n_picks": 208,
-  "wr_resolved": 0.551,
-  "win": 108,
-  "loss": 88,
-  "open": 9,
-  "avg_f10": 1.13,
-  "n_sells": 371,
-  "sell_avg_f10": NaN
+  "n_picks": 203,
+  "wr_resolved": 0.538,
+  "win": 107,
+  "loss": 92,
+  "open": 3,
+  "avg_f10": 0.76,
+  "n_sells": 376,
+  "sell_avg_f10": 0.78
  },
  "picks": [
+  {
+   "date": "2026-09-04",
+   "symbol": "BZ=F",
+   "close": 96.28,
+   "zone": "94.23–97.91",
+   "src": "sr",
+   "touch": 1,
+   "conf": 4,
+   "outcome": "open",
+   "f5": null,
+   "f10": null,
+   "f20": null
+  },
+  {
+   "date": "2026-09-03",
+   "symbol": "MSFT",
+   "close": 510.12,
+   "zone": "499.59–511.45",
+   "src": "sr",
+   "touch": 2,
+   "conf": 3,
+   "outcome": "open",
+   "f5": null,
+   "f10": null,
+   "f20": null
+  },
+  {
+   "date": "2026-09-03",
+   "symbol": "TSLA",
+   "close": 376.37,
+   "zone": "367.55–382.06",
+   "src": "sr",
+   "touch": 3,
+   "conf": 4,
+   "outcome": "loss",
+   "f5": null,
+   "f10": null,
+   "f20": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "AVGO",
+   "close": 370.34,
+   "zone": "363.62–377.04",
+   "src": "sr",
+   "touch": 1,
+   "conf": 4,
+   "outcome": "loss",
+   "f5": null,
+   "f10": null,
+   "f20": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "F",
+   "close": 13.94,
+   "zone": "13.55–13.95",
+   "src": "sr",
+   "touch": 1,
+   "conf": 4,
+   "outcome": "win",
+   "f5": null,
+   "f10": null,
+   "f20": null
+  },
   {
    "date": "2026-08-28",
    "symbol": "JPM",
@@ -21,7 +86,33 @@
    "touch": 0,
    "conf": 3,
    "outcome": "open",
-   "f5": null,
+   "f5": 0.29,
+   "f10": null,
+   "f20": null
+  },
+  {
+   "date": "2026-08-28",
+   "symbol": "EREGL.IS",
+   "close": 39.16,
+   "zone": "38.45–39.63",
+   "src": "sr",
+   "touch": 1,
+   "conf": 4,
+   "outcome": "loss",
+   "f5": -5.01,
+   "f10": null,
+   "f20": null
+  },
+  {
+   "date": "2026-08-28",
+   "symbol": "GARAN.IS",
+   "close": 133.8,
+   "zone": "130.69–134.11",
+   "src": "sr",
+   "touch": 2,
+   "conf": 3,
+   "outcome": "loss",
+   "f5": -1.79,
    "f10": null,
    "f20": null
   },
@@ -33,8 +124,8 @@
    "src": "sr",
    "touch": 1,
    "conf": 4,
-   "outcome": "open",
-   "f5": null,
+   "outcome": "loss",
+   "f5": -3.87,
    "f10": null,
    "f20": null
   },
@@ -46,8 +137,8 @@
    "src": "sr",
    "touch": 1,
    "conf": 3,
-   "outcome": "open",
-   "f5": null,
+   "outcome": "win",
+   "f5": 3.3,
    "f10": null,
    "f20": null
   },
@@ -59,8 +150,8 @@
    "src": "pullback",
    "touch": 0,
    "conf": 3,
-   "outcome": "open",
-   "f5": null,
+   "outcome": "loss",
+   "f5": 0.66,
    "f10": null,
    "f20": null
   },
@@ -73,7 +164,7 @@
    "touch": 1,
    "conf": 3,
    "outcome": "both",
-   "f5": null,
+   "f5": -3.54,
    "f10": null,
    "f20": null
   },
@@ -86,7 +177,7 @@
    "touch": 1,
    "conf": 3,
    "outcome": "win",
-   "f5": null,
+   "f5": 0.09,
    "f10": null,
    "f20": null
   },
@@ -98,8 +189,8 @@
    "src": "pullback",
    "touch": 0,
    "conf": 3,
-   "outcome": "open",
-   "f5": null,
+   "outcome": "loss",
+   "f5": -5.29,
    "f10": null,
    "f20": null
   },
@@ -111,8 +202,8 @@
    "src": "sr",
    "touch": 1,
    "conf": 3,
-   "outcome": "open",
-   "f5": null,
+   "outcome": "loss",
+   "f5": -4.15,
    "f10": null,
    "f20": null
   },
@@ -125,7 +216,7 @@
    "touch": 0,
    "conf": 3,
    "outcome": "win",
-   "f5": null,
+   "f5": -0.12,
    "f10": null,
    "f20": null
   },
@@ -137,8 +228,8 @@
    "src": "pullback",
    "touch": 0,
    "conf": 3,
-   "outcome": "open",
-   "f5": null,
+   "outcome": "loss",
+   "f5": -1.34,
    "f10": null,
    "f20": null
   },
@@ -151,7 +242,7 @@
    "touch": 2,
    "conf": 4,
    "outcome": "win",
-   "f5": null,
+   "f5": 0.23,
    "f10": null,
    "f20": null
   },
@@ -164,7 +255,7 @@
    "touch": 2,
    "conf": 4,
    "outcome": "loss",
-   "f5": null,
+   "f5": -2.83,
    "f10": null,
    "f20": null
   },
@@ -178,7 +269,7 @@
    "conf": 3,
    "outcome": "win",
    "f5": 5.11,
-   "f10": null,
+   "f10": 12.16,
    "f20": null
   },
   {
@@ -190,8 +281,8 @@
    "touch": 2,
    "conf": 3,
    "outcome": "win",
-   "f5": NaN,
-   "f10": null,
+   "f5": 3.0,
+   "f10": 1.15,
    "f20": null
   },
   {
@@ -202,9 +293,9 @@
    "src": "sr",
    "touch": 1,
    "conf": 3,
-   "outcome": "both",
-   "f5": -2.42,
-   "f10": null,
+   "outcome": "loss",
+   "f5": -3.56,
+   "f10": -3.91,
    "f20": null
   },
   {
@@ -217,7 +308,7 @@
    "conf": 4,
    "outcome": "loss",
    "f5": -0.56,
-   "f10": null,
+   "f10": 4.48,
    "f20": null
   },
   {
@@ -230,7 +321,7 @@
    "conf": 4,
    "outcome": "win",
    "f5": 1.31,
-   "f10": null,
+   "f10": -3.99,
    "f20": null
   },
   {
@@ -243,7 +334,7 @@
    "conf": 3,
    "outcome": "win",
    "f5": 2.07,
-   "f10": null,
+   "f10": -0.54,
    "f20": null
   },
   {
@@ -256,7 +347,7 @@
    "conf": 4,
    "outcome": "win",
    "f5": -0.47,
-   "f10": null,
+   "f10": -4.87,
    "f20": null
   },
   {
@@ -269,7 +360,7 @@
    "conf": 3,
    "outcome": "win",
    "f5": 0.25,
-   "f10": null,
+   "f10": -3.91,
    "f20": null
   },
   {
@@ -282,7 +373,7 @@
    "conf": 4,
    "outcome": "win",
    "f5": 0.63,
-   "f10": null,
+   "f10": 2.21,
    "f20": null
   },
   {
@@ -384,7 +475,7 @@
    "src": "sr",
    "touch": 1,
    "conf": 4,
-   "outcome": "open",
+   "outcome": "win",
    "f5": -0.37,
    "f10": 0.94,
    "f20": null
@@ -397,7 +488,7 @@
    "src": "sr",
    "touch": 1,
    "conf": 4,
-   "outcome": "open",
+   "outcome": "loss",
    "f5": -0.5,
    "f10": -0.25,
    "f20": null
@@ -556,7 +647,7 @@
    "outcome": "win",
    "f5": 2.5,
    "f10": -3.6,
-   "f20": null
+   "f20": -9.9
   },
   {
    "date": "2026-08-07",
@@ -569,7 +660,7 @@
    "outcome": "win",
    "f5": 4.38,
    "f10": 12.04,
-   "f20": null
+   "f20": 8.36
   },
   {
    "date": "2026-08-06",
@@ -582,7 +673,7 @@
    "outcome": "win",
    "f5": 5.85,
    "f10": -3.59,
-   "f20": null
+   "f20": -15.67
   },
   {
    "date": "2026-08-06",
@@ -595,7 +686,7 @@
    "outcome": "loss",
    "f5": 0.86,
    "f10": -7.47,
-   "f20": null
+   "f20": 3.52
   },
   {
    "date": "2026-08-06",
@@ -608,7 +699,7 @@
    "outcome": "loss",
    "f5": 9.02,
    "f10": 10.81,
-   "f20": null
+   "f20": 4.75
   },
   {
    "date": "2026-08-05",
@@ -621,7 +712,7 @@
    "outcome": "win",
    "f5": 3.56,
    "f10": 4.55,
-   "f20": null
+   "f20": -6.04
   },
   {
    "date": "2026-08-04",
@@ -634,7 +725,7 @@
    "outcome": "win",
    "f5": 7.42,
    "f10": 6.28,
-   "f20": null
+   "f20": -16.03
   },
   {
    "date": "2026-08-04",
@@ -647,7 +738,7 @@
    "outcome": "win",
    "f5": 2.23,
    "f10": -2.27,
-   "f20": null
+   "f20": 1.67
   },
   {
    "date": "2026-08-04",
@@ -660,7 +751,7 @@
    "outcome": "win",
    "f5": 22.86,
    "f10": 19.51,
-   "f20": null
+   "f20": -4.88
   },
   {
    "date": "2026-08-04",
@@ -673,7 +764,7 @@
    "outcome": "loss",
    "f5": -3.12,
    "f10": -4.13,
-   "f20": null
+   "f20": -11.79
   },
   {
    "date": "2026-08-04",
@@ -686,7 +777,7 @@
    "outcome": "win",
    "f5": 1.53,
    "f10": 3.27,
-   "f20": null
+   "f20": -5.05
   },
   {
    "date": "2026-08-04",
@@ -699,7 +790,7 @@
    "outcome": "win",
    "f5": 2.0,
    "f10": 9.16,
-   "f20": null
+   "f20": 10.09
   },
   {
    "date": "2026-08-04",
@@ -712,7 +803,7 @@
    "outcome": "win",
    "f5": 0.5,
    "f10": 4.52,
-   "f20": null
+   "f20": 7.94
   },
   {
    "date": "2026-08-04",
@@ -725,7 +816,7 @@
    "outcome": "win",
    "f5": 0.12,
    "f10": 3.22,
-   "f20": null
+   "f20": 3.95
   },
   {
    "date": "2026-08-03",
@@ -738,7 +829,7 @@
    "outcome": "win",
    "f5": 3.04,
    "f10": 6.12,
-   "f20": null
+   "f20": 2.27
   },
   {
    "date": "2026-08-03",
@@ -751,7 +842,7 @@
    "outcome": "win",
    "f5": 2.73,
    "f10": 5.35,
-   "f20": null
+   "f20": 14.24
   },
   {
    "date": "2026-08-03",
@@ -764,7 +855,7 @@
    "outcome": "win",
    "f5": 5.36,
    "f10": 3.96,
-   "f20": null
+   "f20": -1.6
   },
   {
    "date": "2026-08-03",
@@ -777,7 +868,7 @@
    "outcome": "win",
    "f5": 17.59,
    "f10": 30.63,
-   "f20": null
+   "f20": 2.56
   },
   {
    "date": "2026-08-03",
@@ -790,7 +881,7 @@
    "outcome": "loss",
    "f5": -1.57,
    "f10": -8.31,
-   "f20": null
+   "f20": -5.98
   },
   {
    "date": "2026-08-03",
@@ -803,7 +894,7 @@
    "outcome": "win",
    "f5": 16.0,
    "f10": 16.71,
-   "f20": null
+   "f20": 14.62
   },
   {
    "date": "2026-07-31",
@@ -842,7 +933,7 @@
    "outcome": "win",
    "f5": 0.81,
    "f10": 5.23,
-   "f20": NaN
+   "f20": 8.68
   },
   {
    "date": "2026-07-30",
@@ -2559,310 +2650,378 @@
    "f5": 3.34,
    "f10": 2.36,
    "f20": 1.87
-  },
-  {
-   "date": "2026-05-06",
-   "symbol": "FROTO.IS",
-   "close": 99.0,
-   "zone": "96.61–99.84",
-   "src": "sr",
-   "touch": 2,
-   "conf": 3,
-   "outcome": "loss",
-   "f5": -5.61,
-   "f10": -16.82,
-   "f20": -10.51
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "LLY",
-   "close": 988.87,
-   "zone": "969.45–1001.25",
-   "src": "sr",
-   "touch": 2,
-   "conf": 3,
-   "outcome": "loss",
-   "f5": 0.1,
-   "f10": 3.29,
-   "f20": 9.09
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "CRWD",
-   "close": 119.13,
-   "zone": "116.3–120.83",
-   "src": "sr",
-   "touch": 3,
-   "conf": 3,
-   "outcome": "loss",
-   "f5": 14.62,
-   "f10": 29.45,
-   "f20": 56.89
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "ORCL",
-   "close": 180.29,
-   "zone": "172.67–181.47",
-   "src": "sr",
-   "touch": 1,
-   "conf": 4,
-   "outcome": "win",
-   "f5": 7.52,
-   "f10": 3.51,
-   "f20": 35.66
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "PANW",
-   "close": 184.56,
-   "zone": "179.73–186.65",
-   "src": "sr",
-   "touch": 1,
-   "conf": 3,
-   "outcome": "win",
-   "f5": 15.77,
-   "f10": 34.13,
-   "f20": 61.02
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "ILMN",
-   "close": 139.37,
-   "zone": "134.13–139.87",
-   "src": "sr",
-   "touch": 1,
-   "conf": 4,
-   "outcome": "win",
-   "f5": 2.25,
-   "f10": 1.54,
-   "f20": 16.63
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "KTOS",
-   "close": 63.05,
-   "zone": "60.35–64.89",
-   "src": "sr",
-   "touch": 2,
-   "conf": 3,
-   "outcome": "loss",
-   "f5": -9.6,
-   "f10": -13.01,
-   "f20": 1.71
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "BRK-B",
-   "close": 473.6,
-   "zone": "469.41–475.64",
-   "src": "sr",
-   "touch": 3,
-   "conf": 3,
-   "outcome": "both",
-   "f5": 0.31,
-   "f10": 2.21,
-   "f20": 0.19
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "TSLA",
-   "close": 381.63,
-   "zone": "370.78–385.04",
-   "src": "sr",
-   "touch": 2,
-   "conf": 3,
-   "outcome": "win",
-   "f5": 7.9,
-   "f10": 16.16,
-   "f20": 14.19
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "NFLX",
-   "close": 93.61,
-   "zone": "90.89–93.81",
-   "src": "sr",
-   "touch": 1,
-   "conf": 3,
-   "outcome": "loss",
-   "f5": -5.73,
-   "f10": -7.13,
-   "f20": -8.11
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "V",
-   "close": 334.86,
-   "zone": "330.31–338.07",
-   "src": "sr",
-   "touch": 3,
-   "conf": 3,
-   "outcome": "loss",
-   "f5": -4.8,
-   "f10": -4.35,
-   "f20": -2.96
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "PANW",
-   "close": 181.54,
-   "zone": "175.33–182.29",
-   "src": "sr",
-   "touch": 5,
-   "conf": 3,
-   "outcome": "loss",
-   "f5": 1.18,
-   "f10": 25.48,
-   "f20": 41.99
   }
  ],
  "sells": [
   {
+   "date": "2026-09-04",
+   "symbol": "NVDA",
+   "close": 230.36,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-04",
+   "symbol": "GOOGL",
+   "close": 338.46,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-04",
+   "symbol": "BRK-B",
+   "close": 506.03,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-04",
+   "symbol": "NFLX",
+   "close": 78.25,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-04",
+   "symbol": "CRWD",
+   "close": 213.1,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-03",
+   "symbol": "AVGO",
+   "close": 357.16,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-03",
+   "symbol": "MSFT",
+   "close": 510.12,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-03",
+   "symbol": "XOM",
+   "close": 162.21,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-02",
+   "symbol": "GOOGL",
+   "close": 337.12,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-02",
+   "symbol": "KCHOL.IS",
+   "close": 213.0,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-02",
+   "symbol": "GARAN.IS",
+   "close": 132.0,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "AVGO",
+   "close": 369.68,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "F",
+   "close": 13.84,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "CAT",
+   "close": 779.16,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "AMZN",
+   "close": 254.92,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "V",
+   "close": 372.67,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "RTX",
+   "close": 205.16,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "LMT",
+   "close": 544.5,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "PANW",
+   "close": 362.09,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "CRWD",
+   "close": 215.07,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "AMD",
+   "close": 459.61,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "UMAC",
+   "close": 22.65,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-09-01",
+   "symbol": "GC=F",
+   "close": 4348.0,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "GOOGL",
+   "close": 339.35,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "AAPL",
+   "close": 316.85,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "BRK-B",
+   "close": 504.03,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "COST",
+   "close": 943.89,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "HAL",
+   "close": 36.85,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "THYAO.IS",
+   "close": 302.25,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "ASELS.IS",
+   "close": 386.25,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "GARAN.IS",
+   "close": 130.9,
+   "f5": null,
+   "f10": null
+  },
+  {
+   "date": "2026-08-31",
+   "symbol": "USDTRY=X",
+   "close": 48.25,
+   "f5": null,
+   "f10": null
+  },
+  {
    "date": "2026-08-28",
    "symbol": "AVGO",
    "close": 368.79,
-   "f5": null,
+   "f5": -2.95,
    "f10": null
   },
   {
    "date": "2026-08-28",
    "symbol": "F",
    "close": 13.88,
-   "f5": null,
+   "f5": 5.33,
    "f10": null
   },
   {
    "date": "2026-08-28",
    "symbol": "UNF",
    "close": 281.88,
-   "f5": null,
+   "f5": -2.38,
    "f10": null
   },
   {
    "date": "2026-08-28",
    "symbol": "AMD",
    "close": 465.58,
-   "f5": null,
+   "f5": 2.58,
    "f10": null
   },
   {
    "date": "2026-08-27",
    "symbol": "LLY",
    "close": 1176.1,
-   "f5": null,
+   "f5": -1.4,
    "f10": null
   },
   {
    "date": "2026-08-27",
    "symbol": "AMZN",
    "close": 256.26,
-   "f5": null,
+   "f5": 1.03,
    "f10": null
   },
   {
    "date": "2026-08-27",
    "symbol": "BRK-B",
    "close": 503.7,
-   "f5": null,
+   "f5": 0.88,
    "f10": null
   },
   {
    "date": "2026-08-27",
    "symbol": "XU100.IS",
    "close": 14575.5,
-   "f5": null,
+   "f5": -4.41,
    "f10": null
   },
   {
    "date": "2026-08-26",
    "symbol": "XOM",
    "close": 158.19,
-   "f5": null,
+   "f5": 3.77,
    "f10": null
   },
   {
    "date": "2026-08-26",
    "symbol": "V",
    "close": 383.9,
-   "f5": null,
+   "f5": -1.43,
    "f10": null
   },
   {
    "date": "2026-08-26",
    "symbol": "ILMN",
    "close": 224.84,
-   "f5": null,
+   "f5": -5.15,
    "f10": null
   },
   {
    "date": "2026-08-25",
    "symbol": "NVDA",
    "close": 213.05,
-   "f5": null,
+   "f5": 2.06,
    "f10": null
   },
   {
    "date": "2026-08-25",
    "symbol": "GOOGL",
    "close": 346.96,
-   "f5": null,
+   "f5": -3.44,
    "f10": null
   },
   {
    "date": "2026-08-25",
    "symbol": "LLY",
    "close": 1233.66,
-   "f5": null,
+   "f5": -5.97,
    "f10": null
   },
   {
    "date": "2026-08-25",
    "symbol": "COST",
    "close": 960.01,
-   "f5": null,
+   "f5": -2.09,
    "f10": null
   },
   {
    "date": "2026-08-25",
    "symbol": "WMT",
    "close": 105.38,
-   "f5": null,
+   "f5": 0.51,
    "f10": null
   },
   {
    "date": "2026-08-24",
    "symbol": "F",
    "close": 13.93,
-   "f5": null,
+   "f5": 0.07,
    "f10": null
   },
   {
    "date": "2026-08-24",
    "symbol": "AMD",
    "close": 456.75,
-   "f5": null,
+   "f5": 3.06,
    "f10": null
   },
   {
    "date": "2026-08-24",
    "symbol": "UMAC",
    "close": 24.57,
-   "f5": null,
+   "f5": -3.66,
    "f10": null
   },
   {
    "date": "2026-08-24",
    "symbol": "GARAN.IS",
    "close": 131.6,
-   "f5": null,
+   "f5": -0.53,
    "f10": null
   },
   {
    "date": "2026-08-24",
    "symbol": "XU100.IS",
    "close": 14501.5,
-   "f5": null,
+   "f5": -1.15,
    "f10": null
   },
   {
@@ -2870,168 +3029,168 @@
    "symbol": "AVGO",
    "close": 368.45,
    "f5": 0.09,
-   "f10": null
+   "f10": -2.86
   },
   {
    "date": "2026-08-21",
    "symbol": "NVDA",
    "close": 214.72,
    "f5": 1.32,
-   "f10": null
+   "f10": 7.28
   },
   {
    "date": "2026-08-21",
    "symbol": "KTOS",
    "close": 57.17,
    "f5": -9.04,
-   "f10": null
+   "f10": -16.35
   },
   {
    "date": "2026-08-21",
    "symbol": "HAL",
    "close": 35.34,
    "f5": 2.38,
-   "f10": null
+   "f10": 4.9
   },
   {
    "date": "2026-08-20",
    "symbol": "F",
    "close": 13.99,
    "f5": -0.29,
-   "f10": null
+   "f10": 3.0
   },
   {
    "date": "2026-08-20",
    "symbol": "BRK-B",
    "close": 496.86,
    "f5": 1.38,
-   "f10": null
+   "f10": 2.27
   },
   {
    "date": "2026-08-20",
    "symbol": "NOC",
    "close": 563.86,
    "f5": -3.32,
-   "f10": null
+   "f10": -6.32
   },
   {
    "date": "2026-08-20",
    "symbol": "RTX",
    "close": 212.29,
    "f5": -0.1,
-   "f10": null
+   "f10": -4.79
   },
   {
    "date": "2026-08-20",
    "symbol": "TUPRS.IS",
    "close": 395.25,
    "f5": -3.67,
-   "f10": null
+   "f10": -1.08
   },
   {
    "date": "2026-08-19",
    "symbol": "RKLB",
    "close": 75.84,
    "f5": -12.74,
-   "f10": null
+   "f10": -16.8
   },
   {
    "date": "2026-08-19",
    "symbol": "LMT",
    "close": 589.15,
    "f5": -3.99,
-   "f10": null
+   "f10": -9.78
   },
   {
    "date": "2026-08-19",
    "symbol": "AMD",
    "close": 466.42,
    "f5": 3.11,
-   "f10": null
+   "f10": -2.01
   },
   {
    "date": "2026-08-19",
    "symbol": "THYAO.IS",
    "close": 301.25,
    "f5": 2.41,
-   "f10": null
+   "f10": -3.24
   },
   {
    "date": "2026-08-18",
    "symbol": "AVGO",
    "close": 380.0,
    "f5": -6.12,
-   "f10": null
+   "f10": -2.72
   },
   {
    "date": "2026-08-18",
    "symbol": "F",
    "close": 13.93,
    "f5": 0.14,
-   "f10": null
+   "f10": -0.65
   },
   {
    "date": "2026-08-18",
    "symbol": "TSLA",
    "close": 336.87,
    "f5": 3.97,
-   "f10": null
+   "f10": 5.71
   },
   {
    "date": "2026-08-18",
    "symbol": "NFLX",
    "close": 77.77,
    "f5": 5.73,
-   "f10": null
+   "f10": 3.91
   },
   {
    "date": "2026-08-18",
    "symbol": "COST",
    "close": 961.35,
    "f5": -0.14,
-   "f10": null
+   "f10": -2.22
   },
   {
    "date": "2026-08-18",
    "symbol": "SISE.IS",
    "close": 38.12,
    "f5": 4.14,
-   "f10": null
+   "f10": 3.78
   },
   {
    "date": "2026-08-17",
    "symbol": "MSFT",
    "close": 480.35,
    "f5": 1.45,
-   "f10": null
+   "f10": 5.61
   },
   {
    "date": "2026-08-17",
    "symbol": "LMT",
    "close": 593.74,
    "f5": -4.99,
-   "f10": null
+   "f10": -5.48
   },
   {
    "date": "2026-08-17",
    "symbol": "RGTI",
    "close": 18.67,
    "f5": -12.32,
-   "f10": null
+   "f10": -16.12
   },
   {
    "date": "2026-08-17",
    "symbol": "THYAO.IS",
    "close": 301.0,
    "f5": -0.17,
-   "f10": null
+   "f10": 0.42
   },
   {
    "date": "2026-08-17",
    "symbol": "KCHOL.IS",
    "close": 205.6,
    "f5": 6.42,
-   "f10": null
+   "f10": 4.52
   },
   {
    "date": "2026-08-14",
@@ -3073,7 +3232,7 @@
    "symbol": "ASELS.IS",
    "close": 387.5,
    "f5": 4.06,
-   "f10": NaN
+   "f10": 4.26
   },
   {
    "date": "2026-08-13",
@@ -5125,195 +5284,6 @@
    "close": 995.75,
    "f5": 3.75,
    "f10": 7.86
-  },
-  {
-   "date": "2026-05-06",
-   "symbol": "EREGL.IS",
-   "close": 37.68,
-   "f5": 7.48,
-   "f10": -6.63
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "MSFT",
-   "close": 411.38,
-   "f5": -0.88,
-   "f10": 1.47
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "KTOS",
-   "close": 59.31,
-   "f5": -3.34,
-   "f10": -9.85
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "JPM",
-   "close": 309.4,
-   "f5": -1.46,
-   "f10": -4.43
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "LMT",
-   "close": 508.93,
-   "f5": 2.37,
-   "f10": 3.48
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "ILMN",
-   "close": 139.07,
-   "f5": 4.77,
-   "f10": 1.88
-  },
-  {
-   "date": "2026-05-05",
-   "symbol": "ASELS.IS",
-   "close": 427.25,
-   "f5": -1.87,
-   "f10": -7.9
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "GOOGL",
-   "close": 383.25,
-   "f5": 1.41,
-   "f10": 3.57
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "AAPL",
-   "close": 276.83,
-   "f5": 5.73,
-   "f10": 7.59
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "THYAO.IS",
-   "close": 300.75,
-   "f5": 2.58,
-   "f10": -2.08
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "GC=F",
-   "close": 4519.5,
-   "f5": 4.41,
-   "f10": 0.73
-  },
-  {
-   "date": "2026-05-04",
-   "symbol": "REMX",
-   "close": 102.12,
-   "f5": 7.26,
-   "f10": -7.28
-  },
-  {
-   "date": "2026-05-01",
-   "symbol": "F",
-   "close": 11.88,
-   "f5": 3.7,
-   "f10": 12.79
-  },
-  {
-   "date": "2026-05-01",
-   "symbol": "CAT",
-   "close": 889.67,
-   "f5": 0.87,
-   "f10": -0.15
-  },
-  {
-   "date": "2026-05-01",
-   "symbol": "HAL",
-   "close": 41.66,
-   "f5": -4.39,
-   "f10": 0.24
-  },
-  {
-   "date": "2026-05-01",
-   "symbol": "LMT",
-   "close": 512.77,
-   "f5": -1.22,
-   "f10": 0.63
-  },
-  {
-   "date": "2026-05-01",
-   "symbol": "FDVV",
-   "close": 59.11,
-   "f5": 0.68,
-   "f10": 0.25
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "MSFT",
-   "close": 407.78,
-   "f5": 3.19,
-   "f10": 0.4
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "ORCL",
-   "close": 161.39,
-   "f5": 20.57,
-   "f10": 21.2
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "INTC",
-   "close": 94.48,
-   "f5": 16.02,
-   "f10": 22.7
-  },
-  {
-   "date": "2026-04-30",
-   "symbol": "CRWD",
-   "close": 111.44,
-   "f5": 13.45,
-   "f10": 30.11
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "RKLB",
-   "close": 77.02,
-   "f5": 9.91,
-   "f10": 61.19
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "NVDA",
-   "close": 209.25,
-   "f5": -0.68,
-   "f10": 7.92
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "LLY",
-   "close": 851.21,
-   "f5": 15.96,
-   "f10": 19.33
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "KTOS",
-   "close": 59.56,
-   "f5": 3.29,
-   "f10": -11.87
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "V",
-   "close": 334.86,
-   "f5": -4.8,
-   "f10": -4.35
-  },
-  {
-   "date": "2026-04-29",
-   "symbol": "GC=F",
-   "close": 4545.2,
-   "f5": 3.01,
-   "f10": 3.36
   }
  ]
 }
