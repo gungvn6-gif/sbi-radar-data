@@ -91,7 +91,7 @@
   Mavi rozetler dünkü taramaya göre DEĞİŞENLERİ işaretler.<br><br>
   <b>Dürüstlük notu:</b> Olasılık sıralamasıdır, kehanet değildir. Dayanak: bölge+teyit≥3 girişleri geçmiş replay'de
   %51.3 isabet / +0.38% ort. getiri vs teyitsiz %44.4 / −0.35% (kripto 4H×9000 bar; hisse karnesi birikiyor).
-  v0: SR pivot portu henüz yok. Kesin sinyal TradingView'daki SB/SS marker'ıdır.
+  SR pivot portu 11 Ağu'da geldi (1G bölge+teyit≥3 %57 vs taban %54). Kesin sinyal TradingView'daki SB/SS marker'ıdır.
 </footer>
 <script>
 const RAW="https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/";
@@ -109,13 +109,10 @@ async function getJson(name){
 const barTxt=()=>TF==="4h"?"4 saatlik":"günlük";
 function setTF(t){TF=t;localStorage.setItem("sbi_tf",t);document.getElementById("app").innerHTML='<div class="skel">Yükleniyor…</div>';load();}
 function statusOf(r){
-  if(r.in_buy&&r.conf>=3)return{cls:"p-buy",pill:"GİRİŞ ADAYI",t:"Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir."};
-  if(r.in_buy&&r.conf===2)return{cls:"p-form",pill:"TEYİT OLUŞUYOR",t:"Bölge içinde — teyit oluşuyor, dönüş barını izle."};
-  if(r.in_buy)return{cls:"p-wait",pill:"TEYİT BEKLE",t:"Bölge içinde ama dönüş teyidi yok — acele etme."};
-  if(r.in_sell&&r.sell_conf>=2)return{cls:"p-sell",pill:"AZALT",t:"Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt."};
-  if(r.in_sell)return{cls:"p-izle",pill:"TEPEDE",t:"Satış bölgesinde — zayıflama teyidi henüz yok."};
-  if(r.dist_atr!=null&&Math.abs(r.dist_atr)<=1.0)return{cls:"p-near",pill:"YAKIN",t:`Alım bölgesine ${Math.abs(r.dist_atr).toFixed(2)} ATR kaldı — alarmını kur.`};
-  return{cls:"p-bekle",pill:"BEKLE",t:"İki bölge arasında — net avantaj yok."};
+  // Kural TEK yerde: motor (radar.py status_of) r.status/r.status_text üretir; burası yalnız renk sınıfı seçer.
+  const CLS={"GİRİŞ ADAYI":"p-buy","TEYİT OLUŞUYOR":"p-form","TEYİT BEKLE":"p-wait","AZALT":"p-sell","TEPEDE":"p-izle","YAKIN":"p-near","BEKLE":"p-bekle"};
+  if(r.status)return{cls:CLS[r.status]||"p-bekle",pill:r.status,t:r.status_text||""};
+  return{cls:"p-bekle",pill:"BEKLE",t:"Eski tarama biçimi — etiket yok."};
 }
 function diffBadges(r){
   const p=PREV[r.symbol]; if(!p)return "";
@@ -127,12 +124,7 @@ function diffBadges(r){
   return out.join("");
 }
 function nextStep(r,s){
-  if(s.pill==="GİRİŞ ADAYI")return `Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir ${barTxt()} kapanış planı bozar — o zaman alma.`;
-  if(r.in_buy)return `Beklenen: bölge içinde YEŞİL + hacimli bir ${barTxt()} kapanış. Teyit ${r.conf}/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.`;
-  if(s.pill==="AZALT")return "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.";
-  if(s.pill==="TEPEDE")return "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.";
-  if(s.pill==="YAKIN")return `Fiyat ${Math.abs(r.dist_atr).toFixed(2)} ATR daha inerse alım bölgesine girer ve bu kart 'Bölgede'ye taşınır — TradingView'da bölge tabanına alarm kur.`;
-  return "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.";
+  return r.next||"İki bölge arasında — bu hissede bugün yapılacak işlem yok.";
 }
 const NEDEN={yesil:"mum kırmızı",yukari:"kapanış düşük",hacim:"hacim zayıf",rsi:"momentum dönmedi"};
 const VARN={yesil:"yeşil mum",yukari:"yukarı kapanış",hacim:"hacim geldi",rsi:"momentum döndü"};
@@ -150,7 +142,7 @@ function explain(r){
     <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>
     ${r.rejim_up!=null?`<div class="zone">🧭 Piyasa rejimi: ${r.rejim_up?"uyumlu ✓":"TERS ✗"}${r.in_buy&&r.conf>=3?` (skor ${r.rejim_up?"+1":"−1"})`:""} — 8 yıl ölçüm: uyumlu sinyal %58.3, ters %52.0</div>`:""}
     ${(()=>{const hk=HKM&&HKM[r.symbol];if(!hk)return"";const f=(s)=>s&&s.wr!=null?`%${(s.wr*100).toFixed(0)} (${s.n} giriş)`:"—";return `<div class="zone">📜 Bu hissede geçmiş isabet: 1G <b>${f(hk["1d"])}</b> · 4H <b>${f(hk["4h"])}</b>${r.hk_weak?` · <span style="color:var(--wait)">geçmişi zayıf → skor −1</span>`:""}${hk.flags&&hk.flags.length?` · <span style="color:var(--wait)">⚠ ${hk.flags.join(", ")}</span>`:""}</div>`;})()}
-    ${r.verify?`<div class="zone" style="color:${r.verify.warn?"var(--sell)":"var(--dim)"}">🧾 Çapraz veri hakemi (Stooq): kapanış farkı %${r.verify.diff_pct}${r.verify.warn?" — UYARI: ya kaynak uyuşmazlığı ya da bugün sert hareket var; karar öncesi TradingView'dan taze fiyata bak":" ✓ kaynaklar uyumlu"}</div>`:""}
+    ${r.verify?`<div class="zone" style="color:${r.verify.warn?"var(--sell)":"var(--dim)"}">🧾 Çapraz veri hakemi (Nasdaq): kapanış farkı %${r.verify.diff_pct}${r.verify.warn?" — UYARI: ya kaynak uyuşmazlığı ya da bugün sert hareket var; karar öncesi TradingView'dan taze fiyata bak":" ✓ kaynaklar uyumlu"}</div>`:""}
     ${sirket(r)}`;
 }
 const VAPID_PUB="BBX0TD2pNjvK1j02cDmTrzJLnD2a1JYnwGiSRfKAe3WWTJ19ZJCPPOjflUC3IVDzGH0u6VMwyF3mV9M9ORiFQik";
