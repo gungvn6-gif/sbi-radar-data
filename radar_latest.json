@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07 13:23",
+ "generated_at": "2026-09-07 14:14",
  "tf": "4h",
  "rows": [
   {
@@ -123,7 +123,7 @@
    "score": 7.0,
    "bars": 781,
    "co": {
-    "pe": 50.1,
+    "pe": 49.9,
     "margin": 18.1,
     "de": 23.8,
     "growth": 32.6,
@@ -132,6 +132,43 @@
     "earn_days": 57,
     "news": [],
     "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "EFOR.IS",
+   "close": 18.09,
+   "in_buy": true,
+   "buy_low": 17.4899,
+   "buy_high": 18.1901,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 19.0549,
+   "sell_high": 19.7551,
+   "sell_conf": 0,
+   "atr_pct": 3.87,
+   "rel_vol": 1.25,
+   "dist_atr": 0.0,
+   "score": 7.0,
+   "bars": 629,
+   "co": {
+    "pe": 1813.0,
+    "margin": 0.1,
+    "de": 61.7,
+    "growth": -11.5,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
    },
    "verify": null
   },
@@ -493,12 +530,12 @@
       "u": "https://finance.yahoo.com/economy/article/inflation-data-oracle-earnings-and-an-energy-supply-crunch-what-to-watch-this-week-120429533.html"
      },
      {
-      "t": "Oracle Is Putting HPE Juniper Gear Into Its AI Data Centers. Is HPE Finally Getting Paid for the GPU Networking Bottleneck?",
-      "u": "https://finance.yahoo.com/technology/ai/articles/oracle-putting-hpe-juniper-gear-083309249.html"
+      "t": "Five Market Events to Watch This Week: U.S. Inflation, ECB Rates, Iran and Earnings",
+      "u": "https://investorshub.advfn.com/market-news/article/35756/five-market-events-to-watch-this-week-u-s-inflation-ecb-rates-iran-and-earnings"
      },
      {
-      "t": "Inflation, Apple, Adobe, Oracle, Macy’s, and More to Watch This Week",
-      "u": "https://www.barrons.com/articles/inflation-apple-adobe-oracle-macys-and-more-to-watch-this-week-23a2c022?siteid=yhoof2&yptr=yahoo"
+      "t": "Oracle Is Putting HPE Juniper Gear Into Its AI Data Centers. Is HPE Finally Getting Paid for the GPU Networking Bottleneck?",
+      "u": "https://finance.yahoo.com/technology/ai/articles/oracle-putting-hpe-juniper-gear-083309249.html"
      }
     ],
     "flabel": "Sağlam"
@@ -593,6 +630,208 @@
      }
     ],
     "flabel": "Veri yok"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "PSLV",
+   "close": 21.725,
+   "in_buy": true,
+   "buy_low": 21.343,
+   "buy_high": 21.777,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": true,
+   "sell_low": 21.633,
+   "sell_high": 22.067,
+   "sell_conf": 1,
+   "atr_pct": 2.0,
+   "rel_vol": 0.62,
+   "dist_atr": 0.0,
+   "score": 5.0,
+   "bars": 623,
+   "co": {
+    "pe": 2.7,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Investors Need to Realize Silver Supply Bailouts Are No Longer Available",
+      "u": "https://247wallst.com/investing/2026/06/01/investors-need-to-realize-silver-supply-bailouts-are-no-longer-available/"
+     },
+     {
+      "t": "AGQ Promises 2x Silver, But Beta Slippage Has Eaten Most of Silver’s Recent Surge",
+      "u": "https://247wallst.com/investing/2026/05/29/agq-promises-2x-silver-but-beta-slippage-has-eaten-most-of-silvers-recent-surge/"
+     },
+     {
+      "t": "The Real Reason PSLV Exists: When Owning the Metal Matters More Than Returns",
+      "u": "https://247wallst.com/investing/2026/05/11/the-real-reason-pslv-exists-when-owning-the-metal-matters-more-than-returns/"
+     }
+    ],
+    "flabel": "Veri yok"
+   },
+   "verify": {
+    "close2": 21.7,
+    "diff_pct": 0.12,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "AKSEN.IS",
+   "close": 79.05,
+   "in_buy": true,
+   "buy_low": 77.4768,
+   "buy_high": 79.1482,
+   "buy_src": "sr",
+   "buy_touch": 4,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 81.4143,
+   "sell_high": 83.0857,
+   "sell_conf": 2,
+   "atr_pct": 2.11,
+   "rel_vol": 0.74,
+   "dist_atr": 0.0,
+   "score": 5.0,
+   "bars": 781,
+   "co": {
+    "pe": 31.9,
+    "margin": 8.5,
+    "de": 84.7,
+    "growth": -28.3,
+    "target": 117.5,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "BALSU.IS",
+   "close": 8.76,
+   "in_buy": false,
+   "buy_low": 8.2957,
+   "buy_high": 8.6141,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 10.0408,
+   "sell_high": 10.3592,
+   "sell_conf": 1,
+   "atr_pct": 3.63,
+   "rel_vol": 1.75,
+   "dist_atr": 0.46,
+   "score": 5.0,
+   "bars": 781,
+   "co": {
+    "pe": 11.0,
+    "margin": 3.4,
+    "de": 325.0,
+    "growth": -1.1,
+    "target": 27.1,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "IZFAS.IS",
+   "close": 55.2,
+   "in_buy": false,
+   "buy_low": 50.5551,
+   "buy_high": 53.5449,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 61.7551,
+   "sell_high": 64.7449,
+   "sell_conf": 0,
+   "atr_pct": 5.42,
+   "rel_vol": 1.58,
+   "dist_atr": 0.55,
+   "score": 5.0,
+   "bars": 781,
+   "co": {
+    "pe": null,
+    "margin": -2.7,
+    "de": 20.9,
+    "growth": 22.5,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "KTLEV.IS",
+   "close": 44.74,
+   "in_buy": true,
+   "buy_low": 41.8562,
+   "buy_high": 45.0838,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 46.7411,
+   "sell_high": 49.9687,
+   "sell_conf": 1,
+   "atr_pct": 7.21,
+   "rel_vol": 1.41,
+   "dist_atr": 0.0,
+   "score": 5.0,
+   "bars": 784,
+   "co": {
+    "pe": 14.8,
+    "margin": 159.0,
+    "de": 1.4,
+    "growth": 86.9,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
    },
    "verify": null
   },
@@ -793,16 +1032,16 @@
     "earn_days": 52,
     "news": [
      {
+      "t": "The real danger of black market peptides: Novo Nordisk CEO",
+      "u": "https://finance.yahoo.com/video/real-danger-black-market-peptides-110000226.html"
+     },
+     {
       "t": "Amazon made fast delivery the norm. Now rivals want in",
       "u": "https://qz.com/amazon-fast-delivery-walmart-target-retail-30-minute-shipping"
      },
      {
       "t": "SpaceX Stock Is Down 34% From Its High. History Suggests a $10,000 Investment Will Be Worth This Much by Mid-2027.",
       "u": "https://www.fool.com/investing/2026/09/07/spacex-stock-is-down-34-from-its-high-history-sugg/"
-     },
-     {
-      "t": "Amazon, Meta Are Now Serious Competition to Uncle Sam: Big Tech's AI Debt Boom 'Driving' Treasury Yields Higher, Says Market Commentator",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/amazon-meta-now-serious-competition-065654674.html"
      }
     ],
     "flabel": "Sağlam"
@@ -1142,6 +1381,389 @@
    "verify": null
   },
   {
+   "symbol": "YKBNK.IS",
+   "close": 36.2,
+   "in_buy": false,
+   "buy_low": 34.5396,
+   "buy_high": 35.1404,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 36.1596,
+   "sell_high": 36.7604,
+   "sell_conf": 0,
+   "atr_pct": 1.66,
+   "rel_vol": 1.54,
+   "dist_atr": 1.76,
+   "score": 4.0,
+   "bars": 781,
+   "co": {
+    "pe": 5.5,
+    "margin": 24.9,
+    "de": null,
+    "growth": 29.4,
+    "target": 46.7,
+    "rec": "buy",
+    "earn_days": 59,
+    "news": [
+     {
+      "t": "Yapi Ve Kredi Bankasi AS (IST:YKBNK) (Q2 2026) Earnings Call Highlights: Net Profit Surges 36% ...",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/yapi-ve-kredi-bankasi-ist-010626288.html"
+     },
+     {
+      "t": "Yapi Ve Kredi Bankasi AS (IST:YKBNK) Q4 2025 Earnings Call Highlights: Robust Profit Growth and ...",
+      "u": "https://finance.yahoo.com/news/yapi-ve-kredi-bankasi-ist-010459736.html"
+     },
+     {
+      "t": "3 Middle Eastern Dividend Stocks Yielding Up To 8.1%",
+      "u": "https://finance.yahoo.com/news/3-middle-eastern-dividend-stocks-033151845.html"
+     }
+    ],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "ANELE.IS",
+   "close": 206.0,
+   "in_buy": false,
+   "buy_low": 164.486,
+   "buy_high": 193.455,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 204.2063,
+   "sell_high": 211.3886,
+   "sell_conf": 1,
+   "atr_pct": 3.49,
+   "rel_vol": 0.29,
+   "dist_atr": 1.75,
+   "score": 4.0,
+   "bars": 783,
+   "co": {
+    "pe": null,
+    "margin": -64.0,
+    "de": 135.5,
+    "growth": -86.3,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "ALKLC.IS",
+   "close": 458.5,
+   "in_buy": false,
+   "buy_low": 427.96,
+   "buy_high": 431.0125,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 447.7419,
+   "sell_high": 455.2703,
+   "sell_conf": 1,
+   "atr_pct": 1.64,
+   "rel_vol": 0.52,
+   "dist_atr": 3.65,
+   "score": 4.0,
+   "bars": 784,
+   "co": {
+    "pe": null,
+    "margin": -6.9,
+    "de": 114.6,
+    "growth": 13.9,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "EUPWR.IS",
+   "close": 72.25,
+   "in_buy": false,
+   "buy_low": 58.6225,
+   "buy_high": 61.977,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 85.9227,
+   "sell_high": 89.2773,
+   "sell_conf": 0,
+   "atr_pct": 4.64,
+   "rel_vol": 3.16,
+   "dist_atr": 3.06,
+   "score": 4.0,
+   "bars": 781,
+   "co": {
+    "pe": 52.9,
+    "margin": 6.1,
+    "de": 22.5,
+    "growth": -12.0,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "GESAN.IS",
+   "close": 63.9,
+   "in_buy": false,
+   "buy_low": 58.1537,
+   "buy_high": 60.8463,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 80.1537,
+   "sell_high": 82.8463,
+   "sell_conf": 0,
+   "atr_pct": 4.21,
+   "rel_vol": 2.47,
+   "dist_atr": 1.13,
+   "score": 4.0,
+   "bars": 784,
+   "co": {
+    "pe": 22.4,
+    "margin": 6.7,
+    "de": 26.3,
+    "growth": -60.1,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "IZENR.IS",
+   "close": 6.87,
+   "in_buy": false,
+   "buy_low": 5.9787,
+   "buy_high": 6.2142,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 8.4323,
+   "sell_high": 8.6677,
+   "sell_conf": 1,
+   "atr_pct": 3.43,
+   "rel_vol": 1.26,
+   "dist_atr": 2.79,
+   "score": 4.0,
+   "bars": 781,
+   "co": {
+    "pe": 62.5,
+    "margin": 4.0,
+    "de": 5.4,
+    "growth": -68.3,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "MANAS.IS",
+   "close": 38.34,
+   "in_buy": false,
+   "buy_low": 33.9224,
+   "buy_high": 34.61,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 37.1069,
+   "sell_high": 38.4534,
+   "sell_conf": 1,
+   "atr_pct": 3.51,
+   "rel_vol": 0.98,
+   "dist_atr": 2.77,
+   "score": 4.0,
+   "bars": 781,
+   "co": {
+    "pe": null,
+    "margin": -138.3,
+    "de": 141.0,
+    "growth": -28.3,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "OZATD.IS",
+   "close": 4600.0,
+   "in_buy": true,
+   "buy_low": 4560.8,
+   "buy_high": 4796.0,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 4602.0809,
+   "sell_high": 4707.9191,
+   "sell_conf": 3,
+   "atr_pct": 2.3,
+   "rel_vol": 0.08,
+   "dist_atr": 0.0,
+   "score": 4.0,
+   "bars": 781,
+   "co": {
+    "pe": null,
+    "margin": -17.6,
+    "de": 41.7,
+    "growth": -25.8,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "PEKGY.IS",
+   "close": 10.56,
+   "in_buy": false,
+   "buy_low": 8.7622,
+   "buy_high": 9.3383,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 14.657,
+   "sell_high": 15.233,
+   "sell_conf": 1,
+   "atr_pct": 5.46,
+   "rel_vol": 1.43,
+   "dist_atr": 2.12,
+   "score": 4.0,
+   "bars": 784,
+   "co": {
+    "pe": 32.8,
+    "margin": 38.2,
+    "de": 116.7,
+    "growth": -93.1,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "SVGYO.IS",
+   "close": 15.9,
+   "in_buy": false,
+   "buy_low": 14.7594,
+   "buy_high": 15.4406,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 15.8294,
+   "sell_high": 16.5106,
+   "sell_conf": 0,
+   "atr_pct": 4.28,
+   "rel_vol": 0.77,
+   "dist_atr": 0.67,
+   "score": 4.0,
+   "bars": 368,
+   "co": {
+    "pe": null,
+    "margin": -4.4,
+    "de": 0.1,
+    "growth": -26.7,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
    "symbol": "F",
    "close": 14.62,
    "in_buy": false,
@@ -1229,16 +1851,16 @@
     "earn_days": 52,
     "news": [
      {
+      "t": "Bettors wager Apple's foldable iPhone will cost more than $2,000",
+      "u": "https://www.proactiveinvestors.com/companies/news/1098166/bettors-wager-apple-s-foldable-iphone-will-cost-more-than-2-000-1098166.html"
+     },
+     {
       "t": "Huawei, Xiaomi to Debut New Top Phones on Eve of Foldable iPhone",
       "u": "https://finance.yahoo.com/technology/articles/huawei-xiaomi-debut-top-phones-044245046.html"
      },
      {
       "t": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
       "u": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo"
-     },
-     {
-      "t": "Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.",
-      "u": "https://finance.yahoo.com/media-advertising/articles/apple-aapl-raises-apple-tv-224834727.html"
      }
     ],
     "flabel": "Sağlam"
@@ -1496,16 +2118,16 @@
     "earn_days": null,
     "news": [
      {
+      "t": "Tertiary Minerals MD: 'Really very impressive' grades as Mushima North deepens",
+      "u": "https://finance.yahoo.com/video/tertiary-minerals-md-really-very-104238541.html"
+     },
+     {
+      "t": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
+      "u": "https://investorshub.advfn.com/market-news/article/35748/gold-falls-below-4400-as-u-s-jobs-data-keeps-fed-rate-hike-expectations-elevated"
+     },
+     {
       "t": "Tertiary Minerals extends Mushima North mineralisation at depth",
       "u": "https://www.proactiveinvestors.com/companies/news/1098156/tertiary-minerals-extends-mushima-north-mineralisation-at-depth-1098156.html"
-     },
-     {
-      "t": "Basic Materials Roundup: Market Talk",
-      "u": "https://www.wsj.com/business/basic-materials-roundup-market-talk-90badd13?siteid=yhoof2&yptr=yahoo"
-     },
-     {
-      "t": "Gold, Silver Futures Slip on Blowout Jobs Report",
-      "u": "https://www.wsj.com/finance/commodities-futures/gold-rises-on-weaker-u-s-dollar-821f948d?siteid=yhoof2&yptr=yahoo"
      }
     ],
     "flabel": "Veri yok"
@@ -1565,6 +2187,339 @@
     "diff_pct": 0.08,
     "warn": false
    }
+  },
+  {
+   "symbol": "TURSG.IS",
+   "close": 6.06,
+   "in_buy": false,
+   "buy_low": 5.9034,
+   "buy_high": 5.9966,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 6.3134,
+   "sell_high": 6.4066,
+   "sell_conf": 3,
+   "atr_pct": 1.54,
+   "rel_vol": 1.0,
+   "dist_atr": 0.68,
+   "score": 3.0,
+   "bars": 780,
+   "co": {
+    "pe": 4.7,
+    "margin": 23.5,
+    "de": 26.8,
+    "growth": 32.0,
+    "target": 9.8,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "DAPGM.IS",
+   "close": 7.81,
+   "in_buy": false,
+   "buy_low": 7.1539,
+   "buy_high": 7.4461,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 8.5039,
+   "sell_high": 8.7961,
+   "sell_conf": 0,
+   "atr_pct": 3.74,
+   "rel_vol": 0.45,
+   "dist_atr": 1.25,
+   "score": 3.0,
+   "bars": 781,
+   "co": {
+    "pe": 32.6,
+    "margin": 7.8,
+    "de": 15.6,
+    "growth": -11.7,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "ESCAR.IS",
+   "close": 45.96,
+   "in_buy": true,
+   "buy_low": 44.5092,
+   "buy_high": 46.2668,
+   "buy_src": "sr",
+   "buy_touch": 5,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 46.3612,
+   "sell_high": 48.1188,
+   "sell_conf": 4,
+   "atr_pct": 3.82,
+   "rel_vol": 0.53,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 781,
+   "co": {
+    "pe": null,
+    "margin": -29.6,
+    "de": 39.4,
+    "growth": -2.0,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "EUREN.IS",
+   "close": 3.83,
+   "in_buy": false,
+   "buy_low": 3.7534,
+   "buy_high": 3.8266,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 3.8834,
+   "sell_high": 3.9566,
+   "sell_conf": 2,
+   "atr_pct": 1.91,
+   "rel_vol": 0.63,
+   "dist_atr": 0.05,
+   "score": 3.0,
+   "bars": 784,
+   "co": {
+    "pe": null,
+    "margin": -1.6,
+    "de": 17.0,
+    "growth": 11.2,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "GUNDG.IS",
+   "close": 1156.0,
+   "in_buy": true,
+   "buy_low": 1081.1955,
+   "buy_high": 1200.8045,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 1243.1955,
+   "sell_high": 1362.8045,
+   "sell_conf": 4,
+   "atr_pct": 10.35,
+   "rel_vol": 4.23,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 759,
+   "co": {
+    "pe": null,
+    "margin": -11.6,
+    "de": 0.2,
+    "growth": null,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "SELEC.IS",
+   "close": 361.0,
+   "in_buy": false,
+   "buy_low": 302.287,
+   "buy_high": 342.6125,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": true,
+   "sell_low": 359.0774,
+   "sell_high": 369.5843,
+   "sell_conf": 1,
+   "atr_pct": 2.91,
+   "rel_vol": 0.4,
+   "dist_atr": 1.75,
+   "score": 3.0,
+   "bars": 781,
+   "co": {
+    "pe": 100.1,
+    "margin": 1.2,
+    "de": 16.6,
+    "growth": 12.0,
+    "target": 151.9,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "TERA.IS",
+   "close": 194.7,
+   "in_buy": false,
+   "buy_low": 183.796,
+   "buy_high": 190.29,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": true,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 198.0185,
+   "sell_high": 200.3815,
+   "sell_conf": 3,
+   "atr_pct": 1.21,
+   "rel_vol": 1.18,
+   "dist_atr": 1.87,
+   "score": 3.0,
+   "bars": 781,
+   "co": {
+    "pe": null,
+    "margin": 13.1,
+    "de": 24.4,
+    "growth": 57.4,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "TMPOL.IS",
+   "close": 369.25,
+   "in_buy": false,
+   "buy_low": 323.2572,
+   "buy_high": 347.2428,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 437.5072,
+   "sell_high": 461.4928,
+   "sell_conf": 1,
+   "atr_pct": 6.5,
+   "rel_vol": 0.95,
+   "dist_atr": 0.92,
+   "score": 3.0,
+   "bars": 784,
+   "co": {
+    "pe": null,
+    "margin": -7.7,
+    "de": 67.0,
+    "growth": 55.4,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "VAKBN.IS",
+   "close": 33.6,
+   "in_buy": true,
+   "buy_low": 33.1282,
+   "buy_high": 33.8718,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 34.4182,
+   "sell_high": 35.1618,
+   "sell_conf": 3,
+   "atr_pct": 2.21,
+   "rel_vol": 0.98,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 781,
+   "co": {
+    "pe": 4.1,
+    "margin": 28.8,
+    "de": null,
+    "growth": 40.7,
+    "target": 40.9,
+    "rec": "buy",
+    "earn_days": 59,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
   },
   {
    "symbol": "KTOS",
@@ -1678,8 +2633,8 @@
    "symbol": "BRK-B",
    "close": 505.93,
    "in_buy": false,
-   "buy_low": 499.4478,
-   "buy_high": 503.0922,
+   "buy_low": 499.4163,
+   "buy_high": 503.1237,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -1690,12 +2645,12 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 504.8778,
-   "sell_high": 508.5222,
+   "sell_low": 504.8463,
+   "sell_high": 508.5537,
    "sell_conf": 4,
-   "atr_pct": 0.72,
+   "atr_pct": 0.73,
    "rel_vol": 1.09,
-   "dist_atr": 0.78,
+   "dist_atr": 0.76,
    "score": 2.0,
    "bars": 620,
    "co": {
@@ -1834,6 +2789,208 @@
    }
   },
   {
+   "symbol": "TEHOL.IS",
+   "close": 45.18,
+   "in_buy": false,
+   "buy_low": 39.7835,
+   "buy_high": 41.2565,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 44.7435,
+   "sell_high": 46.2165,
+   "sell_conf": 1,
+   "atr_pct": 3.26,
+   "rel_vol": 0.58,
+   "dist_atr": 2.66,
+   "score": 2.0,
+   "bars": 781,
+   "co": {
+    "pe": 27.9,
+    "margin": 34.5,
+    "de": 13.1,
+    "growth": 8747.0,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "DUNYH.IS",
+   "close": 120.7,
+   "in_buy": false,
+   "buy_low": 106.7436,
+   "buy_high": 114.0564,
+   "buy_src": "sr",
+   "buy_touch": 5,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 149.0436,
+   "sell_high": 156.3564,
+   "sell_conf": 2,
+   "atr_pct": 6.06,
+   "rel_vol": 0.37,
+   "dist_atr": 0.91,
+   "score": 2.0,
+   "bars": 694,
+   "co": {
+    "pe": 167.8,
+    "margin": 192.8,
+    "de": null,
+    "growth": 623.8,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "TRALT.IS",
+   "close": 50.3,
+   "in_buy": false,
+   "buy_low": 48.3942,
+   "buy_high": 49.8458,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 51.7992,
+   "sell_high": 53.2508,
+   "sell_conf": 4,
+   "atr_pct": 2.89,
+   "rel_vol": 1.4,
+   "dist_atr": 0.31,
+   "score": 2.0,
+   "bars": 584,
+   "co": {
+    "pe": 34.1,
+    "margin": 22.0,
+    "de": 0.2,
+    "growth": 25.9,
+    "target": 49.6,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "KBORU.IS",
+   "close": 17.74,
+   "in_buy": false,
+   "buy_low": 14.6449,
+   "buy_high": 15.406,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 18.1594,
+   "sell_high": 18.9206,
+   "sell_conf": 2,
+   "atr_pct": 4.29,
+   "rel_vol": 0.43,
+   "dist_atr": 3.07,
+   "score": 2.0,
+   "bars": 780,
+   "co": {
+    "pe": 64.2,
+    "margin": 2.5,
+    "de": 89.4,
+    "growth": 32.4,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "SIVR",
+   "close": 62.91,
+   "in_buy": false,
+   "buy_low": 60.2194,
+   "buy_high": 61.4006,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 65.8594,
+   "sell_high": 67.0406,
+   "sell_conf": 1,
+   "atr_pct": 1.88,
+   "rel_vol": 0.57,
+   "dist_atr": 1.28,
+   "score": 2.0,
+   "bars": 620,
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "SLV vs. SIVR: Same Silver, Lower Fee, So Which Physical Silver ETF Should You Actually Hold?",
+      "u": "https://247wallst.com/investing/etf/2026/07/11/slv-vs-sivr-same-silver-lower-fee-so-which-physical-silver-etf-should-you-actually-hold/"
+     },
+     {
+      "t": "America’s 250th Birthday Just Set a Silver World Record — Literally",
+      "u": "https://finance.yahoo.com/markets/commodities/articles/america-250th-birthday-just-set-213109191.html"
+     },
+     {
+      "t": "India Doubled Tariffs on Silver and Gold Imports To Protect a Plunging Rupee; Will Foreign US Treasury Bond Dumping Cause the US To Follow S",
+      "u": "https://247wallst.com/investing/2026/05/29/india-doubled-tariffs-on-silver-and-gold-imports-to-protect-a-plunging-rupee-will-foreign-us-treasury-bond-dumping-cause-the-us-to-follow-suit/"
+     }
+    ],
+    "flabel": "Veri yok"
+   },
+   "verify": {
+    "close2": 62.91,
+    "diff_pct": 0.0,
+    "warn": false
+   }
+  },
+  {
    "symbol": "NVDA",
    "close": 230.345,
    "in_buy": false,
@@ -1871,12 +3028,12 @@
       "u": "https://finance.yahoo.com/markets/article/why-nvidia-wants-hugging-face-to-keep-helping-its-rivals-chart-of-the-day-132655037.html"
      },
      {
-      "t": "Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord",
-      "u": "https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html"
+      "t": "Jensen Huang Just Said a 1-Gigawatt Facility Is Worth $50 Billion to $60 Billion. Here's What That Means for Neocloud Stocks Like Nebius.",
+      "u": "https://www.fool.com/investing/2026/09/07/jensen-huang-just-said-a-1-gigawatt-facility-is-wo/"
      },
      {
-      "t": "Not a Crash, Not a Correction: What the September Effect Really Means for Artificial Intelligence (AI) Chip Stocks",
-      "u": "https://www.fool.com/investing/2026/09/07/crash-correction-september-effect-ai-stocks/"
+      "t": "3 Historical Reasons I'll Be Completely Avoiding Anthropic's Upcoming and Potentially Record-Breaking IPO",
+      "u": "https://www.fool.com/investing/2026/09/07/3-historical-reasons-im-avoiding-anthropic-upcoming-record-breaking-ipo/"
      }
     ],
     "flabel": "Sağlam"
@@ -1925,12 +3082,12 @@
       "u": "https://finance.yahoo.com/video/weight-loss-just-beginning-glp-100000472.html"
      },
      {
-      "t": "Billionaire Bill Ackman Sells Alphabet Stock and Buys a Mega-Cap Stock Down 42% From Its High",
-      "u": "https://www.fool.com/investing/2026/09/07/bill-ackman-sell-alphabet-stock-buy-mega-cap-stock/"
+      "t": "AI computing demand may never be sated, says CEO of Nvidia partner Iren",
+      "u": "https://finance.yahoo.com/technology/ai/articles/ai-computing-demand-may-never-100010786.html"
      },
      {
-      "t": "Hut 8 Corp. (HUT)’s AI Pivot Gets a Major Boost From the $35 Billion Anthropic Deal",
-      "u": "https://finance.yahoo.com/technology/ai/articles/hut-8-corp-hut-ai-083054752.html"
+      "t": "Billionaire Bill Ackman Sells Alphabet Stock and Buys a Mega-Cap Stock Down 42% From Its High",
+      "u": "https://www.fool.com/investing/2026/09/07/bill-ackman-sell-alphabet-stock-buy-mega-cap-stock/"
      }
     ],
     "flabel": "Sağlam"
@@ -2320,6 +3477,268 @@
    }
   },
   {
+   "symbol": "USDTRY=X",
+   "close": 48.4303,
+   "in_buy": false,
+   "buy_low": 47.952,
+   "buy_high": 48.0868,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": true,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": true,
+   "sell_low": 48.4286,
+   "sell_high": 48.5633,
+   "sell_conf": 2,
+   "atr_pct": 0.28,
+   "rel_vol": null,
+   "dist_atr": 2.55,
+   "score": 1.0,
+   "bars": 1612,
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Veri yok"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "TRHOL.IS",
+   "close": 3600.0,
+   "in_buy": false,
+   "buy_low": 2767.76,
+   "buy_high": 3307.375,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 3711.0668,
+   "sell_high": 3811.1438,
+   "sell_conf": 4,
+   "atr_pct": 2.78,
+   "rel_vol": 0.77,
+   "dist_atr": 2.92,
+   "score": 1.0,
+   "bars": 739,
+   "co": null,
+   "verify": null
+  },
+  {
+   "symbol": "ALVES.IS",
+   "close": 1.24,
+   "in_buy": false,
+   "buy_low": 1.0383,
+   "buy_high": 1.085,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 1.8466,
+   "sell_high": 1.8934,
+   "sell_conf": 1,
+   "atr_pct": 3.77,
+   "rel_vol": 0.72,
+   "dist_atr": 3.32,
+   "score": 1.0,
+   "bars": 784,
+   "co": {
+    "pe": 20.5,
+    "margin": 0.5,
+    "de": 141.5,
+    "growth": 44.4,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "EGEGY.IS",
+   "close": 25.16,
+   "in_buy": false,
+   "buy_low": 20.993,
+   "buy_high": 21.9987,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 29.0771,
+   "sell_high": 30.0828,
+   "sell_conf": 3,
+   "atr_pct": 4.0,
+   "rel_vol": 0.8,
+   "dist_atr": 3.14,
+   "score": 1.0,
+   "bars": 781,
+   "co": {
+    "pe": 4.6,
+    "margin": 21.8,
+    "de": 27.8,
+    "growth": 126.2,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "MOPAS.IS",
+   "close": 25.3,
+   "in_buy": false,
+   "buy_low": 24.057,
+   "buy_high": 24.5363,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 26.5204,
+   "sell_high": 26.9996,
+   "sell_conf": 2,
+   "atr_pct": 1.89,
+   "rel_vol": 0.87,
+   "dist_atr": 1.59,
+   "score": 1.0,
+   "bars": 781,
+   "co": {
+    "pe": 22.1,
+    "margin": 1.6,
+    "de": 28.9,
+    "growth": 2.0,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "PASEU.IS",
+   "close": 153.4,
+   "in_buy": false,
+   "buy_low": 129.2608,
+   "buy_high": 140.5392,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 189.1608,
+   "sell_high": 200.4392,
+   "sell_conf": 3,
+   "atr_pct": 7.35,
+   "rel_vol": 1.26,
+   "dist_atr": 1.14,
+   "score": 1.0,
+   "bars": 784,
+   "co": {
+    "pe": 99.5,
+    "margin": 47.9,
+    "de": 39.9,
+    "growth": -18.3,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Undiscovered Gems in the Middle East to Explore This June 2026",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/undiscovered-gems-middle-east-explore-033301980.html"
+     },
+     {
+      "t": "Undiscovered Gems In Global Featuring Jiangxi Guotai GroupLtd And 2 Promising Small Caps",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/undiscovered-gems-global-featuring-jiangxi-093318483.html"
+     },
+     {
+      "t": "Middle East Hidden Gems Featuring ADNH Catering And 2 Promising Small Caps",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/middle-east-hidden-gems-featuring-083318189.html"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "TATEN.IS",
+   "close": 7.59,
+   "in_buy": false,
+   "buy_low": 7.1181,
+   "buy_high": 7.337,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 10.5805,
+   "sell_high": 10.7995,
+   "sell_conf": 2,
+   "atr_pct": 2.88,
+   "rel_vol": 0.8,
+   "dist_atr": 1.16,
+   "score": 1.0,
+   "bars": 784,
+   "co": {
+    "pe": null,
+    "margin": -0.8,
+    "de": 83.4,
+    "growth": 2.3,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
    "symbol": "MSFT",
    "close": 499.68,
    "in_buy": false,
@@ -2571,16 +3990,16 @@
     "earn_days": null,
     "news": [
      {
+      "t": "The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wa",
+      "u": "https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/"
+     },
+     {
+      "t": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
+      "u": "https://investorshub.advfn.com/market-news/article/35748/gold-falls-below-4400-as-u-s-jobs-data-keeps-fed-rate-hike-expectations-elevated"
+     },
+     {
       "t": "A Better Trade Than Bitcoin or Gold in 2026 Is Sitting in Your Kitchen",
       "u": "https://beincrypto.com/sugar-price-rally-bitcoin-gold-august/"
-     },
-     {
-      "t": "Copper Rises on Supply Concerns Despite Rate-Hike Bets",
-      "u": "https://www.wsj.com/finance/commodities-futures/gold-falls-on-rising-fed-rate-hike-expectations-6e77bf70?siteid=yhoof2&yptr=yahoo"
-     },
-     {
-      "t": "Gold Holds Decline as Traders Weigh Prospects for Fed Rate Hike",
-      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-decline-traders-weigh-232846552.html"
      }
     ],
     "flabel": "Veri yok"
@@ -2588,11 +4007,11 @@
    "verify": null
   },
   {
-   "symbol": "USDTRY=X",
-   "close": 48.4302,
+   "symbol": "BIGEN.IS",
+   "close": 136.4,
    "in_buy": false,
-   "buy_low": 47.9508,
-   "buy_high": 48.088,
+   "buy_low": 121.6917,
+   "buy_high": 128.3083,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -2603,33 +4022,78 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 48.4212,
-   "sell_high": 48.5585,
-   "sell_conf": 3,
-   "atr_pct": 0.28,
-   "rel_vol": null,
-   "dist_atr": 2.49,
+   "sell_low": 135.3917,
+   "sell_high": 142.0083,
+   "sell_conf": 2,
+   "atr_pct": 4.85,
+   "rel_vol": 0.02,
+   "dist_atr": 1.22,
    "score": 0.0,
-   "bars": 1611,
+   "bars": 781,
    "co": {
     "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
+    "margin": -4.6,
+    "de": 94.6,
+    "growth": -24.5,
     "target": null,
-    "rec": null,
+    "rec": "none",
     "earn_days": null,
     "news": [],
-    "flabel": "Veri yok"
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "ODINE.IS",
+   "close": 1190.0,
+   "in_buy": false,
+   "buy_low": 1077.6785,
+   "buy_high": 1167.3215,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 1405.1785,
+   "sell_high": 1494.8215,
+   "sell_conf": 2,
+   "atr_pct": 7.53,
+   "rel_vol": 0.03,
+   "dist_atr": 0.25,
+   "score": 0.0,
+   "bars": 781,
+   "co": {
+    "pe": 2245.3,
+    "margin": 2.4,
+    "de": 5.0,
+    "growth": 116.4,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
    },
    "verify": null
   }
  ],
  "errors": [
-  "SPCX"
+  "KARCL.IS",
+  "METEN.IS",
+  "SARAE.IS",
+  "SPCX",
+  "SVUSA"
  ],
  "errors_detail": {
-  "SPCX": "kisa"
+  "SVUSA": "yok",
+  "SPCX": "kisa",
+  "KARCL.IS": "kisa",
+  "METEN.IS": "kisa",
+  "SARAE.IS": "kisa"
  },
  "market": {
   "spx_up": true,
