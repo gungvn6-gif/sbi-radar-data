@@ -89,9 +89,9 @@
   <b>Nasıl okunur:</b> Yeşil etiket = bölge + güçlü teyit (kademeli giriş düşünülebilir); sarı = bölgede ama dönüş
   teyidi eksik — bekle; mavi = bölgeye yaklaşıyor, alarm kur. ⭐ ile hisseyi takibe al — hep en üstte görürsün.
   Mavi rozetler dünkü taramaya göre DEĞİŞENLERİ işaretler.<br><br>
-  <b>Dürüstlük notu:</b> Olasılık sıralamasıdır, kehanet değildir. Dayanak: bölge+teyit≥3 girişleri geçmiş replay'de
-  %51.3 isabet / +0.38% ort. getiri vs teyitsiz %44.4 / −0.35% (kripto 4H×9000 bar; hisse karnesi birikiyor).
-  SR pivot portu 11 Ağu'da geldi (1G bölge+teyit≥3 %57 vs taban %54). Kesin sinyal TradingView'daki SB/SS marker'ıdır.
+  <b>Dürüstlük notu:</b> Bölge ve teyitler teknik takip içindir; teyit sayısı yükseliş olasılığı değildir.
+  Günlük getiri üstünlüğü henüz doğrulanmadı. Geçmiş isabetler gelecekteki başarıyı kanıtlamaz.
+  TradingView ile birebir aynı sinyallerin üretildiği henüz doğrulanmış değildir.
 </footer>
 <script>
 const RAW="https://raw.githubusercontent.com/gungvn6-gif/sbi-radar-data/main/";
@@ -111,6 +111,7 @@ function setTF(t){TF=t;localStorage.setItem("sbi_tf",t);document.getElementById(
 function statusOf(r){
   // Kural TEK yerde: motor (radar.py status_of) r.status/r.status_text üretir; burası yalnız renk sınıfı seçer.
   const CLS={"GİRİŞ ADAYI":"p-buy","TEYİT OLUŞUYOR":"p-form","TEYİT BEKLE":"p-wait","AZALT":"p-sell","TEPEDE":"p-izle","YAKIN":"p-near","BEKLE":"p-bekle"};
+  if(r.data_fresh!==true)return{cls:"p-bekle",pill:"BEKLE",t:"Güncel kapalı mum doğrulanamadı."};
   if(r.status)return{cls:CLS[r.status]||"p-bekle",pill:r.status,t:r.status_text||""};
   return{cls:"p-bekle",pill:"BEKLE",t:"Eski tarama biçimi — etiket yok."};
 }
@@ -137,10 +138,10 @@ function explain(r){
   const atrT=r.atr_pct<2?"sakin":r.atr_pct<4?"orta":"YÜKSEK → pozisyonu küçük tut";
   return `
     <div class="zone" style="color:var(--ink)"><b>🧭 Ne yapmalı:</b> ${nextStep(r,statusOf(r))}</div>
-    <div class="zone" style="margin-top:6px"><b style="color:var(--ink)">🔬 Teyit ${r.conf}/4:</b> ${teyLine} <span style="color:var(--dim)">(teyit≥3 → isabet ölçümde %44→%51)</span></div>
+    <div class="zone" style="margin-top:6px"><b style="color:var(--ink)">🔬 Teyit ${r.conf}/4:</b> ${teyLine} <span style="color:var(--dim)">(teyit sayısı yükseliş olasılığı değildir)</span></div>
     <div class="zone" style="margin-top:6px">📖 ATR %${r.atr_pct} (${atrT}) · skor ${r.score} (sıralama içindir, emir değil) · kaynak: ${r.buy_src==="pullback"?"trend geri çekilme bandı":r.buy_src==="sr"?`SR destek kümesi${r.buy_touch?` (${r.buy_touch} dokunuş — Pine ile aynı pivot motoru)`:""}`:"BB dip yapısı (yakında SR kümesi yok)"}</div>
     <div class="zone">🔴 Kâr-al bölgesi: ${r.sell_low!=null?fmt(r.sell_low)+" – "+fmt(r.sell_high):"—"} (zayıflama ${r.sell_conf}/4) · veri ${r.bars} bar${r.dist_atr!=null&&!r.in_buy?` · bölgeye ${Math.abs(r.dist_atr).toFixed(2)} ATR`:""}</div>
-    ${r.rejim_up!=null?`<div class="zone">🧭 Piyasa rejimi: ${r.rejim_up?"uyumlu ✓":"TERS ✗"}${r.in_buy&&r.conf>=3?` (skor ${r.rejim_up?"+1":"−1"})`:""} — 8 yıl ölçüm: uyumlu sinyal %58.3, ters %52.0</div>`:""}
+    ${r.rejim_up!=null?`<div class="zone">🧭 Piyasa rejimi: ${r.rejim_up?"uyumlu ✓":"TERS ✗"} — günlük SMA200 bağlamı; getiri üstünlüğü henüz doğrulanmadı</div>`:""}
     ${(()=>{const hk=HKM&&HKM[r.symbol];if(!hk)return"";const f=(s)=>s&&s.wr!=null?`%${(s.wr*100).toFixed(0)} (${s.n} giriş)`:"—";return `<div class="zone">📜 Bu hissede geçmiş isabet: 1G <b>${f(hk["1d"])}</b> · 4H <b>${f(hk["4h"])}</b>${r.hk_weak?` · <span style="color:var(--wait)">geçmişi zayıf → skor −1</span>`:""}${hk.flags&&hk.flags.length?` · <span style="color:var(--wait)">⚠ ${hk.flags.join(", ")}</span>`:""}</div>`;})()}
     ${r.verify?`<div class="zone" style="color:${r.verify.warn?"var(--sell)":"var(--dim)"}">🧾 Çapraz veri hakemi (Nasdaq): kapanış farkı %${r.verify.diff_pct}${r.verify.warn?" — UYARI: ya kaynak uyuşmazlığı ya da bugün sert hareket var; karar öncesi TradingView'dan taze fiyata bak":" ✓ kaynaklar uyumlu"}</div>`:""}
     ${sirket(r)}`;
@@ -214,7 +215,7 @@ function render(){
   const mk=DATA.market;
   document.getElementById("sub").innerHTML=
     `Son tarama: <b>${DATA.generated_at}</b><span class="dot">·</span>${DATA.tf}<span class="dot">·</span>${rows.length} sembol`+
-    (mk?`<span class="dot">·</span><span style="color:${mk.spx_up?"var(--buy)":"var(--sell)"}">SPX ${mk.spx_up?"↑":"↓"}</span> <span style="color:${mk.xu_up?"var(--buy)":"var(--sell)"}">BIST ${mk.xu_up?"↑":"↓"}</span>${(!mk.spx_up||!mk.xu_up)?` <span style="color:var(--sell)">— rejim aşağı, alımda temkin</span>`:""}`:"")+
+    (mk?`<span class="dot">·</span><span style="color:${mk.spx_up==null?"var(--dim)":mk.spx_up?"var(--buy)":"var(--sell)"}">SPX ${mk.spx_up==null?"?":mk.spx_up?"↑":"↓"}</span> <span style="color:${mk.xu_up==null?"var(--dim)":mk.xu_up?"var(--buy)":"var(--sell)"}">BIST ${mk.xu_up==null?"?":mk.xu_up?"↑":"↓"}</span>${(mk.spx_up===false||mk.xu_up===false)?` <span style="color:var(--sell)">— rejim aşağı, alımda temkin</span>`:""}`:"")+
     (DATA.errors&&DATA.errors.length?`<span class="dot">·</span><span style="color:var(--sell)">${DATA.errors.length} veri hatası</span>`:"");
   document.getElementById("sumbar").innerHTML=
     `<a class="sum ${TF==="4h"?"act":""}" href="#" onclick="setTF('4h');return false">4 Saat</a>`+

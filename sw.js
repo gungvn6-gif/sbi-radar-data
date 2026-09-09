@@ -1,11 +1,15 @@
 // SBI Radar SW — kabuk cache-first, veri (radar_latest.json) network-first
-const SHELL = "sbi-radar-v9";
+const SHELL = "sbi-radar-v10";
 const ASSETS = ["./", "index.html", "manifest.json", "icon.svg"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(ASSETS)));
   self.skipWaiting();
 });
-self.addEventListener("activate", e => e.waitUntil(self.clients.claim()));
+self.addEventListener("activate", e => e.waitUntil(
+  caches.keys().then(keys => Promise.all(
+    keys.filter(key => key.startsWith("sbi-radar-") && key !== SHELL).map(key => caches.delete(key))
+  )).then(() => self.clients.claim())
+));
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (url.pathname.endsWith("radar_latest.json")) {
