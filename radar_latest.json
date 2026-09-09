@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09 09:59",
+ "generated_at": "2026-09-09 11:41",
  "tf": "4h",
  "rows": [
   {
@@ -507,8 +507,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 213.25,
-    "diff_pct": -0.06,
+    "close2": 214.66,
+    "diff_pct": -0.71,
     "warn": false
    }
   },
@@ -564,8 +564,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 4.56,
-    "diff_pct": 0.22,
+    "close2": 4.5592,
+    "diff_pct": 0.24,
     "warn": false
    }
   },
@@ -621,8 +621,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 117.49,
-    "diff_pct": 0.06,
+    "close2": 119.2219,
+    "diff_pct": -1.39,
     "warn": false
    }
   },
@@ -678,8 +678,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 256.97,
-    "diff_pct": -0.0,
+    "close2": 256.9763,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -735,8 +735,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 160.66,
-    "diff_pct": 0.02,
+    "close2": 161.73,
+    "diff_pct": -0.64,
     "warn": false
    }
   },
@@ -792,8 +792,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 910.18,
-    "diff_pct": -0.01,
+    "close2": 909.24,
+    "diff_pct": 0.1,
     "warn": false
    }
   },
@@ -833,6 +833,59 @@
     "rec": null,
     "earn_days": null,
     "news": [],
+    "flabel": "Veri yok"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "SI=F",
+   "close": 67.495,
+   "in_buy": true,
+   "buy_low": 66.9413,
+   "buy_high": 67.8287,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 67.6363,
+   "sell_high": 68.5237,
+   "sell_conf": 0,
+   "atr_pct": 1.31,
+   "rel_vol": 0.65,
+   "dist_atr": 0.0,
+   "score": 6.0,
+   "bars": 1376,
+   "status": "GİRİŞ ADAYI",
+   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
+   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4 saatlik kapanış planı bozar — o zaman alma.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Silver prices today, Tuesday, September 8, 2026: Silver prices holding over $66 as Iran conflict wages on",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-september-8-2026-silver-prices-holding-over-66-as-iran-conflict-wages-on-111935447.html"
+     },
+     {
+      "t": "Power Metallic Mines advances Nisk Project with updated mineral resource",
+      "u": "https://www.proactiveinvestors.com/companies/news/1098217/power-metallic-mines-advances-nisk-project-with-updated-mineral-resource-1098217.html"
+     },
+     {
+      "t": "Gold Edges Lower as Weaker Dollar Offsets Fed Rate-Hike Expectations",
+      "u": "https://investorshub.advfn.com/market-news/article/35785/gold-edges-lower-as-weaker-dollar-offsets-fed-rate-hike-expectations"
+     }
+    ],
     "flabel": "Veri yok"
    },
    "verify": null
@@ -1458,8 +1511,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 28.88,
-    "diff_pct": 0.0,
+    "close2": 28.46,
+    "diff_pct": 1.48,
     "warn": false
    }
   },
@@ -1515,8 +1568,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 162.52,
-    "diff_pct": 0.0,
+    "close2": 164.27,
+    "diff_pct": -1.07,
     "warn": false
    }
   },
@@ -1572,10 +1625,104 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 22.9,
-    "diff_pct": 0.0,
+    "close2": 23.28,
+    "diff_pct": -1.63,
     "warn": false
    }
+  },
+  {
+   "symbol": "GC=F",
+   "close": 4452.8999,
+   "in_buy": true,
+   "buy_low": 4426.8233,
+   "buy_high": 4464.3769,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 4480.2899,
+   "sell_high": 4517.8436,
+   "sell_conf": 0,
+   "atr_pct": 0.84,
+   "rel_vol": 0.8,
+   "dist_atr": 0.0,
+   "score": 5.0,
+   "bars": 1376,
+   "status": "GİRİŞ ADAYI",
+   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
+   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4 saatlik kapanış planı bozar — o zaman alma.",
+   "hk_weak": true,
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Gold prices today, Tuesday, September 8, 2026: Gold moves lower following fresh escalations with Iran",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-september-8-2026-gold-moves-lower-following-fresh-escalations-with-iran-111035525.html"
+     },
+     {
+      "t": "Power Metallic Mines advances Nisk Project with updated mineral resource",
+      "u": "https://www.proactiveinvestors.com/companies/news/1098217/power-metallic-mines-advances-nisk-project-with-updated-mineral-resource-1098217.html"
+     },
+     {
+      "t": "Kinross Gold Stock Up 13% in a Month: What Should Investors Do Now?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-stock-13-month-123000576.html"
+     }
+    ],
+    "flabel": "Veri yok"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "USDTRY=X",
+   "close": 48.4744,
+   "in_buy": false,
+   "buy_low": 48.3394,
+   "buy_high": 48.443,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 48.419,
+   "sell_high": 48.5223,
+   "sell_conf": 0,
+   "atr_pct": 0.21,
+   "rel_vol": null,
+   "dist_atr": 0.3,
+   "score": 5.0,
+   "bars": 1623,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Veri yok"
+   },
+   "verify": null
   },
   {
    "symbol": "AKBNK.IS",
@@ -2047,8 +2194,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 63.48,
-    "diff_pct": 0.13,
+    "close2": 64.28,
+    "diff_pct": -1.12,
     "warn": false
    }
   },
@@ -2264,8 +2411,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 363.2,
-    "diff_pct": 0.03,
+    "close2": 365.05,
+    "diff_pct": -0.48,
     "warn": false
    }
   },
@@ -2321,8 +2468,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 320.42,
-    "diff_pct": 0.08,
+    "close2": 322.66,
+    "diff_pct": -0.61,
     "warn": false
    }
   },
@@ -2435,8 +2582,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 174.09,
-    "diff_pct": 0.0,
+    "close2": 176.78,
+    "diff_pct": -1.52,
     "warn": false
    }
   },
@@ -2492,8 +2639,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 86.89,
-    "diff_pct": 0.01,
+    "close2": 87.6,
+    "diff_pct": -0.8,
     "warn": false
    }
   },
@@ -2549,8 +2696,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 75.38,
-    "diff_pct": 0.01,
+    "close2": 74.52,
+    "diff_pct": 1.17,
     "warn": false
    }
   },
@@ -2606,8 +2753,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 258.92,
-    "diff_pct": -0.01,
+    "close2": 258.7,
+    "diff_pct": 0.08,
     "warn": false
    }
   },
@@ -2703,8 +2850,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 129.57,
-    "diff_pct": 0.02,
+    "close2": 129.9743,
+    "diff_pct": -0.3,
     "warn": false
    }
   },
@@ -2760,8 +2907,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 333.42,
-    "diff_pct": 0.0,
+    "close2": 332.42,
+    "diff_pct": 0.3,
     "warn": false
    }
   },
@@ -2817,8 +2964,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 382.85,
-    "diff_pct": 0.01,
+    "close2": 385.03,
+    "diff_pct": -0.56,
     "warn": false
    }
   },
@@ -2874,8 +3021,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 290.83,
-    "diff_pct": -0.02,
+    "close2": 294.0,
+    "diff_pct": -1.1,
     "warn": false
    }
   },
@@ -2931,8 +3078,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 368.56,
-    "diff_pct": -0.04,
+    "close2": 369.72,
+    "diff_pct": -0.35,
     "warn": false
    }
   },
@@ -2988,8 +3135,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 439.0,
-    "diff_pct": 0.0,
+    "close2": 438.01,
+    "diff_pct": 0.23,
     "warn": false
    }
   },
@@ -3045,8 +3192,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 368.16,
-    "diff_pct": -0.03,
+    "close2": 367.43,
+    "diff_pct": 0.17,
     "warn": false
    }
   },
@@ -3102,8 +3249,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 518.58,
-    "diff_pct": 0.04,
+    "close2": 520.0137,
+    "diff_pct": -0.23,
     "warn": false
    }
   },
@@ -3159,8 +3306,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 336.98,
-    "diff_pct": -0.04,
+    "close2": 337.81,
+    "diff_pct": -0.28,
     "warn": false
    }
   },
@@ -3356,99 +3503,6 @@
    "verify": null
   },
   {
-   "symbol": "SI=F",
-   "close": 66.945,
-   "in_buy": false,
-   "buy_low": 65.9233,
-   "buy_high": 66.8067,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 67.6383,
-   "sell_high": 68.5217,
-   "sell_conf": 0,
-   "atr_pct": 1.32,
-   "rel_vol": 0.55,
-   "dist_atr": 0.16,
-   "score": 4.0,
-   "bars": 1375,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.16 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.16 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Silver prices today, Tuesday, September 8, 2026: Silver prices holding over $66 as Iran conflict wages on",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-september-8-2026-silver-prices-holding-over-66-as-iran-conflict-wages-on-111935447.html"
-     },
-     {
-      "t": "Power Metallic Mines advances Nisk Project with updated mineral resource",
-      "u": "https://www.proactiveinvestors.com/companies/news/1098217/power-metallic-mines-advances-nisk-project-with-updated-mineral-resource-1098217.html"
-     },
-     {
-      "t": "Gold Edges Lower as Weaker Dollar Offsets Fed Rate-Hike Expectations",
-      "u": "https://investorshub.advfn.com/market-news/article/35785/gold-edges-lower-as-weaker-dollar-offsets-fed-rate-hike-expectations"
-     }
-    ],
-    "flabel": "Veri yok"
-   },
-   "verify": null
-  },
-  {
-   "symbol": "USDTRY=X",
-   "close": 48.4696,
-   "in_buy": false,
-   "buy_low": 48.3283,
-   "buy_high": 48.4376,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": true,
-   "sell_low": 48.4268,
-   "sell_high": 48.5301,
-   "sell_conf": 1,
-   "atr_pct": 0.21,
-   "rel_vol": null,
-   "dist_atr": 0.31,
-   "score": 4.0,
-   "bars": 1622,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Veri yok"
-   },
-   "verify": null
-  },
-  {
    "symbol": "REMX",
    "close": 76.8,
    "in_buy": false,
@@ -3500,17 +3554,17 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 76.73,
-    "diff_pct": 0.09,
+    "close2": 76.91,
+    "diff_pct": -0.14,
     "warn": false
    }
   },
   {
    "symbol": "BZ=F",
-   "close": 99.62,
+   "close": 99.94,
    "in_buy": false,
-   "buy_low": 92.5882,
-   "buy_high": 96.6465,
+   "buy_low": 92.8564,
+   "buy_high": 96.8755,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 3,
@@ -3521,14 +3575,14 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 101.3362,
+   "sell_low": 101.3361,
    "sell_high": 102.6839,
    "sell_conf": 0,
    "atr_pct": 1.35,
    "rel_vol": 0.51,
-   "dist_atr": 2.21,
+   "dist_atr": 2.27,
    "score": 4.0,
-   "bars": 1366,
+   "bars": 1367,
    "status": "BEKLE",
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
@@ -4378,8 +4432,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 904.38,
-    "diff_pct": -0.11,
+    "close2": 908.0,
+    "diff_pct": -0.51,
     "warn": false
    }
   },
@@ -5053,8 +5107,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 112.66,
-    "diff_pct": -0.01,
+    "close2": 112.15,
+    "diff_pct": 0.45,
     "warn": false
    }
   },
@@ -5110,8 +5164,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 92.55,
-    "diff_pct": 0.01,
+    "close2": 93.74,
+    "diff_pct": -1.26,
     "warn": false
    }
   },
@@ -5167,8 +5221,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 28.24,
-    "diff_pct": 0.14,
+    "close2": 28.492,
+    "diff_pct": -0.74,
     "warn": false
    }
   },
@@ -5224,8 +5278,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 16.65,
-    "diff_pct": 0.06,
+    "close2": 17.0,
+    "diff_pct": -2.0,
     "warn": false
    }
   },
@@ -5281,8 +5335,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 232.09,
-    "diff_pct": 0.02,
+    "close2": 232.18,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -5338,8 +5392,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 188.98,
-    "diff_pct": 0.03,
+    "close2": 189.39,
+    "diff_pct": -0.18,
     "warn": false
    }
   },
@@ -5395,9 +5449,9 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 274.8,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 287.655,
+    "diff_pct": -4.47,
+    "warn": true
    }
   },
   {
@@ -5452,8 +5506,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 225.41,
-    "diff_pct": 0.02,
+    "close2": 226.38,
+    "diff_pct": -0.41,
     "warn": false
    }
   },
@@ -5509,9 +5563,9 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 66.5,
-    "diff_pct": 0.07,
-    "warn": false
+    "close2": 68.51,
+    "diff_pct": -2.87,
+    "warn": true
    }
   },
   {
@@ -5566,8 +5620,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 73.38,
-    "diff_pct": -0.01,
+    "close2": 73.34,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -5623,8 +5677,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 71.08,
-    "diff_pct": 0.03,
+    "close2": 71.5,
+    "diff_pct": -0.56,
     "warn": false
    }
   },
@@ -5737,8 +5791,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 249.12,
-    "diff_pct": 0.04,
+    "close2": 249.5,
+    "diff_pct": -0.11,
     "warn": false
    }
   },
@@ -5794,8 +5848,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 162.62,
-    "diff_pct": 0.08,
+    "close2": 163.47,
+    "diff_pct": -0.44,
     "warn": false
    }
   },
@@ -6022,8 +6076,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 533.88,
-    "diff_pct": -0.07,
+    "close2": 536.998,
+    "diff_pct": -0.65,
     "warn": false
    }
   },
@@ -6079,9 +6133,9 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 65.87,
-    "diff_pct": -0.02,
-    "warn": false
+    "close2": 69.4,
+    "diff_pct": -5.1,
+    "warn": true
    }
   },
   {
@@ -6247,8 +6301,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 353.51,
-    "diff_pct": 0.01,
+    "close2": 353.5704,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -6305,8 +6359,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 76.77,
-    "diff_pct": 0.01,
+    "close2": 76.8,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -6362,8 +6416,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 15.81,
-    "diff_pct": 0.13,
+    "close2": 15.98,
+    "diff_pct": -0.94,
     "warn": false
    }
   },
@@ -6419,8 +6473,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 104.47,
-    "diff_pct": -0.03,
+    "close2": 103.9145,
+    "diff_pct": 0.51,
     "warn": false
    }
   },
@@ -6476,8 +6530,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 210.02,
-    "diff_pct": -0.02,
+    "close2": 209.35,
+    "diff_pct": 0.3,
     "warn": false
    }
   },
@@ -6533,8 +6587,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 505.74,
-    "diff_pct": -0.04,
+    "close2": 507.66,
+    "diff_pct": -0.42,
     "warn": false
    }
   },
@@ -7051,8 +7105,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 167.75,
-    "diff_pct": 0.07,
+    "close2": 169.5,
+    "diff_pct": -0.97,
     "warn": false
    }
   },
@@ -8116,8 +8170,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 257.26,
-    "diff_pct": -0.0,
+    "close2": 257.89,
+    "diff_pct": -0.25,
     "warn": false
    }
   },
@@ -8173,8 +8227,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 472.79,
-    "diff_pct": -0.01,
+    "close2": 474.74,
+    "diff_pct": -0.43,
     "warn": false
    }
   },
@@ -8230,8 +8284,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 312.01,
-    "diff_pct": 0.0,
+    "close2": 313.0,
+    "diff_pct": -0.32,
     "warn": false
    }
   },
@@ -8287,8 +8341,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 277.22,
-    "diff_pct": -0.05,
+    "close2": 280.75,
+    "diff_pct": -1.3,
     "warn": false
    }
   },
@@ -8344,8 +8398,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 299.05,
-    "diff_pct": -0.03,
+    "close2": 299.24,
+    "diff_pct": -0.09,
     "warn": false
    }
   },
@@ -8401,8 +8455,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 99.83,
-    "diff_pct": -0.01,
+    "close2": 100.21,
+    "diff_pct": -0.39,
     "warn": false
    }
   },
@@ -8458,8 +8512,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 199.65,
-    "diff_pct": -0.01,
+    "close2": 200.21,
+    "diff_pct": -0.29,
     "warn": false
    }
   },
@@ -8515,8 +8569,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1000.26,
-    "diff_pct": -0.03,
+    "close2": 1007.27,
+    "diff_pct": -0.73,
     "warn": false
    }
   },
@@ -8572,8 +8626,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 170.3,
-    "diff_pct": -0.01,
+    "close2": 171.2778,
+    "diff_pct": -0.58,
     "warn": false
    }
   },
@@ -8686,9 +8740,9 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 0.2136,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 0.2194,
+    "diff_pct": -2.64,
+    "warn": true
    }
   },
   {
@@ -8743,8 +8797,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 372.06,
-    "diff_pct": 0.02,
+    "close2": 375.5935,
+    "diff_pct": -0.92,
     "warn": false
    }
   },
@@ -8800,8 +8854,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 528.9,
-    "diff_pct": -0.0,
+    "close2": 528.5,
+    "diff_pct": 0.07,
     "warn": false
    }
   },
@@ -8857,8 +8911,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1764.85,
-    "diff_pct": 0.09,
+    "close2": 1752.24,
+    "diff_pct": 0.81,
     "warn": false
    }
   },
@@ -8914,8 +8968,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 341.29,
-    "diff_pct": 0.02,
+    "close2": 346.0,
+    "diff_pct": -1.34,
     "warn": false
    }
   },
@@ -8971,9 +9025,9 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 165.96,
-    "diff_pct": 0.02,
-    "warn": false
+    "close2": 169.54,
+    "diff_pct": -2.09,
+    "warn": true
    }
   },
   {
@@ -9028,8 +9082,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 76.62,
-    "diff_pct": 0.01,
+    "close2": 77.73,
+    "diff_pct": -1.42,
     "warn": false
    }
   },
@@ -9085,8 +9139,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 225.73,
-    "diff_pct": 0.02,
+    "close2": 226.2088,
+    "diff_pct": -0.19,
     "warn": false
    }
   },
@@ -9142,8 +9196,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 493.95,
-    "diff_pct": 0.01,
+    "close2": 494.49,
+    "diff_pct": -0.1,
     "warn": false
    }
   },
@@ -9199,8 +9253,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 14.0,
-    "diff_pct": 0.14,
+    "close2": 14.0368,
+    "diff_pct": -0.12,
     "warn": false
    }
   },
@@ -9256,8 +9310,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 822.48,
-    "diff_pct": 0.02,
+    "close2": 823.52,
+    "diff_pct": -0.11,
     "warn": false
    }
   },
@@ -9313,8 +9367,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 316.22,
-    "diff_pct": 0.04,
+    "close2": 316.24,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -9370,8 +9424,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 613.48,
-    "diff_pct": -0.03,
+    "close2": 618.4,
+    "diff_pct": -0.82,
     "warn": false
    }
   },
@@ -9427,8 +9481,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 536.15,
-    "diff_pct": 0.0,
+    "close2": 538.973,
+    "diff_pct": -0.52,
     "warn": false
    }
   },
@@ -9484,64 +9538,10 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 765.96,
-    "diff_pct": 0.0,
+    "close2": 766.3,
+    "diff_pct": -0.04,
     "warn": false
    }
-  },
-  {
-   "symbol": "GC=F",
-   "close": 4422.1001,
-   "in_buy": false,
-   "buy_low": 4353.148,
-   "buy_high": 4390.352,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": true,
-   "sell_low": 4413.6978,
-   "sell_high": 4450.9018,
-   "sell_conf": 1,
-   "atr_pct": 0.84,
-   "rel_vol": 0.55,
-   "dist_atr": 0.85,
-   "score": 2.0,
-   "bars": 1375,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "hk_weak": true,
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Gold prices today, Tuesday, September 8, 2026: Gold moves lower following fresh escalations with Iran",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-september-8-2026-gold-moves-lower-following-fresh-escalations-with-iran-111035525.html"
-     },
-     {
-      "t": "Power Metallic Mines advances Nisk Project with updated mineral resource",
-      "u": "https://www.proactiveinvestors.com/companies/news/1098217/power-metallic-mines-advances-nisk-project-with-updated-mineral-resource-1098217.html"
-     },
-     {
-      "t": "Kinross Gold Stock Up 13% in a Month: What Should Investors Do Now?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-stock-13-month-123000576.html"
-     }
-    ],
-    "flabel": "Veri yok"
-   },
-   "verify": null
   },
   {
    "symbol": "SVUSA.SW",
@@ -9635,8 +9635,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 223.87,
-    "diff_pct": 0.02,
+    "close2": 224.35,
+    "diff_pct": -0.19,
     "warn": false
    }
   },
@@ -9692,8 +9692,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 243.88,
-    "diff_pct": -0.05,
+    "close2": 246.65,
+    "diff_pct": -1.17,
     "warn": false
    }
   },
@@ -10114,8 +10114,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 36.47,
-    "diff_pct": -0.03,
+    "close2": 36.9,
+    "diff_pct": -1.19,
     "warn": false
    }
   },
@@ -10228,8 +10228,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 5.06,
-    "diff_pct": 0.2,
+    "close2": 5.08,
+    "diff_pct": -0.2,
     "warn": false
    }
   },
@@ -10285,9 +10285,9 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 3.5,
-    "diff_pct": 0.14,
-    "warn": false
+    "close2": 3.59,
+    "diff_pct": -2.37,
+    "warn": true
    }
   },
   {
@@ -10342,8 +10342,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 978.535,
-    "diff_pct": -0.03,
+    "close2": 981.28,
+    "diff_pct": -0.31,
     "warn": false
    }
   },
@@ -10456,8 +10456,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 12.0,
-    "diff_pct": -0.04,
+    "close2": 12.1184,
+    "diff_pct": -1.02,
     "warn": false
    }
   },
@@ -10513,8 +10513,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 134.21,
-    "diff_pct": 0.01,
+    "close2": 135.11,
+    "diff_pct": -0.66,
     "warn": false
    }
   },
@@ -10627,8 +10627,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 477.3,
-    "diff_pct": -0.01,
+    "close2": 478.5,
+    "diff_pct": -0.26,
     "warn": false
    }
   },
@@ -10684,8 +10684,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 134.33,
-    "diff_pct": 0.04,
+    "close2": 136.0,
+    "diff_pct": -1.18,
     "warn": false
    }
   },
@@ -10741,8 +10741,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 301.88,
-    "diff_pct": 0.0,
+    "close2": 304.0,
+    "diff_pct": -0.7,
     "warn": false
    }
   },
@@ -10798,8 +10798,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 38.67,
-    "diff_pct": 0.03,
+    "close2": 38.65,
+    "diff_pct": 0.08,
     "warn": false
    }
   },
@@ -10855,8 +10855,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 338.36,
-    "diff_pct": 0.02,
+    "close2": 338.58,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -10912,8 +10912,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1123.91,
-    "diff_pct": -0.0,
+    "close2": 1125.0,
+    "diff_pct": -0.1,
     "warn": false
    }
   },
@@ -10969,8 +10969,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 48.2,
-    "diff_pct": 0.0,
+    "close2": 48.69,
+    "diff_pct": -1.01,
     "warn": false
    }
   },
@@ -11026,8 +11026,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 368.64,
-    "diff_pct": 0.05,
+    "close2": 368.15,
+    "diff_pct": 0.18,
     "warn": false
    }
   },
@@ -11084,8 +11084,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 211.06,
-    "diff_pct": 0.02,
+    "close2": 213.4171,
+    "diff_pct": -1.08,
     "warn": false
    }
   },
@@ -11221,8 +11221,8 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 21.54,
-    "diff_pct": -0.02,
+    "close2": 21.87,
+    "diff_pct": -1.53,
     "warn": false
    }
   },
@@ -11776,8 +11776,8 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 62.44,
-    "diff_pct": -0.02,
+    "close2": 63.26,
+    "diff_pct": -1.31,
     "warn": false
    }
   },
@@ -11833,8 +11833,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 260.1,
-    "diff_pct": -0.0,
+    "close2": 259.56,
+    "diff_pct": 0.2,
     "warn": false
    }
   },
@@ -11890,8 +11890,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 393.17,
-    "diff_pct": 0.02,
+    "close2": 392.56,
+    "diff_pct": 0.17,
     "warn": false
    }
   },
@@ -11947,8 +11947,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 288.85,
-    "diff_pct": 0.0,
+    "close2": 292.51,
+    "diff_pct": -1.25,
     "warn": false
    }
   },
@@ -12004,8 +12004,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 110.76,
-    "diff_pct": -0.01,
+    "close2": 111.89,
+    "diff_pct": -1.02,
     "warn": false
    }
   },
@@ -12118,8 +12118,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1218.5,
-    "diff_pct": 0.04,
+    "close2": 1235.0,
+    "diff_pct": -1.29,
     "warn": false
    }
   },
@@ -12175,8 +12175,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 51.3,
-    "diff_pct": 0.04,
+    "close2": 51.31,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -12232,8 +12232,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 598.95,
-    "diff_pct": 0.08,
+    "close2": 601.38,
+    "diff_pct": -0.32,
     "warn": false
    }
   },
@@ -12289,8 +12289,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 64.29,
-    "diff_pct": 0.02,
+    "close2": 64.55,
+    "diff_pct": -0.39,
     "warn": false
    }
   },
@@ -12346,8 +12346,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 81.76,
-    "diff_pct": 0.0,
+    "close2": 81.69,
+    "diff_pct": 0.09,
     "warn": false
    }
   },
@@ -12404,8 +12404,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 36.8,
-    "diff_pct": 0.0,
+    "close2": 36.84,
+    "diff_pct": -0.11,
     "warn": false
    }
   },
@@ -12461,8 +12461,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 198.81,
-    "diff_pct": 0.02,
+    "close2": 198.94,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
@@ -12518,8 +12518,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 106.05,
-    "diff_pct": 0.02,
+    "close2": 105.93,
+    "diff_pct": 0.13,
     "warn": false
    }
   },
@@ -12735,8 +12735,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1737.99,
-    "diff_pct": -0.01,
+    "close2": 1757.0,
+    "diff_pct": -1.09,
     "warn": false
    }
   },
@@ -12792,8 +12792,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 335.5,
-    "diff_pct": 0.06,
+    "close2": 337.01,
+    "diff_pct": -0.39,
     "warn": false
    }
   },
@@ -12849,8 +12849,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 40.26,
-    "diff_pct": -0.01,
+    "close2": 40.34,
+    "diff_pct": -0.21,
     "warn": false
    }
   },
@@ -12906,8 +12906,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 127.09,
-    "diff_pct": 0.01,
+    "close2": 128.96,
+    "diff_pct": -1.44,
     "warn": false
    }
   },
