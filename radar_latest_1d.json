@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09 11:47",
+ "generated_at": "2026-09-09 12:02",
  "tf": "1d",
  "rows": [
   {
@@ -55,8 +55,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 506.9,
-    "diff_pct": -0.23,
+    "close2": 506.48,
+    "diff_pct": -0.15,
     "warn": false
    }
   },
@@ -121,7 +121,7 @@
    "sell_high": 14.9548,
    "sell_conf": 0,
    "atr_pct": 2.85,
-   "rel_vol": 2.89,
+   "rel_vol": 1.28,
    "dist_atr": 0.0,
    "score": 8.0,
    "bars": 696,
@@ -351,47 +351,6 @@
    "verify": null
   },
   {
-   "symbol": "HEKTS.IS",
-   "close": 3.0,
-   "in_buy": true,
-   "buy_low": 2.9061,
-   "buy_high": 3.0205,
-   "buy_src": "sr",
-   "buy_touch": 3,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 3.1278,
-   "sell_high": 3.2422,
-   "sell_conf": 0,
-   "atr_pct": 3.81,
-   "rel_vol": 3.53,
-   "dist_atr": 0.0,
-   "score": 8.0,
-   "bars": 696,
-   "status": "GİRİŞ ADAYI",
-   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
-   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir günlük kapanış planı bozar — o zaman alma.",
-   "rejim_up": true,
-   "co": {
-    "pe": null,
-    "margin": -78.7,
-    "de": 79.8,
-    "growth": 7.9,
-    "target": 4.3,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Orta"
-   },
-   "verify": null
-  },
-  {
    "symbol": "TKFEN.IS",
    "close": 216.1,
    "in_buy": true,
@@ -485,8 +444,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 69.3,
-    "diff_pct": -4.95,
+    "close2": 69.1427,
+    "diff_pct": -4.73,
     "warn": true
    }
   },
@@ -543,8 +502,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 164.1896,
-    "diff_pct": -1.02,
+    "close2": 164.0375,
+    "diff_pct": -0.93,
     "warn": false
    }
   },
@@ -591,47 +550,6 @@
      }
     ],
     "flabel": "Sağlam"
-   },
-   "verify": null
-  },
-  {
-   "symbol": "GLRMK.IS",
-   "close": 163.7,
-   "in_buy": true,
-   "buy_low": 158.6997,
-   "buy_high": 166.0603,
-   "buy_src": "sr",
-   "buy_touch": 5,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 167.5447,
-   "sell_high": 174.9053,
-   "sell_conf": 0,
-   "atr_pct": 4.5,
-   "rel_vol": 0.71,
-   "dist_atr": 0.0,
-   "score": 7.0,
-   "bars": 412,
-   "status": "GİRİŞ ADAYI",
-   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
-   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir günlük kapanış planı bozar — o zaman alma.",
-   "rejim_up": true,
-   "co": {
-    "pe": 17.2,
-    "margin": 6.7,
-    "de": 62.5,
-    "growth": 0.8,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Orta"
    },
    "verify": null
   },
@@ -800,6 +718,88 @@
    "verify": null
   },
   {
+   "symbol": "HEKTS.IS",
+   "close": 3.0,
+   "in_buy": true,
+   "buy_low": 2.9061,
+   "buy_high": 3.0205,
+   "buy_src": "sr",
+   "buy_touch": 3,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 3.1278,
+   "sell_high": 3.2422,
+   "sell_conf": 0,
+   "atr_pct": 3.81,
+   "rel_vol": 0.6,
+   "dist_atr": 0.0,
+   "score": 7.0,
+   "bars": 696,
+   "status": "GİRİŞ ADAYI",
+   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
+   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir günlük kapanış planı bozar — o zaman alma.",
+   "rejim_up": true,
+   "co": {
+    "pe": null,
+    "margin": -78.7,
+    "de": 79.8,
+    "growth": 7.9,
+    "target": 4.3,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "BALSU.IS",
+   "close": 8.6,
+   "in_buy": true,
+   "buy_low": 7.8836,
+   "buy_high": 8.7067,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 13.9484,
+   "sell_high": 14.7716,
+   "sell_conf": 0,
+   "atr_pct": 9.57,
+   "rel_vol": 1.0,
+   "dist_atr": 0.0,
+   "score": 7.0,
+   "bars": 389,
+   "status": "GİRİŞ ADAYI",
+   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
+   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir günlük kapanış planı bozar — o zaman alma.",
+   "rejim_up": true,
+   "co": {
+    "pe": 10.9,
+    "margin": 3.4,
+    "de": 325.0,
+    "growth": -1.1,
+    "target": 27.1,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Zayıf"
+   },
+   "verify": null
+  },
+  {
    "symbol": "BINBN.IS",
    "close": 175.0,
    "in_buy": true,
@@ -878,47 +878,6 @@
     "earn_days": null,
     "news": [],
     "flabel": "Zayıf"
-   },
-   "verify": null
-  },
-  {
-   "symbol": "CGCAM.IS",
-   "close": 32.4,
-   "in_buy": true,
-   "buy_low": 31.187,
-   "buy_high": 32.7463,
-   "buy_src": "sr",
-   "buy_touch": 3,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 34.1203,
-   "sell_high": 35.6797,
-   "sell_conf": 1,
-   "atr_pct": 4.81,
-   "rel_vol": 1.1,
-   "dist_atr": 0.0,
-   "score": 7.0,
-   "bars": 430,
-   "status": "GİRİŞ ADAYI",
-   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
-   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir günlük kapanış planı bozar — o zaman alma.",
-   "rejim_up": true,
-   "co": {
-    "pe": 33.3,
-    "margin": 7.4,
-    "de": 8.7,
-    "growth": -5.4,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Orta"
    },
    "verify": null
   },
@@ -1057,8 +1016,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 176.66,
-    "diff_pct": -1.45,
+    "close2": 177.06,
+    "diff_pct": -1.68,
     "warn": false
    }
   },
@@ -1115,8 +1074,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 40.378,
-    "diff_pct": -0.29,
+    "close2": 40.35,
+    "diff_pct": -0.22,
     "warn": false
    }
   },
@@ -1173,8 +1132,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 304.4165,
-    "diff_pct": -0.83,
+    "close2": 303.5604,
+    "diff_pct": -0.55,
     "warn": false
    }
   },
@@ -1231,8 +1190,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 161.22,
-    "diff_pct": -0.35,
+    "close2": 161.962,
+    "diff_pct": -0.8,
     "warn": false
    }
   },
@@ -1320,12 +1279,12 @@
   },
   {
    "symbol": "EGEGY.IS",
-   "close": 26.3,
+   "close": 26.9,
    "in_buy": true,
-   "buy_low": 24.7323,
-   "buy_high": 26.4677,
+   "buy_low": 25.6964,
+   "buy_high": 27.3836,
    "buy_src": "sr",
-   "buy_touch": 1,
+   "buy_touch": 2,
    "conf": 3,
    "conf_flags": {
     "yesil": true,
@@ -1333,15 +1292,15 @@
     "hacim": false,
     "rsi": true
    },
-   "in_sell": true,
-   "sell_low": 25.6323,
-   "sell_high": 27.3677,
+   "in_sell": false,
+   "sell_low": 27.1964,
+   "sell_high": 28.8836,
    "sell_conf": 0,
-   "atr_pct": 6.6,
-   "rel_vol": 0.58,
+   "atr_pct": 6.27,
+   "rel_vol": 0.38,
    "dist_atr": 0.0,
    "score": 6.0,
-   "bars": 415,
+   "bars": 416,
    "status": "GİRİŞ ADAYI",
    "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
    "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir günlük kapanış planı bozar — o zaman alma.",
@@ -1412,8 +1371,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 369.65,
-    "diff_pct": -0.29,
+    "close2": 369.5667,
+    "diff_pct": -0.27,
     "warn": false
    }
   },
@@ -1470,8 +1429,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 256.5,
-    "diff_pct": 0.18,
+    "close2": 256.7517,
+    "diff_pct": 0.09,
     "warn": false
    }
   },
@@ -1528,8 +1487,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 104.126,
-    "diff_pct": 0.33,
+    "close2": 104.09,
+    "diff_pct": 0.37,
     "warn": false
    }
   },
@@ -1881,8 +1840,8 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 765.9897,
-    "diff_pct": -0.0,
+    "close2": 766.21,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -1964,7 +1923,7 @@
    "sell_high": 97.8789,
    "sell_conf": 0,
    "atr_pct": 2.39,
-   "rel_vol": 1.03,
+   "rel_vol": 1.05,
    "dist_atr": 0.29,
    "score": 5.0,
    "bars": 696,
@@ -2260,52 +2219,6 @@
    "verify": null
   },
   {
-   "symbol": "SASA.IS",
-   "close": 2.76,
-   "in_buy": false,
-   "buy_low": 2.6057,
-   "buy_high": 2.7143,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 2.729,
-   "sell_high": 2.8377,
-   "sell_conf": 0,
-   "atr_pct": 3.94,
-   "rel_vol": 5.63,
-   "dist_atr": 0.42,
-   "score": 5.0,
-   "bars": 697,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "rejim_up": true,
-   "co": {
-    "pe": null,
-    "margin": -15.7,
-    "de": 76.9,
-    "growth": 27.3,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Abundant feedstock drives polypropylene capacity additions in the Middle East",
-      "u": "https://www.offshore-technology.com/analyst-comment/abundant-feedstock-polypropylene-middle-east/"
-     }
-    ],
-    "flabel": "Orta"
-   },
-   "verify": null
-  },
-  {
    "symbol": "PETKM.IS",
    "close": 24.26,
    "in_buy": false,
@@ -2384,6 +2297,47 @@
     "earn_days": null,
     "news": [],
     "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "CGCAM.IS",
+   "close": 33.18,
+   "in_buy": false,
+   "buy_low": 31.2084,
+   "buy_high": 32.7249,
+   "buy_src": "sr",
+   "buy_touch": 3,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 34.1417,
+   "sell_high": 35.6583,
+   "sell_conf": 0,
+   "atr_pct": 4.57,
+   "rel_vol": 1.08,
+   "dist_atr": 0.3,
+   "score": 5.0,
+   "bars": 431,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.30 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.30 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "rejim_up": true,
+   "co": {
+    "pe": 33.3,
+    "margin": 7.4,
+    "de": 8.7,
+    "growth": -5.4,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
    },
    "verify": null
   },
@@ -2615,47 +2569,6 @@
    "verify": null
   },
   {
-   "symbol": "SMRVA.IS",
-   "close": 10.46,
-   "in_buy": true,
-   "buy_low": 9.9968,
-   "buy_high": 10.4959,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 12.2683,
-   "sell_high": 12.7674,
-   "sell_conf": 1,
-   "atr_pct": 4.77,
-   "rel_vol": 0.62,
-   "dist_atr": 0.0,
-   "score": 5.0,
-   "bars": 431,
-   "status": "TEYİT OLUŞUYOR",
-   "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir günlük kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
-   "rejim_up": true,
-   "co": {
-    "pe": 11.0,
-    "margin": 24.3,
-    "de": 81.6,
-    "growth": 217.5,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Sağlam"
-   },
-   "verify": null
-  },
-  {
    "symbol": "VBTYZ.IS",
    "close": 37.9,
    "in_buy": false,
@@ -2749,8 +2662,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 112.13,
-    "diff_pct": 0.47,
+    "close2": 112.02,
+    "diff_pct": 0.57,
     "warn": false
    }
   },
@@ -2807,8 +2720,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 322.5,
-    "diff_pct": -0.64,
+    "close2": 324.9356,
+    "diff_pct": -1.39,
     "warn": false
    }
   },
@@ -2923,8 +2836,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 226.3135,
-    "diff_pct": -0.4,
+    "close2": 226.77,
+    "diff_pct": -0.6,
     "warn": false
    }
   },
@@ -3039,8 +2952,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 74.52,
-    "diff_pct": 1.15,
+    "close2": 76.0,
+    "diff_pct": -0.82,
     "warn": false
    }
   },
@@ -3097,8 +3010,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 336.97,
-    "diff_pct": -0.44,
+    "close2": 336.8,
+    "diff_pct": -0.39,
     "warn": false
    }
   },
@@ -3213,8 +3126,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1749.21,
-    "diff_pct": 0.89,
+    "close2": 1749.81,
+    "diff_pct": 0.86,
     "warn": false
    }
   },
@@ -3271,8 +3184,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 77.5,
-    "diff_pct": -1.14,
+    "close2": 77.79,
+    "diff_pct": -1.5,
     "warn": false
    }
   },
@@ -3329,8 +3242,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 385.0,
-    "diff_pct": -0.56,
+    "close2": 384.98,
+    "diff_pct": -0.55,
     "warn": false
    }
   },
@@ -3387,8 +3300,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 293.9075,
-    "diff_pct": -1.05,
+    "close2": 292.9625,
+    "diff_pct": -0.73,
     "warn": false
    }
   },
@@ -3445,8 +3358,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 338.57,
-    "diff_pct": -0.06,
+    "close2": 338.4,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -3503,8 +3416,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 437.92,
-    "diff_pct": 0.25,
+    "close2": 438.9374,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -3561,8 +3474,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 367.0,
-    "diff_pct": 0.32,
+    "close2": 367.0754,
+    "diff_pct": 0.3,
     "warn": false
    }
   },
@@ -3619,8 +3532,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 908.9561,
-    "diff_pct": 0.13,
+    "close2": 909.74,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -3677,8 +3590,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 521.0,
-    "diff_pct": -0.46,
+    "close2": 522.06,
+    "diff_pct": -0.67,
     "warn": false
    }
   },
@@ -3735,8 +3648,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 538.973,
-    "diff_pct": -0.52,
+    "close2": 538.87,
+    "diff_pct": -0.5,
     "warn": false
    }
   },
@@ -4275,6 +4188,93 @@
    "verify": null
   },
   {
+   "symbol": "GLRMK.IS",
+   "close": 167.6,
+   "in_buy": false,
+   "buy_low": 158.7483,
+   "buy_high": 166.0117,
+   "buy_src": "sr",
+   "buy_touch": 5,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 167.5933,
+   "sell_high": 174.8567,
+   "sell_conf": 0,
+   "atr_pct": 4.33,
+   "rel_vol": 0.66,
+   "dist_atr": 0.22,
+   "score": 4.0,
+   "bars": 413,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "rejim_up": true,
+   "co": {
+    "pe": 17.2,
+    "margin": 6.7,
+    "de": 62.5,
+    "growth": 0.8,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
+   "symbol": "SASA.IS",
+   "close": 2.76,
+   "in_buy": false,
+   "buy_low": 2.6057,
+   "buy_high": 2.7143,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 2.729,
+   "sell_high": 2.8377,
+   "sell_conf": 0,
+   "atr_pct": 3.94,
+   "rel_vol": 0.0,
+   "dist_atr": 0.42,
+   "score": 4.0,
+   "bars": 697,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "rejim_up": true,
+   "co": {
+    "pe": null,
+    "margin": -15.7,
+    "de": 76.9,
+    "growth": 27.3,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Abundant feedstock drives polypropylene capacity additions in the Middle East",
+      "u": "https://www.offshore-technology.com/analyst-comment/abundant-feedstock-polypropylene-middle-east/"
+     }
+    ],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
    "symbol": "ALBRK.IS",
    "close": 9.13,
    "in_buy": false,
@@ -4532,8 +4532,8 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 21.87,
-    "diff_pct": -1.51,
+    "close2": 21.8221,
+    "diff_pct": -1.29,
     "warn": false
    }
   },
@@ -5079,6 +5079,47 @@
    "verify": null
   },
   {
+   "symbol": "MOPAS.IS",
+   "close": 26.18,
+   "in_buy": false,
+   "buy_low": 25.1885,
+   "buy_high": 26.0915,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 28.5085,
+   "sell_high": 29.4115,
+   "sell_conf": 0,
+   "atr_pct": 3.45,
+   "rel_vol": 0.65,
+   "dist_atr": 0.1,
+   "score": 4.0,
+   "bars": 397,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.10 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.10 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "rejim_up": true,
+   "co": {
+    "pe": 22.4,
+    "margin": 1.6,
+    "de": 28.9,
+    "growth": 2.0,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Orta"
+   },
+   "verify": null
+  },
+  {
    "symbol": "OBASE.IS",
    "close": 36.72,
    "in_buy": true,
@@ -5325,6 +5366,47 @@
    "verify": null
   },
   {
+   "symbol": "SMRVA.IS",
+   "close": 10.68,
+   "in_buy": false,
+   "buy_low": 10.0025,
+   "buy_high": 10.4902,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 12.274,
+   "sell_high": 12.7617,
+   "sell_conf": 0,
+   "atr_pct": 4.57,
+   "rel_vol": 0.46,
+   "dist_atr": 0.39,
+   "score": 4.0,
+   "bars": 432,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.39 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.39 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "rejim_up": true,
+   "co": {
+    "pe": 11.0,
+    "margin": 24.3,
+    "de": 81.6,
+    "growth": 217.5,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Sağlam"
+   },
+   "verify": null
+  },
+  {
    "symbol": "TEZOL.IS",
    "close": 9.15,
    "in_buy": false,
@@ -5418,8 +5500,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 93.6,
-    "diff_pct": -1.12,
+    "close2": 93.5705,
+    "diff_pct": -1.09,
     "warn": false
    }
   },
@@ -5534,8 +5616,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 299.24,
-    "diff_pct": -0.06,
+    "close2": 299.95,
+    "diff_pct": -0.3,
     "warn": false
    }
   },
@@ -5592,8 +5674,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 100.24,
-    "diff_pct": -0.41,
+    "close2": 100.3869,
+    "diff_pct": -0.55,
     "warn": false
    }
   },
@@ -5650,8 +5732,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 215.402,
-    "diff_pct": -1.0,
+    "close2": 215.99,
+    "diff_pct": -1.27,
     "warn": false
    }
   },
@@ -5708,8 +5790,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 5.0966,
-    "diff_pct": -0.72,
+    "close2": 5.08,
+    "diff_pct": -0.39,
     "warn": false
    }
   },
@@ -5766,8 +5848,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 287.655,
-    "diff_pct": -4.47,
+    "close2": 283.44,
+    "diff_pct": -3.05,
     "warn": true
    }
   },
@@ -5824,8 +5906,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 71.41,
-    "diff_pct": -0.46,
+    "close2": 71.44,
+    "diff_pct": -0.5,
     "warn": false
    }
   },
@@ -5940,8 +6022,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 0.219,
-    "diff_pct": -4.11,
+    "close2": 0.22,
+    "diff_pct": -4.55,
     "warn": true
    }
   },
@@ -5998,8 +6080,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 64.74,
-    "diff_pct": -0.7,
+    "close2": 64.65,
+    "diff_pct": -0.56,
     "warn": false
    }
   },
@@ -6056,8 +6138,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 376.17,
-    "diff_pct": -1.09,
+    "close2": 376.0907,
+    "diff_pct": -1.07,
     "warn": false
    }
   },
@@ -6114,8 +6196,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 345.0,
-    "diff_pct": -1.08,
+    "close2": 344.65,
+    "diff_pct": -0.97,
     "warn": false
    }
   },
@@ -6172,8 +6254,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 169.37,
-    "diff_pct": -2.01,
+    "close2": 170.46,
+    "diff_pct": -2.64,
     "warn": true
    }
   },
@@ -6230,8 +6312,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 534.45,
-    "diff_pct": -0.11,
+    "close2": 534.84,
+    "diff_pct": -0.18,
     "warn": false
    }
   },
@@ -6346,8 +6428,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1124.65,
-    "diff_pct": -0.07,
+    "close2": 1125.45,
+    "diff_pct": -0.14,
     "warn": false
    }
   },
@@ -6463,8 +6545,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 48.69,
-    "diff_pct": -1.01,
+    "close2": 48.8,
+    "diff_pct": -1.23,
     "warn": false
    }
   },
@@ -6521,8 +6603,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 618.6,
-    "diff_pct": -0.83,
+    "close2": 624.09,
+    "diff_pct": -1.7,
     "warn": false
    }
   },
@@ -6633,8 +6715,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 15.96,
-    "diff_pct": -0.94,
+    "close2": 15.939,
+    "diff_pct": -0.81,
     "warn": false
    }
   },
@@ -6691,8 +6773,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 337.0,
-    "diff_pct": -0.01,
+    "close2": 338.01,
+    "diff_pct": -0.3,
     "warn": false
    }
   },
@@ -6749,8 +6831,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 23.28,
-    "diff_pct": -1.63,
+    "close2": 23.27,
+    "diff_pct": -1.59,
     "warn": false
    }
   },
@@ -7053,8 +7135,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 908.0,
-    "diff_pct": -0.4,
+    "close2": 906.36,
+    "diff_pct": -0.22,
     "warn": false
    }
   },
@@ -7111,8 +7193,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 246.5,
-    "diff_pct": -1.06,
+    "close2": 247.6,
+    "diff_pct": -1.5,
     "warn": false
    }
   },
@@ -7322,43 +7404,43 @@
    "verify": null
   },
   {
-   "symbol": "BIGEN.IS",
-   "close": 136.4,
-   "in_buy": true,
-   "buy_low": 123.509,
-   "buy_high": 153.125,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 0,
+   "symbol": "DOFRB.IS",
+   "close": 119.3,
+   "in_buy": false,
+   "buy_low": 94.6763,
+   "buy_high": 102.6237,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 4,
    "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
    },
    "in_sell": false,
-   "sell_low": 141.9139,
-   "sell_high": 154.0861,
-   "sell_conf": 2,
-   "atr_pct": 8.92,
-   "rel_vol": 0.03,
-   "dist_atr": 0.0,
+   "sell_low": 145.5263,
+   "sell_high": 153.4737,
+   "sell_conf": 0,
+   "atr_pct": 6.66,
+   "rel_vol": 1.29,
+   "dist_atr": 2.1,
    "score": 3.0,
-   "bars": 399,
-   "status": "TEYİT BEKLE",
-   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir günlük kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "bars": 251,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "rejim_up": true,
    "co": {
-    "pe": null,
-    "margin": -4.6,
-    "de": 94.6,
-    "growth": -24.5,
+    "pe": 75.7,
+    "margin": 25.3,
+    "de": 48.7,
+    "growth": 66.0,
     "target": null,
     "rec": "none",
     "earn_days": null,
     "news": [],
-    "flabel": "Zayıf"
+    "flabel": "Sağlam"
    },
    "verify": null
   },
@@ -7848,8 +7930,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 365.1,
-    "diff_pct": -0.52,
+    "close2": 364.88,
+    "diff_pct": -0.46,
     "warn": false
    }
   },
@@ -7906,8 +7988,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 474.08,
-    "diff_pct": -0.27,
+    "close2": 474.54,
+    "diff_pct": -0.37,
     "warn": false
    }
   },
@@ -7964,8 +8046,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 279.12,
-    "diff_pct": -0.68,
+    "close2": 279.75,
+    "diff_pct": -0.9,
     "warn": false
    }
   },
@@ -8138,9 +8220,9 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 3.59,
-    "diff_pct": -2.51,
-    "warn": true
+    "close2": 3.55,
+    "diff_pct": -1.41,
+    "warn": false
    }
   },
   {
@@ -8196,8 +8278,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 232.18,
-    "diff_pct": -0.04,
+    "close2": 231.99,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -8254,8 +8336,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 189.76,
-    "diff_pct": -0.41,
+    "close2": 190.08,
+    "diff_pct": -0.58,
     "warn": false
    }
   },
@@ -8312,8 +8394,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 4.5592,
-    "diff_pct": 0.02,
+    "close2": 4.5564,
+    "diff_pct": 0.08,
     "warn": false
    }
   },
@@ -8370,8 +8452,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 982.18,
-    "diff_pct": -0.37,
+    "close2": 984.0,
+    "diff_pct": -0.56,
     "warn": false
    }
   },
@@ -8428,8 +8510,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 68.8,
-    "diff_pct": -3.34,
+    "close2": 68.5,
+    "diff_pct": -2.92,
     "warn": true
    }
   },
@@ -8486,8 +8568,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 73.34,
-    "diff_pct": 0.05,
+    "close2": 73.38,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8602,8 +8684,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 171.31,
-    "diff_pct": -0.59,
+    "close2": 171.5,
+    "diff_pct": -0.7,
     "warn": false
    }
   },
@@ -8743,7 +8825,7 @@
    "sell_high": 559.7995,
    "sell_conf": 0,
    "atr_pct": 3.89,
-   "rel_vol": 0.91,
+   "rel_vol": 0.92,
    "dist_atr": 1.32,
    "score": 3.0,
    "bars": 696,
@@ -8933,8 +9015,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 136.0,
-    "diff_pct": -1.23,
+    "close2": 135.59,
+    "diff_pct": -0.93,
     "warn": false
    }
   },
@@ -9107,8 +9189,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 494.0598,
-    "diff_pct": -0.02,
+    "close2": 494.6325,
+    "diff_pct": -0.14,
     "warn": false
    }
   },
@@ -9165,8 +9247,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 14.0368,
-    "diff_pct": -0.26,
+    "close2": 14.02,
+    "diff_pct": -0.14,
     "warn": false
    }
   },
@@ -9223,8 +9305,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 822.125,
-    "diff_pct": 0.04,
+    "close2": 823.52,
+    "diff_pct": -0.13,
     "warn": false
    }
   },
@@ -9281,8 +9363,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 354.9296,
-    "diff_pct": -0.4,
+    "close2": 354.73,
+    "diff_pct": -0.34,
     "warn": false
    }
   },
@@ -9339,8 +9421,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 209.37,
-    "diff_pct": 0.31,
+    "close2": 209.5,
+    "diff_pct": 0.25,
     "warn": false
    }
   },
@@ -9636,8 +9718,8 @@
     "flabel": "Orta"
    },
    "verify": {
-    "close2": 64.25,
-    "diff_pct": -1.2,
+    "close2": 64.35,
+    "diff_pct": -1.35,
     "warn": false
    }
   },
@@ -9694,8 +9776,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 169.62,
-    "diff_pct": -1.1,
+    "close2": 169.36,
+    "diff_pct": -0.95,
     "warn": false
    }
   },
@@ -10009,47 +10091,6 @@
    "verify": null
   },
   {
-   "symbol": "MOPAS.IS",
-   "close": 25.64,
-   "in_buy": false,
-   "buy_low": 23.2407,
-   "buy_high": 24.1593,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 28.5007,
-   "sell_high": 29.4193,
-   "sell_conf": 2,
-   "atr_pct": 3.58,
-   "rel_vol": 0.78,
-   "dist_atr": 1.61,
-   "score": 2.0,
-   "bars": 396,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
-   "rejim_up": true,
-   "co": {
-    "pe": 22.4,
-    "margin": 1.6,
-    "de": 28.9,
-    "growth": 2.0,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Orta"
-   },
-   "verify": null
-  },
-  {
    "symbol": "PASEU.IS",
    "close": 128.4,
    "in_buy": true,
@@ -10156,8 +10197,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 258.6735,
-    "diff_pct": -0.55,
+    "close2": 257.94,
+    "diff_pct": -0.26,
     "warn": false
    }
   },
@@ -10272,8 +10313,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1227.4272,
-    "diff_pct": -0.73,
+    "close2": 1234.308,
+    "diff_pct": -1.28,
     "warn": false
    }
   },
@@ -10330,8 +10371,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 12.11,
-    "diff_pct": -0.91,
+    "close2": 12.1,
+    "diff_pct": -0.83,
     "warn": false
    }
   },
@@ -10504,8 +10545,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 129.5,
-    "diff_pct": -1.86,
+    "close2": 128.17,
+    "diff_pct": -0.84,
     "warn": false
    }
   },
@@ -10563,8 +10604,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 76.75,
-    "diff_pct": 0.03,
+    "close2": 76.8,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -10621,8 +10662,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 198.5396,
-    "diff_pct": 0.14,
+    "close2": 199.9104,
+    "diff_pct": -0.55,
     "warn": false
    }
   },
@@ -10679,8 +10720,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 105.7739,
-    "diff_pct": 0.26,
+    "close2": 106.0,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -10871,7 +10912,7 @@
    "sell_high": 322.5244,
    "sell_conf": 2,
    "atr_pct": 5.5,
-   "rel_vol": 0.57,
+   "rel_vol": 0.58,
    "dist_atr": 1.45,
    "score": 1.0,
    "bars": 696,
@@ -10889,47 +10930,6 @@
     "earn_days": null,
     "news": [],
     "flabel": "Sağlam"
-   },
-   "verify": null
-  },
-  {
-   "symbol": "BALSU.IS",
-   "close": 7.82,
-   "in_buy": false,
-   "buy_low": 8.1004,
-   "buy_high": 8.9268,
-   "buy_src": "dip",
-   "buy_touch": 0,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 13.9468,
-   "sell_high": 14.7732,
-   "sell_conf": 3,
-   "atr_pct": 10.57,
-   "rel_vol": 1.07,
-   "dist_atr": 0.34,
-   "score": 1.0,
-   "bars": 388,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.34 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.34 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "rejim_up": true,
-   "co": {
-    "pe": 10.9,
-    "margin": 3.4,
-    "de": 325.0,
-    "growth": -1.1,
-    "target": 27.1,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Zayıf"
    },
    "verify": null
   },
@@ -11191,8 +11191,8 @@
     "flabel": "Veri yok"
    },
    "verify": {
-    "close2": 63.26,
-    "diff_pct": -1.3,
+    "close2": 63.299,
+    "diff_pct": -1.36,
     "warn": false
    }
   },
@@ -11365,8 +11365,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 312.82,
-    "diff_pct": -0.26,
+    "close2": 313.1,
+    "diff_pct": -0.35,
     "warn": false
    }
   },
@@ -11423,8 +11423,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 293.4152,
-    "diff_pct": -1.56,
+    "close2": 292.0,
+    "diff_pct": -1.08,
     "warn": false
    }
   },
@@ -11539,8 +11539,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 17.0,
-    "diff_pct": -2.06,
+    "close2": 17.06,
+    "diff_pct": -2.4,
     "warn": true
    }
   },
@@ -11655,8 +11655,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1006.5,
-    "diff_pct": -0.62,
+    "close2": 1007.4875,
+    "diff_pct": -0.72,
     "warn": false
    }
   },
@@ -11713,8 +11713,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 478.1,
-    "diff_pct": -0.17,
+    "close2": 478.7,
+    "diff_pct": -0.29,
     "warn": false
    }
   },
@@ -11771,8 +11771,8 @@
     "flabel": "Zayıf"
    },
    "verify": {
-    "close2": 28.46,
-    "diff_pct": 1.48,
+    "close2": 28.84,
+    "diff_pct": 0.14,
     "warn": false
    }
   },
@@ -11829,8 +11829,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 81.69,
-    "diff_pct": 0.09,
+    "close2": 82.18,
+    "diff_pct": -0.51,
     "warn": false
    }
   },
@@ -11887,8 +11887,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 226.11,
-    "diff_pct": -0.17,
+    "close2": 226.1,
+    "diff_pct": -0.16,
     "warn": false
    }
   },
@@ -11945,8 +11945,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 316.41,
-    "diff_pct": -0.06,
+    "close2": 316.11,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -12003,7 +12003,7 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 368.103,
+    "close2": 368.08,
     "diff_pct": 0.15,
     "warn": false
    }
@@ -12121,8 +12121,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 213.4171,
-    "diff_pct": -1.1,
+    "close2": 213.24,
+    "diff_pct": -1.02,
     "warn": false
    }
   },
@@ -12524,8 +12524,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 249.06,
-    "diff_pct": 0.02,
+    "close2": 249.01,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -12582,8 +12582,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 1753.56,
-    "diff_pct": -0.89,
+    "close2": 1754.65,
+    "diff_pct": -0.95,
     "warn": false
    }
   },
@@ -12640,8 +12640,8 @@
     "flabel": "Sağlam"
    },
    "verify": {
-    "close2": 135.01,
-    "diff_pct": -0.59,
+    "close2": 134.9,
+    "diff_pct": -0.51,
     "warn": false
    }
   },
@@ -12902,11 +12902,11 @@
    "verify": null
   },
   {
-   "symbol": "DOFRB.IS",
-   "close": 112.7,
+   "symbol": "BIGEN.IS",
+   "close": 122.8,
    "in_buy": false,
-   "buy_low": 94.6475,
-   "buy_high": 102.6525,
+   "buy_low": 86.8629,
+   "buy_high": 99.1371,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -12917,28 +12917,28 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 114.6975,
-   "sell_high": 122.7025,
-   "sell_conf": 3,
-   "atr_pct": 7.1,
-   "rel_vol": 0.68,
-   "dist_atr": 1.26,
+   "sell_low": 141.8629,
+   "sell_high": 154.1371,
+   "sell_conf": 2,
+   "atr_pct": 10.0,
+   "rel_vol": 0.1,
+   "dist_atr": 1.93,
    "score": -1.0,
-   "bars": 250,
+   "bars": 400,
    "status": "BEKLE",
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "rejim_up": true,
    "co": {
-    "pe": 75.7,
-    "margin": 25.3,
-    "de": 48.7,
-    "growth": 66.0,
+    "pe": null,
+    "margin": -4.6,
+    "de": 94.6,
+    "growth": -24.5,
     "target": null,
     "rec": "none",
     "earn_days": null,
     "news": [],
-    "flabel": "Sağlam"
+    "flabel": "Zayıf"
    },
    "verify": null
   },
