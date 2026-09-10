@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10 17:06",
+ "generated_at": "2026-09-10 20:48",
  "tf": "1w",
  "rows": [
   {
@@ -801,6 +801,132 @@
    "rejim_up": null
   },
   {
+   "symbol": "IEYHO.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 214.6,
+   "in_buy": false,
+   "buy_low": 97.3116,
+   "buy_high": 144.765,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 209.3096,
+   "sell_high": 217.816,
+   "sell_conf": 0,
+   "atr_pct": 3.96,
+   "rel_vol": 0.26,
+   "dist_atr": 8.21,
+   "score": 4.0,
+   "bars": 613,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
+   "symbol": "ANELE.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 204.0,
+   "in_buy": false,
+   "buy_low": 53.5088,
+   "buy_high": 108.42,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 177.9648,
+   "sell_high": 197.5286,
+   "sell_conf": 0,
+   "atr_pct": 9.59,
+   "rel_vol": 2.17,
+   "dist_atr": 4.89,
+   "score": 4.0,
+   "bars": 613,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
+   "symbol": "TRHOL.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 3625.0,
+   "in_buy": false,
+   "buy_low": 1142.651,
+   "buy_high": 1849.8,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 2889.5137,
+   "sell_high": 3166.848,
+   "sell_conf": 0,
+   "atr_pct": 7.65,
+   "rel_vol": 2.03,
+   "dist_atr": 6.4,
+   "score": 4.0,
+   "bars": 613,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
    "symbol": "NETAS.IS",
    "bar_closed_at": "2026-09-04T15:00:00+00:00",
    "data_fresh": true,
@@ -1003,90 +1129,6 @@
     "market_context": {
      "version": "market-v1",
      "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "ANELE.IS",
-   "bar_closed_at": "2026-09-04T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 204.0,
-   "in_buy": false,
-   "buy_low": 53.5088,
-   "buy_high": 108.42,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 177.9648,
-   "sell_high": 197.5286,
-   "sell_conf": 0,
-   "atr_pct": 9.59,
-   "rel_vol": 2.17,
-   "dist_atr": 4.89,
-   "score": 4.0,
-   "bars": 613,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "TRHOL.IS",
-   "bar_closed_at": "2026-09-04T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 3625.0,
-   "in_buy": false,
-   "buy_low": 1142.651,
-   "buy_high": 1849.8,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 2889.5137,
-   "sell_high": 3166.848,
-   "sell_conf": 0,
-   "atr_pct": 7.65,
-   "rel_vol": 2.03,
-   "dist_atr": 6.4,
-   "score": 4.0,
-   "bars": 613,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
      "state": "unknown",
      "reason": "Birleşik değerlendirme günlük taramada üretilir",
      "role": "context"
@@ -2145,6 +2187,90 @@
    "rejim_up": null
   },
   {
+   "symbol": "LIDER.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 23.4,
+   "in_buy": true,
+   "buy_low": 7.5849,
+   "buy_high": 24.2151,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 24.7849,
+   "sell_high": 41.4151,
+   "sell_conf": 3,
+   "atr_pct": 71.07,
+   "rel_vol": 3.29,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 231,
+   "status": "TEYİT BEKLE",
+   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
+   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir haftalık kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
+   "symbol": "PEKGY.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 10.5,
+   "in_buy": true,
+   "buy_low": 8.9068,
+   "buy_high": 10.7227,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 14.6207,
+   "sell_high": 16.4366,
+   "sell_conf": 3,
+   "atr_pct": 17.29,
+   "rel_vol": 1.26,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 446,
+   "status": "TEYİT BEKLE",
+   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
+   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir haftalık kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
    "symbol": "PSLV",
    "bar_closed_at": "2026-09-04T20:00:00+00:00",
    "data_fresh": true,
@@ -2599,48 +2725,6 @@
     "market_context": {
      "version": "market-v1",
      "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "PEKGY.IS",
-   "bar_closed_at": "2026-09-04T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 10.5,
-   "in_buy": true,
-   "buy_low": 8.9068,
-   "buy_high": 10.7227,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 14.6207,
-   "sell_high": 16.4366,
-   "sell_conf": 3,
-   "atr_pct": 17.29,
-   "rel_vol": 1.26,
-   "dist_atr": 0.0,
-   "score": 3.0,
-   "bars": 446,
-   "status": "TEYİT BEKLE",
-   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir haftalık kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
      "state": "unknown",
      "reason": "Birleşik değerlendirme günlük taramada üretilir",
      "role": "context"
@@ -4077,6 +4161,48 @@
    "rejim_up": null
   },
   {
+   "symbol": "TEHOL.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 45.0,
+   "in_buy": false,
+   "buy_low": 30.4445,
+   "buy_high": 37.062,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 50.9651,
+   "sell_high": 55.8349,
+   "sell_conf": 1,
+   "atr_pct": 10.82,
+   "rel_vol": 0.95,
+   "dist_atr": 1.63,
+   "score": 2.0,
+   "bars": 613,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
    "symbol": "KAREL.IS",
    "bar_closed_at": "2026-09-04T15:00:00+00:00",
    "data_fresh": true,
@@ -4821,48 +4947,6 @@
    "status": "TEYİT BEKLE",
    "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir haftalık kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "TEHOL.IS",
-   "bar_closed_at": "2026-09-04T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 45.0,
-   "in_buy": false,
-   "buy_low": 30.4445,
-   "buy_high": 37.062,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 50.9651,
-   "sell_high": 55.8349,
-   "sell_conf": 1,
-   "atr_pct": 10.82,
-   "rel_vol": 0.95,
-   "dist_atr": 1.63,
-   "score": 2.0,
-   "bars": 613,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
     "market_context": {
      "version": "market-v1",
@@ -7857,6 +7941,90 @@
    "rejim_up": null
   },
   {
+   "symbol": "ISKPL.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 7.25,
+   "in_buy": false,
+   "buy_low": 4.8224,
+   "buy_high": 6.9576,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 9.3324,
+   "sell_high": 11.4676,
+   "sell_conf": 4,
+   "atr_pct": 29.45,
+   "rel_vol": 0.41,
+   "dist_atr": 0.14,
+   "score": 0.0,
+   "bars": 293,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.14 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.14 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
+   "symbol": "KGYO.IS",
+   "bar_closed_at": "2026-09-04T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 12.18,
+   "in_buy": false,
+   "buy_low": 5.8788,
+   "buy_high": 7.6832,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 12.4378,
+   "sell_high": 14.2422,
+   "sell_conf": 3,
+   "atr_pct": 14.81,
+   "rel_vol": 1.05,
+   "dist_atr": 2.49,
+   "score": 0.0,
+   "bars": 613,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
    "symbol": "SIVR",
    "bar_closed_at": "2026-09-04T20:00:00+00:00",
    "data_fresh": true,
@@ -8437,48 +8605,6 @@
     "market_context": {
      "version": "market-v1",
      "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "KGYO.IS",
-   "bar_closed_at": "2026-09-04T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 12.18,
-   "in_buy": false,
-   "buy_low": 5.8788,
-   "buy_high": 7.6832,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 12.4378,
-   "sell_high": 14.2422,
-   "sell_conf": 3,
-   "atr_pct": 14.81,
-   "rel_vol": 1.05,
-   "dist_atr": 2.49,
-   "score": 0.0,
-   "bars": 613,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
      "state": "unknown",
      "reason": "Birleşik değerlendirme günlük taramada üretilir",
      "role": "context"
@@ -9169,6 +9295,7 @@
   "SMSN",
   "SNDK",
   "SPCX",
+  "SSAAT.IS",
   "SVGYO.IS",
   "TABGD.IS",
   "TATEN.IS",
@@ -9197,12 +9324,17 @@
   "DURKN.IS": "kisa",
   "EMPAE.IS": "kisa",
   "SMRVA.IS": "kisa",
+  "SSAAT.IS": "kisa",
+  "BARMA.IS": "kisa",
+  "NETCD.IS": "kisa",
+  "ORZAX.IS": "kisa",
+  "OZATD.IS": "kisa",
+  "TERA.IS": "kisa",
   "AZTEK.IS": "kisa",
   "BINBN.IS": "kisa",
   "DOFRB.IS": "kisa",
   "FORTE.IS": "kisa",
   "MCARD.IS": "kisa",
-  "NETCD.IS": "kisa",
   "OBASE.IS": "kisa",
   "ONRYT.IS": "kisa",
   "PATEK.IS": "kisa",
@@ -9223,13 +9355,9 @@
   "PASEU.IS": "kisa",
   "TATEN.IS": "kisa",
   "ATATR.IS": "kisa",
-  "BARMA.IS": "kisa",
   "EGEGY.IS": "kisa",
   "KARCL.IS": "kisa",
-  "ORZAX.IS": "kisa",
-  "OZATD.IS": "kisa",
   "SVGYO.IS": "kisa",
-  "TERA.IS": "kisa",
   "BIGEN.IS": "kisa",
   "EFOR.IS": "kisa",
   "METEN.IS": "kisa",
@@ -9251,9 +9379,9 @@
    },
    "XU100.IS": {
     "state": "supportive",
-    "close": 14505.5,
-    "sma200": 13399.19552734375,
-    "closed_at": "2026-09-09T15:00:00+00:00",
+    "close": 14393.849609375,
+    "sma200": 13416.266274414062,
+    "closed_at": "2026-09-10T15:00:00+00:00",
     "reason": "Günlük kapanış SMA200 üzerinde"
    }
   }
