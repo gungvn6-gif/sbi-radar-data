@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10 23:41",
+ "generated_at": "2026-09-11 10:00",
  "tf": "4h",
  "rows": [
   {
@@ -70,8 +70,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 13.8891,
-    "diff_pct": 0.11,
+    "close2": 13.88,
+    "diff_pct": 0.18,
     "warn": false
    }
   },
@@ -143,8 +143,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 803.5,
-    "diff_pct": 0.19,
+    "close2": 805.0,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -216,8 +216,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 326.0986,
-    "diff_pct": 0.15,
+    "close2": 326.57,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -289,16 +289,16 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 353.6825,
-    "diff_pct": -0.04,
+    "close2": 353.56,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
   {
    "symbol": "BZ=F",
    "bar_closed_at": "2026-09-10T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 108.03,
    "in_buy": false,
@@ -323,8 +323,8 @@
    "score": 5.0,
    "bars": 1091,
    "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": null,
     "margin": null,
@@ -504,8 +504,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 4.4,
-    "diff_pct": -0.34,
+    "close2": 4.385,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -577,8 +577,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 70.02,
-    "diff_pct": 0.16,
+    "close2": 70.17,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
@@ -650,8 +650,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 84.1,
-    "diff_pct": -0.08,
+    "close2": 84.03,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -796,8 +796,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 38.25,
-    "diff_pct": 1.15,
+    "close2": 38.69,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -869,42 +869,42 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 530.0,
-    "diff_pct": -0.0,
+    "close2": 530.12,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
   {
    "symbol": "GC=F",
-   "bar_closed_at": "2026-09-10T18:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "bar_closed_at": "2026-09-11T02:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 4394.2002,
+   "close": 4367.6001,
    "in_buy": true,
-   "buy_low": 4366.9972,
-   "buy_high": 4409.4165,
+   "buy_low": 4344.2732,
+   "buy_high": 4386.7268,
    "buy_src": "sr",
-   "buy_touch": 3,
+   "buy_touch": 1,
    "conf": 1,
    "conf_flags": {
-    "yesil": false,
+    "yesil": true,
     "yukari": false,
-    "hacim": true,
+    "hacim": false,
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 4411.0902,
-   "sell_high": 4453.5094,
-   "sell_conf": 4,
+   "sell_low": 4411.073,
+   "sell_high": 4453.5266,
+   "sell_conf": 3,
    "atr_pct": 0.97,
-   "rel_vol": 1.33,
+   "rel_vol": 0.39,
    "dist_atr": 0.0,
    "score": 4.0,
-   "bars": 1097,
-   "status": "TEYİT BEKLE",
-   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "bars": 1098,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": null,
     "margin": null,
@@ -927,6 +927,62 @@
       "u": "https://www.proactiveinvestors.com/companies/news/1098369/1911-gold-reports-high-grade-results-confirms-l10-710-711-connection-at-true-north-1098369.html"
      }
     ],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
+  },
+  {
+   "symbol": "USDTRY=X",
+   "bar_closed_at": "2026-09-11T04:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 48.5579,
+   "in_buy": false,
+   "buy_low": 48.3856,
+   "buy_high": 48.4767,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 48.4852,
+   "sell_high": 48.5832,
+   "sell_conf": 1,
+   "atr_pct": 0.2,
+   "rel_vol": null,
+   "dist_atr": 0.83,
+   "score": 4.0,
+   "bars": 1560,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
     "flabel": "Güncel oranlar",
     "sector": null,
     "forward_pe": null,
@@ -1011,8 +1067,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 382.5928,
-    "diff_pct": -0.08,
+    "close2": 382.47,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -1084,8 +1140,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 243.35,
-    "diff_pct": -0.11,
+    "close2": 243.0,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -1157,8 +1213,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 60.39,
-    "diff_pct": 0.12,
+    "close2": 60.48,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -1303,8 +1359,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 207.25,
-    "diff_pct": -0.03,
+    "close2": 207.17,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -1376,8 +1432,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 71.64,
-    "diff_pct": -0.15,
+    "close2": 71.58,
+    "diff_pct": -0.07,
     "warn": false
    }
   },
@@ -1522,8 +1578,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 113.75,
-    "diff_pct": -1.2,
+    "close2": 112.36,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -1668,8 +1724,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 234.21,
-    "diff_pct": -0.06,
+    "close2": 234.02,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -1741,8 +1797,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 62.3,
-    "diff_pct": -0.54,
+    "close2": 61.96,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -1814,8 +1870,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 332.286,
-    "diff_pct": 0.12,
+    "close2": 332.6,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -2029,8 +2085,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 76.05,
-    "diff_pct": -0.04,
+    "close2": 76.01,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -2102,8 +2158,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 902.3112,
-    "diff_pct": 0.01,
+    "close2": 902.38,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2175,8 +2231,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 518.33,
-    "diff_pct": 0.14,
+    "close2": 518.95,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -2248,8 +2304,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 198.88,
-    "diff_pct": -0.38,
+    "close2": 198.12,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -2321,10 +2377,79 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 62.9,
-    "diff_pct": -0.73,
+    "close2": 62.44,
+    "diff_pct": 0.0,
     "warn": false
    }
+  },
+  {
+   "symbol": "SI=F",
+   "bar_closed_at": "2026-09-11T02:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 63.94,
+   "in_buy": true,
+   "buy_low": 63.1614,
+   "buy_high": 64.3336,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 66.2239,
+   "sell_high": 67.396,
+   "sell_conf": 3,
+   "atr_pct": 1.83,
+   "rel_vol": 0.41,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 1100,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-10-2026-silver-prices-back-off-ahead-of-inflation-data-110719718.html"
+     },
+     {
+      "t": "TNR Gold royalty project Los Azules advances as McEwen Copper secures $240M term loan",
+      "u": "https://www.proactiveinvestors.com/companies/news/1098370/tnr-gold-royalty-project-los-azules-advances-as-mcewen-copper-secures-240m-term-loan-1098370.html"
+     },
+     {
+      "t": "Copper, FCX Stock Plunge On Tariff Report, Surging Yields; Silver, Gold Also Fall",
+      "u": "https://www.investors.com/news/copper-price-fcx-stock-trump-tariffs-treasury-yields-knock-silver-gold/?src=A00220&yptr=yahoo"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
   },
   {
    "symbol": "ADI",
@@ -2394,8 +2519,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 361.2,
-    "diff_pct": 0.02,
+    "close2": 361.25,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2467,8 +2592,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 453.95,
-    "diff_pct": 0.04,
+    "close2": 454.01,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -2540,8 +2665,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 177.1,
-    "diff_pct": -0.01,
+    "close2": 177.18,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
@@ -2613,9 +2738,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 16.34,
-    "diff_pct": -2.51,
-    "warn": true
+    "close2": 15.93,
+    "diff_pct": 0.0,
+    "warn": false
    }
   },
   {
@@ -2759,8 +2884,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 226.05,
-    "diff_pct": 0.22,
+    "close2": 226.465,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -2905,8 +3030,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 172.25,
-    "diff_pct": -0.44,
+    "close2": 171.79,
+    "diff_pct": -0.17,
     "warn": false
    }
   },
@@ -2978,8 +3103,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 25.35,
-    "diff_pct": -0.63,
+    "close2": 25.17,
+    "diff_pct": 0.08,
     "warn": false
    }
   },
@@ -3051,8 +3176,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 293.8,
-    "diff_pct": -0.19,
+    "close2": 293.17,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -3124,8 +3249,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 206.3436,
-    "diff_pct": -0.5,
+    "close2": 205.39,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -3197,8 +3322,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 71.419,
-    "diff_pct": -0.26,
+    "close2": 71.21,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -3270,8 +3395,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1596.4324,
-    "diff_pct": -0.45,
+    "close2": 1590.81,
+    "diff_pct": -0.1,
     "warn": false
    }
   },
@@ -3343,8 +3468,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 325.0,
-    "diff_pct": 0.2,
+    "close2": 325.65,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3416,8 +3541,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 249.0,
-    "diff_pct": -0.34,
+    "close2": 248.13,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -3489,8 +3614,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1124.26,
-    "diff_pct": -0.09,
+    "close2": 1123.0,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -3562,8 +3687,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 47.24,
-    "diff_pct": -0.57,
+    "close2": 46.98,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -3635,8 +3760,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 367.0856,
-    "diff_pct": 0.03,
+    "close2": 367.21,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3708,8 +3833,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 36.19,
-    "diff_pct": -0.33,
+    "close2": 36.07,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3781,9 +3906,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 163.5,
-    "diff_pct": -6.39,
-    "warn": true
+    "close2": 152.94,
+    "diff_pct": 0.07,
+    "warn": false
    }
   },
   {
@@ -3854,8 +3979,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 339.86,
-    "diff_pct": -0.44,
+    "close2": 338.49,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -3927,135 +4052,10 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 209.5,
-    "diff_pct": -0.35,
+    "close2": 208.86,
+    "diff_pct": -0.04,
     "warn": false
    }
-  },
-  {
-   "symbol": "SI=F",
-   "bar_closed_at": "2026-09-10T18:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 64.74,
-   "in_buy": false,
-   "buy_low": 63.156,
-   "buy_high": 64.339,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 66.2184,
-   "sell_high": 67.4015,
-   "sell_conf": 3,
-   "atr_pct": 1.83,
-   "rel_vol": 1.83,
-   "dist_atr": 0.34,
-   "score": 2.0,
-   "bars": 1099,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.34 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.34 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-10-2026-silver-prices-back-off-ahead-of-inflation-data-110719718.html"
-     },
-     {
-      "t": "TNR Gold royalty project Los Azules advances as McEwen Copper secures $240M term loan",
-      "u": "https://www.proactiveinvestors.com/companies/news/1098370/tnr-gold-royalty-project-los-azules-advances-as-mcewen-copper-secures-240m-term-loan-1098370.html"
-     },
-     {
-      "t": "Copper, FCX Stock Plunge On Tariff Report, Surging Yields; Silver, Gold Also Fall",
-      "u": "https://www.investors.com/news/copper-price-fcx-stock-trump-tariffs-treasury-yields-knock-silver-gold/?src=A00220&yptr=yahoo"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
-   "symbol": "USDTRY=X",
-   "bar_closed_at": "2026-09-10T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 48.4906,
-   "in_buy": false,
-   "buy_low": 48.266,
-   "buy_high": 48.3558,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": true,
-   "sell_low": 48.4594,
-   "sell_high": 48.5492,
-   "sell_conf": 1,
-   "atr_pct": 0.19,
-   "rel_vol": null,
-   "dist_atr": 1.5,
-   "score": 2.0,
-   "bars": 1558,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
   },
   {
    "symbol": "STX",
@@ -4125,8 +4125,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 864.0,
-    "diff_pct": -0.12,
+    "close2": 862.33,
+    "diff_pct": 0.07,
     "warn": false
    }
   },
@@ -4198,8 +4198,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 260.05,
-    "diff_pct": -0.48,
+    "close2": 258.82,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -4271,8 +4271,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 460.3507,
-    "diff_pct": 0.18,
+    "close2": 460.93,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -4400,8 +4400,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 68.08,
-    "diff_pct": -0.03,
+    "close2": 67.87,
+    "diff_pct": 0.28,
     "warn": false
    }
   },
@@ -4546,8 +4546,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 3.36,
-    "diff_pct": -1.34,
+    "close2": 3.31,
+    "diff_pct": 0.15,
     "warn": false
    }
   },
@@ -4619,8 +4619,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 608.8727,
-    "diff_pct": -1.1,
+    "close2": 602.27,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -4692,9 +4692,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 242.79,
-    "diff_pct": 2.29,
-    "warn": true
+    "close2": 248.83,
+    "diff_pct": -0.19,
+    "warn": false
    }
   },
   {
@@ -4765,8 +4765,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 314.51,
-    "diff_pct": -0.0,
+    "close2": 314.49,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -4838,8 +4838,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 509.3211,
-    "diff_pct": -0.57,
+    "close2": 506.62,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -4911,8 +4911,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 361.2688,
-    "diff_pct": -0.15,
+    "close2": 360.83,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -4984,8 +4984,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 218.3995,
-    "diff_pct": -0.01,
+    "close2": 218.36,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -5057,8 +5057,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 427.92,
-    "diff_pct": 0.07,
+    "close2": 428.03,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -5130,8 +5130,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 643.9287,
-    "diff_pct": 0.07,
+    "close2": 644.38,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -5203,8 +5203,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 363.88,
-    "diff_pct": -0.07,
+    "close2": 363.56,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -5276,8 +5276,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 164.92,
-    "diff_pct": 0.19,
+    "close2": 165.23,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -5349,8 +5349,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 15.1969,
-    "diff_pct": -0.24,
+    "close2": 15.16,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -5422,8 +5422,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 100.41,
-    "diff_pct": -0.13,
+    "close2": 100.32,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -5495,8 +5495,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 503.9226,
-    "diff_pct": -0.09,
+    "close2": 503.6,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -5568,8 +5568,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 23.5,
-    "diff_pct": -0.34,
+    "close2": 23.53,
+    "diff_pct": -0.47,
     "warn": false
    }
   },
@@ -5641,8 +5641,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 21.0953,
-    "diff_pct": -0.9,
+    "close2": 20.9,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -5714,8 +5714,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 73.14,
-    "diff_pct": -0.96,
+    "close2": 72.42,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -5743,7 +5743,7 @@
    "sell_high": 1869.9279,
    "sell_conf": 3,
    "atr_pct": 1.96,
-   "rel_vol": 0.79,
+   "rel_vol": 0.78,
    "dist_atr": 0.99,
    "score": 1.0,
    "bars": 535,
@@ -5787,8 +5787,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1689.55,
-    "diff_pct": -0.12,
+    "close2": 1687.43,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -5860,8 +5860,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 90.87,
-    "diff_pct": -0.31,
+    "close2": 90.59,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -5933,8 +5933,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 90.1,
-    "diff_pct": -1.04,
+    "close2": 89.12,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -6079,8 +6079,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 131.35,
-    "diff_pct": -0.14,
+    "close2": 131.17,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -6152,8 +6152,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 20.8384,
-    "diff_pct": 0.2,
+    "close2": 20.89,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
@@ -6225,8 +6225,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 284.85,
-    "diff_pct": -0.08,
+    "close2": 284.53,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -6298,8 +6298,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 35.93,
-    "diff_pct": -1.81,
+    "close2": 35.27,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -6371,8 +6371,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 115.0,
-    "diff_pct": -0.81,
+    "close2": 114.14,
+    "diff_pct": -0.06,
     "warn": false
    }
   },
@@ -6517,8 +6517,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 277.87,
-    "diff_pct": -1.96,
+    "close2": 272.43,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -6663,8 +6663,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 11.1,
-    "diff_pct": 0.36,
+    "close2": 11.15,
+    "diff_pct": -0.09,
     "warn": false
    }
   },
@@ -6736,8 +6736,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 85.4701,
-    "diff_pct": -0.11,
+    "close2": 85.35,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -6882,8 +6882,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 4.6,
-    "diff_pct": -0.22,
+    "close2": 4.58,
+    "diff_pct": 0.22,
     "warn": false
    }
   },
@@ -6955,8 +6955,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 44.5789,
-    "diff_pct": -0.12,
+    "close2": 44.53,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -7028,8 +7028,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 333.0,
-    "diff_pct": 0.51,
+    "close2": 334.56,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -7101,8 +7101,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 162.71,
-    "diff_pct": 0.23,
+    "close2": 163.12,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -7174,8 +7174,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 166.4,
-    "diff_pct": -0.32,
+    "close2": 165.86,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7247,8 +7247,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 371.0518,
-    "diff_pct": -0.23,
+    "close2": 370.19,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7320,8 +7320,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 385.7,
-    "diff_pct": -0.05,
+    "close2": 385.43,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -7393,8 +7393,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 259.75,
-    "diff_pct": -0.51,
+    "close2": 258.49,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -7466,8 +7466,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 286.6264,
-    "diff_pct": -0.23,
+    "close2": 285.97,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7539,8 +7539,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 37.4261,
-    "diff_pct": -0.1,
+    "close2": 37.38,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -7685,8 +7685,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 492.0,
-    "diff_pct": 0.1,
+    "close2": 492.44,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -7758,8 +7758,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 251.9785,
-    "diff_pct": -0.04,
+    "close2": 251.89,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7831,8 +7831,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 105.8,
-    "diff_pct": -0.05,
+    "close2": 105.73,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -7904,8 +7904,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 200.7431,
-    "diff_pct": 0.35,
+    "close2": 201.27,
+    "diff_pct": 0.08,
     "warn": false
    }
   },
@@ -7977,8 +7977,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 758.5,
-    "diff_pct": -0.08,
+    "close2": 757.83,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -8050,8 +8050,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 108.53,
-    "diff_pct": 0.02,
+    "close2": 108.56,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -8123,8 +8123,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 298.3718,
-    "diff_pct": -0.17,
+    "close2": 298.01,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
@@ -8269,8 +8269,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1689.2,
-    "diff_pct": 0.22,
+    "close2": 1692.59,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -8415,8 +8415,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 161.5233,
-    "diff_pct": -0.73,
+    "close2": 160.31,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -8488,8 +8488,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 0.2029,
-    "diff_pct": -0.2,
+    "close2": 0.2028,
+    "diff_pct": -0.15,
     "warn": false
    }
   },
@@ -8561,8 +8561,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 48.73,
-    "diff_pct": -0.23,
+    "close2": 48.62,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8634,8 +8634,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 177.38,
-    "diff_pct": -0.28,
+    "close2": 176.88,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -8707,8 +8707,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 161.85,
-    "diff_pct": -1.71,
+    "close2": 159.13,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -8780,8 +8780,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 122.31,
-    "diff_pct": -0.15,
+    "close2": 122.11,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -8853,8 +8853,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 249.55,
-    "diff_pct": -0.82,
+    "close2": 247.51,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8926,8 +8926,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 134.6827,
-    "diff_pct": 0.32,
+    "close2": 135.11,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8999,8 +8999,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 936.141,
-    "diff_pct": -0.06,
+    "close2": 935.7,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -9072,8 +9072,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 230.0,
-    "diff_pct": -0.91,
+    "close2": 228.11,
+    "diff_pct": -0.09,
     "warn": false
    }
   },
@@ -9145,8 +9145,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 126.7685,
-    "diff_pct": -0.49,
+    "close2": 126.14,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -9218,8 +9218,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 516.0,
-    "diff_pct": -0.28,
+    "close2": 514.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -9291,8 +9291,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 329.92,
-    "diff_pct": -0.02,
+    "close2": 329.72,
+    "diff_pct": 0.04,
     "warn": false
    }
   }
@@ -9617,8 +9617,8 @@
    },
    "XU100.IS": {
     "state": "supportive",
-    "close": 14393.849609375,
-    "sma200": 13416.266274414062,
+    "close": 14393.900390625,
+    "sma200": 13416.266528320313,
     "closed_at": "2026-09-10T15:00:00+00:00",
     "reason": "Günlük kapanış SMA200 üzerinde"
    }
