@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10 23:47",
+ "generated_at": "2026-09-11 10:06",
  "tf": "1d",
  "rows": [
   {
@@ -54,11 +54,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -28.6971,
+     "relative63_pct": -28.6973,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -140,11 +140,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -8.338,
+     "relative63_pct": -8.3383,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -226,11 +226,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -10.1509,
+     "relative63_pct": -10.1512,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -268,8 +268,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 332.6,
    "in_buy": true,
-   "buy_low": 326.2087,
-   "buy_high": 334.1913,
+   "buy_low": 326.2085,
+   "buy_high": 334.1916,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -280,11 +280,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 336.4987,
-   "sell_high": 344.4813,
+   "sell_low": 336.4984,
+   "sell_high": 344.4815,
    "sell_conf": 1,
    "atr_pct": 2.4,
-   "rel_vol": 1.0,
+   "rel_vol": 1.04,
    "dist_atr": 0.0,
    "score": 6.0,
    "bars": 701,
@@ -358,8 +358,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 332.26,
-    "diff_pct": 0.1,
+    "close2": 332.6,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -383,11 +383,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 135.9337,
-   "sell_high": 142.4663,
+   "sell_low": 135.9319,
+   "sell_high": 142.4681,
    "sell_conf": 2,
    "atr_pct": 4.98,
-   "rel_vol": 0.78,
+   "rel_vol": 0.8,
    "dist_atr": 0.0,
    "score": 6.0,
    "bars": 701,
@@ -461,8 +461,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 131.0201,
-    "diff_pct": 0.11,
+    "close2": 131.17,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -518,11 +518,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -2.1103,
+     "relative63_pct": -2.1107,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -604,11 +604,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -22.2956,
+     "relative63_pct": -22.2959,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -662,7 +662,7 @@
    "sell_high": 112.6395,
    "sell_conf": 0,
    "atr_pct": 5.52,
-   "rel_vol": 0.57,
+   "rel_vol": 0.63,
    "dist_atr": 0.0,
    "score": 6.0,
    "bars": 701,
@@ -749,8 +749,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 360.83,
    "in_buy": true,
-   "buy_low": 350.415,
-   "buy_high": 362.9084,
+   "buy_low": 350.4137,
+   "buy_high": 362.9096,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 2,
@@ -761,11 +761,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 367.9833,
-   "sell_high": 380.4767,
+   "sell_low": 367.9821,
+   "sell_high": 380.478,
    "sell_conf": 2,
    "atr_pct": 3.46,
-   "rel_vol": 0.84,
+   "rel_vol": 0.95,
    "dist_atr": 0.0,
    "score": 5.0,
    "bars": 701,
@@ -839,8 +839,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 360.85,
-    "diff_pct": -0.01,
+    "close2": 360.83,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -942,8 +942,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 47.12,
-    "diff_pct": -0.3,
+    "close2": 46.98,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -955,8 +955,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 530.12,
    "in_buy": false,
-   "buy_low": 503.238,
-   "buy_high": 516.962,
+   "buy_low": 503.2379,
+   "buy_high": 516.9621,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 4,
@@ -967,11 +967,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 537.2864,
-   "sell_high": 551.0103,
+   "sell_low": 537.2862,
+   "sell_high": 551.0105,
    "sell_conf": 0,
    "atr_pct": 2.59,
-   "rel_vol": 1.01,
+   "rel_vol": 1.08,
    "dist_atr": 0.96,
    "score": 5.0,
    "bars": 701,
@@ -1045,8 +1045,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 530.16,
-    "diff_pct": -0.01,
+    "close2": 530.12,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -1107,11 +1107,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 68.6103,
+     "relative63_pct": 68.6097,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -1206,11 +1206,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -9.6481,
+     "relative63_pct": -9.6484,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -1651,112 +1651,15 @@
    "verify": null
   },
   {
-   "symbol": "GC=F",
-   "bar_closed_at": "2026-09-09T22:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 4416.0,
-   "in_buy": true,
-   "buy_low": 4362.3132,
-   "buy_high": 4437.6868,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 4535.8126,
-   "sell_high": 4611.1863,
-   "sell_conf": 1,
-   "atr_pct": 1.71,
-   "rel_vol": 0.24,
-   "dist_atr": 0.0,
-   "score": 5.0,
-   "bars": 577,
-   "status": "TEYİT OLUŞUYOR",
-   "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir günlük kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Gold price today, Thursday, September 10, 2026: Gold prices steady ahead of inflation data and the Fed",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-10-2026-gold-prices-steady-ahead-of-inflation-data-and-the-fed-105217035.html"
-     },
-     {
-      "t": "TNR Gold royalty project Los Azules advances as McEwen Copper secures $240M term loan",
-      "u": "https://www.proactiveinvestors.com/companies/news/1098370/tnr-gold-royalty-project-los-azules-advances-as-mcewen-copper-secures-240m-term-loan-1098370.html"
-     },
-     {
-      "t": "1911 Gold reports high-grade results, confirms L10/710-711 connection at True North",
-      "u": "https://www.proactiveinvestors.com/companies/news/1098369/1911-gold-reports-high-grade-results-confirms-l10-710-711-connection-at-true-north-1098369.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Uygun piyasa eşlemesi yok",
-     "closed_at": null,
-     "stock_above_sma200": null,
-     "relative63_pct": null,
-     "role": "context",
-     "sector_state": "unknown"
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "GC=F",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
-     ],
-     "summary": "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": false,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
    "symbol": "BZ=F",
-   "bar_closed_at": "2026-09-09T22:00:00+00:00",
+   "bar_closed_at": "2026-09-10T22:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 101.21,
+   "close": 107.63,
    "in_buy": false,
-   "buy_low": 87.2598,
-   "buy_high": 92.2775,
+   "buy_low": 87.954,
+   "buy_high": 93.21,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 4,
@@ -1766,18 +1669,18 @@
     "hacim": true,
     "rsi": true
    },
-   "in_sell": true,
-   "sell_low": 100.1689,
-   "sell_high": 103.8511,
+   "in_sell": false,
+   "sell_low": 110.664,
+   "sell_high": 114.716,
    "sell_conf": 0,
-   "atr_pct": 3.64,
-   "rel_vol": 2.22,
-   "dist_atr": 2.43,
+   "atr_pct": 3.76,
+   "rel_vol": 1.62,
+   "dist_atr": 3.56,
    "score": 5.0,
-   "bars": 577,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "bars": 578,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
     "pe": null,
     "margin": null,
@@ -1896,16 +1799,102 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -7.5404,
+     "relative63_pct": -7.5407,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "AEFES.IS",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": null
+  },
+  {
+   "symbol": "GLRMK.IS",
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 173.0,
+   "in_buy": false,
+   "buy_low": 158.7281,
+   "buy_high": 166.2253,
+   "buy_src": "sr",
+   "buy_touch": 5,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 180.9759,
+   "sell_high": 188.473,
+   "sell_conf": 1,
+   "atr_pct": 4.33,
+   "rel_vol": 1.32,
+   "dist_atr": 0.9,
+   "score": 5.0,
+   "bars": 411,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
+   "co": {
+    "pe": 17.9,
+    "margin": 6.7,
+    "de": 62.5,
+    "growth": 0.8,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": "Industrials",
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T15:00:00+00:00",
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "GLRMK.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -1982,11 +1971,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 8.0937,
+     "relative63_pct": 8.0934,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2068,11 +2057,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -22.0291,
+     "relative63_pct": -22.0293,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2154,11 +2143,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 46.1611,
+     "relative63_pct": 46.1605,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2240,11 +2229,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 73.7783,
+     "relative63_pct": 73.7777,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2326,11 +2315,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -10.5889,
+     "relative63_pct": -10.5892,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2425,11 +2414,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -10.7571,
+     "relative63_pct": -10.7574,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2511,11 +2500,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -1.3607,
+     "relative63_pct": -1.361,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2597,11 +2586,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -28.3558,
+     "relative63_pct": -28.356,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -2655,7 +2644,7 @@
    "sell_high": 120.6101,
    "sell_conf": 0,
    "atr_pct": 3.42,
-   "rel_vol": 1.21,
+   "rel_vol": 1.25,
    "dist_atr": 0.3,
    "score": 5.0,
    "bars": 701,
@@ -2832,8 +2821,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 207.25,
-    "diff_pct": -0.04,
+    "close2": 207.17,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2861,7 +2850,7 @@
    "sell_high": 91.8507,
    "sell_conf": 1,
    "atr_pct": 8.22,
-   "rel_vol": 1.0,
+   "rel_vol": 1.01,
    "dist_atr": 0.0,
    "score": 5.0,
    "bars": 701,
@@ -2941,6 +2930,109 @@
    }
   },
   {
+   "symbol": "NXPI",
+   "bar_closed_at": "2026-09-10T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 226.47,
+   "in_buy": false,
+   "buy_low": 215.1163,
+   "buy_high": 222.4322,
+   "buy_src": "sr",
+   "buy_touch": 3,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 229.4521,
+   "sell_high": 236.7679,
+   "sell_conf": 0,
+   "atr_pct": 3.23,
+   "rel_vol": 1.0,
+   "dist_atr": 0.55,
+   "score": 5.0,
+   "bars": 701,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.55 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.55 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "pe": 18.8,
+    "margin": 22.6,
+    "de": 93.3,
+    "growth": 19.5,
+    "target": 311.1,
+    "rec": "none",
+    "earn_days": 46,
+    "news": [
+     {
+      "t": "AMKR Stock Gains After-Hours — Amkor Doubles Down On US Chip Manufacturing With $12B Arizona Campus Expansion",
+      "u": "https://stocktwits.com/news-articles/markets/equity/amkor-doubles-down-on-us-chip-manufacturing-with-12-b-arizona-campus/cZtEXhURJye"
+     },
+     {
+      "t": "1 S&P 500 Stock with Exciting Potential and 2 We Ignore",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-exciting-232718587.html"
+     },
+     {
+      "t": "NXP Semiconductors (NXPI) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-nxpi-sees-more-221504887.html"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": "Technology",
+    "forward_pe": 12.1,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T20:00:00+00:00",
+     "stock_above_sma200": false,
+     "relative63_pct": -24.0834,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 757.8300170898438,
+     "sma200": 713.7076504516601
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "NXPI",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": {
+    "close2": 226.465,
+    "diff_pct": 0.0,
+    "warn": false
+   }
+  },
+  {
    "symbol": "QRVO",
    "bar_closed_at": "2026-09-10T20:00:00+00:00",
    "data_fresh": true,
@@ -2964,7 +3056,7 @@
    "sell_high": 109.1238,
    "sell_conf": 0,
    "atr_pct": 3.04,
-   "rel_vol": 2.21,
+   "rel_vol": 2.22,
    "dist_atr": 4.04,
    "score": 5.0,
    "bars": 701,
@@ -3038,8 +3130,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 113.75,
-    "diff_pct": -1.22,
+    "close2": 112.36,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3141,8 +3233,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 84.99,
-    "diff_pct": -1.13,
+    "close2": 84.03,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3198,11 +3290,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 35.3551,
+     "relative63_pct": 35.3546,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -3240,8 +3332,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 334.56,
    "in_buy": true,
-   "buy_low": 310.8086,
-   "buy_high": 335.7714,
+   "buy_low": 310.8087,
+   "buy_high": 335.7713,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -3252,11 +3344,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 353.4186,
-   "sell_high": 378.3814,
+   "sell_low": 353.4187,
+   "sell_high": 378.3813,
    "sell_conf": 2,
    "atr_pct": 7.46,
-   "rel_vol": 1.03,
+   "rel_vol": 1.07,
    "dist_atr": 0.0,
    "score": 5.0,
    "bars": 701,
@@ -3330,111 +3422,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 335.0,
-    "diff_pct": -0.13,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "VLO",
-   "bar_closed_at": "2026-09-09T20:00:00+00:00",
-   "data_fresh": false,
-   "data_issue": "Beklenen son kapalı mum eksik",
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 388.95,
-   "in_buy": false,
-   "buy_low": 319.9284,
-   "buy_high": 354.1135,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 378.1553,
-   "sell_high": 388.9471,
-   "sell_conf": 0,
-   "atr_pct": 2.77,
-   "rel_vol": 1.35,
-   "dist_atr": 3.23,
-   "score": 5.0,
-   "bars": 700,
-   "status": "BEKLE",
-   "status_text": "Güncel kapalı mum doğrulanamadı.",
-   "next": "Veri yenilenene kadar teknik karar bekler.",
-   "co": {
-    "pe": 15.9,
-    "margin": 5.4,
-    "de": 40.1,
-    "growth": 51.7,
-    "target": 330.2,
-    "rec": "buy",
-    "earn_days": 42,
-    "news": [
-     {
-      "t": "Investors Heavily Search Valero Energy Corporation (VLO): Here is What You Need to Know",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-valero-energy-130003773.html"
-     },
-     {
-      "t": "Why Did CVX, COP, VLO Stocks Jump To 52-Week Highs?",
-      "u": "https://stocktwits.com/news-articles/markets/equity/why-did-cvx-cop-vlo-stocks-jump-to-52-week-highs/cZt96cCRJCa"
-     },
-     {
-      "t": "Why Is ExxonMobil Priced Above Peers With Fatter Margins?",
-      "u": "https://www.trefis.com/articles/614733/why-is-exxonmobil-priced-above-peers-with-fatter-margins/2026-09-09"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": "Energy",
-    "forward_pe": 11.9,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T20:00:00+00:00",
-     "stock_above_sma200": null,
-     "relative63_pct": null,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 757.8300170898438,
-     "sma200": 713.7076504516601
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "VLO",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": {
-    "close2": 386.0,
-    "diff_pct": 0.76,
+    "close2": 334.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3462,7 +3451,7 @@
    "sell_high": 14.2527,
    "sell_conf": 1,
    "atr_pct": 3.41,
-   "rel_vol": 1.11,
+   "rel_vol": 1.12,
    "dist_atr": 0.04,
    "score": 4.0,
    "bars": 701,
@@ -3536,8 +3525,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 13.8891,
-    "diff_pct": -0.07,
+    "close2": 13.88,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3549,8 +3538,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 326.57,
    "in_buy": false,
-   "buy_low": 296.051,
-   "buy_high": 303.949,
+   "buy_low": 296.0488,
+   "buy_high": 303.9512,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 4,
@@ -3561,11 +3550,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 340.621,
-   "sell_high": 348.519,
+   "sell_low": 340.6188,
+   "sell_high": 348.5212,
    "sell_conf": 0,
    "atr_pct": 2.42,
-   "rel_vol": 1.65,
+   "rel_vol": 1.66,
    "dist_atr": 2.86,
    "score": 4.0,
    "bars": 701,
@@ -3639,8 +3628,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 326.1,
-    "diff_pct": 0.14,
+    "close2": 326.57,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3742,8 +3731,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 76.0106,
-    "diff_pct": -0.0,
+    "close2": 76.01,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3771,7 +3760,7 @@
    "sell_high": 558.8114,
    "sell_conf": 1,
    "atr_pct": 2.38,
-   "rel_vol": 1.1,
+   "rel_vol": 1.27,
    "dist_atr": 1.53,
    "score": 4.0,
    "bars": 701,
@@ -3845,8 +3834,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 518.33,
-    "diff_pct": 0.12,
+    "close2": 518.95,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3858,8 +3847,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 503.6,
    "in_buy": true,
-   "buy_low": 483.9203,
-   "buy_high": 505.207,
+   "buy_low": 483.9164,
+   "buy_high": 505.2066,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -3870,11 +3859,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 507.493,
-   "sell_high": 528.7797,
+   "sell_low": 507.4934,
+   "sell_high": 528.7836,
    "sell_conf": 3,
    "atr_pct": 4.54,
-   "rel_vol": 0.88,
+   "rel_vol": 0.89,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 701,
@@ -3948,8 +3937,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 503.86,
-    "diff_pct": -0.05,
+    "close2": 503.6,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -4018,11 +4007,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -2.5647,
+     "relative63_pct": -2.565,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4109,11 +4098,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 16.268,
+     "relative63_pct": 16.2675,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4208,11 +4197,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -1.2615,
+     "relative63_pct": -1.2619,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4294,11 +4283,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 7.9032,
+     "relative63_pct": 7.9028,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4393,11 +4382,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -1.301,
+     "relative63_pct": -1.3013,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4484,11 +4473,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -1.1826,
+     "relative63_pct": -1.183,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4570,11 +4559,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -22.3539,
+     "relative63_pct": -22.3542,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4661,11 +4650,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -7.6564,
+     "relative63_pct": -7.6567,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4752,11 +4741,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -4.2506,
+     "relative63_pct": -4.2509,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4843,11 +4832,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 0.5644,
+     "relative63_pct": 0.5641,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -4929,11 +4918,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 24.9092,
+     "relative63_pct": 24.9088,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5015,11 +5004,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -6.0807,
+     "relative63_pct": -6.081,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5057,8 +5046,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 90.59,
    "in_buy": true,
-   "buy_low": 87.9387,
-   "buy_high": 91.2613,
+   "buy_low": 87.9383,
+   "buy_high": 91.2617,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -5069,11 +5058,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 112.7887,
-   "sell_high": 116.1113,
+   "sell_low": 112.7883,
+   "sell_high": 116.1117,
    "sell_conf": 3,
    "atr_pct": 3.67,
-   "rel_vol": 0.63,
+   "rel_vol": 0.69,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 701,
@@ -5176,7 +5165,7 @@
    "sell_high": 262.0902,
    "sell_conf": 3,
    "atr_pct": 6.6,
-   "rel_vol": 0.66,
+   "rel_vol": 0.67,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 701,
@@ -5250,8 +5239,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 227.49,
-    "diff_pct": -0.23,
+    "close2": 226.96,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -5307,11 +5296,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -19.7776,
+     "relative63_pct": -19.7779,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5343,14 +5332,14 @@
   },
   {
    "symbol": "CGCAM.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 32.34,
+   "close": 32.62,
    "in_buy": true,
-   "buy_low": 31.2471,
-   "buy_high": 32.6727,
+   "buy_low": 31.2246,
+   "buy_high": 32.6952,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 1,
@@ -5361,17 +5350,17 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 34.1872,
-   "sell_high": 35.6128,
-   "sell_conf": 3,
-   "atr_pct": 4.41,
-   "rel_vol": 0.48,
+   "sell_low": 34.1647,
+   "sell_high": 35.6353,
+   "sell_conf": 2,
+   "atr_pct": 4.51,
+   "rel_vol": 0.79,
    "dist_atr": 0.0,
    "score": 4.0,
-   "bars": 430,
-   "status": "TEYİT BEKLE",
-   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir günlük kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "bars": 429,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": 32.6,
     "margin": 7.4,
@@ -5392,12 +5381,12 @@
      "state": "supportive",
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -30.7148,
+     "stock_above_sma200": null,
+     "relative63_pct": null,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5479,16 +5468,102 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -23.5309,
+     "relative63_pct": -23.5312,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "DOAS.IS",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": null
+  },
+  {
+   "symbol": "SMRVA.IS",
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 10.88,
+   "in_buy": false,
+   "buy_low": 10.0034,
+   "buy_high": 10.4893,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 12.2749,
+   "sell_high": 12.7608,
+   "sell_conf": 1,
+   "atr_pct": 4.47,
+   "rel_vol": 0.98,
+   "dist_atr": 0.8,
+   "score": 4.0,
+   "bars": 429,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
+   "co": {
+    "pe": 11.1,
+    "margin": 24.3,
+    "de": 81.6,
+    "growth": 217.5,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": "Financial Services",
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T15:00:00+00:00",
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "SMRVA.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -5565,11 +5640,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 41.1394,
+     "relative63_pct": 41.1389,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5651,11 +5726,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 123.1674,
+     "relative63_pct": 123.1666,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5737,11 +5812,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -12.9225,
+     "relative63_pct": -12.9228,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5823,11 +5898,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -31.2833,
+     "relative63_pct": -31.2836,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5909,11 +5984,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -29.228,
+     "relative63_pct": -29.2283,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -5995,11 +6070,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 22.4213,
+     "relative63_pct": 22.4208,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -6094,11 +6169,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -22.4083,
+     "relative63_pct": -22.4086,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -6180,11 +6255,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -12.6529,
+     "relative63_pct": -12.6532,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -6213,109 +6288,6 @@
    },
    "rejim_up": true,
    "verify": null
-  },
-  {
-   "symbol": "DVLT",
-   "bar_closed_at": "2026-09-10T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 0.2028,
-   "in_buy": true,
-   "buy_low": 0.1786,
-   "buy_high": 0.208,
-   "buy_src": "dip",
-   "buy_touch": 0,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 0.3653,
-   "sell_high": 0.3947,
-   "sell_conf": 2,
-   "atr_pct": 14.49,
-   "rel_vol": 0.46,
-   "dist_atr": 0.0,
-   "score": 4.0,
-   "bars": 701,
-   "status": "TEYİT OLUŞUYOR",
-   "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir günlük kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
-   "co": {
-    "pe": 6.9,
-    "margin": 0.0,
-    "de": 3.9,
-    "growth": 287.1,
-    "target": 2.5,
-    "rec": "none",
-    "earn_days": 64,
-    "news": [
-     {
-      "t": "Datavault AI responds to shareholder securities lawsuit and short-seller dispute",
-      "u": "https://investorshub.advfn.com/market-news/article/35941/datavault-ai-responds-to-shareholder-securities-lawsuit-and-short-seller-dispute"
-     },
-     {
-      "t": "DVLT Stock Rises As Traders Brace For Platform Launch — Retail Stays Bearish Amid Growing Buzz",
-      "u": "https://stocktwits.com/news-articles/markets/equity/dvlt-stock-rises-as-traders-brace-for-platform-launch-retail-stays-bearish-amid-growing-buzz/cZteA1wRJyl"
-     },
-     {
-      "t": "Datavault AI Sets September 15 Launch for Three Exchange Platforms as Commercial Phase Begins",
-      "u": "https://investorshub.advfn.com/market-news/article/35867/datavault-ai-sets-september-15-launch-for-three-exchange-platforms-as-commercial-phase-begins"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": "Technology",
-    "forward_pe": 1.5,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T20:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -50.2232,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 757.8300170898438,
-     "sma200": 713.7076504516601
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "DVLT",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": {
-    "close2": 0.2032,
-    "diff_pct": -0.2,
-    "warn": false
-   }
   },
   {
    "symbol": "LSCC",
@@ -6415,8 +6387,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 114.13,
-    "diff_pct": 0.01,
+    "close2": 114.14,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -6428,8 +6400,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 71.58,
    "in_buy": true,
-   "buy_low": 69.8386,
-   "buy_high": 72.6414,
+   "buy_low": 69.8382,
+   "buy_high": 72.6418,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -6440,8 +6412,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 75.7986,
-   "sell_high": 78.6014,
+   "sell_low": 75.7982,
+   "sell_high": 78.6018,
    "sell_conf": 3,
    "atr_pct": 3.92,
    "rel_vol": 0.96,
@@ -6518,111 +6490,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 71.64,
-    "diff_pct": -0.08,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "NXPI",
-   "bar_closed_at": "2026-09-10T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 226.465,
-   "in_buy": false,
-   "buy_low": 215.1163,
-   "buy_high": 222.4322,
-   "buy_src": "sr",
-   "buy_touch": 3,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 229.4521,
-   "sell_high": 236.7679,
-   "sell_conf": 0,
-   "atr_pct": 3.23,
-   "rel_vol": 0.99,
-   "dist_atr": 0.55,
-   "score": 4.0,
-   "bars": 701,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.55 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.55 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": 18.8,
-    "margin": 22.6,
-    "de": 93.3,
-    "growth": 19.5,
-    "target": 311.1,
-    "rec": "none",
-    "earn_days": 46,
-    "news": [
-     {
-      "t": "AMKR Stock Gains After-Hours — Amkor Doubles Down On US Chip Manufacturing With $12B Arizona Campus Expansion",
-      "u": "https://stocktwits.com/news-articles/markets/equity/amkor-doubles-down-on-us-chip-manufacturing-with-12-b-arizona-campus/cZtEXhURJye"
-     },
-     {
-      "t": "1 S&P 500 Stock with Exciting Potential and 2 We Ignore",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-exciting-232718587.html"
-     },
-     {
-      "t": "NXP Semiconductors (NXPI) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-nxpi-sees-more-221504887.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": "Technology",
-    "forward_pe": 12.1,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T20:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -24.085,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 757.8300170898438,
-     "sma200": 713.7076504516601
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "NXPI",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": {
-    "close2": 226.05,
-    "diff_pct": 0.18,
+    "close2": 71.58,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -6753,7 +6622,7 @@
    "sell_high": 187.345,
    "sell_conf": 1,
    "atr_pct": 3.97,
-   "rel_vol": 1.44,
+   "rel_vol": 1.45,
    "dist_atr": null,
    "score": 4.0,
    "bars": 701,
@@ -6827,8 +6696,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 177.0,
-    "diff_pct": -0.07,
+    "close2": 176.88,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -6840,7 +6709,7 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 93.47,
    "in_buy": true,
-   "buy_low": 91.2329,
+   "buy_low": 91.2331,
    "buy_high": 93.7343,
    "buy_src": "sr",
    "buy_touch": 1,
@@ -6853,7 +6722,7 @@
    },
    "in_sell": false,
    "sell_low": 94.1457,
-   "sell_high": 96.6471,
+   "sell_high": 96.6469,
    "sell_conf": 2,
    "atr_pct": 4.4,
    "rel_vol": 0.93,
@@ -6936,15 +6805,101 @@
    }
   },
   {
-   "symbol": "MOPAS.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "symbol": "BALSU.IS",
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 25.84,
+   "close": 8.94,
+   "in_buy": false,
+   "buy_low": 7.7485,
+   "buy_high": 8.5733,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 14.3476,
+   "sell_high": 15.1724,
+   "sell_conf": 1,
+   "atr_pct": 9.23,
+   "rel_vol": 1.75,
+   "dist_atr": 0.44,
+   "score": 4.0,
+   "bars": 387,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
+   "co": {
+    "pe": 11.1,
+    "margin": 3.4,
+    "de": 325.0,
+    "growth": -1.1,
+    "target": 27.1,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": "Consumer Defensive",
+    "forward_pe": 6.8,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T15:00:00+00:00",
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "BALSU.IS",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": null
+  },
+  {
+   "symbol": "MOPAS.IS",
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 26.02,
    "in_buy": true,
-   "buy_low": 25.2096,
-   "buy_high": 26.0704,
+   "buy_low": 25.2019,
+   "buy_high": 26.0781,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -6955,17 +6910,17 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 28.5296,
-   "sell_high": 29.3904,
-   "sell_conf": 2,
-   "atr_pct": 3.33,
-   "rel_vol": 0.57,
+   "sell_low": 28.5219,
+   "sell_high": 29.3981,
+   "sell_conf": 3,
+   "atr_pct": 3.37,
+   "rel_vol": 0.8,
    "dist_atr": 0.0,
    "score": 4.0,
-   "bars": 396,
-   "status": "TEYİT BEKLE",
-   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir günlük kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "bars": 395,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": 22.6,
     "margin": 1.6,
@@ -6986,17 +6941,103 @@
      "state": "supportive",
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -28.5886,
+     "stock_above_sma200": null,
+     "relative63_pct": null,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "MOPAS.IS",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": null
+  },
+  {
+   "symbol": "EGEGY.IS",
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 27.46,
+   "in_buy": false,
+   "buy_low": 25.737,
+   "buy_high": 27.2139,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 27.3765,
+   "sell_high": 28.8534,
+   "sell_conf": 0,
+   "atr_pct": 5.92,
+   "rel_vol": 0.73,
+   "dist_atr": 0.15,
+   "score": 4.0,
+   "bars": 414,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
+   "co": {
+    "pe": 4.5,
+    "margin": 21.8,
+    "de": 27.8,
+    "growth": 126.2,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": "Real Estate",
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T15:00:00+00:00",
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "EGEGY.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -7073,11 +7114,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 248.7918,
+     "relative63_pct": 248.7906,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -7115,8 +7156,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 248.83,
    "in_buy": true,
-   "buy_low": 238.9697,
-   "buy_high": 249.5903,
+   "buy_low": 238.9694,
+   "buy_high": 249.5906,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -7127,11 +7168,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 253.4397,
-   "sell_high": 264.0603,
+   "sell_low": 253.4394,
+   "sell_high": 264.0606,
    "sell_conf": 4,
    "atr_pct": 4.27,
-   "rel_vol": 1.91,
+   "rel_vol": 2.2,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 701,
@@ -7205,9 +7246,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 243.0,
-    "diff_pct": 2.4,
-    "warn": true
+    "close2": 248.83,
+    "diff_pct": 0.0,
+    "warn": false
    }
   },
   {
@@ -7218,8 +7259,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 38.69,
    "in_buy": false,
-   "buy_low": 37.4904,
-   "buy_high": 38.6896,
+   "buy_low": 37.4902,
+   "buy_high": 38.6898,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -7230,11 +7271,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 41.7904,
-   "sell_high": 42.9896,
+   "sell_low": 41.7902,
+   "sell_high": 42.9898,
    "sell_conf": 2,
    "atr_pct": 3.1,
-   "rel_vol": 1.06,
+   "rel_vol": 1.07,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 701,
@@ -7308,8 +7349,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 38.25,
-    "diff_pct": 1.15,
+    "close2": 38.69,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7337,7 +7378,7 @@
    "sell_high": 540.2766,
    "sell_conf": 4,
    "atr_pct": 2.57,
-   "rel_vol": 0.79,
+   "rel_vol": 0.8,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 701,
@@ -7411,8 +7452,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 516.0,
-    "diff_pct": -0.28,
+    "close2": 514.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7424,8 +7465,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 234.02,
    "in_buy": true,
-   "buy_low": 228.6282,
-   "buy_high": 235.6749,
+   "buy_low": 228.6278,
+   "buy_high": 235.6752,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 1,
@@ -7436,11 +7477,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 238.2767,
-   "sell_high": 245.3233,
+   "sell_low": 238.2763,
+   "sell_high": 245.3237,
    "sell_conf": 4,
    "atr_pct": 3.01,
-   "rel_vol": 1.11,
+   "rel_vol": 1.2,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 701,
@@ -7514,8 +7555,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 234.25,
-    "diff_pct": -0.1,
+    "close2": 234.02,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7543,7 +7584,7 @@
    "sell_high": 520.8436,
    "sell_conf": 1,
    "atr_pct": 2.23,
-   "rel_vol": 0.73,
+   "rel_vol": 0.75,
    "dist_atr": 0.89,
    "score": 3.0,
    "bars": 701,
@@ -7617,111 +7658,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 492.1,
-    "diff_pct": 0.07,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "UNF",
-   "bar_closed_at": "2026-09-09T20:00:00+00:00",
-   "data_fresh": false,
-   "data_issue": "Beklenen son kapalı mum eksik",
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 275.15,
-   "in_buy": false,
-   "buy_low": 255.0762,
-   "buy_high": 261.2638,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": false,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 277.4062,
-   "sell_high": 283.5938,
-   "sell_conf": 2,
-   "atr_pct": 2.25,
-   "rel_vol": 1.36,
-   "dist_atr": 2.24,
-   "score": 3.0,
-   "bars": 700,
-   "status": "BEKLE",
-   "status_text": "Güncel kapalı mum doğrulanamadı.",
-   "next": "Veri yenilenene kadar teknik karar bekler.",
-   "co": {
-    "pe": 43.1,
-    "margin": 4.6,
-    "de": 3.9,
-    "growth": 3.9,
-    "target": 273.3,
-    "rec": "none",
-    "earn_days": 41,
-    "news": [
-     {
-      "t": "Cintas Likely to Raise Fiscal 2027 Outlook Following Expected First-Quarter Beat, RBC Says",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/cintas-likely-raise-fiscal-2027-163827557.html"
-     },
-     {
-      "t": "Cintas to Post Strong Fiscal Q1, Raise Fiscal 2027 Outlook, RBC Says",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/cintas-post-strong-fiscal-q1-152506001.html"
-     },
-     {
-      "t": "UniFirst (UNF) Upgraded to Buy: Here's Why",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-upgraded-buy-heres-160004286.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": "Industrials",
-    "forward_pe": 34.1,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T20:00:00+00:00",
-     "stock_above_sma200": null,
-     "relative63_pct": null,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 757.8300170898438,
-     "sma200": 713.7076504516601
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "UNF",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": {
-    "close2": 270.77,
-    "diff_pct": 1.62,
+    "close2": 492.44,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7749,7 +7687,7 @@
    "sell_high": 261.6492,
    "sell_conf": 3,
    "atr_pct": 2.49,
-   "rel_vol": 0.77,
+   "rel_vol": 0.79,
    "dist_atr": 0.49,
    "score": 3.0,
    "bars": 701,
@@ -7823,8 +7761,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 251.53,
-    "diff_pct": 0.14,
+    "close2": 251.89,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7852,7 +7790,7 @@
    "sell_high": 673.4118,
    "sell_conf": 3,
    "atr_pct": 3.33,
-   "rel_vol": 1.16,
+   "rel_vol": 1.22,
    "dist_atr": 0.4,
    "score": 3.0,
    "bars": 701,
@@ -7926,8 +7864,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 644.0125,
-    "diff_pct": 0.06,
+    "close2": 644.38,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7955,7 +7893,7 @@
    "sell_high": 170.4352,
    "sell_conf": 1,
    "atr_pct": 2.17,
-   "rel_vol": 1.17,
+   "rel_vol": 1.2,
    "dist_atr": 2.26,
    "score": 3.0,
    "bars": 701,
@@ -8029,8 +7967,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 165.13,
-    "diff_pct": 0.06,
+    "close2": 165.23,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8042,8 +7980,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 198.12,
    "in_buy": false,
-   "buy_low": 190.8626,
-   "buy_high": 194.9486,
+   "buy_low": 190.8542,
+   "buy_high": 194.957,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 2,
@@ -8054,17 +7992,17 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 203.3176,
-   "sell_high": 207.4036,
+   "sell_low": 203.3092,
+   "sell_high": 207.412,
    "sell_conf": 1,
-   "atr_pct": 2.06,
+   "atr_pct": 2.07,
    "rel_vol": 0.66,
-   "dist_atr": 0.78,
+   "dist_atr": 0.77,
    "score": 3.0,
    "bars": 701,
    "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.78 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.78 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "status_text": "Alım bölgesine 0.77 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.77 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": 34.7,
     "margin": 8.3,
@@ -8132,8 +8070,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 197.6,
-    "diff_pct": 0.26,
+    "close2": 198.12,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8157,11 +8095,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 359.4307,
+   "sell_low": 359.4308,
    "sell_high": 376.9093,
    "sell_conf": 1,
    "atr_pct": 5.16,
-   "rel_vol": 0.7,
+   "rel_vol": 0.77,
    "dist_atr": 1.21,
    "score": 3.0,
    "bars": 701,
@@ -8235,10 +8173,94 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 339.1,
-    "diff_pct": -0.18,
+    "close2": 338.49,
+    "diff_pct": 0.0,
     "warn": false
    }
+  },
+  {
+   "symbol": "XU100.IS",
+   "bar_closed_at": "2026-09-10T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 14393.9004,
+   "in_buy": false,
+   "buy_low": 13906.3017,
+   "buy_high": 14157.0987,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 14445.2631,
+   "sell_high": 14696.0602,
+   "sell_conf": 2,
+   "atr_pct": 1.74,
+   "rel_vol": 2.14,
+   "dist_atr": 0.94,
+   "score": 3.0,
+   "bars": 691,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.94 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.94 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Uygun piyasa eşlemesi yok",
+     "closed_at": null,
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown"
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "XU100.IS",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": false,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": null,
+   "verify": null
   },
   {
    "symbol": "SPY",
@@ -8264,7 +8286,7 @@
    "sell_high": 763.4174,
    "sell_conf": 4,
    "atr_pct": 0.8,
-   "rel_vol": 1.13,
+   "rel_vol": 1.16,
    "dist_atr": 0.07,
    "score": 3.0,
    "bars": 701,
@@ -8336,21 +8358,21 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 758.4366,
-    "diff_pct": -0.08,
+    "close2": 757.83,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
   {
-   "symbol": "SI=F",
-   "bar_closed_at": "2026-09-09T22:00:00+00:00",
+   "symbol": "USDTRY=X",
+   "bar_closed_at": "2026-09-11T00:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 67.942,
+   "close": 48.4873,
    "in_buy": false,
-   "buy_low": 62.1948,
-   "buy_high": 64.0452,
+   "buy_low": 42.6329,
+   "buy_high": 42.6907,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -8361,14 +8383,14 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 81.9048,
-   "sell_high": 83.7552,
-   "sell_conf": 0,
-   "atr_pct": 2.72,
-   "rel_vol": 0.06,
-   "dist_atr": 2.11,
+   "sell_low": 48.6198,
+   "sell_high": 48.6776,
+   "sell_conf": 1,
+   "atr_pct": 0.12,
+   "rel_vol": null,
+   "dist_atr": 100.31,
    "score": 3.0,
-   "bars": 577,
+   "bars": 677,
    "status": "BEKLE",
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
@@ -8380,20 +8402,7 @@
     "target": null,
     "rec": null,
     "earn_days": null,
-    "news": [
-     {
-      "t": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-10-2026-silver-prices-back-off-ahead-of-inflation-data-110719718.html"
-     },
-     {
-      "t": "TNR Gold royalty project Los Azules advances as McEwen Copper secures $240M term loan",
-      "u": "https://www.proactiveinvestors.com/companies/news/1098370/tnr-gold-royalty-project-los-azules-advances-as-mcewen-copper-secures-240m-term-loan-1098370.html"
-     },
-     {
-      "t": "Copper, FCX Stock Plunge On Tariff Report, Surging Yields; Silver, Gold Also Fall",
-      "u": "https://www.investors.com/news/copper-price-fcx-stock-trump-tariffs-treasury-yields-knock-silver-gold/?src=A00220&yptr=yahoo"
-     }
-    ],
+    "news": [],
     "flabel": "Güncel oranlar",
     "sector": null,
     "forward_pe": null,
@@ -8413,7 +8422,7 @@
     "financials": {
      "version": "statements-v1",
      "state": "missing",
-     "symbol": "SI=F",
+     "symbol": "USDTRY=X",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -8503,11 +8512,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -4.5182,
+     "relative63_pct": -4.5186,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -8589,11 +8598,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": 3.6545,
+     "relative63_pct": 3.6541,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -8675,11 +8684,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 15.1427,
+     "relative63_pct": 15.1423,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -8761,11 +8770,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -3.4283,
+     "relative63_pct": -3.4286,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -8860,11 +8869,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -17.324,
+     "relative63_pct": -17.3243,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -8946,11 +8955,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -5.5196,
+     "relative63_pct": -5.52,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9032,11 +9041,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -8.8886,
+     "relative63_pct": -8.889,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9118,11 +9127,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 21.0114,
+     "relative63_pct": 21.011,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9204,11 +9213,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 0.9427,
+     "relative63_pct": 0.9424,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9246,8 +9255,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 177.18,
    "in_buy": false,
-   "buy_low": 164.48,
-   "buy_high": 173.576,
+   "buy_low": 164.4796,
+   "buy_high": 173.5764,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 2,
@@ -9258,11 +9267,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 189.388,
-   "sell_high": 198.484,
+   "sell_low": 189.3876,
+   "sell_high": 198.4844,
    "sell_conf": 3,
    "atr_pct": 5.13,
-   "rel_vol": 1.15,
+   "rel_vol": 1.17,
    "dist_atr": 0.4,
    "score": 3.0,
    "bars": 701,
@@ -9336,8 +9345,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 177.1552,
-    "diff_pct": 0.01,
+    "close2": 177.18,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -9365,7 +9374,7 @@
    "sell_high": 293.7373,
    "sell_conf": 2,
    "atr_pct": 3.18,
-   "rel_vol": 1.07,
+   "rel_vol": 1.08,
    "dist_atr": 6.68,
    "score": 3.0,
    "bars": 701,
@@ -9439,8 +9448,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 258.0512,
-    "diff_pct": 0.3,
+    "close2": 258.82,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -9501,11 +9510,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -8.7087,
+     "relative63_pct": -8.709,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9587,11 +9596,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -0.39,
+     "relative63_pct": -0.3904,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9673,11 +9682,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 20.7974,
+     "relative63_pct": 20.7969,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9759,11 +9768,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -16.7246,
+     "relative63_pct": -16.7249,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -9929,11 +9938,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 17.8155,
+     "relative63_pct": 17.8151,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -10015,11 +10024,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 23.7494,
+     "relative63_pct": 23.7489,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -10110,11 +10119,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -15.3139,
+     "relative63_pct": -15.3142,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -10196,11 +10205,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 4.8914,
+     "relative63_pct": 4.891,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -10282,11 +10291,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -13.8193,
+     "relative63_pct": -13.8196,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -10324,8 +10333,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 67.87,
    "in_buy": false,
-   "buy_low": 61.7135,
-   "buy_high": 66.2865,
+   "buy_low": 61.7132,
+   "buy_high": 66.2868,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -10336,11 +10345,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 69.5811,
-   "sell_high": 74.1541,
+   "sell_low": 69.5808,
+   "sell_high": 74.1545,
    "sell_conf": 1,
    "atr_pct": 6.74,
-   "rel_vol": 1.57,
+   "rel_vol": 1.58,
    "dist_atr": 0.35,
    "score": 3.0,
    "bars": 701,
@@ -10414,8 +10423,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 68.08,
-    "diff_pct": -0.31,
+    "close2": 67.87,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -10523,15 +10532,118 @@
    }
   },
   {
+   "symbol": "DVLT",
+   "bar_closed_at": "2026-09-10T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 0.2,
+   "in_buy": true,
+   "buy_low": 0.1782,
+   "buy_high": 0.2071,
+   "buy_src": "dip",
+   "buy_touch": 0,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 0.3656,
+   "sell_high": 0.3944,
+   "sell_conf": 2,
+   "atr_pct": 14.42,
+   "rel_vol": 0.47,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 701,
+   "status": "TEYİT BEKLE",
+   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
+   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir günlük kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "co": {
+    "pe": 6.9,
+    "margin": 0.0,
+    "de": 3.9,
+    "growth": 287.1,
+    "target": 2.5,
+    "rec": "none",
+    "earn_days": 64,
+    "news": [
+     {
+      "t": "Datavault AI responds to shareholder securities lawsuit and short-seller dispute",
+      "u": "https://investorshub.advfn.com/market-news/article/35941/datavault-ai-responds-to-shareholder-securities-lawsuit-and-short-seller-dispute"
+     },
+     {
+      "t": "DVLT Stock Rises As Traders Brace For Platform Launch — Retail Stays Bearish Amid Growing Buzz",
+      "u": "https://stocktwits.com/news-articles/markets/equity/dvlt-stock-rises-as-traders-brace-for-platform-launch-retail-stays-bearish-amid-growing-buzz/cZteA1wRJyl"
+     },
+     {
+      "t": "Datavault AI Sets September 15 Launch for Three Exchange Platforms as Commercial Phase Begins",
+      "u": "https://investorshub.advfn.com/market-news/article/35867/datavault-ai-sets-september-15-launch-for-three-exchange-platforms-as-commercial-phase-begins"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": "Technology",
+    "forward_pe": 1.5,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T20:00:00+00:00",
+     "stock_above_sma200": false,
+     "relative63_pct": -50.9104,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 757.8300170898438,
+     "sma200": 713.7076504516601
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "DVLT",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": {
+    "close2": 0.2028,
+    "diff_pct": -1.38,
+    "warn": false
+   }
+  },
+  {
    "symbol": "KOPN",
    "bar_closed_at": "2026-09-10T20:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 4.385,
+   "close": 4.39,
    "in_buy": false,
-   "buy_low": 4.0389,
-   "buy_high": 4.3611,
+   "buy_low": 4.0388,
+   "buy_high": 4.3612,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -10542,17 +10654,17 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 5.3689,
-   "sell_high": 5.6911,
+   "sell_low": 5.3688,
+   "sell_high": 5.6912,
    "sell_conf": 0,
    "atr_pct": 7.35,
    "rel_vol": 0.92,
-   "dist_atr": 0.07,
+   "dist_atr": 0.09,
    "score": 3.0,
    "bars": 701,
    "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.07 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.07 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "status_text": "Alım bölgesine 0.09 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.09 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": 105.3,
     "margin": 18.3,
@@ -10587,7 +10699,7 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T20:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -8.7494,
+     "relative63_pct": -8.6454,
      "role": "context",
      "sector_state": "unknown",
      "close": 757.8300170898438,
@@ -10620,8 +10732,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 4.4,
-    "diff_pct": -0.34,
+    "close2": 4.385,
+    "diff_pct": 0.11,
     "warn": false
    }
   },
@@ -10633,8 +10745,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 85.35,
    "in_buy": false,
-   "buy_low": 80.3241,
-   "buy_high": 84.8734,
+   "buy_low": 80.3243,
+   "buy_high": 84.8733,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 2,
@@ -10645,8 +10757,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 96.0754,
-   "sell_high": 100.6246,
+   "sell_low": 96.0755,
+   "sell_high": 100.6245,
    "sell_conf": 2,
    "atr_pct": 5.33,
    "rel_vol": 0.88,
@@ -10723,8 +10835,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 85.4701,
-    "diff_pct": -0.14,
+    "close2": 85.35,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -10780,11 +10892,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 32.3154,
+     "relative63_pct": 32.3149,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -10866,11 +10978,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -29.6907,
+     "relative63_pct": -29.691,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -10952,11 +11064,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -19.7549,
+     "relative63_pct": -19.7552,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -11038,11 +11150,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -19.1434,
+     "relative63_pct": -19.1437,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -11137,102 +11249,16 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -14.6811,
+     "relative63_pct": -14.6814,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "PASEU.IS",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": null
-  },
-  {
-   "symbol": "BIGEN.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 135.1,
-   "in_buy": false,
-   "buy_low": 86.7339,
-   "buy_high": 99.2661,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 141.7339,
-   "sell_high": 154.2661,
-   "sell_conf": 0,
-   "atr_pct": 9.28,
-   "rel_vol": 2.22,
-   "dist_atr": 2.86,
-   "score": 3.0,
-   "bars": 399,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
-   "co": {
-    "pe": null,
-    "margin": -4.6,
-    "de": 94.6,
-    "growth": -24.5,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": "Utilities",
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": true,
-     "relative63_pct": 141.8228,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "BIGEN.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -11355,8 +11381,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 44.65,
-    "diff_pct": -0.27,
+    "close2": 44.53,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -11368,8 +11394,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 314.49,
    "in_buy": false,
-   "buy_low": 289.2753,
-   "buy_high": 305.7247,
+   "buy_low": 289.2748,
+   "buy_high": 305.7252,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 2,
@@ -11380,8 +11406,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 327.2253,
-   "sell_high": 343.6747,
+   "sell_low": 327.2248,
+   "sell_high": 343.6753,
    "sell_conf": 1,
    "atr_pct": 5.23,
    "rel_vol": 1.0,
@@ -11458,8 +11484,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 314.3,
-    "diff_pct": 0.06,
+    "close2": 314.49,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -11561,8 +11587,214 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 293.5,
-    "diff_pct": -0.11,
+    "close2": 293.17,
+    "diff_pct": 0.0,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "FANG",
+   "bar_closed_at": "2026-09-10T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 205.39,
+   "in_buy": false,
+   "buy_low": 193.8166,
+   "buy_high": 199.4834,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 207.9666,
+   "sell_high": 213.6334,
+   "sell_conf": 1,
+   "atr_pct": 2.76,
+   "rel_vol": 1.07,
+   "dist_atr": 1.04,
+   "score": 3.0,
+   "bars": 701,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "co": {
+    "pe": 38.7,
+    "margin": 9.0,
+    "de": 28.7,
+    "growth": 52.5,
+    "target": 232.5,
+    "rec": "buy",
+    "earn_days": 53,
+    "news": [
+     {
+      "t": "Diamondback Energy (FANG) Rises As Market Takes a Dip: Key Facts",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/diamondback-energy-fang-rises-market-221502534.html"
+     },
+     {
+      "t": "WTI Crude Not Too Far From $100: Are Permian Stocks a Smart Watch Now?",
+      "u": "https://finance.yahoo.com/energy/articles/wti-crude-not-too-far-152900906.html"
+     },
+     {
+      "t": "2 Value Stocks with Impressive Fundamentals and 1 Facing Challenges",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/2-value-stocks-impressive-fundamentals-231918296.html"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": "Energy",
+    "forward_pe": 11.1,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T20:00:00+00:00",
+     "stock_above_sma200": true,
+     "relative63_pct": 0.0299,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 757.8300170898438,
+     "sma200": 713.7076504516601
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "FANG",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": {
+    "close2": 205.39,
+    "diff_pct": 0.0,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "VLO",
+   "bar_closed_at": "2026-09-10T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 385.43,
+   "in_buy": false,
+   "buy_low": 322.4282,
+   "buy_high": 356.8745,
+   "buy_src": "pullback",
+   "buy_touch": 0,
+   "conf": 2,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 381.755,
+   "sell_high": 392.5895,
+   "sell_conf": 2,
+   "atr_pct": 2.81,
+   "rel_vol": 1.32,
+   "dist_atr": 2.64,
+   "score": 3.0,
+   "bars": 701,
+   "status": "AZALT",
+   "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
+   "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
+   "co": {
+    "pe": 15.9,
+    "margin": 5.4,
+    "de": 40.1,
+    "growth": 51.7,
+    "target": 330.2,
+    "rec": "buy",
+    "earn_days": 42,
+    "news": [
+     {
+      "t": "Investors Heavily Search Valero Energy Corporation (VLO): Here is What You Need to Know",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-valero-energy-130003773.html"
+     },
+     {
+      "t": "Why Did CVX, COP, VLO Stocks Jump To 52-Week Highs?",
+      "u": "https://stocktwits.com/news-articles/markets/equity/why-did-cvx-cop-vlo-stocks-jump-to-52-week-highs/cZt96cCRJCa"
+     },
+     {
+      "t": "Why Is ExxonMobil Priced Above Peers With Fatter Margins?",
+      "u": "https://www.trefis.com/articles/614733/why-is-exxonmobil-priced-above-peers-with-fatter-margins/2026-09-09"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": "Energy",
+    "forward_pe": 11.9,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T20:00:00+00:00",
+     "stock_above_sma200": true,
+     "relative63_pct": 43.01,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 757.8300170898438,
+     "sma200": 713.7076504516601
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "VLO",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": {
+    "close2": 385.43,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -11664,8 +11896,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 329.8006,
-    "diff_pct": -0.02,
+    "close2": 329.72,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -11677,8 +11909,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 61.96,
    "in_buy": false,
-   "buy_low": 55.3219,
-   "buy_high": 59.3198,
+   "buy_low": 55.3194,
+   "buy_high": 59.3223,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 2,
@@ -11689,11 +11921,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 71.971,
-   "sell_high": 75.969,
+   "sell_low": 71.9685,
+   "sell_high": 75.9715,
    "sell_conf": 3,
-   "atr_pct": 6.45,
-   "rel_vol": 1.13,
+   "atr_pct": 6.46,
+   "rel_vol": 1.14,
    "dist_atr": 0.66,
    "score": 2.0,
    "bars": 701,
@@ -11767,8 +11999,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 62.23,
-    "diff_pct": -0.43,
+    "close2": 61.96,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -11796,7 +12028,7 @@
    "sell_high": 441.78,
    "sell_conf": 3,
    "atr_pct": 2.68,
-   "rel_vol": 0.9,
+   "rel_vol": 0.91,
    "dist_atr": 0.27,
    "score": 2.0,
    "bars": 701,
@@ -11870,8 +12102,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 427.91,
-    "diff_pct": 0.03,
+    "close2": 428.03,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -11883,8 +12115,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 507.0,
    "in_buy": false,
-   "buy_low": 492.5815,
-   "buy_high": 498.7785,
+   "buy_low": 492.5804,
+   "buy_high": 498.7796,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 2,
@@ -11895,11 +12127,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 509.0492,
-   "sell_high": 515.2462,
+   "sell_low": 509.0481,
+   "sell_high": 515.2473,
    "sell_conf": 1,
    "atr_pct": 1.22,
-   "rel_vol": 0.93,
+   "rel_vol": 0.94,
    "dist_atr": 1.33,
    "score": 2.0,
    "bars": 701,
@@ -12072,8 +12304,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 353.6053,
-    "diff_pct": -0.01,
+    "close2": 353.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -12175,8 +12407,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 363.8829,
-    "diff_pct": -0.09,
+    "close2": 363.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -12188,8 +12420,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 902.38,
    "in_buy": false,
-   "buy_low": 873.5145,
-   "buy_high": 889.6055,
+   "buy_low": 873.5141,
+   "buy_high": 889.6059,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -12200,11 +12432,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 937.2345,
-   "sell_high": 953.3256,
+   "sell_low": 937.2341,
+   "sell_high": 953.3259,
    "sell_conf": 4,
    "atr_pct": 1.78,
-   "rel_vol": 1.01,
+   "rel_vol": 1.04,
    "dist_atr": 0.79,
    "score": 2.0,
    "bars": 701,
@@ -12278,8 +12510,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 902.2625,
-    "diff_pct": 0.01,
+    "close2": 902.38,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -12307,7 +12539,7 @@
    "sell_high": 110.3133,
    "sell_conf": 2,
    "atr_pct": 5.47,
-   "rel_vol": 1.02,
+   "rel_vol": 1.03,
    "dist_atr": 2.27,
    "score": 2.0,
    "bars": 701,
@@ -12381,8 +12613,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 100.42,
-    "diff_pct": -0.1,
+    "close2": 100.32,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -12410,7 +12642,7 @@
    "sell_high": 223.2607,
    "sell_conf": 2,
    "atr_pct": 5.52,
-   "rel_vol": 0.68,
+   "rel_vol": 0.72,
    "dist_atr": 1.92,
    "score": 2.0,
    "bars": 701,
@@ -12484,8 +12716,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 209.35,
-    "diff_pct": -0.23,
+    "close2": 208.86,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -12541,11 +12773,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -3.6435,
+     "relative63_pct": -3.6438,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -12627,11 +12859,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -3.0761,
+     "relative63_pct": -3.0764,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -12662,36 +12894,36 @@
    "verify": null
   },
   {
-   "symbol": "XU100.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
+   "symbol": "SI=F",
+   "bar_closed_at": "2026-09-10T22:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 14393.8496,
+   "close": 64.284,
    "in_buy": false,
-   "buy_low": 13906.3035,
-   "buy_high": 14157.0969,
+   "buy_low": 62.1253,
+   "buy_high": 64.1147,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
    "conf_flags": {
-    "yesil": false,
+    "yesil": true,
     "yukari": false,
     "hacim": false,
-    "rsi": true
+    "rsi": false
    },
    "in_sell": false,
-   "sell_low": 14445.2649,
-   "sell_high": 14696.0584,
-   "sell_conf": 2,
-   "atr_pct": 1.74,
-   "rel_vol": 0.0,
-   "dist_atr": 0.94,
+   "sell_low": 70.1653,
+   "sell_high": 72.1547,
+   "sell_conf": 3,
+   "atr_pct": 3.09,
+   "rel_vol": 0.09,
+   "dist_atr": 0.09,
    "score": 2.0,
-   "bars": 691,
+   "bars": 578,
    "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.94 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.94 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "status_text": "Alım bölgesine 0.09 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.09 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": null,
     "margin": null,
@@ -12700,7 +12932,20 @@
     "target": null,
     "rec": null,
     "earn_days": null,
-    "news": [],
+    "news": [
+     {
+      "t": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-10-2026-silver-prices-back-off-ahead-of-inflation-data-110719718.html"
+     },
+     {
+      "t": "TNR Gold royalty project Los Azules advances as McEwen Copper secures $240M term loan",
+      "u": "https://www.proactiveinvestors.com/companies/news/1098370/tnr-gold-royalty-project-los-azules-advances-as-mcewen-copper-secures-240m-term-loan-1098370.html"
+     },
+     {
+      "t": "Copper, FCX Stock Plunge On Tariff Report, Surging Yields; Silver, Gold Also Fall",
+      "u": "https://www.investors.com/news/copper-price-fcx-stock-trump-tariffs-treasury-yields-knock-silver-gold/?src=A00220&yptr=yahoo"
+     }
+    ],
     "flabel": "Güncel oranlar",
     "sector": null,
     "forward_pe": null,
@@ -12720,14 +12965,14 @@
     "financials": {
      "version": "statements-v1",
      "state": "missing",
-     "symbol": "XU100.IS",
+     "symbol": "SI=F",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
      "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+      "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
      ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     "summary": "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
     },
     "shadow": {
      "version": "shadow-v1",
@@ -12753,8 +12998,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 72.42,
    "in_buy": false,
-   "buy_low": 68.4518,
-   "buy_high": 70.5882,
+   "buy_low": 68.452,
+   "buy_high": 70.588,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -12765,8 +13010,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 74.3218,
-   "sell_high": 76.4582,
+   "sell_low": 74.322,
+   "sell_high": 76.458,
    "sell_conf": 3,
    "atr_pct": 2.95,
    "rel_vol": 1.64,
@@ -12841,8 +13086,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 72.48,
-    "diff_pct": -0.08,
+    "close2": 72.42,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -12911,11 +13156,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": 3.0574,
+     "relative63_pct": 3.057,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13010,11 +13255,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -9.7586,
+     "relative63_pct": -9.759,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13096,11 +13341,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -1.9035,
+     "relative63_pct": -1.9038,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13195,11 +13440,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -14.345,
+     "relative63_pct": -14.3453,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13281,102 +13526,16 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -3.3019,
+     "relative63_pct": -3.3023,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "CCOLA.IS",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": null
-  },
-  {
-   "symbol": "GLRMK.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 171.3,
-   "in_buy": false,
-   "buy_low": 158.7352,
-   "buy_high": 166.2182,
-   "buy_src": "sr",
-   "buy_touch": 5,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 180.9829,
-   "sell_high": 188.466,
-   "sell_conf": 2,
-   "atr_pct": 4.37,
-   "rel_vol": 0.89,
-   "dist_atr": 0.68,
-   "score": 2.0,
-   "bars": 412,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.68 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.68 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": 17.9,
-    "margin": 6.7,
-    "de": 62.5,
-    "growth": 0.8,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": "Industrials",
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -1.8456,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "GLRMK.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -13453,11 +13612,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -10.8103,
+     "relative63_pct": -10.8106,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13539,11 +13698,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 5.0299,
+     "relative63_pct": 5.0296,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13625,11 +13784,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 9.7861,
+     "relative63_pct": 9.7857,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13711,11 +13870,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -11.5568,
+     "relative63_pct": -11.5571,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13797,11 +13956,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 9.1995,
+     "relative63_pct": 9.1991,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13883,11 +14042,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -5.9346,
+     "relative63_pct": -5.935,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -13969,11 +14128,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 0.0494,
+     "relative63_pct": 0.049,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -14024,10 +14183,10 @@
    },
    "in_sell": true,
    "sell_low": 358.4937,
-   "sell_high": 368.4869,
+   "sell_high": 368.487,
    "sell_conf": 2,
    "atr_pct": 2.93,
-   "rel_vol": 0.81,
+   "rel_vol": 0.82,
    "dist_atr": 0.36,
    "score": 2.0,
    "bars": 701,
@@ -14101,8 +14260,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 361.2,
-    "diff_pct": 0.01,
+    "close2": 361.25,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -14204,8 +14363,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 453.45,
-    "diff_pct": 0.12,
+    "close2": 454.01,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -14233,7 +14392,7 @@
    "sell_high": 963.5325,
    "sell_conf": 2,
    "atr_pct": 6.27,
-   "rel_vol": 0.85,
+   "rel_vol": 0.89,
    "dist_atr": 0.62,
    "score": 2.0,
    "bars": 701,
@@ -14307,8 +14466,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 869.89,
-    "diff_pct": -0.87,
+    "close2": 862.33,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -14364,11 +14523,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -48.7659,
+     "relative63_pct": -48.7661,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -14450,102 +14609,16 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": 2.5134,
+     "relative63_pct": 2.513,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "OYAKC.IS",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": null
-  },
-  {
-   "symbol": "SMRVA.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 10.62,
-   "in_buy": false,
-   "buy_low": 10.0075,
-   "buy_high": 10.4851,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 12.279,
-   "sell_high": 12.7566,
-   "sell_conf": 2,
-   "atr_pct": 4.5,
-   "rel_vol": 0.61,
-   "dist_atr": 0.28,
-   "score": 2.0,
-   "bars": 430,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.28 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.28 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": 11.1,
-    "margin": 24.3,
-    "de": 81.6,
-    "growth": 217.5,
-    "target": null,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": "Financial Services",
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -33.2639,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "SMRVA.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -14622,11 +14695,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -51.1982,
+     "relative63_pct": -51.1984,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -14708,11 +14781,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": 2.6805,
+     "relative63_pct": 2.6801,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -14794,11 +14867,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -32.9047,
+     "relative63_pct": -32.9049,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -14880,11 +14953,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -15.2898,
+     "relative63_pct": -15.2901,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -14966,11 +15039,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -30.2168,
+     "relative63_pct": -30.217,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -15052,11 +15125,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -33.4685,
+     "relative63_pct": -33.4687,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -15138,11 +15211,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -10.1697,
+     "relative63_pct": -10.17,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -15224,11 +15297,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -7.7069,
+     "relative63_pct": -7.7072,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -15310,11 +15383,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -9.541,
+     "relative63_pct": -9.5413,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -15396,11 +15469,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -5.2521,
+     "relative63_pct": -5.2524,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -15482,11 +15555,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 19.1894,
+     "relative63_pct": 19.1889,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -15524,8 +15597,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 27.96,
    "in_buy": false,
-   "buy_low": 24.5283,
-   "buy_high": 26.3117,
+   "buy_low": 24.5284,
+   "buy_high": 26.3116,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 2,
@@ -15536,8 +15609,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 28.3083,
-   "sell_high": 30.0917,
+   "sell_low": 28.3084,
+   "sell_high": 30.0916,
    "sell_conf": 2,
    "atr_pct": 6.38,
    "rel_vol": 0.48,
@@ -15717,8 +15790,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 3.354,
-    "diff_pct": -1.31,
+    "close2": 3.31,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -15730,8 +15803,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 1186.08,
    "in_buy": false,
-   "buy_low": 965.201,
-   "buy_high": 1016.6904,
+   "buy_low": 965.2008,
+   "buy_high": 1016.6906,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 2,
@@ -15742,8 +15815,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 1226.106,
-   "sell_high": 1277.5954,
+   "sell_low": 1226.1059,
+   "sell_high": 1277.5956,
    "sell_conf": 3,
    "atr_pct": 4.34,
    "rel_vol": 1.06,
@@ -15923,9 +15996,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 285.0,
-    "diff_pct": -4.41,
-    "warn": true
+    "close2": 272.43,
+    "diff_pct": 0.0,
+    "warn": false
    }
   },
   {
@@ -15936,8 +16009,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 70.17,
    "in_buy": false,
-   "buy_low": 55.9923,
-   "buy_high": 59.1877,
+   "buy_low": 55.9919,
+   "buy_high": 59.1881,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 2,
@@ -15948,8 +16021,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 83.9523,
-   "sell_high": 87.1477,
+   "sell_low": 83.9519,
+   "sell_high": 87.1481,
    "sell_conf": 2,
    "atr_pct": 4.55,
    "rel_vol": 1.06,
@@ -16026,8 +16099,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 70.1,
-    "diff_pct": 0.1,
+    "close2": 70.17,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -16129,8 +16202,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 172.25,
-    "diff_pct": -0.27,
+    "close2": 171.79,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -16158,7 +16231,7 @@
    "sell_high": 785.5496,
    "sell_conf": 2,
    "atr_pct": 6.82,
-   "rel_vol": 1.68,
+   "rel_vol": 1.69,
    "dist_atr": 2.99,
    "score": 2.0,
    "bars": 701,
@@ -16232,73 +16305,86 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 608.8727,
-    "diff_pct": -1.08,
+    "close2": 602.27,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
   {
-   "symbol": "EGEGY.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
+   "symbol": "SLAB",
+   "bar_closed_at": "2026-09-10T20:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 26.1,
+   "close": 219.15,
    "in_buy": false,
-   "buy_low": 24.7233,
-   "buy_high": 25.9623,
+   "buy_low": 216.9835,
+   "buy_high": 218.2365,
    "buy_src": "sr",
    "buy_touch": 1,
-   "conf": 2,
+   "conf": 1,
    "conf_flags": {
     "yesil": false,
     "yukari": false,
     "hacim": true,
-    "rsi": true
+    "rsi": false
    },
-   "in_sell": false,
-   "sell_low": 26.1377,
-   "sell_high": 27.3767,
-   "sell_conf": 2,
-   "atr_pct": 6.72,
-   "rel_vol": 2.62,
-   "dist_atr": 0.08,
+   "in_sell": true,
+   "sell_low": 218.9467,
+   "sell_high": 220.1998,
+   "sell_conf": 3,
+   "atr_pct": 0.57,
+   "rel_vol": 1.6,
+   "dist_atr": 0.73,
    "score": 2.0,
-   "bars": 415,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.08 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.08 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "bars": 701,
+   "status": "AZALT",
+   "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
+   "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 4.5,
-    "margin": 21.8,
-    "de": 27.8,
-    "growth": 126.2,
-    "target": null,
+    "pe": null,
+    "margin": -4.6,
+    "de": null,
+    "growth": 18.3,
+    "target": 222.9,
     "rec": "none",
-    "earn_days": null,
-    "news": [],
+    "earn_days": 54,
+    "news": [
+     {
+      "t": "Is Silicon Laboratories (SLAB) Undervalued Following Earnings And Its BG2B Launch?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/silicon-laboratories-slab-undervalued-following-100816794.html"
+     },
+     {
+      "t": "Silicon Laboratories (SLAB) Unveils BG2B Chip For More Efficient And Secure IoT Devices",
+      "u": "https://finance.yahoo.com/technology/articles/silicon-laboratories-slab-unveils-bg2b-071003227.html"
+     },
+     {
+      "t": "Silicon Laboratories (SLAB) Beats Q2 Earnings Estimates",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/silicon-laboratories-slab-beats-q2-211001676.html"
+     }
+    ],
     "flabel": "Güncel oranlar",
-    "sector": "Real Estate",
-    "forward_pe": null,
+    "sector": "Technology",
+    "forward_pe": 50.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
      "version": "market-v1",
-     "benchmark": "XU100.IS",
+     "benchmark": "SPY",
      "state": "supportive",
      "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -4.6252,
+     "closed_at": "2026-09-10T20:00:00+00:00",
+     "stock_above_sma200": true,
+     "relative63_pct": -3.7174,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 757.8300170898438,
+     "sma200": 713.7076504516601
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
-     "symbol": "EGEGY.IS",
+     "symbol": "SLAB",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -16321,7 +16407,11 @@
     }
    },
    "rejim_up": true,
-   "verify": null
+   "verify": {
+    "close2": 219.15,
+    "diff_pct": 0.0,
+    "warn": false
+   }
   },
   {
    "symbol": "RNPOL.IS",
@@ -16380,16 +16470,102 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -18.3667,
+     "relative63_pct": -18.367,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "RNPOL.IS",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": null
+  },
+  {
+   "symbol": "BIGEN.IS",
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 122.9,
+   "in_buy": false,
+   "buy_low": 86.7212,
+   "buy_high": 99.2788,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 141.7212,
+   "sell_high": 154.2788,
+   "sell_conf": 1,
+   "atr_pct": 10.22,
+   "rel_vol": 4.01,
+   "dist_atr": 1.88,
+   "score": 2.0,
+   "bars": 398,
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
+   "co": {
+    "pe": null,
+    "margin": -4.6,
+    "de": 94.6,
+    "growth": -24.5,
+    "target": null,
+    "rec": "none",
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": "Utilities",
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "XU100.IS",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T15:00:00+00:00",
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "BIGEN.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -16466,11 +16642,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -16.1882,
+     "relative63_pct": -16.1885,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -16524,7 +16700,7 @@
    "sell_high": 84.8648,
    "sell_conf": 3,
    "atr_pct": 3.35,
-   "rel_vol": 1.05,
+   "rel_vol": 1.16,
    "dist_atr": 1.17,
    "score": 2.0,
    "bars": 701,
@@ -16598,8 +16774,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 80.5464,
-    "diff_pct": -0.37,
+    "close2": 80.25,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -16623,11 +16799,11 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 134.7748,
-   "sell_high": 140.1052,
+   "sell_low": 134.7752,
+   "sell_high": 140.1048,
    "sell_conf": 3,
-   "atr_pct": 3.95,
-   "rel_vol": 1.08,
+   "atr_pct": 3.94,
+   "rel_vol": 1.09,
    "dist_atr": 1.29,
    "score": 2.0,
    "bars": 701,
@@ -16701,111 +16877,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 134.94,
-    "diff_pct": 0.13,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "FANG",
-   "bar_closed_at": "2026-09-10T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 205.39,
-   "in_buy": false,
-   "buy_low": 193.8166,
-   "buy_high": 199.4834,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 207.9666,
-   "sell_high": 213.6334,
-   "sell_conf": 1,
-   "atr_pct": 2.76,
-   "rel_vol": 0.99,
-   "dist_atr": 1.04,
-   "score": 2.0,
-   "bars": 701,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
-   "co": {
-    "pe": 38.7,
-    "margin": 9.0,
-    "de": 28.7,
-    "growth": 52.5,
-    "target": 232.5,
-    "rec": "buy",
-    "earn_days": 53,
-    "news": [
-     {
-      "t": "Diamondback Energy (FANG) Rises As Market Takes a Dip: Key Facts",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/diamondback-energy-fang-rises-market-221502534.html"
-     },
-     {
-      "t": "WTI Crude Not Too Far From $100: Are Permian Stocks a Smart Watch Now?",
-      "u": "https://finance.yahoo.com/energy/articles/wti-crude-not-too-far-152900906.html"
-     },
-     {
-      "t": "2 Value Stocks with Impressive Fundamentals and 1 Facing Challenges",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/2-value-stocks-impressive-fundamentals-231918296.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": "Energy",
-    "forward_pe": 11.1,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T20:00:00+00:00",
-     "stock_above_sma200": true,
-     "relative63_pct": 0.0299,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 757.8300170898438,
-     "sma200": 713.7076504516601
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "FANG",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": {
-    "close2": 204.06,
-    "diff_pct": 0.65,
+    "close2": 135.11,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -16907,8 +16980,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 71.7,
-    "diff_pct": -0.68,
+    "close2": 71.21,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -16936,7 +17009,7 @@
    "sell_high": 1917.6527,
    "sell_conf": 3,
    "atr_pct": 4.74,
-   "rel_vol": 0.58,
+   "rel_vol": 0.59,
    "dist_atr": 0.82,
    "score": 2.0,
    "bars": 701,
@@ -17010,8 +17083,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1592.05,
-    "diff_pct": -0.08,
+    "close2": 1590.81,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -17039,7 +17112,7 @@
    "sell_high": 433.0574,
    "sell_conf": 2,
    "atr_pct": 5.91,
-   "rel_vol": 0.96,
+   "rel_vol": 0.99,
    "dist_atr": 0.86,
    "score": 2.0,
    "bars": 701,
@@ -17113,8 +17186,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 371.9,
-    "diff_pct": -0.46,
+    "close2": 370.19,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -17126,8 +17199,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 1123.0,
    "in_buy": false,
-   "buy_low": 1092.7426,
-   "buy_high": 1119.9092,
+   "buy_low": 1092.723,
+   "buy_high": 1119.9073,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -17138,11 +17211,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 1123.1907,
-   "sell_high": 1150.3573,
+   "sell_low": 1123.1927,
+   "sell_high": 1150.377,
    "sell_conf": 4,
-   "atr_pct": 2.92,
-   "rel_vol": 0.79,
+   "atr_pct": 2.93,
+   "rel_vol": 0.81,
    "dist_atr": 0.09,
    "score": 1.0,
    "bars": 701,
@@ -17216,8 +17289,111 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1124.0,
-    "diff_pct": -0.09,
+    "close2": 1123.0,
+    "diff_pct": 0.0,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "UNF",
+   "bar_closed_at": "2026-09-10T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 270.77,
+   "in_buy": false,
+   "buy_low": 255.0769,
+   "buy_high": 261.2632,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 277.4069,
+   "sell_high": 283.5931,
+   "sell_conf": 3,
+   "atr_pct": 2.28,
+   "rel_vol": 2.24,
+   "dist_atr": 1.54,
+   "score": 1.0,
+   "bars": 701,
+   "status": "BEKLE",
+   "status_text": "İki bölge arasında — net avantaj yok.",
+   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "co": {
+    "pe": 43.1,
+    "margin": 4.6,
+    "de": 3.9,
+    "growth": 3.9,
+    "target": 273.3,
+    "rec": "none",
+    "earn_days": 41,
+    "news": [
+     {
+      "t": "Cintas Likely to Raise Fiscal 2027 Outlook Following Expected First-Quarter Beat, RBC Says",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/cintas-likely-raise-fiscal-2027-163827557.html"
+     },
+     {
+      "t": "Cintas to Post Strong Fiscal Q1, Raise Fiscal 2027 Outlook, RBC Says",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/cintas-post-strong-fiscal-q1-152506001.html"
+     },
+     {
+      "t": "UniFirst (UNF) Upgraded to Buy: Here's Why",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/unifirst-unf-upgraded-buy-heres-160004286.html"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": "Industrials",
+    "forward_pe": 34.1,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "supportive",
+     "reason": "Günlük kapanış SMA200 üzerinde",
+     "closed_at": "2026-09-10T20:00:00+00:00",
+     "stock_above_sma200": true,
+     "relative63_pct": -4.918,
+     "role": "context",
+     "sector_state": "unknown",
+     "close": 757.8300170898438,
+     "sma200": 713.7076504516601
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "UNF",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Karar anında erişilebilir kaynaklı finansal rapor yok"
+     ],
+     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": true,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": true,
+   "verify": {
+    "close2": 270.77,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -17245,7 +17421,7 @@
    "sell_high": 945.4993,
    "sell_conf": 3,
    "atr_pct": 3.16,
-   "rel_vol": 0.74,
+   "rel_vol": 0.75,
    "dist_atr": 0.64,
    "score": 1.0,
    "bars": 701,
@@ -17332,8 +17508,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 367.21,
    "in_buy": false,
-   "buy_low": 355.0233,
-   "buy_high": 361.0767,
+   "buy_low": 355.0226,
+   "buy_high": 361.0774,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -17344,11 +17520,11 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 364.6042,
-   "sell_high": 370.6576,
+   "sell_low": 364.6035,
+   "sell_high": 370.6583,
    "sell_conf": 2,
    "atr_pct": 1.65,
-   "rel_vol": 0.58,
+   "rel_vol": 0.59,
    "dist_atr": 1.01,
    "score": 1.0,
    "bars": 701,
@@ -17422,8 +17598,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 366.3484,
-    "diff_pct": 0.24,
+    "close2": 367.21,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -17525,8 +17701,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 36.19,
-    "diff_pct": -0.33,
+    "close2": 36.07,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -17538,8 +17714,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 152.94,
    "in_buy": false,
-   "buy_low": 133.0103,
-   "buy_high": 140.1291,
+   "buy_low": 133.007,
+   "buy_high": 140.1323,
    "buy_src": "sr",
    "buy_touch": 5,
    "conf": 1,
@@ -17550,11 +17726,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 155.7006,
-   "sell_high": 162.8194,
+   "sell_low": 155.6974,
+   "sell_high": 162.8226,
    "sell_conf": 3,
-   "atr_pct": 4.65,
-   "rel_vol": 1.93,
+   "atr_pct": 4.66,
+   "rel_vol": 2.32,
    "dist_atr": 1.8,
    "score": 1.0,
    "bars": 701,
@@ -17628,9 +17804,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 163.23,
-    "diff_pct": -6.3,
-    "warn": true
+    "close2": 152.94,
+    "diff_pct": 0.0,
+    "warn": false
    }
   },
   {
@@ -17641,8 +17817,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 15.16,
    "in_buy": false,
-   "buy_low": 12.9724,
-   "buy_high": 13.9625,
+   "buy_low": 12.972,
+   "buy_high": 13.9629,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 2,
@@ -17653,10 +17829,10 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 17.6599,
-   "sell_high": 18.6501,
+   "sell_low": 17.6596,
+   "sell_high": 18.6504,
    "sell_conf": 2,
-   "atr_pct": 6.53,
+   "atr_pct": 6.54,
    "rel_vol": 0.87,
    "dist_atr": 1.21,
    "score": 1.0,
@@ -17731,8 +17907,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 15.1904,
-    "diff_pct": -0.2,
+    "close2": 15.16,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -17788,11 +17964,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 0.7266,
+     "relative63_pct": 0.7263,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -17823,36 +17999,36 @@
    "verify": null
   },
   {
-   "symbol": "USDTRY=X",
-   "bar_closed_at": "2026-09-10T00:00:00+00:00",
+   "symbol": "GC=F",
+   "bar_closed_at": "2026-09-10T22:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 48.4631,
+   "close": 4364.5,
    "in_buy": false,
-   "buy_low": 42.632,
-   "buy_high": 42.6915,
+   "buy_low": 4246.8158,
+   "buy_high": 4323.1842,
    "buy_src": "sr",
    "buy_touch": 1,
-   "conf": 1,
+   "conf": 0,
    "conf_flags": {
     "yesil": false,
-    "yukari": true,
+    "yukari": false,
     "hacim": false,
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 48.5852,
-   "sell_high": 48.6447,
+   "sell_low": 4535.3153,
+   "sell_high": 4611.6836,
    "sell_conf": 3,
-   "atr_pct": 0.12,
-   "rel_vol": null,
-   "dist_atr": 97.04,
+   "atr_pct": 1.75,
+   "rel_vol": 0.1,
+   "dist_atr": 0.54,
    "score": 1.0,
-   "bars": 676,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "bars": 578,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.54 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.54 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": null,
     "margin": null,
@@ -17861,7 +18037,20 @@
     "target": null,
     "rec": null,
     "earn_days": null,
-    "news": [],
+    "news": [
+     {
+      "t": "Gold price today, Thursday, September 10, 2026: Gold prices steady ahead of inflation data and the Fed",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-10-2026-gold-prices-steady-ahead-of-inflation-data-and-the-fed-105217035.html"
+     },
+     {
+      "t": "TNR Gold royalty project Los Azules advances as McEwen Copper secures $240M term loan",
+      "u": "https://www.proactiveinvestors.com/companies/news/1098370/tnr-gold-royalty-project-los-azules-advances-as-mcewen-copper-secures-240m-term-loan-1098370.html"
+     },
+     {
+      "t": "1911 Gold reports high-grade results, confirms L10/710-711 connection at True North",
+      "u": "https://www.proactiveinvestors.com/companies/news/1098369/1911-gold-reports-high-grade-results-confirms-l10-710-711-connection-at-true-north-1098369.html"
+     }
+    ],
     "flabel": "Güncel oranlar",
     "sector": null,
     "forward_pe": null,
@@ -17881,7 +18070,7 @@
     "financials": {
      "version": "statements-v1",
      "state": "missing",
-     "symbol": "USDTRY=X",
+     "symbol": "GC=F",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -17958,11 +18147,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": 1.4724,
+     "relative63_pct": 1.472,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18044,11 +18233,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -7.674,
+     "relative63_pct": -7.6743,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18130,11 +18319,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 17.6143,
+     "relative63_pct": 17.6139,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18221,11 +18410,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 7.5204,
+     "relative63_pct": 7.52,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18307,11 +18496,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 3.8837,
+     "relative63_pct": 3.8833,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18393,11 +18582,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -14.0017,
+     "relative63_pct": -14.002,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18479,11 +18668,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -28.251,
+     "relative63_pct": -28.2512,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18565,11 +18754,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 0.6317,
+     "relative63_pct": 0.6314,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -18607,8 +18796,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 382.47,
    "in_buy": false,
-   "buy_low": 348.133,
-   "buy_high": 359.767,
+   "buy_low": 348.1329,
+   "buy_high": 359.7672,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -18619,11 +18808,11 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 379.303,
-   "sell_high": 390.937,
+   "sell_low": 379.3028,
+   "sell_high": 390.9371,
    "sell_conf": 4,
    "atr_pct": 3.04,
-   "rel_vol": 1.27,
+   "rel_vol": 1.32,
    "dist_atr": 1.95,
    "score": 1.0,
    "bars": 701,
@@ -18697,8 +18886,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 382.99,
-    "diff_pct": -0.14,
+    "close2": 382.47,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -18800,8 +18989,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 108.5918,
-    "diff_pct": -0.03,
+    "close2": 108.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -18829,7 +19018,7 @@
    "sell_high": 93.5946,
    "sell_conf": 4,
    "atr_pct": 7.49,
-   "rel_vol": 1.12,
+   "rel_vol": 1.13,
    "dist_atr": 0.27,
    "score": 1.0,
    "bars": 365,
@@ -18903,8 +19092,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 90.12,
-    "diff_pct": -1.11,
+    "close2": 89.12,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -18932,7 +19121,7 @@
    "sell_high": 353.2557,
    "sell_conf": 4,
    "atr_pct": 5.35,
-   "rel_vol": 1.3,
+   "rel_vol": 1.4,
    "dist_atr": 1.65,
    "score": 1.0,
    "bars": 701,
@@ -19006,8 +19195,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 298.49,
-    "diff_pct": -0.16,
+    "close2": 298.01,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -19063,11 +19252,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -10.7269,
+     "relative63_pct": -10.7272,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19149,11 +19338,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -0.7561,
+     "relative63_pct": -0.7564,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19240,11 +19429,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 5.6335,
+     "relative63_pct": 5.6332,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19339,11 +19528,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -19.0425,
+     "relative63_pct": -19.0428,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19428,8 +19617,8 @@
      "relative63_pct": -80.8182,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19511,11 +19700,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -86.1537,
+     "relative63_pct": -86.1538,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19554,7 +19743,7 @@
    "close": 20.89,
    "in_buy": false,
    "buy_low": 17.1682,
-   "buy_high": 17.9002,
+   "buy_high": 17.9001,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 1,
@@ -19565,12 +19754,12 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 23.114,
-   "sell_high": 23.846,
+   "sell_low": 23.1141,
+   "sell_high": 23.8459,
    "sell_conf": 4,
    "atr_pct": 3.5,
-   "rel_vol": 1.34,
-   "dist_atr": 4.08,
+   "rel_vol": 1.36,
+   "dist_atr": 4.09,
    "score": 1.0,
    "bars": 701,
    "status": "BEKLE",
@@ -19641,8 +19830,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 20.82,
-    "diff_pct": 0.34,
+    "close2": 20.89,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -19670,7 +19859,7 @@
    "sell_high": 68.901,
    "sell_conf": 3,
    "atr_pct": 3.35,
-   "rel_vol": 1.49,
+   "rel_vol": 1.5,
    "dist_atr": 2.84,
    "score": 1.0,
    "bars": 701,
@@ -19742,8 +19931,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 60.39,
-    "diff_pct": 0.15,
+    "close2": 60.48,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -19799,11 +19988,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -24.4525,
+     "relative63_pct": -24.4528,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19890,11 +20079,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -15.8466,
+     "relative63_pct": -15.8469,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -19976,11 +20165,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -34.36,
+     "relative63_pct": -34.3602,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -20018,8 +20207,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 97.62,
    "in_buy": false,
-   "buy_low": 80.3567,
-   "buy_high": 85.8233,
+   "buy_low": 80.356,
+   "buy_high": 85.824,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -20030,8 +20219,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 107.2967,
-   "sell_high": 112.7633,
+   "sell_low": 107.296,
+   "sell_high": 112.764,
    "sell_conf": 3,
    "atr_pct": 5.6,
    "rel_vol": 0.59,
@@ -20121,8 +20310,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 49.69,
    "in_buy": false,
-   "buy_low": 43.2903,
-   "buy_high": 46.0161,
+   "buy_low": 43.2886,
+   "buy_high": 46.0179,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 1,
@@ -20133,8 +20322,8 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 49.2883,
-   "sell_high": 52.0141,
+   "sell_low": 49.2865,
+   "sell_high": 52.0159,
    "sell_conf": 2,
    "atr_pct": 5.49,
    "rel_vol": 0.47,
@@ -20217,109 +20406,6 @@
    }
   },
   {
-   "symbol": "SLAB",
-   "bar_closed_at": "2026-09-10T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 219.15,
-   "in_buy": false,
-   "buy_low": 216.9836,
-   "buy_high": 218.2364,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": true,
-   "sell_low": 218.9469,
-   "sell_high": 220.1996,
-   "sell_conf": 3,
-   "atr_pct": 0.57,
-   "rel_vol": 0.95,
-   "dist_atr": 0.73,
-   "score": 1.0,
-   "bars": 701,
-   "status": "AZALT",
-   "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
-   "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
-   "co": {
-    "pe": null,
-    "margin": -4.6,
-    "de": null,
-    "growth": 18.3,
-    "target": 222.9,
-    "rec": "none",
-    "earn_days": 54,
-    "news": [
-     {
-      "t": "Is Silicon Laboratories (SLAB) Undervalued Following Earnings And Its BG2B Launch?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/silicon-laboratories-slab-undervalued-following-100816794.html"
-     },
-     {
-      "t": "Silicon Laboratories (SLAB) Unveils BG2B Chip For More Efficient And Secure IoT Devices",
-      "u": "https://finance.yahoo.com/technology/articles/silicon-laboratories-slab-unveils-bg2b-071003227.html"
-     },
-     {
-      "t": "Silicon Laboratories (SLAB) Beats Q2 Earnings Estimates",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/silicon-laboratories-slab-beats-q2-211001676.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": "Technology",
-    "forward_pe": 50.3,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T20:00:00+00:00",
-     "stock_above_sma200": true,
-     "relative63_pct": -3.7174,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 757.8300170898438,
-     "sma200": 713.7076504516601
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "SLAB",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": {
-    "close2": 219.15,
-    "diff_pct": 0.0,
-    "warn": false
-   }
-  },
-  {
    "symbol": "SMTC",
    "bar_closed_at": "2026-09-10T20:00:00+00:00",
    "data_fresh": true,
@@ -20343,7 +20429,7 @@
    "sell_high": 180.0204,
    "sell_conf": 2,
    "atr_pct": 6.82,
-   "rel_vol": 0.61,
+   "rel_vol": 0.62,
    "dist_atr": 0.93,
    "score": 1.0,
    "bars": 701,
@@ -20417,8 +20503,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 162.0,
-    "diff_pct": -1.77,
+    "close2": 159.13,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -20474,102 +20560,16 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -56.6404,
+     "relative63_pct": -56.6405,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
      "state": "missing",
      "symbol": "ALVES.IS",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Karar anında erişilebilir kaynaklı finansal rapor yok"
-     ],
-     "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": true,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": true,
-   "verify": null
-  },
-  {
-   "symbol": "BALSU.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 8.68,
-   "in_buy": false,
-   "buy_low": 7.5972,
-   "buy_high": 8.393,
-   "buy_src": "dip",
-   "buy_touch": 0,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 14.3621,
-   "sell_high": 15.1579,
-   "sell_conf": 2,
-   "atr_pct": 9.17,
-   "rel_vol": 0.73,
-   "dist_atr": 0.36,
-   "score": 1.0,
-   "bars": 388,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.36 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.36 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": 11.1,
-    "margin": 3.4,
-    "de": 325.0,
-    "growth": -1.1,
-    "target": 27.1,
-    "rec": "none",
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": "Consumer Defensive",
-    "forward_pe": 6.8,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "XU100.IS",
-     "state": "supportive",
-     "reason": "Günlük kapanış SMA200 üzerinde",
-     "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -36.9437,
-     "role": "context",
-     "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "BALSU.IS",
      "quality_eligible": null,
      "metrics": [],
      "facts": [],
@@ -20646,11 +20646,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -29.9866,
+     "relative63_pct": -29.9869,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -20732,11 +20732,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -46.8417,
+     "relative63_pct": -46.8419,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -20818,11 +20818,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -27.6636,
+     "relative63_pct": -27.6639,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -20904,11 +20904,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -40.5829,
+     "relative63_pct": -40.5831,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -20990,11 +20990,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 2.7638,
+     "relative63_pct": 2.7635,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -21048,7 +21048,7 @@
    "sell_high": 529.6058,
    "sell_conf": 3,
    "atr_pct": 6.16,
-   "rel_vol": 0.68,
+   "rel_vol": 0.69,
    "dist_atr": 0.99,
    "score": 1.0,
    "bars": 701,
@@ -21122,8 +21122,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 509.6,
-    "diff_pct": -0.58,
+    "close2": 506.62,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21135,8 +21135,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 163.12,
    "in_buy": false,
-   "buy_low": 143.827,
-   "buy_high": 152.513,
+   "buy_low": 143.826,
+   "buy_high": 152.514,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -21147,11 +21147,11 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 172.407,
-   "sell_high": 181.093,
+   "sell_low": 172.406,
+   "sell_high": 181.094,
    "sell_conf": 3,
-   "atr_pct": 5.32,
-   "rel_vol": 0.6,
+   "atr_pct": 5.33,
+   "rel_vol": 0.62,
    "dist_atr": 1.22,
    "score": 1.0,
    "bars": 701,
@@ -21225,8 +21225,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 162.5,
-    "diff_pct": 0.38,
+    "close2": 163.12,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21254,7 +21254,7 @@
    "sell_high": 376.0963,
    "sell_conf": 4,
    "atr_pct": 3.23,
-   "rel_vol": 0.46,
+   "rel_vol": 0.49,
    "dist_atr": 0.51,
    "score": 1.0,
    "bars": 701,
@@ -21328,8 +21328,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 325.0,
-    "diff_pct": 0.2,
+    "close2": 325.65,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21341,8 +21341,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 126.14,
    "in_buy": false,
-   "buy_low": 105.4414,
-   "buy_high": 109.8821,
+   "buy_low": 105.4403,
+   "buy_high": 109.8832,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 1,
@@ -21353,11 +21353,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 129.7597,
-   "sell_high": 134.2003,
+   "sell_low": 129.7586,
+   "sell_high": 134.2014,
    "sell_conf": 2,
    "atr_pct": 3.52,
-   "rel_vol": 0.77,
+   "rel_vol": 0.78,
    "dist_atr": 3.66,
    "score": 1.0,
    "bars": 701,
@@ -21431,8 +21431,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 125.53,
-    "diff_pct": 0.49,
+    "close2": 126.14,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21460,7 +21460,7 @@
    "sell_high": 286.8439,
    "sell_conf": 3,
    "atr_pct": 6.25,
-   "rel_vol": 2.13,
+   "rel_vol": 2.14,
    "dist_atr": 0.44,
    "score": 1.0,
    "bars": 701,
@@ -21534,8 +21534,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 248.7,
-    "diff_pct": -0.23,
+    "close2": 248.13,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21563,7 +21563,7 @@
    "sell_high": 291.8746,
    "sell_conf": 4,
    "atr_pct": 3.41,
-   "rel_vol": 0.89,
+   "rel_vol": 0.94,
    "dist_atr": 0.44,
    "score": 1.0,
    "bars": 701,
@@ -21637,8 +21637,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 286.225,
-    "diff_pct": -0.09,
+    "close2": 285.97,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21666,7 +21666,7 @@
    "sell_high": 43.431,
    "sell_conf": 4,
    "atr_pct": 6.0,
-   "rel_vol": 0.6,
+   "rel_vol": 0.61,
    "dist_atr": 0.78,
    "score": 1.0,
    "bars": 701,
@@ -21740,8 +21740,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 37.4399,
-    "diff_pct": -0.16,
+    "close2": 37.38,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21769,7 +21769,7 @@
    "sell_high": 235.8288,
    "sell_conf": 3,
    "atr_pct": 3.25,
-   "rel_vol": 0.79,
+   "rel_vol": 0.82,
    "dist_atr": 1.07,
    "score": 0.0,
    "bars": 701,
@@ -21843,7 +21843,7 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 218.3592,
+    "close2": 218.36,
     "diff_pct": 0.0,
     "warn": false
    }
@@ -21856,8 +21856,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 105.73,
    "in_buy": false,
-   "buy_low": 100.9997,
-   "buy_high": 103.3003,
+   "buy_low": 100.9995,
+   "buy_high": 103.3005,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -21868,11 +21868,11 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 104.9597,
-   "sell_high": 107.2603,
+   "sell_low": 104.9595,
+   "sell_high": 107.2605,
    "sell_conf": 4,
    "atr_pct": 2.18,
-   "rel_vol": 0.59,
+   "rel_vol": 0.62,
    "dist_atr": 1.06,
    "score": 0.0,
    "bars": 701,
@@ -21946,8 +21946,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 105.85,
-    "diff_pct": -0.11,
+    "close2": 105.73,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -21975,7 +21975,7 @@
    "sell_high": 211.3168,
    "sell_conf": 4,
    "atr_pct": 4.29,
-   "rel_vol": 0.74,
+   "rel_vol": 0.75,
    "dist_atr": 1.19,
    "score": 0.0,
    "bars": 701,
@@ -22049,8 +22049,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 200.01,
-    "diff_pct": 0.63,
+    "close2": 201.27,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22152,8 +22152,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 23.66,
-    "diff_pct": -0.55,
+    "close2": 23.53,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22253,8 +22253,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 62.94,
-    "diff_pct": -0.79,
+    "close2": 62.44,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22310,11 +22310,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 31.7158,
+     "relative63_pct": 31.7154,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -22442,8 +22442,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1688.95,
-    "diff_pct": -0.09,
+    "close2": 1687.43,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22471,7 +22471,7 @@
    "sell_high": 256.5211,
    "sell_conf": 4,
    "atr_pct": 4.25,
-   "rel_vol": 0.55,
+   "rel_vol": 0.64,
    "dist_atr": 1.1,
    "score": 0.0,
    "bars": 701,
@@ -22545,8 +22545,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 243.51,
-    "diff_pct": -0.21,
+    "close2": 243.0,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22574,7 +22574,7 @@
    "sell_high": 1047.3749,
    "sell_conf": 3,
    "atr_pct": 5.5,
-   "rel_vol": 0.94,
+   "rel_vol": 0.97,
    "dist_atr": 1.17,
    "score": 0.0,
    "bars": 701,
@@ -22648,8 +22648,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 978.4875,
-    "diff_pct": -0.11,
+    "close2": 977.41,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22677,7 +22677,7 @@
    "sell_high": 1888.1063,
    "sell_conf": 3,
    "atr_pct": 7.1,
-   "rel_vol": 0.65,
+   "rel_vol": 0.66,
    "dist_atr": 0.98,
    "score": 0.0,
    "bars": 395,
@@ -22751,8 +22751,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1690.5,
-    "diff_pct": 0.12,
+    "close2": 1692.59,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22854,8 +22854,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 460.74,
-    "diff_pct": 0.04,
+    "close2": 460.93,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -22911,11 +22911,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 79.5057,
+     "relative63_pct": 79.5051,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -22997,11 +22997,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 166.9903,
+     "relative63_pct": 166.9894,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -23033,14 +23033,14 @@
   },
   {
    "symbol": "DOFRB.IS",
-   "bar_closed_at": "2026-09-10T15:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "bar_closed_at": "2026-09-09T15:00:00+00:00",
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 113.9,
+   "close": 115.5,
    "in_buy": false,
-   "buy_low": 94.8707,
-   "buy_high": 102.4293,
+   "buy_low": 94.7184,
+   "buy_high": 102.5816,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -23050,18 +23050,18 @@
     "hacim": false,
     "rsi": true
    },
-   "in_sell": false,
-   "sell_low": 114.9207,
-   "sell_high": 122.4793,
+   "in_sell": true,
+   "sell_low": 114.7684,
+   "sell_high": 122.6316,
    "sell_conf": 2,
-   "atr_pct": 6.64,
-   "rel_vol": 0.46,
-   "dist_atr": 1.52,
+   "atr_pct": 6.81,
+   "rel_vol": 0.78,
+   "dist_atr": 1.64,
    "score": 0.0,
-   "bars": 250,
+   "bars": 249,
    "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": 73.2,
     "margin": 25.3,
@@ -23082,12 +23082,12 @@
      "state": "supportive",
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
-     "stock_above_sma200": false,
-     "relative63_pct": -28.2389,
+     "stock_above_sma200": null,
+     "relative63_pct": null,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -23169,11 +23169,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -7.0637,
+     "relative63_pct": -7.064,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -23255,11 +23255,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 12.8356,
+     "relative63_pct": 12.8352,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -23341,11 +23341,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -15.5682,
+     "relative63_pct": -15.5685,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -23473,8 +23473,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 35.93,
-    "diff_pct": -1.84,
+    "close2": 35.27,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -23502,7 +23502,7 @@
    "sell_high": 173.4484,
    "sell_conf": 4,
    "atr_pct": 10.79,
-   "rel_vol": 0.96,
+   "rel_vol": 0.97,
    "dist_atr": 0.25,
    "score": 0.0,
    "bars": 701,
@@ -23576,8 +23576,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 161.35,
-    "diff_pct": -0.64,
+    "close2": 160.31,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -23605,7 +23605,7 @@
    "sell_high": 67.5699,
    "sell_conf": 4,
    "atr_pct": 7.49,
-   "rel_vol": 0.7,
+   "rel_vol": 0.71,
    "dist_atr": 0.88,
    "score": 0.0,
    "bars": 701,
@@ -23679,8 +23679,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 49.4,
-    "diff_pct": -1.58,
+    "close2": 48.62,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -23708,7 +23708,7 @@
    "sell_high": 6.0336,
    "sell_conf": 3,
    "atr_pct": 10.2,
-   "rel_vol": 0.68,
+   "rel_vol": 0.69,
    "dist_atr": 1.55,
    "score": 0.0,
    "bars": 701,
@@ -23782,8 +23782,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 4.59,
-    "diff_pct": -0.22,
+    "close2": 4.58,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -23885,8 +23885,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 25.33,
-    "diff_pct": -0.63,
+    "close2": 25.17,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -23942,11 +23942,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -8.9976,
+     "relative63_pct": -8.998,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -24028,11 +24028,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -30.3944,
+     "relative63_pct": -30.3946,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -24070,8 +24070,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 122.11,
    "in_buy": false,
-   "buy_low": 108.6371,
-   "buy_high": 114.4629,
+   "buy_low": 108.6353,
+   "buy_high": 114.4647,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -24082,11 +24082,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 141.1471,
-   "sell_high": 146.9729,
+   "sell_low": 141.1453,
+   "sell_high": 146.9747,
    "sell_conf": 4,
    "atr_pct": 4.77,
-   "rel_vol": 0.9,
+   "rel_vol": 0.91,
    "dist_atr": 1.31,
    "score": 0.0,
    "bars": 701,
@@ -24160,8 +24160,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 122.31,
-    "diff_pct": -0.16,
+    "close2": 122.11,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -24189,7 +24189,7 @@
    "sell_high": 296.5595,
    "sell_conf": 3,
    "atr_pct": 4.82,
-   "rel_vol": 0.89,
+   "rel_vol": 0.94,
    "dist_atr": 3.67,
    "score": 0.0,
    "bars": 701,
@@ -24263,8 +24263,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 247.0,
-    "diff_pct": 0.21,
+    "close2": 247.51,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -24292,7 +24292,7 @@
    "sell_high": 994.188,
    "sell_conf": 3,
    "atr_pct": 7.31,
-   "rel_vol": 0.93,
+   "rel_vol": 0.94,
    "dist_atr": 1.78,
    "score": 0.0,
    "bars": 701,
@@ -24366,8 +24366,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 937.04,
-    "diff_pct": -0.14,
+    "close2": 935.7,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -24395,7 +24395,7 @@
    "sell_high": 193.1763,
    "sell_conf": 4,
    "atr_pct": 4.68,
-   "rel_vol": 0.7,
+   "rel_vol": 0.72,
    "dist_atr": 1.82,
    "score": 0.0,
    "bars": 701,
@@ -24469,8 +24469,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 166.46,
-    "diff_pct": -0.36,
+    "close2": 165.86,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -24498,7 +24498,7 @@
    "sell_high": 332.4094,
    "sell_conf": 4,
    "atr_pct": 7.41,
-   "rel_vol": 0.88,
+   "rel_vol": 0.89,
    "dist_atr": 0.64,
    "score": 0.0,
    "bars": 701,
@@ -24572,8 +24572,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 259.2,
-    "diff_pct": -0.27,
+    "close2": 258.49,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -24675,8 +24675,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 58.55,
-    "diff_pct": 0.32,
+    "close2": 58.74,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -24688,8 +24688,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 20.9,
    "in_buy": false,
-   "buy_low": 17.4479,
-   "buy_high": 18.9951,
+   "buy_low": 17.4475,
+   "buy_high": 18.9954,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 0,
@@ -24700,10 +24700,10 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 23.5764,
-   "sell_high": 25.1236,
+   "sell_low": 23.576,
+   "sell_high": 25.124,
    "sell_conf": 4,
-   "atr_pct": 7.4,
+   "atr_pct": 7.41,
    "rel_vol": 0.89,
    "dist_atr": 1.23,
    "score": -1.0,
@@ -24778,8 +24778,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 21.0,
-    "diff_pct": -0.48,
+    "close2": 20.9,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -24835,11 +24835,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": -28.4089,
+     "relative63_pct": -28.4091,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -24921,11 +24921,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": true,
-     "relative63_pct": 45.471,
+     "relative63_pct": 45.4705,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -24979,7 +24979,7 @@
    "sell_high": 379.7366,
    "sell_conf": 4,
    "atr_pct": 8.36,
-   "rel_vol": 0.92,
+   "rel_vol": 0.93,
    "dist_atr": 1.18,
    "score": -1.0,
    "bars": 621,
@@ -25053,8 +25053,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 284.86,
-    "diff_pct": -0.12,
+    "close2": 284.53,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -25156,9 +25156,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 16.34,
-    "diff_pct": -2.51,
-    "warn": true
+    "close2": 15.93,
+    "diff_pct": 0.0,
+    "warn": false
    }
   },
   {
@@ -25185,7 +25185,7 @@
    "sell_high": 11.933,
    "sell_conf": 4,
    "atr_pct": 7.96,
-   "rel_vol": 0.63,
+   "rel_vol": 0.64,
    "dist_atr": 1.44,
    "score": -1.0,
    "bars": 701,
@@ -25259,8 +25259,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 11.2,
-    "diff_pct": -0.45,
+    "close2": 11.15,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -25316,11 +25316,11 @@
      "reason": "Günlük kapanış SMA200 üzerinde",
      "closed_at": "2026-09-10T15:00:00+00:00",
      "stock_above_sma200": false,
-     "relative63_pct": -46.5305,
+     "relative63_pct": -46.5307,
      "role": "context",
      "sector_state": "unknown",
-     "close": 14393.849609375,
-     "sma200": 13416.266274414062
+     "close": 14393.900390625,
+     "sma200": 13416.266528320313
     },
     "financials": {
      "version": "statements-v1",
@@ -25374,7 +25374,7 @@
    "sell_high": 241.1031,
    "sell_conf": 4,
    "atr_pct": 7.99,
-   "rel_vol": 0.66,
+   "rel_vol": 0.67,
    "dist_atr": 1.03,
    "score": -1.0,
    "bars": 473,
@@ -25448,8 +25448,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 230.03,
-    "diff_pct": -0.83,
+    "close2": 228.11,
+    "diff_pct": 0.0,
     "warn": false
    }
   }
@@ -25502,8 +25502,8 @@
    },
    "XU100.IS": {
     "state": "supportive",
-    "close": 14393.849609375,
-    "sma200": 13416.266274414062,
+    "close": 14393.900390625,
+    "sma200": 13416.266528320313,
     "closed_at": "2026-09-10T15:00:00+00:00",
     "reason": "Günlük kapanış SMA200 üzerinde"
    }
