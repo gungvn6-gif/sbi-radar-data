@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11 23:43",
+ "generated_at": "2026-09-12 09:59",
  "tf": "4h",
  "rows": [
   {
@@ -70,8 +70,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 76.0975,
-    "diff_pct": 0.07,
+    "close2": 76.14,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -143,8 +143,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 107.0001,
-    "diff_pct": 0.12,
+    "close2": 107.15,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -289,8 +289,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 167.7592,
-    "diff_pct": -0.33,
+    "close2": 167.23,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -370,8 +370,8 @@
   {
    "symbol": "GC=F",
    "bar_closed_at": "2026-09-11T18:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 4400.6001,
    "in_buy": true,
@@ -395,9 +395,9 @@
    "dist_atr": 0.0,
    "score": 5.0,
    "bars": 1102,
-   "status": "TEYİT OLUŞUYOR",
-   "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": null,
     "margin": null,
@@ -504,8 +504,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 247.5,
-    "diff_pct": 0.07,
+    "close2": 247.72,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -650,8 +650,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 256.65,
-    "diff_pct": 0.05,
+    "close2": 256.78,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -723,8 +723,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 207.0,
-    "diff_pct": -0.26,
+    "close2": 206.45,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -869,8 +869,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 457.7451,
-    "diff_pct": -0.25,
+    "close2": 456.49,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -1161,8 +1161,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 16.12,
-    "diff_pct": 0.43,
+    "close2": 16.22,
+    "diff_pct": -0.18,
     "warn": false
    }
   },
@@ -1234,8 +1234,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 51.24,
-    "diff_pct": -0.2,
+    "close2": 51.16,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -1453,8 +1453,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 84.0141,
-    "diff_pct": -0.11,
+    "close2": 83.92,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -1526,8 +1526,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 566.729,
-    "diff_pct": 0.07,
+    "close2": 567.29,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -1672,8 +1672,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 257.5,
-    "diff_pct": -0.21,
+    "close2": 257.06,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -1745,8 +1745,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 275.4082,
-    "diff_pct": 0.06,
+    "close2": 275.75,
+    "diff_pct": -0.07,
     "warn": false
    }
   },
@@ -1818,8 +1818,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 242.98,
-    "diff_pct": 0.1,
+    "close2": 243.29,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -1891,8 +1891,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1117.0,
-    "diff_pct": -0.16,
+    "close2": 1115.7,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -1964,8 +1964,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 495.31,
-    "diff_pct": 0.05,
+    "close2": 495.63,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -2110,8 +2110,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 433.073,
-    "diff_pct": 0.04,
+    "close2": 433.24,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2252,8 +2252,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 165.96,
-    "diff_pct": 0.02,
+    "close2": 165.99,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -2325,8 +2325,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 77.35,
-    "diff_pct": 0.06,
+    "close2": 77.4,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2398,8 +2398,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 904.55,
-    "diff_pct": 0.02,
+    "close2": 904.77,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2471,8 +2471,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 35.3837,
-    "diff_pct": 1.26,
+    "close2": 35.84,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -2544,8 +2544,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 206.15,
-    "diff_pct": 0.25,
+    "close2": 206.74,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -2617,8 +2617,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 515.06,
-    "diff_pct": 0.24,
+    "close2": 516.13,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -2690,16 +2690,16 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 764.52,
-    "diff_pct": -0.04,
+    "close2": 764.29,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
   {
    "symbol": "SI=F",
    "bar_closed_at": "2026-09-11T18:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 65.005,
    "in_buy": false,
@@ -2723,9 +2723,9 @@
    "dist_atr": 0.52,
    "score": 3.0,
    "bars": 1104,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.52 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.52 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": null,
     "margin": null,
@@ -2832,8 +2832,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 61.26,
-    "diff_pct": 0.15,
+    "close2": 61.37,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -3043,8 +3043,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 51.44,
-    "diff_pct": 0.21,
+    "close2": 51.56,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -3116,8 +3116,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 154.38,
-    "diff_pct": 0.32,
+    "close2": 154.9,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -3189,8 +3189,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 377.4,
-    "diff_pct": -0.02,
+    "close2": 377.35,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -3262,8 +3262,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 299.11,
-    "diff_pct": -0.29,
+    "close2": 298.22,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -3275,8 +3275,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 830.28,
    "in_buy": false,
-   "buy_low": 778.0375,
-   "buy_high": 810.4517,
+   "buy_low": 778.4158,
+   "buy_high": 810.0734,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 2,
@@ -3287,12 +3287,12 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 825.1029,
-   "sell_high": 857.5171,
+   "sell_low": 825.4812,
+   "sell_high": 857.1388,
    "sell_conf": 2,
-   "atr_pct": 3.9,
+   "atr_pct": 3.81,
    "rel_vol": 0.7,
-   "dist_atr": 0.61,
+   "dist_atr": 0.64,
    "score": 3.0,
    "bars": 537,
    "status": "AZALT",
@@ -3335,8 +3335,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 830.9,
-    "diff_pct": -0.07,
+    "close2": 830.17,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -3408,8 +3408,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 20.9731,
-    "diff_pct": -0.06,
+    "close2": 20.95,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -3481,8 +3481,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 36.68,
-    "diff_pct": -0.98,
+    "close2": 36.31,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -3627,8 +3627,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 99.11,
-    "diff_pct": 1.31,
+    "close2": 100.51,
+    "diff_pct": -0.1,
     "warn": false
    }
   },
@@ -3773,8 +3773,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 635.5,
-    "diff_pct": 0.02,
+    "close2": 635.66,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -3846,8 +3846,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 218.28,
-    "diff_pct": 0.94,
+    "close2": 220.33,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3919,8 +3919,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 4.64,
-    "diff_pct": -0.65,
+    "close2": 4.61,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3992,8 +3992,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 252.17,
-    "diff_pct": 0.02,
+    "close2": 252.23,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -4065,9 +4065,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 161.3,
-    "diff_pct": 3.13,
-    "warn": true
+    "close2": 166.4,
+    "diff_pct": -0.03,
+    "warn": false
    }
   },
   {
@@ -4357,8 +4357,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 285.25,
-    "diff_pct": -0.13,
+    "close2": 284.75,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -4430,8 +4430,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 40.04,
-    "diff_pct": 0.15,
+    "close2": 40.1,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -4503,8 +4503,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 63.14,
-    "diff_pct": -0.32,
+    "close2": 62.95,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -4576,8 +4576,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 338.2078,
-    "diff_pct": 0.06,
+    "close2": 338.5,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -4649,8 +4649,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 13.971,
-    "diff_pct": 0.03,
+    "close2": 13.97,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -4722,8 +4722,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 819.2914,
-    "diff_pct": -0.11,
+    "close2": 818.57,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -4795,8 +4795,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 46.7001,
-    "diff_pct": -0.02,
+    "close2": 46.69,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -4868,8 +4868,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 356.69,
-    "diff_pct": -0.11,
+    "close2": 356.23,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -4941,8 +4941,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 521.0,
-    "diff_pct": -0.41,
+    "close2": 518.97,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -5014,8 +5014,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 150.09,
-    "diff_pct": 0.11,
+    "close2": 150.28,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -5087,8 +5087,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 15.2982,
-    "diff_pct": -0.18,
+    "close2": 15.27,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -5160,16 +5160,16 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 102.9657,
-    "diff_pct": -0.03,
+    "close2": 102.94,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
   {
    "symbol": "BZ=F",
    "bar_closed_at": "2026-09-11T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 104.93,
    "in_buy": false,
@@ -5194,8 +5194,8 @@
    "score": 2.0,
    "bars": 1096,
    "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": null,
     "margin": null,
@@ -5294,8 +5294,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 56.89,
-    "diff_pct": -0.11,
+    "close2": 56.88,
+    "diff_pct": -0.09,
     "warn": false
    }
   },
@@ -5367,8 +5367,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 55.0,
-    "diff_pct": 1.1,
+    "close2": 56.1095,
+    "diff_pct": -0.9,
     "warn": false
    }
   },
@@ -5513,8 +5513,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 180.55,
-    "diff_pct": 0.11,
+    "close2": 180.64,
+    "diff_pct": 0.06,
     "warn": false
    }
   },
@@ -5586,8 +5586,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1630.5,
-    "diff_pct": 0.19,
+    "close2": 1633.35,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -5788,8 +5788,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 3.38,
-    "diff_pct": -0.74,
+    "close2": 3.35,
+    "diff_pct": 0.15,
     "warn": false
    }
   },
@@ -5934,8 +5934,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 74.58,
-    "diff_pct": -0.03,
+    "close2": 74.57,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -6007,7 +6007,7 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 236.6,
+    "close2": 236.62,
     "diff_pct": 0.03,
     "warn": false
    }
@@ -6153,8 +6153,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 116.9576,
-    "diff_pct": -0.27,
+    "close2": 116.65,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -6226,8 +6226,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 88.8,
-    "diff_pct": -0.5,
+    "close2": 88.35,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -6299,8 +6299,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 26.15,
-    "diff_pct": -0.99,
+    "close2": 25.92,
+    "diff_pct": -0.12,
     "warn": false
    }
   },
@@ -6372,8 +6372,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 44.6,
-    "diff_pct": 0.27,
+    "close2": 44.73,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -6445,8 +6445,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 304.8552,
-    "diff_pct": 0.14,
+    "close2": 305.37,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -6737,8 +6737,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 59.06,
-    "diff_pct": -0.07,
+    "close2": 59.01,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -6810,8 +6810,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 362.25,
-    "diff_pct": -0.12,
+    "close2": 361.99,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
@@ -6883,8 +6883,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 218.3408,
-    "diff_pct": -0.06,
+    "close2": 218.29,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -6956,8 +6956,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 332.4907,
-    "diff_pct": -0.08,
+    "close2": 332.27,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -7029,8 +7029,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 370.68,
-    "diff_pct": -0.05,
+    "close2": 370.45,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -7102,8 +7102,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 198.5,
-    "diff_pct": -0.42,
+    "close2": 197.68,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -7175,8 +7175,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 23.09,
-    "diff_pct": -0.52,
+    "close2": 22.95,
+    "diff_pct": 0.09,
     "warn": false
    }
   },
@@ -7248,8 +7248,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 21.23,
-    "diff_pct": -0.47,
+    "close2": 21.13,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7321,8 +7321,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 378.0,
-    "diff_pct": 0.26,
+    "close2": 378.78,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -7394,8 +7394,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1700.2092,
-    "diff_pct": -0.07,
+    "close2": 1698.3,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -7467,8 +7467,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 109.33,
-    "diff_pct": -0.03,
+    "close2": 109.3,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7540,8 +7540,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 235.7,
-    "diff_pct": 0.17,
+    "close2": 236.1,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7613,8 +7613,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 132.5,
-    "diff_pct": 0.02,
+    "close2": 132.53,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7686,8 +7686,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 268.74,
-    "diff_pct": -0.01,
+    "close2": 268.7,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7759,8 +7759,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 447.7,
-    "diff_pct": -0.12,
+    "close2": 447.18,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7832,8 +7832,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 29.6,
-    "diff_pct": -1.96,
+    "close2": 29.01,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -7905,8 +7905,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 163.28,
-    "diff_pct": -0.18,
+    "close2": 162.95,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -8124,8 +8124,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 4.55,
-    "diff_pct": 0.22,
+    "close2": 4.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8197,8 +8197,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 11.67,
-    "diff_pct": -0.43,
+    "close2": 11.63,
+    "diff_pct": -0.09,
     "warn": false
    }
   },
@@ -8270,8 +8270,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 167.1239,
-    "diff_pct": 0.13,
+    "close2": 167.24,
+    "diff_pct": 0.06,
     "warn": false
    }
   },
@@ -8343,8 +8343,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 117.83,
-    "diff_pct": -0.26,
+    "close2": 117.52,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -8416,8 +8416,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 323.4613,
-    "diff_pct": 0.14,
+    "close2": 323.96,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -8489,8 +8489,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 349.18,
-    "diff_pct": 0.06,
+    "close2": 349.54,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -8708,8 +8708,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 391.0,
-    "diff_pct": -0.13,
+    "close2": 390.42,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -8781,8 +8781,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 646.97,
-    "diff_pct": 0.19,
+    "close2": 648.03,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -8854,8 +8854,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 365.1923,
-    "diff_pct": 0.08,
+    "close2": 365.44,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -8927,16 +8927,16 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 524.9225,
-    "diff_pct": -0.19,
+    "close2": 524.19,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
   {
    "symbol": "USDTRY=X",
    "bar_closed_at": "2026-09-11T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 48.5968,
    "in_buy": false,
@@ -8960,9 +8960,9 @@
    "dist_atr": 2.17,
    "score": 0.0,
    "bars": 1564,
-   "status": "AZALT",
-   "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
-   "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": null,
     "margin": null,
@@ -9056,8 +9056,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 70.9,
-    "diff_pct": -0.48,
+    "close2": 70.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -9129,8 +9129,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 89.2,
-    "diff_pct": -0.26,
+    "close2": 88.99,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -9202,8 +9202,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 974.3,
-    "diff_pct": 0.07,
+    "close2": 975.26,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -9275,8 +9275,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 68.0,
-    "diff_pct": -0.13,
+    "close2": 67.86,
+    "diff_pct": 0.07,
     "warn": false
    }
   },
@@ -9348,8 +9348,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 0.1959,
-    "diff_pct": -0.77,
+    "close2": 0.1945,
+    "diff_pct": -0.05,
     "warn": false
    }
   },
@@ -9421,8 +9421,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 278.0,
-    "diff_pct": -1.12,
+    "close2": 274.9,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -9494,8 +9494,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 182.138,
-    "diff_pct": -0.11,
+    "close2": 181.97,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -9640,8 +9640,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 132.7,
-    "diff_pct": 0.26,
+    "close2": 133.07,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -9713,8 +9713,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 927.77,
-    "diff_pct": -0.08,
+    "close2": 927.03,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -9786,8 +9786,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 224.4153,
-    "diff_pct": 0.01,
+    "close2": 224.55,
+    "diff_pct": -0.05,
     "warn": false
    }
   }
@@ -10112,8 +10112,8 @@
    },
    "XU100.IS": {
     "state": "supportive",
-    "close": 14467.25,
-    "sma200": 13433.988276367187,
+    "close": 14467.2998046875,
+    "sma200": 13433.988525390625,
     "closed_at": "2026-09-11T15:00:00+00:00",
     "reason": "Günlük kapanış SMA200 üzerinde"
    }
