@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12 23:51",
+ "generated_at": "2026-09-13 10:07",
  "tf": "1w",
  "rows": [
   {
@@ -3447,6 +3447,48 @@
    "rejim_up": null
   },
   {
+   "symbol": "SVUSA.SW",
+   "bar_closed_at": "2026-09-11T15:30:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 599.3,
+   "in_buy": true,
+   "buy_low": 559.1466,
+   "buy_high": 617.8534,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 797.8467,
+   "sell_high": 856.5534,
+   "sell_conf": 4,
+   "atr_pct": 9.8,
+   "rel_vol": 1.03,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 624,
+   "status": "TEYİT BEKLE",
+   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
+   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir haftalık kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
    "symbol": "PAPIL.IS",
    "bar_closed_at": "2026-09-11T15:00:00+00:00",
    "data_fresh": true,
@@ -5581,48 +5623,6 @@
     "market_context": {
      "version": "market-v1",
      "benchmark": "XU100.IS",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "SVUSA.SW",
-   "bar_closed_at": "2026-09-11T15:30:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 599.3,
-   "in_buy": true,
-   "buy_low": 559.1466,
-   "buy_high": 617.8534,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 797.8467,
-   "sell_high": 856.5534,
-   "sell_conf": 4,
-   "atr_pct": 9.8,
-   "rel_vol": 1.0,
-   "dist_atr": 0.0,
-   "score": 2.0,
-   "bars": 624,
-   "status": "TEYİT BEKLE",
-   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir haftalık kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
      "state": "unknown",
      "reason": "Birleşik değerlendirme günlük taramada üretilir",
      "role": "context"
