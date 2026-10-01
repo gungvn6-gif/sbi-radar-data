@@ -1,7 +1,104 @@
 {
- "generated_at": "2026-09-12 23:50",
+ "generated_at": "2026-09-13 10:07",
  "tf": "1d",
  "rows": [
+  {
+   "symbol": "GC=F",
+   "bar_closed_at": "2026-09-11T22:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 4408.8999,
+   "in_buy": true,
+   "buy_low": 4360.5468,
+   "buy_high": 4439.4532,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 4534.0463,
+   "sell_high": 4612.9526,
+   "sell_conf": 0,
+   "atr_pct": 1.79,
+   "rel_vol": 18.43,
+   "dist_atr": 0.0,
+   "score": 7.0,
+   "bars": 579,
+   "status": "GİRİŞ ADAYI",
+   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
+   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir günlük kapanış planı bozar — o zaman alma.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Is gold really a hedge against inflation?",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/is-gold-a-hedge-against-inflation-174122603.html"
+     },
+     {
+      "t": "Bridgewater Founder Dalio Urges Investors to Dump Bonds for Gold Allocation",
+      "u": "https://247wallst.com/investing/2026/09/12/bridgewater-founder-dalio-urges-investors-to-dump-bonds-for-gold-allocation/"
+     },
+     {
+      "t": "How much more gold could central banks buy?",
+      "u": "https://finance.yahoo.com/markets/commodities/articles/much-more-gold-could-central-023013269.html"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Uygun piyasa eşlemesi yok",
+     "closed_at": null,
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown"
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "GC=F",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
+     ],
+     "summary": "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": true,
+     "technical_market": null,
+     "technical_financial": null,
+     "combined": null,
+     "market_available": false,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": null,
+   "verify": null
+  },
   {
    "symbol": "TCELL.IS",
    "bar_closed_at": "2026-09-11T15:00:00+00:00",
@@ -4979,6 +5076,103 @@
       "Karar anında erişilebilir kaynaklı finansal rapor yok"
      ],
      "summary": "Karar anında erişilebilir kaynaklı finansal rapor yok"
+    },
+    "shadow": {
+     "version": "shadow-v1",
+     "mode": "observation",
+     "probability": null,
+     "technical": false,
+     "technical_market": false,
+     "technical_financial": false,
+     "combined": false,
+     "market_available": false,
+     "financial_available": false,
+     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
+    }
+   },
+   "rejim_up": null,
+   "verify": null
+  },
+  {
+   "symbol": "SI=F",
+   "bar_closed_at": "2026-09-11T22:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 65.188,
+   "in_buy": false,
+   "buy_low": 62.101,
+   "buy_high": 64.139,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 70.141,
+   "sell_high": 72.179,
+   "sell_conf": 1,
+   "atr_pct": 3.13,
+   "rel_vol": 12.73,
+   "dist_atr": 0.51,
+   "score": 4.0,
+   "bars": 579,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.51 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.51 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Why Did Freeport-McMoRan Stock Drop On Doubts Over A Tariff It Would Gain From?",
+      "u": "https://www.trefis.com/articles/615048/why-did-freeport-mcmoran-stock-drop-on-doubts-over-a-tariff-it-would-gain-from/2026-09-11"
+     },
+     {
+      "t": "Gold Little Changed As August CPI Raises Interest-Rate Expectations",
+      "u": "https://www.wsj.com/finance/commodities-futures/gold-rises-ahead-of-u-s-cpi-data-c995e7d0?siteid=yhoof2&yptr=yahoo"
+     },
+     {
+      "t": "Honey Badger Silver advances PC Mine restart plans, expands Nanisivik exploration",
+      "u": "https://finance.yahoo.com/video/honey-badger-silver-advances-pc-163023461.html"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Uygun piyasa eşlemesi yok",
+     "closed_at": null,
+     "stock_above_sma200": null,
+     "relative63_pct": null,
+     "role": "context",
+     "sector_state": "unknown"
+    },
+    "financials": {
+     "version": "statements-v1",
+     "state": "missing",
+     "symbol": "SI=F",
+     "quality_eligible": null,
+     "metrics": [],
+     "facts": [],
+     "warnings": [
+      "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
+     ],
+     "summary": "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
     },
     "shadow": {
      "version": "shadow-v1",
@@ -11252,200 +11446,6 @@
    "verify": null
   },
   {
-   "symbol": "GC=F",
-   "bar_closed_at": "2026-09-11T22:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 4366.2002,
-   "in_buy": false,
-   "buy_low": 4248.6504,
-   "buy_high": 4321.3496,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 4537.1499,
-   "sell_high": 4609.8491,
-   "sell_conf": 2,
-   "atr_pct": 1.67,
-   "rel_vol": 0.09,
-   "dist_atr": 0.62,
-   "score": 3.0,
-   "bars": 579,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.62 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.62 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Is gold really a hedge against inflation?",
-      "u": "https://finance.yahoo.com/personal-finance/investing/article/is-gold-a-hedge-against-inflation-174122603.html"
-     },
-     {
-      "t": "Bridgewater Founder Dalio Urges Investors to Dump Bonds for Gold Allocation",
-      "u": "https://247wallst.com/investing/2026/09/12/bridgewater-founder-dalio-urges-investors-to-dump-bonds-for-gold-allocation/"
-     },
-     {
-      "t": "How much more gold could central banks buy?",
-      "u": "https://finance.yahoo.com/markets/commodities/articles/much-more-gold-could-central-023013269.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Uygun piyasa eşlemesi yok",
-     "closed_at": null,
-     "stock_above_sma200": null,
-     "relative63_pct": null,
-     "role": "context",
-     "sector_state": "unknown"
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "GC=F",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
-     ],
-     "summary": "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": false,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
-   "symbol": "SI=F",
-   "bar_closed_at": "2026-09-11T22:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 64.554,
-   "in_buy": false,
-   "buy_low": 62.1444,
-   "buy_high": 64.0956,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 70.1844,
-   "sell_high": 72.1356,
-   "sell_conf": 1,
-   "atr_pct": 3.02,
-   "rel_vol": 0.18,
-   "dist_atr": 0.23,
-   "score": 3.0,
-   "bars": 579,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.23 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.23 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Why Did Freeport-McMoRan Stock Drop On Doubts Over A Tariff It Would Gain From?",
-      "u": "https://www.trefis.com/articles/615048/why-did-freeport-mcmoran-stock-drop-on-doubts-over-a-tariff-it-would-gain-from/2026-09-11"
-     },
-     {
-      "t": "Gold Little Changed As August CPI Raises Interest-Rate Expectations",
-      "u": "https://www.wsj.com/finance/commodities-futures/gold-rises-ahead-of-u-s-cpi-data-c995e7d0?siteid=yhoof2&yptr=yahoo"
-     },
-     {
-      "t": "Honey Badger Silver advances PC Mine restart plans, expands Nanisivik exploration",
-      "u": "https://finance.yahoo.com/video/honey-badger-silver-advances-pc-163023461.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Uygun piyasa eşlemesi yok",
-     "closed_at": null,
-     "stock_above_sma200": null,
-     "relative63_pct": null,
-     "role": "context",
-     "sector_state": "unknown"
-    },
-    "financials": {
-     "version": "statements-v1",
-     "state": "missing",
-     "symbol": "SI=F",
-     "quality_eligible": null,
-     "metrics": [],
-     "facts": [],
-     "warnings": [
-      "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
-     ],
-     "summary": "Finansal belge doğrulaması başarısız; arşivi kontrol edin"
-    },
-    "shadow": {
-     "version": "shadow-v1",
-     "mode": "observation",
-     "probability": null,
-     "technical": false,
-     "technical_market": false,
-     "technical_financial": false,
-     "combined": false,
-     "market_available": false,
-     "financial_available": false,
-     "rule": "Pozitif satış, net kâr, işletme nakdi, maddi duran varlık yatırımı sonrası nakit ve özkaynak; doğrulanmış finans dışı rapor ≤200 gün. Maddi olmayan yatırımlar bu nakit ölçüsünde yoktur. Deneysel seçim koşulu."
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
    "symbol": "AKBNK.IS",
    "bar_closed_at": "2026-09-11T15:00:00+00:00",
    "data_fresh": true,
@@ -16515,7 +16515,7 @@
    "sell_high": 114.8109,
    "sell_conf": 2,
    "atr_pct": 4.05,
-   "rel_vol": 2.07,
+   "rel_vol": 1.72,
    "dist_atr": 1.51,
    "score": 2.0,
    "bars": 579,
@@ -22454,29 +22454,29 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 15.2125,
    "in_buy": false,
-   "buy_low": -4.104,
-   "buy_high": -0.6722,
-   "buy_src": "dip",
-   "buy_touch": 0,
-   "conf": 2,
+   "buy_low": 13.462,
+   "buy_high": 14.413,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 1,
    "conf_flags": {
     "yesil": false,
     "yukari": false,
-    "hacim": true,
+    "hacim": false,
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 61.9841,
-   "sell_high": 65.4159,
+   "sell_low": 15.61,
+   "sell_high": 16.561,
    "sell_conf": 2,
-   "atr_pct": 22.56,
-   "rel_vol": 1.28,
-   "dist_atr": 4.63,
+   "atr_pct": 6.25,
+   "rel_vol": 0.77,
+   "dist_atr": 0.84,
    "score": 1.0,
    "bars": 574,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.84 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.84 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": null,
     "margin": -15.3,
