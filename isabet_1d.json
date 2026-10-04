@@ -1,62 +1,117 @@
 {
  "tf": "1d",
- "symbols": 51,
+ "symbols": 93,
  "failed": [
   "SPCX"
  ],
  "buy_zone_entry": {
-  "n": 2284,
-  "wr": 0.537,
-  "fwd12": 1.732
+  "n": 4031,
+  "n_resolved": 4009,
+  "win": 2159,
+  "loss": 1850,
+  "both": 22,
+  "timeout": 0,
+  "wr": 0.539,
+  "fwd12": 1.906
  },
  "buy_zone_conf2": {
-  "n": 1629,
-  "wr": 0.546,
-  "fwd12": 1.732
+  "n": 2648,
+  "n_resolved": 2636,
+  "win": 1505,
+  "loss": 1131,
+  "both": 12,
+  "timeout": 0,
+  "wr": 0.571,
+  "fwd12": 2.224
  },
  "buy_zone_conf3": {
-  "n": 1167,
-  "wr": 0.552,
-  "fwd12": 1.671
+  "n": 1835,
+  "n_resolved": 1828,
+  "win": 1061,
+  "loss": 767,
+  "both": 7,
+  "timeout": 0,
+  "wr": 0.58,
+  "fwd12": 2.257
  },
  "buy_sr_only": {
-  "n": 1983,
-  "wr": 0.537,
-  "fwd12": 1.838
+  "n": 3600,
+  "n_resolved": 3581,
+  "win": 1927,
+  "loss": 1654,
+  "both": 19,
+  "timeout": 0,
+  "wr": 0.538,
+  "fwd12": 1.967
  },
  "sell_zone_entry": {
-  "n": 3099,
+  "n": 5238,
+  "n_resolved": 5203,
+  "win": 2391,
+  "loss": 2812,
+  "both": 35,
+  "timeout": 0,
   "wr": 0.46,
-  "fwd12": 2.239
+  "fwd12": 1.695
  },
  "baseline_all_bars_long": {
-  "n": 24544,
+  "n": 42079,
+  "n_resolved": 41831,
+  "win": 22608,
+  "loss": 19223,
+  "both": 244,
+  "timeout": 4,
   "wr": 0.54,
-  "fwd12": 1.886
+  "fwd12": 1.687
  },
  "baseline_conf3_anywhere": {
-  "n": 4875,
-  "wr": 0.55,
-  "fwd12": 1.9
+  "n": 8427,
+  "n_resolved": 8379,
+  "win": 4642,
+  "loss": 3737,
+  "both": 48,
+  "timeout": 0,
+  "wr": 0.554,
+  "fwd12": 1.695
  },
  "buy_zone_conf3_mkt_up": {
-  "n": 903,
-  "wr": 0.551,
-  "fwd12": 1.274
+  "n": 1348,
+  "n_resolved": 1343,
+  "win": 777,
+  "loss": 566,
+  "both": 5,
+  "timeout": 0,
+  "wr": 0.579,
+  "fwd12": 1.749
  },
  "buy_zone_conf3_mkt_down": {
-  "n": 264,
-  "wr": 0.557,
-  "fwd12": 3.026
+  "n": 487,
+  "n_resolved": 485,
+  "win": 284,
+  "loss": 201,
+  "both": 2,
+  "timeout": 0,
+  "wr": 0.586,
+  "fwd12": 3.664
  },
  "baseline_mkt_up": {
-  "n": 21025,
-  "wr": 0.533,
-  "fwd12": 1.674
+  "n": 33747,
+  "n_resolved": 33545,
+  "win": 17861,
+  "loss": 15684,
+  "both": 198,
+  "timeout": 4,
+  "wr": 0.532,
+  "fwd12": 1.309
  },
  "baseline_mkt_down": {
-  "n": 3519,
-  "wr": 0.579,
-  "fwd12": 3.147
+  "n": 8332,
+  "n_resolved": 8286,
+  "win": 4747,
+  "loss": 3539,
+  "both": 46,
+  "timeout": 0,
+  "wr": 0.573,
+  "fwd12": 3.218
  }
 }

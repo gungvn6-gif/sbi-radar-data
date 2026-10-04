@@ -1,62 +1,168 @@
 {
  "tf": "4h",
- "symbols": 51,
+ "symbols": 42,
  "failed": [
-  "SPCX"
+  "SPCX",
+  "THYAO.IS",
+  "ASELS.IS",
+  "TUPRS.IS",
+  "KCHOL.IS",
+  "SISE.IS",
+  "EREGL.IS",
+  "FROTO.IS",
+  "GARAN.IS",
+  "XU100.IS",
+  "BIMAS.IS",
+  "AKBNK.IS",
+  "YKBNK.IS",
+  "SAHOL.IS",
+  "TCELL.IS",
+  "ISCTR.IS",
+  "EKGYO.IS",
+  "TOASO.IS",
+  "KRDMD.IS",
+  "MPARK.IS",
+  "MGROS.IS",
+  "ENKAI.IS",
+  "TAVHL.IS",
+  "ASTOR.IS",
+  "AEFES.IS",
+  "MAVI.IS",
+  "TRALT.IS",
+  "TTKOM.IS",
+  "CCOLA.IS",
+  "ENJSA.IS",
+  "RGYAS.IS",
+  "VAKBN.IS",
+  "GLRMK.IS",
+  "CIMSA.IS",
+  "TURSG.IS",
+  "LOGO.IS",
+  "SASA.IS",
+  "ALARK.IS",
+  "PETKM.IS",
+  "ALBRK.IS",
+  "TABGD.IS",
+  "ALTNY.IS",
+  "PGSUS.IS",
+  "INDES.IS",
+  "TRMET.IS",
+  "BRSAN.IS",
+  "EUPWR.IS",
+  "TSKB.IS",
+  "AGHOL.IS",
+  "ARDYZ.IS",
+  "DOHOL.IS",
+  "AKSEN.IS"
  ],
  "buy_zone_entry": {
-  "n": 2645,
-  "wr": 0.498,
-  "fwd12": 1.001
+  "n": 1388,
+  "n_resolved": 1376,
+  "win": 698,
+  "loss": 678,
+  "both": 12,
+  "timeout": 0,
+  "wr": 0.507,
+  "fwd12": 0.805
  },
  "buy_zone_conf2": {
-  "n": 1935,
-  "wr": 0.497,
-  "fwd12": 0.837
+  "n": 969,
+  "n_resolved": 963,
+  "win": 478,
+  "loss": 485,
+  "both": 6,
+  "timeout": 0,
+  "wr": 0.496,
+  "fwd12": 0.723
  },
  "buy_zone_conf3": {
-  "n": 1375,
-  "wr": 0.511,
-  "fwd12": 0.987
+  "n": 643,
+  "n_resolved": 642,
+  "win": 319,
+  "loss": 323,
+  "both": 1,
+  "timeout": 0,
+  "wr": 0.497,
+  "fwd12": 0.86
  },
  "buy_sr_only": {
-  "n": 2401,
-  "wr": 0.496,
-  "fwd12": 0.979
+  "n": 1243,
+  "n_resolved": 1234,
+  "win": 620,
+  "loss": 614,
+  "both": 9,
+  "timeout": 0,
+  "wr": 0.502,
+  "fwd12": 0.784
  },
  "sell_zone_entry": {
-  "n": 2986,
-  "wr": 0.511,
-  "fwd12": 0.664
+  "n": 1622,
+  "n_resolved": 1602,
+  "win": 842,
+  "loss": 760,
+  "both": 20,
+  "timeout": 0,
+  "wr": 0.526,
+  "fwd12": 0.556
  },
  "baseline_all_bars_long": {
-  "n": 26068,
-  "wr": 0.492,
-  "fwd12": 0.644
+  "n": 15555,
+  "n_resolved": 15290,
+  "win": 7244,
+  "loss": 8046,
+  "both": 263,
+  "timeout": 2,
+  "wr": 0.474,
+  "fwd12": 0.642
  },
  "baseline_conf3_anywhere": {
-  "n": 5244,
-  "wr": 0.497,
-  "fwd12": 0.688
+  "n": 3087,
+  "n_resolved": 3042,
+  "win": 1429,
+  "loss": 1613,
+  "both": 45,
+  "timeout": 0,
+  "wr": 0.47,
+  "fwd12": 0.661
  },
  "buy_zone_conf3_mkt_up": {
-  "n": 1270,
-  "wr": 0.513,
-  "fwd12": 0.864
+  "n": 565,
+  "n_resolved": 564,
+  "win": 276,
+  "loss": 288,
+  "both": 1,
+  "timeout": 0,
+  "wr": 0.489,
+  "fwd12": 0.749
  },
  "buy_zone_conf3_mkt_down": {
-  "n": 105,
-  "wr": 0.49,
-  "fwd12": 2.48
+  "n": 78,
+  "n_resolved": 78,
+  "win": 43,
+  "loss": 35,
+  "both": 0,
+  "timeout": 0,
+  "wr": 0.551,
+  "fwd12": 1.663
  },
  "baseline_mkt_up": {
-  "n": 24418,
-  "wr": 0.492,
-  "fwd12": 0.568
+  "n": 14099,
+  "n_resolved": 13848,
+  "win": 6517,
+  "loss": 7331,
+  "both": 249,
+  "timeout": 2,
+  "wr": 0.471,
+  "fwd12": 0.499
  },
  "baseline_mkt_down": {
-  "n": 1650,
-  "wr": 0.485,
-  "fwd12": 1.767
+  "n": 1456,
+  "n_resolved": 1442,
+  "win": 727,
+  "loss": 715,
+  "both": 14,
+  "timeout": 0,
+  "wr": 0.504,
+  "fwd12": 2.024
  }
 }
