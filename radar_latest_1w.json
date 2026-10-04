@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04 00:48",
+ "generated_at": "2026-10-04 11:59",
  "tf": "1w",
  "rows": [
   {
@@ -71,48 +71,6 @@
    "rel_vol": 1.18,
    "dist_atr": 0.0,
    "score": 6.0,
-   "bars": 624,
-   "status": "GİRİŞ ADAYI",
-   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
-   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir haftalık kapanış planı bozar — o zaman alma.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "MCHP",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 81.32,
-   "in_buy": true,
-   "buy_low": 76.5451,
-   "buy_high": 84.0575,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 85.3209,
-   "sell_high": 92.8333,
-   "sell_conf": 0,
-   "atr_pct": 9.24,
-   "rel_vol": 0.92,
-   "dist_atr": 0.0,
-   "score": 5.0,
    "bars": 624,
    "status": "GİRİŞ ADAYI",
    "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
@@ -285,6 +243,48 @@
    "status": "YAKIN",
    "status_text": "Alım bölgesine 0.22 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.22 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
+   "symbol": "MCHP",
+   "bar_closed_at": "2026-10-02T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 81.32,
+   "in_buy": true,
+   "buy_low": 76.5451,
+   "buy_high": 84.0575,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 85.3209,
+   "sell_high": 92.8333,
+   "sell_conf": 0,
+   "atr_pct": 9.24,
+   "rel_vol": 0.92,
+   "dist_atr": 0.0,
+   "score": 5.0,
+   "bars": 624,
+   "status": "GİRİŞ ADAYI",
+   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
+   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir haftalık kapanış planı bozar — o zaman alma.",
    "co": {
     "market_context": {
      "version": "market-v1",
@@ -789,48 +789,6 @@
    "status": "TEPEDE",
    "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
    "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "AKAM",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 108.92,
-   "in_buy": true,
-   "buy_low": 101.3046,
-   "buy_high": 110.0943,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 2,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 111.4404,
-   "sell_high": 120.2301,
-   "sell_conf": 2,
-   "atr_pct": 12.36,
-   "rel_vol": 1.77,
-   "dist_atr": 0.0,
-   "score": 4.0,
-   "bars": 624,
-   "status": "TEYİT OLUŞUYOR",
-   "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir haftalık kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "co": {
     "market_context": {
      "version": "market-v1",
@@ -2024,7 +1982,7 @@
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 49.107,
+   "close": 49.1205,
    "in_buy": false,
    "buy_low": 42.5292,
    "buy_high": 42.7943,
@@ -2038,12 +1996,12 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 49.3096,
-   "sell_high": 49.5747,
+   "sell_low": 49.3125,
+   "sell_high": 49.5776,
    "sell_conf": 0,
    "atr_pct": 0.54,
    "rel_vol": null,
-   "dist_atr": 23.81,
+   "dist_atr": 23.86,
    "score": 3.0,
    "bars": 594,
    "status": "BEKLE",
@@ -2775,90 +2733,6 @@
    "rejim_up": null
   },
   {
-   "symbol": "OKTA",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 211.49,
-   "in_buy": false,
-   "buy_low": 107.9226,
-   "buy_high": 146.2855,
-   "buy_src": "pullback",
-   "buy_touch": 0,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 193.8176,
-   "sell_high": 212.0643,
-   "sell_conf": 0,
-   "atr_pct": 8.63,
-   "rel_vol": 0.96,
-   "dist_atr": 3.57,
-   "score": 3.0,
-   "bars": 496,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "ON",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 84.89,
-   "in_buy": false,
-   "buy_low": 62.2995,
-   "buy_high": 72.6569,
-   "buy_src": "sr",
-   "buy_touch": 5,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 81.4046,
-   "sell_high": 91.762,
-   "sell_conf": 0,
-   "atr_pct": 12.2,
-   "rel_vol": 1.58,
-   "dist_atr": 1.18,
-   "score": 3.0,
-   "bars": 624,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
    "symbol": "DGATE.IS",
    "bar_closed_at": "2026-10-02T15:00:00+00:00",
    "data_fresh": true,
@@ -3267,6 +3141,48 @@
    "status": "YAKIN",
    "status_text": "Alım bölgesine 0.80 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.80 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
+   "symbol": "ON",
+   "bar_closed_at": "2026-10-02T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 84.89,
+   "in_buy": false,
+   "buy_low": 62.2995,
+   "buy_high": 72.6569,
+   "buy_src": "sr",
+   "buy_touch": 5,
+   "conf": 4,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 81.4046,
+   "sell_high": 91.762,
+   "sell_conf": 0,
+   "atr_pct": 12.2,
+   "rel_vol": 1.58,
+   "dist_atr": 1.18,
+   "score": 3.0,
+   "bars": 624,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
    "co": {
     "market_context": {
      "version": "market-v1",
@@ -4863,90 +4779,6 @@
    "status": "AZALT",
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "DOCN",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 140.07,
-   "in_buy": false,
-   "buy_low": 94.2644,
-   "buy_high": 114.8114,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 177.2265,
-   "sell_high": 197.7735,
-   "sell_conf": 1,
-   "atr_pct": 14.67,
-   "rel_vol": 0.7,
-   "dist_atr": 1.23,
-   "score": 2.0,
-   "bars": 289,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "NET",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 349.07,
-   "in_buy": false,
-   "buy_low": 252.5795,
-   "buy_high": 286.0205,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 338.1139,
-   "sell_high": 371.5549,
-   "sell_conf": 1,
-   "atr_pct": 9.58,
-   "rel_vol": 0.94,
-   "dist_atr": 1.89,
-   "score": 2.0,
-   "bars": 369,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
    "co": {
     "market_context": {
      "version": "market-v1",
@@ -6681,90 +6513,6 @@
    "rejim_up": null
   },
   {
-   "symbol": "APP",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 268.22,
-   "in_buy": false,
-   "buy_low": 171.4139,
-   "buy_high": 229.5861,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 394.5045,
-   "sell_high": 452.6768,
-   "sell_conf": 3,
-   "atr_pct": 21.69,
-   "rel_vol": 1.46,
-   "dist_atr": 0.66,
-   "score": 1.0,
-   "bars": 286,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.66 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.66 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
-   "symbol": "JD",
-   "bar_closed_at": "2026-10-02T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 25.78,
-   "in_buy": false,
-   "buy_low": 23.3547,
-   "buy_high": 25.1373,
-   "buy_src": "sr",
-   "buy_touch": 5,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 28.2287,
-   "sell_high": 30.0113,
-   "sell_conf": 3,
-   "atr_pct": 6.91,
-   "rel_vol": 1.12,
-   "dist_atr": 0.36,
-   "score": 1.0,
-   "bars": 624,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.36 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.36 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null
-  },
-  {
    "symbol": "INGRM.IS",
    "bar_closed_at": "2026-10-02T15:00:00+00:00",
    "data_fresh": true,
@@ -7131,6 +6879,48 @@
    "status": "YAKIN",
    "status_text": "Alım bölgesine 0.03 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.03 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null
+  },
+  {
+   "symbol": "APP",
+   "bar_closed_at": "2026-10-02T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 268.22,
+   "in_buy": false,
+   "buy_low": 171.4139,
+   "buy_high": 229.5861,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 394.5045,
+   "sell_high": 452.6768,
+   "sell_conf": 3,
+   "atr_pct": 21.69,
+   "rel_vol": 1.46,
+   "dist_atr": 0.66,
+   "score": 1.0,
+   "bars": 286,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.66 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.66 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "market_context": {
      "version": "market-v1",
@@ -8383,8 +8173,6 @@
   "OBASE.IS",
   "ONRYT.IS",
   "PATEK.IS",
-  "RBRK",
-  "RDDT",
   "REEDR.IS",
   "RGYAS.IS",
   "SDTTR.IS",
@@ -8395,10 +8183,12 @@
   "TABGD.IS",
   "TEM",
   "UMAC",
+  "VADELI.IS",
   "WOLF"
  ],
  "errors_detail": {
   "SMSN": "yok",
+  "VADELI.IS": "yok",
   "SPCX": "kisa",
   "UMAC": "kisa",
   "FLY": "kisa",
@@ -8411,8 +8201,6 @@
   "CRWV": "kisa",
   "SKHY": "kisa",
   "SNDK": "kisa",
-  "RBRK": "kisa",
-  "RDDT": "kisa",
   "AZTEK.IS": "kisa",
   "BINBN.IS": "kisa",
   "DOFRB.IS": "kisa",
