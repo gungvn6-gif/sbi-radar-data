@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05 10:25",
+ "generated_at": "2026-10-05 17:04",
  "tf": "4h",
  "rows": [
   {
@@ -117,9 +117,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 85.03,
-    "diff_pct": 0.02,
-    "warn": false
+    "close2": 81.66,
+    "diff_pct": 4.15,
+    "warn": true
    }
   },
   {
@@ -146,7 +146,7 @@
    "sell_high": 263.2649,
    "sell_conf": 0,
    "atr_pct": 1.86,
-   "rel_vol": 1.55,
+   "rel_vol": 1.56,
    "dist_atr": 0.0,
    "score": 6.0,
    "bars": 540,
@@ -178,8 +178,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 251.78,
-    "diff_pct": 0.0,
+    "close2": 252.43,
+    "diff_pct": -0.25,
     "warn": false
    }
   },
@@ -294,8 +294,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 142.3,
-    "diff_pct": 0.15,
+    "close2": 145.07,
+    "diff_pct": -1.76,
     "warn": false
    }
   },
@@ -354,8 +354,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 22.37,
-    "diff_pct": 0.07,
+    "close2": 22.13,
+    "diff_pct": 1.15,
     "warn": false
    }
   },
@@ -414,8 +414,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 252.18,
-    "diff_pct": -0.0,
+    "close2": 252.515,
+    "diff_pct": -0.14,
     "warn": false
    }
   },
@@ -474,9 +474,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 242.81,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 237.635,
+    "diff_pct": 2.18,
+    "warn": true
    }
   },
   {
@@ -534,9 +534,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 257.49,
-    "diff_pct": 0.02,
-    "warn": false
+    "close2": 266.0101,
+    "diff_pct": -3.18,
+    "warn": true
    }
   },
   {
@@ -594,8 +594,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 355.14,
-    "diff_pct": -0.0,
+    "close2": 357.35,
+    "diff_pct": -0.62,
     "warn": false
    }
   },
@@ -654,8 +654,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 12.1,
-    "diff_pct": 0.0,
+    "close2": 12.125,
+    "diff_pct": -0.21,
     "warn": false
    }
   },
@@ -714,8 +714,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 472.78,
-    "diff_pct": 0.03,
+    "close2": 478.228,
+    "diff_pct": -1.11,
     "warn": false
    }
   },
@@ -774,8 +774,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 43.07,
-    "diff_pct": 0.02,
+    "close2": 42.9499,
+    "diff_pct": 0.3,
     "warn": false
    }
   },
@@ -834,8 +834,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 332.38,
-    "diff_pct": 0.0,
+    "close2": 331.14,
+    "diff_pct": 0.38,
     "warn": false
    }
   },
@@ -894,8 +894,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 360.66,
-    "diff_pct": 0.02,
+    "close2": 362.585,
+    "diff_pct": -0.51,
     "warn": false
    }
   },
@@ -954,8 +954,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 920.65,
-    "diff_pct": 0.03,
+    "close2": 917.02,
+    "diff_pct": 0.43,
     "warn": false
    }
   },
@@ -1014,8 +1014,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 505.41,
-    "diff_pct": 0.02,
+    "close2": 502.3575,
+    "diff_pct": 0.63,
     "warn": false
    }
   },
@@ -1074,10 +1074,178 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 270.04,
-    "diff_pct": 0.01,
+    "close2": 272.1,
+    "diff_pct": -0.75,
     "warn": false
    }
+  },
+  {
+   "symbol": "GC=F",
+   "bar_closed_at": "2026-10-05T10:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 4187.2002,
+   "in_buy": false,
+   "buy_low": 4123.6118,
+   "buy_high": 4162.5884,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 4231.6118,
+   "sell_high": 4270.5884,
+   "sell_conf": 0,
+   "atr_pct": 0.93,
+   "rel_vol": 0.88,
+   "dist_atr": 0.63,
+   "score": 4.0,
+   "bars": 1110,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.63 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.63 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
+  },
+  {
+   "symbol": "SI=F",
+   "bar_closed_at": "2026-10-05T10:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 61.995,
+   "in_buy": false,
+   "buy_low": 60.6177,
+   "buy_high": 61.6223,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": false,
+   "sell_low": 63.0769,
+   "sell_high": 64.0816,
+   "sell_conf": 0,
+   "atr_pct": 1.62,
+   "rel_vol": 0.76,
+   "dist_atr": 0.37,
+   "score": 4.0,
+   "bars": 1112,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.37 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.37 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
+  },
+  {
+   "symbol": "BZ=F",
+   "bar_closed_at": "2026-10-05T12:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 102.44,
+   "in_buy": false,
+   "buy_low": 99.4664,
+   "buy_high": 101.5336,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 107.1964,
+   "sell_high": 109.2636,
+   "sell_conf": 1,
+   "atr_pct": 2.02,
+   "rel_vol": 1.12,
+   "dist_atr": 0.44,
+   "score": 4.0,
+   "bars": 1102,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.44 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.44 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
   },
   {
    "symbol": "OILK",
@@ -1134,8 +1302,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 55.88,
-    "diff_pct": 0.0,
+    "close2": 55.7075,
+    "diff_pct": 0.31,
     "warn": false
    }
   },
@@ -1194,8 +1362,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 540.04,
-    "diff_pct": 0.0,
+    "close2": 535.69,
+    "diff_pct": 0.81,
     "warn": false
    }
   },
@@ -1254,8 +1422,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 403.04,
-    "diff_pct": 0.01,
+    "close2": 401.635,
+    "diff_pct": 0.36,
     "warn": false
    }
   },
@@ -1314,8 +1482,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 234.69,
-    "diff_pct": -0.02,
+    "close2": 231.6901,
+    "diff_pct": 1.27,
     "warn": false
    }
   },
@@ -1374,9 +1542,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 415.29,
-    "diff_pct": -0.04,
-    "warn": false
+    "close2": 439.06,
+    "diff_pct": -5.45,
+    "warn": true
    }
   },
   {
@@ -1434,9 +1602,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 39.53,
-    "diff_pct": 0.03,
-    "warn": false
+    "close2": 38.23,
+    "diff_pct": 3.43,
+    "warn": true
    }
   },
   {
@@ -1494,9 +1662,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 218.64,
-    "diff_pct": 0.03,
-    "warn": false
+    "close2": 209.355,
+    "diff_pct": 4.46,
+    "warn": true
    }
   },
   {
@@ -1554,9 +1722,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 2.97,
-    "diff_pct": 0.34,
-    "warn": false
+    "close2": 2.8902,
+    "diff_pct": 3.11,
+    "warn": true
    }
   },
   {
@@ -1614,8 +1782,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 105.93,
-    "diff_pct": 0.04,
+    "close2": 104.33,
+    "diff_pct": 1.57,
     "warn": false
    }
   },
@@ -1674,9 +1842,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 12.4,
-    "diff_pct": -0.08,
-    "warn": false
+    "close2": 11.9799,
+    "diff_pct": 3.42,
+    "warn": true
    }
   },
   {
@@ -1734,8 +1902,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 80.37,
-    "diff_pct": -0.1,
+    "close2": 79.47,
+    "diff_pct": 1.03,
     "warn": false
    }
   },
@@ -1794,8 +1962,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 84.89,
-    "diff_pct": 0.0,
+    "close2": 84.36,
+    "diff_pct": 0.63,
     "warn": false
    }
   },
@@ -1854,8 +2022,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 61.36,
-    "diff_pct": 0.05,
+    "close2": 60.41,
+    "diff_pct": 1.62,
     "warn": false
    }
   },
@@ -1914,8 +2082,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 121.1,
-    "diff_pct": 0.03,
+    "close2": 120.195,
+    "diff_pct": 0.79,
     "warn": false
    }
   },
@@ -1974,9 +2142,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 3.92,
-    "diff_pct": -0.25,
-    "warn": false
+    "close2": 3.64,
+    "diff_pct": 7.42,
+    "warn": true
    }
   },
   {
@@ -2034,9 +2202,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 35.28,
-    "diff_pct": -0.06,
-    "warn": false
+    "close2": 32.615,
+    "diff_pct": 8.11,
+    "warn": true
    }
   },
   {
@@ -2094,8 +2262,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 104.59,
-    "diff_pct": 0.02,
+    "close2": 104.65,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -2154,8 +2322,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 43.68,
-    "diff_pct": -0.02,
+    "close2": 43.54,
+    "diff_pct": 0.3,
     "warn": false
    }
   },
@@ -2214,9 +2382,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 268.22,
-    "diff_pct": -0.09,
-    "warn": false
+    "close2": 280.9527,
+    "diff_pct": -4.61,
+    "warn": true
    }
   },
   {
@@ -2274,8 +2442,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 115.01,
-    "diff_pct": 0.05,
+    "close2": 116.23,
+    "diff_pct": -1.0,
     "warn": false
    }
   },
@@ -2334,8 +2502,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 391.34,
-    "diff_pct": 0.02,
+    "close2": 385.715,
+    "diff_pct": 1.48,
     "warn": false
    }
   },
@@ -2394,8 +2562,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 184.71,
-    "diff_pct": -0.01,
+    "close2": 185.26,
+    "diff_pct": -0.3,
     "warn": false
    }
   },
@@ -2454,8 +2622,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 72.04,
-    "diff_pct": 0.01,
+    "close2": 72.485,
+    "diff_pct": -0.61,
     "warn": false
    }
   },
@@ -2514,8 +2682,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 115.56,
-    "diff_pct": 0.01,
+    "close2": 114.38,
+    "diff_pct": 1.04,
     "warn": false
    }
   },
@@ -2574,8 +2742,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 449.04,
-    "diff_pct": 0.0,
+    "close2": 442.985,
+    "diff_pct": 1.37,
     "warn": false
    }
   },
@@ -2634,8 +2802,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1142.85,
-    "diff_pct": 0.1,
+    "close2": 1162.03,
+    "diff_pct": -1.55,
     "warn": false
    }
   },
@@ -2694,8 +2862,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 517.53,
-    "diff_pct": 0.06,
+    "close2": 528.03,
+    "diff_pct": -1.93,
     "warn": false
    }
   },
@@ -2754,8 +2922,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 333.69,
-    "diff_pct": 0.03,
+    "close2": 334.08,
+    "diff_pct": -0.09,
     "warn": false
    }
   },
@@ -2814,8 +2982,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 251.52,
-    "diff_pct": 0.0,
+    "close2": 252.53,
+    "diff_pct": -0.4,
     "warn": false
    }
   },
@@ -2874,9 +3042,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 15.25,
-    "diff_pct": 0.07,
-    "warn": false
+    "close2": 14.895,
+    "diff_pct": 2.45,
+    "warn": true
    }
   },
   {
@@ -2887,8 +3055,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 119.33,
    "in_buy": true,
-   "buy_low": 116.5904,
-   "buy_high": 120.4096,
+   "buy_low": 116.5959,
+   "buy_high": 120.4041,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -2899,10 +3067,10 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 124.9018,
-   "sell_high": 128.721,
+   "sell_low": 124.9064,
+   "sell_high": 128.7147,
    "sell_conf": 4,
-   "atr_pct": 3.2,
+   "atr_pct": 3.19,
    "rel_vol": 0.52,
    "dist_atr": 0.0,
    "score": 3.0,
@@ -2934,9 +3102,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 119.33,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 116.23,
+    "diff_pct": 2.67,
+    "warn": true
    }
   },
   {
@@ -2994,8 +3162,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 403.24,
-    "diff_pct": 0.02,
+    "close2": 406.55,
+    "diff_pct": -0.8,
     "warn": false
    }
   },
@@ -3007,8 +3175,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 633.75,
    "in_buy": false,
-   "buy_low": 588.4602,
-   "buy_high": 603.6798,
+   "buy_low": 588.5284,
+   "buy_high": 603.6116,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -3019,12 +3187,12 @@
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 631.3402,
-   "sell_high": 646.5598,
+   "sell_low": 631.4084,
+   "sell_high": 646.4916,
    "sell_conf": 0,
-   "atr_pct": 2.4,
+   "atr_pct": 2.38,
    "rel_vol": 0.38,
-   "dist_atr": 1.98,
+   "dist_atr": 2.0,
    "score": 3.0,
    "bars": 540,
    "status": "TEPEDE",
@@ -3054,8 +3222,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 633.91,
-    "diff_pct": -0.03,
+    "close2": 629.55,
+    "diff_pct": 0.67,
     "warn": false
    }
   },
@@ -3115,8 +3283,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 273.04,
-    "diff_pct": -0.03,
+    "close2": 277.81,
+    "diff_pct": -1.74,
     "warn": false
    }
   },
@@ -3175,66 +3343,10 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 769.64,
-    "diff_pct": 0.0,
+    "close2": 770.49,
+    "diff_pct": -0.11,
     "warn": false
    }
-  },
-  {
-   "symbol": "USDTRY=X",
-   "bar_closed_at": "2026-10-05T04:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 49.1568,
-   "in_buy": false,
-   "buy_low": 48.7986,
-   "buy_high": 48.9258,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 3,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": false,
-    "rsi": true
-   },
-   "in_sell": true,
-   "sell_low": 49.0966,
-   "sell_high": 49.2239,
-   "sell_conf": 0,
-   "atr_pct": 0.26,
-   "rel_vol": null,
-   "dist_atr": 1.81,
-   "score": 3.0,
-   "bars": 1568,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
   },
   {
    "symbol": "REMX",
@@ -3244,8 +3356,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 63.16,
    "in_buy": false,
-   "buy_low": 60.3902,
-   "buy_high": 61.4114,
+   "buy_low": 60.3893,
+   "buy_high": 61.4123,
    "buy_src": "dip",
    "buy_touch": 0,
    "conf": 3,
@@ -3256,8 +3368,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 70.6994,
-   "sell_high": 71.7206,
+   "sell_low": 70.6985,
+   "sell_high": 71.7215,
    "sell_conf": 0,
    "atr_pct": 1.62,
    "rel_vol": 0.65,
@@ -3291,8 +3403,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 63.21,
-    "diff_pct": -0.08,
+    "close2": 62.9,
+    "diff_pct": 0.41,
     "warn": false
    }
   },
@@ -3351,8 +3463,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 63.1,
-    "diff_pct": -0.02,
+    "close2": 62.225,
+    "diff_pct": 1.39,
     "warn": false
    }
   },
@@ -3411,8 +3523,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 54.43,
-    "diff_pct": -0.02,
+    "close2": 54.175,
+    "diff_pct": 0.45,
     "warn": false
    }
   },
@@ -3440,7 +3552,7 @@
    "sell_high": 58.36,
    "sell_conf": 0,
    "atr_pct": 1.56,
-   "rel_vol": 0.85,
+   "rel_vol": 0.88,
    "dist_atr": 2.3,
    "score": 3.0,
    "bars": 313,
@@ -3471,8 +3583,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 57.6935,
-    "diff_pct": 0.34,
+    "close2": 57.4382,
+    "diff_pct": 0.79,
     "warn": false
    }
   },
@@ -3531,8 +3643,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 417.15,
-    "diff_pct": 0.01,
+    "close2": 411.395,
+    "diff_pct": 1.41,
     "warn": false
    }
   },
@@ -3591,8 +3703,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1867.31,
-    "diff_pct": 0.05,
+    "close2": 1849.2,
+    "diff_pct": 1.03,
     "warn": false
    }
   },
@@ -3651,8 +3763,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 84.32,
-    "diff_pct": 0.0,
+    "close2": 85.7199,
+    "diff_pct": -1.63,
     "warn": false
    }
   },
@@ -3711,8 +3823,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 89.62,
-    "diff_pct": -0.01,
+    "close2": 88.1393,
+    "diff_pct": 1.67,
     "warn": false
    }
   },
@@ -3771,9 +3883,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 206.89,
-    "diff_pct": 0.02,
-    "warn": false
+    "close2": 199.925,
+    "diff_pct": 3.51,
+    "warn": true
    }
   },
   {
@@ -3831,9 +3943,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 848.99,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 897.82,
+    "diff_pct": -5.44,
+    "warn": true
    }
   },
   {
@@ -3891,8 +4003,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 293.8,
-    "diff_pct": 0.0,
+    "close2": 289.79,
+    "diff_pct": 1.39,
     "warn": false
    }
   },
@@ -3951,8 +4063,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 37.1,
-    "diff_pct": 0.0,
+    "close2": 36.93,
+    "diff_pct": 0.46,
     "warn": false
    }
   },
@@ -4011,8 +4123,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 121.17,
-    "diff_pct": -0.03,
+    "close2": 120.47,
+    "diff_pct": 0.55,
     "warn": false
    }
   },
@@ -4071,8 +4183,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 4.91,
-    "diff_pct": 0.1,
+    "close2": 4.94,
+    "diff_pct": -0.51,
     "warn": false
    }
   },
@@ -4131,8 +4243,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1439.73,
-    "diff_pct": 0.0,
+    "close2": 1448.48,
+    "diff_pct": -0.6,
     "warn": false
    }
   },
@@ -4191,9 +4303,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 18.83,
-    "diff_pct": 0.08,
-    "warn": false
+    "close2": 18.35,
+    "diff_pct": 2.7,
+    "warn": true
    }
   },
   {
@@ -4251,8 +4363,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 243.66,
-    "diff_pct": 0.04,
+    "close2": 239.475,
+    "diff_pct": 1.79,
     "warn": false
    }
   },
@@ -4276,8 +4388,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 126.6221,
-   "sell_high": 129.8379,
+   "sell_low": 126.6256,
+   "sell_high": 129.8344,
    "sell_conf": 1,
    "atr_pct": 2.87,
    "rel_vol": 0.47,
@@ -4311,8 +4423,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 111.97,
-    "diff_pct": -0.02,
+    "close2": 109.76,
+    "diff_pct": 2.0,
     "warn": false
    }
   },
@@ -4340,7 +4452,7 @@
    "sell_high": 223.0889,
    "sell_conf": 1,
    "atr_pct": 0.34,
-   "rel_vol": 1.64,
+   "rel_vol": 1.67,
    "dist_atr": 1.95,
    "score": 3.0,
    "bars": 538,
@@ -4371,8 +4483,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 222.76,
-    "diff_pct": -0.01,
+    "close2": 222.435,
+    "diff_pct": 0.13,
     "warn": false
    }
   },
@@ -4431,9 +4543,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 337.04,
-    "diff_pct": 0.03,
-    "warn": false
+    "close2": 329.78,
+    "diff_pct": 2.23,
+    "warn": true
    }
   },
   {
@@ -4491,9 +4603,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 164.19,
-    "diff_pct": 0.02,
-    "warn": false
+    "close2": 160.296,
+    "diff_pct": 2.45,
+    "warn": true
    }
   },
   {
@@ -4551,8 +4663,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 384.64,
-    "diff_pct": -0.0,
+    "close2": 385.095,
+    "diff_pct": -0.12,
     "warn": false
    }
   },
@@ -4611,8 +4723,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 42.47,
-    "diff_pct": 0.0,
+    "close2": 42.145,
+    "diff_pct": 0.77,
     "warn": false
    }
   },
@@ -4671,8 +4783,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 504.73,
-    "diff_pct": -0.03,
+    "close2": 502.056,
+    "diff_pct": 0.5,
     "warn": false
    }
   },
@@ -4731,8 +4843,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 289.15,
-    "diff_pct": 0.03,
+    "close2": 285.936,
+    "diff_pct": 1.15,
     "warn": false
    }
   },
@@ -4791,8 +4903,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 222.64,
-    "diff_pct": 0.01,
+    "close2": 221.46,
+    "diff_pct": 0.55,
     "warn": false
    }
   },
@@ -4851,8 +4963,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 43.69,
-    "diff_pct": -0.02,
+    "close2": 43.29,
+    "diff_pct": 0.9,
     "warn": false
    }
   },
@@ -4911,9 +5023,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 76.63,
-    "diff_pct": 0.09,
-    "warn": false
+    "close2": 79.4737,
+    "diff_pct": -3.49,
+    "warn": true
    }
   },
   {
@@ -4924,8 +5036,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 73.92,
    "in_buy": false,
-   "buy_low": 68.0401,
-   "buy_high": 70.7599,
+   "buy_low": 68.0448,
+   "buy_high": 70.7552,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -4936,12 +5048,12 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 74.1001,
-   "sell_high": 76.8199,
+   "sell_low": 74.1048,
+   "sell_high": 76.8152,
    "sell_conf": 1,
-   "atr_pct": 3.68,
+   "atr_pct": 3.67,
    "rel_vol": 0.52,
-   "dist_atr": 1.16,
+   "dist_atr": 1.17,
    "score": 2.0,
    "bars": 540,
    "status": "BEKLE",
@@ -4972,9 +5084,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 73.92,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 72.2983,
+    "diff_pct": 2.24,
+    "warn": true
    }
   },
   {
@@ -5032,8 +5144,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 233.95,
-    "diff_pct": 0.02,
+    "close2": 237.38,
+    "diff_pct": -1.43,
     "warn": false
    }
   },
@@ -5092,8 +5204,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 343.5,
-    "diff_pct": 0.03,
+    "close2": 345.3,
+    "diff_pct": -0.5,
     "warn": false
    }
   },
@@ -5105,8 +5217,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 370.7,
    "in_buy": false,
-   "buy_low": 362.6805,
-   "buy_high": 370.2237,
+   "buy_low": 362.7092,
+   "buy_high": 370.195,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 1,
@@ -5117,17 +5229,17 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 380.827,
-   "sell_high": 388.3701,
+   "sell_low": 380.8515,
+   "sell_high": 388.3373,
    "sell_conf": 3,
-   "atr_pct": 2.03,
+   "atr_pct": 2.02,
    "rel_vol": 0.85,
-   "dist_atr": 0.06,
+   "dist_atr": 0.07,
    "score": 2.0,
    "bars": 540,
    "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.06 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.06 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "status_text": "Alım bölgesine 0.07 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.07 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": 343.1,
     "margin": 3.7,
@@ -5152,8 +5264,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 370.59,
-    "diff_pct": 0.03,
+    "close2": 376.12,
+    "diff_pct": -1.44,
     "warn": false
    }
   },
@@ -5212,8 +5324,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 67.06,
-    "diff_pct": 0.02,
+    "close2": 66.61,
+    "diff_pct": 0.7,
     "warn": false
    }
   },
@@ -5272,8 +5384,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 478.0,
-    "diff_pct": 0.0,
+    "close2": 475.85,
+    "diff_pct": 0.45,
     "warn": false
    }
   },
@@ -5332,8 +5444,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 104.26,
-    "diff_pct": 0.03,
+    "close2": 103.46,
+    "diff_pct": 0.8,
     "warn": false
    }
   },
@@ -5392,42 +5504,42 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 60.92,
-    "diff_pct": -0.05,
+    "close2": 60.715,
+    "diff_pct": 0.29,
     "warn": false
    }
   },
   {
-   "symbol": "BZ=F",
-   "bar_closed_at": "2026-10-05T04:00:00+00:00",
+   "symbol": "USDTRY=X",
+   "bar_closed_at": "2026-10-05T12:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 101.35,
+   "close": 49.1537,
    "in_buy": false,
-   "buy_low": 99.4369,
-   "buy_high": 101.1487,
+   "buy_low": 48.8003,
+   "buy_high": 48.9241,
    "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 1,
+   "buy_touch": 2,
+   "conf": 2,
    "conf_flags": {
     "yesil": false,
-    "yukari": false,
+    "yukari": true,
     "hacim": false,
     "rsi": true
    },
-   "in_sell": false,
-   "sell_low": 101.3613,
-   "sell_high": 103.0731,
-   "sell_conf": 2,
-   "atr_pct": 2.1,
-   "rel_vol": 0.13,
-   "dist_atr": 0.09,
+   "in_sell": true,
+   "sell_low": 49.1238,
+   "sell_high": 49.2476,
+   "sell_conf": 1,
+   "atr_pct": 0.25,
+   "rel_vol": null,
+   "dist_atr": 1.86,
    "score": 2.0,
-   "bars": 1100,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.09 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.09 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "bars": 1570,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
    "co": {
     "pe": null,
     "margin": null,
@@ -5508,8 +5620,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 37.17,
-    "diff_pct": 0.01,
+    "close2": 36.815,
+    "diff_pct": 0.98,
     "warn": false
    }
   },
@@ -5568,9 +5680,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 105.85,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 108.15,
+    "diff_pct": -2.13,
+    "warn": true
    }
   },
   {
@@ -5628,8 +5740,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 350.33,
-    "diff_pct": -0.0,
+    "close2": 351.0,
+    "diff_pct": -0.19,
     "warn": false
    }
   },
@@ -5688,8 +5800,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 68.65,
-    "diff_pct": 0.0,
+    "close2": 68.17,
+    "diff_pct": 0.7,
     "warn": false
    }
   },
@@ -5748,9 +5860,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 30.24,
-    "diff_pct": -0.03,
-    "warn": false
+    "close2": 29.36,
+    "diff_pct": 2.96,
+    "warn": true
    }
   },
   {
@@ -5808,8 +5920,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 174.61,
-    "diff_pct": 0.01,
+    "close2": 173.01,
+    "diff_pct": 0.94,
     "warn": false
    }
   },
@@ -5868,8 +5980,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 134.0,
-    "diff_pct": -0.01,
+    "close2": 134.235,
+    "diff_pct": -0.19,
     "warn": false
    }
   },
@@ -5928,9 +6040,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 38.5,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 39.53,
+    "diff_pct": -2.61,
+    "warn": true
    }
   },
   {
@@ -5988,8 +6100,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 189.61,
-    "diff_pct": -0.11,
+    "close2": 189.31,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -6048,9 +6160,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 54.46,
-    "diff_pct": 0.0,
-    "warn": false
+    "close2": 52.7,
+    "diff_pct": 3.34,
+    "warn": true
    }
   },
   {
@@ -6108,8 +6220,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 194.88,
-    "diff_pct": 0.05,
+    "close2": 192.185,
+    "diff_pct": 1.46,
     "warn": false
    }
   },
@@ -6168,8 +6280,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 219.72,
-    "diff_pct": 0.08,
+    "close2": 218.7,
+    "diff_pct": 0.54,
     "warn": false
    }
   },
@@ -6228,8 +6340,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1085.42,
-    "diff_pct": 0.0,
+    "close2": 1080.18,
+    "diff_pct": 0.49,
     "warn": false
    }
   },
@@ -6288,8 +6400,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 845.42,
-    "diff_pct": 0.01,
+    "close2": 829.65,
+    "diff_pct": 1.91,
     "warn": false
    }
   },
@@ -6301,8 +6413,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 728.07,
    "in_buy": false,
-   "buy_low": 705.2234,
-   "buy_high": 721.1566,
+   "buy_low": 705.2373,
+   "buy_high": 721.1427,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -6313,17 +6425,17 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 771.8527,
-   "sell_high": 787.7858,
+   "sell_low": 771.8665,
+   "sell_high": 787.772,
    "sell_conf": 3,
-   "atr_pct": 2.19,
+   "atr_pct": 2.18,
    "rel_vol": 0.27,
-   "dist_atr": 0.43,
+   "dist_atr": 0.44,
    "score": 1.0,
    "bars": 540,
    "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.43 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.43 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
+   "status_text": "Alım bölgesine 0.44 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.44 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": 27.4,
     "margin": 29.8,
@@ -6348,8 +6460,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 728.08,
-    "diff_pct": -0.0,
+    "close2": 738.675,
+    "diff_pct": -1.44,
     "warn": false
    }
   },
@@ -6408,8 +6520,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 164.01,
-    "diff_pct": 0.06,
+    "close2": 162.855,
+    "diff_pct": 0.77,
     "warn": false
    }
   },
@@ -6468,8 +6580,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 184.68,
-    "diff_pct": 0.01,
+    "close2": 182.975,
+    "diff_pct": 0.94,
     "warn": false
    }
   },
@@ -6528,122 +6640,10 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 23.32,
-    "diff_pct": 0.04,
-    "warn": false
+    "close2": 22.62,
+    "diff_pct": 3.14,
+    "warn": true
    }
-  },
-  {
-   "symbol": "GC=F",
-   "bar_closed_at": "2026-10-05T06:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 4162.3999,
-   "in_buy": false,
-   "buy_low": 4123.5435,
-   "buy_high": 4157.1131,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": true,
-   "sell_low": 4161.0244,
-   "sell_high": 4194.5941,
-   "sell_conf": 3,
-   "atr_pct": 0.94,
-   "rel_vol": 0.6,
-   "dist_atr": 0.14,
-   "score": 1.0,
-   "bars": 1109,
-   "status": "AZALT",
-   "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
-   "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
-   "symbol": "SI=F",
-   "bar_closed_at": "2026-10-05T06:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 61.2,
-   "in_buy": false,
-   "buy_low": 60.6169,
-   "buy_high": 61.1089,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 61.2095,
-   "sell_high": 61.7015,
-   "sell_conf": 3,
-   "atr_pct": 1.64,
-   "rel_vol": 0.34,
-   "dist_atr": 0.09,
-   "score": 1.0,
-   "bars": 1111,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.09 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.09 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
   },
   {
    "symbol": "DBO",
@@ -6700,8 +6700,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 24.0,
-    "diff_pct": 0.0,
+    "close2": 23.6,
+    "diff_pct": 1.69,
     "warn": false
    }
   },
@@ -6760,8 +6760,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 147.37,
-    "diff_pct": 0.03,
+    "close2": 144.63,
+    "diff_pct": 1.93,
     "warn": false
    }
   },
@@ -6820,8 +6820,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 347.49,
-    "diff_pct": -0.01,
+    "close2": 343.025,
+    "diff_pct": 1.29,
     "warn": false
    }
   },
@@ -6880,8 +6880,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 272.29,
-    "diff_pct": 0.04,
+    "close2": 268.48,
+    "diff_pct": 1.46,
     "warn": false
    }
   },
@@ -6940,8 +6940,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 134.38,
-    "diff_pct": -0.01,
+    "close2": 135.7,
+    "diff_pct": -0.98,
     "warn": false
    }
   },
@@ -7000,8 +7000,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1719.99,
-    "diff_pct": -0.04,
+    "close2": 1715.59,
+    "diff_pct": 0.22,
     "warn": false
    }
   },
@@ -7060,8 +7060,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 103.84,
-    "diff_pct": 0.05,
+    "close2": 101.94,
+    "diff_pct": 1.91,
     "warn": false
    }
   },
@@ -7120,8 +7120,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 81.32,
-    "diff_pct": 0.0,
+    "close2": 80.54,
+    "diff_pct": 0.97,
     "warn": false
    }
   },
@@ -7180,8 +7180,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 321.6,
-    "diff_pct": 0.05,
+    "close2": 318.38,
+    "diff_pct": 1.06,
     "warn": false
    }
   },
@@ -7240,9 +7240,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 184.87,
-    "diff_pct": 0.02,
-    "warn": false
+    "close2": 181.045,
+    "diff_pct": 2.13,
+    "warn": true
    }
   },
   {
@@ -7300,8 +7300,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 86.96,
-    "diff_pct": 0.05,
+    "close2": 87.15,
+    "diff_pct": -0.17,
     "warn": false
    }
   },
@@ -7360,8 +7360,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 562.52,
-    "diff_pct": -0.05,
+    "close2": 554.905,
+    "diff_pct": 1.32,
     "warn": false
    }
   },
@@ -7420,8 +7420,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1728.01,
-    "diff_pct": 0.03,
+    "close2": 1720.505,
+    "diff_pct": 0.47,
     "warn": false
    }
   },
@@ -7480,8 +7480,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 188.75,
-    "diff_pct": 0.02,
+    "close2": 189.0,
+    "diff_pct": -0.11,
     "warn": false
    }
   },
@@ -7540,8 +7540,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 406.3,
-    "diff_pct": 0.0,
+    "close2": 412.665,
+    "diff_pct": -1.54,
     "warn": false
    }
   },
@@ -7600,8 +7600,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 341.04,
-    "diff_pct": -0.01,
+    "close2": 339.58,
+    "diff_pct": 0.42,
     "warn": false
    }
   },
@@ -7661,8 +7661,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 31.85,
-    "diff_pct": -0.02,
+    "close2": 32.115,
+    "diff_pct": -0.84,
     "warn": false
    }
   },
@@ -7721,8 +7721,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1074.89,
-    "diff_pct": -0.06,
+    "close2": 1057.835,
+    "diff_pct": 1.55,
     "warn": false
    }
   },
@@ -7781,8 +7781,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 0.1541,
-    "diff_pct": 0.13,
+    "close2": 0.1537,
+    "diff_pct": 0.39,
     "warn": false
    }
   },
@@ -7841,8 +7841,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 43.77,
-    "diff_pct": 0.0,
+    "close2": 42.915,
+    "diff_pct": 1.99,
     "warn": false
    }
   },
@@ -7901,8 +7901,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 111.42,
-    "diff_pct": 0.25,
+    "close2": 109.79,
+    "diff_pct": 1.74,
     "warn": false
    }
   },
@@ -7961,8 +7961,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 709.44,
-    "diff_pct": 0.07,
+    "close2": 707.745,
+    "diff_pct": 0.31,
     "warn": false
    }
   }
