@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06 23:47",
+ "generated_at": "2026-10-07 10:08",
  "tf": "4h",
  "rows": [
   {
@@ -38,9 +38,9 @@
     "margin": 11.0,
     "de": 44.6,
     "growth": -4.2,
-    "target": 89.6,
+    "target": 91.7,
     "rec": "hold",
-    "earn_days": 34,
+    "earn_days": 33,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
@@ -61,8 +61,8 @@
   {
    "symbol": "BZ=F",
    "bar_closed_at": "2026-10-06T20:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
+   "data_fresh": false,
+   "data_issue": "Beklenen son kapalı mum eksik",
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 100.99,
    "in_buy": true,
@@ -86,9 +86,9 @@
    "dist_atr": 0.0,
    "score": 7.0,
    "bars": 1109,
-   "status": "GİRİŞ ADAYI",
-   "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
-   "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4 saatlik kapanış planı bozar — o zaman alma.",
+   "status": "BEKLE",
+   "status_text": "Güncel kapalı mum doğrulanamadı.",
+   "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
     "pe": null,
     "margin": null,
@@ -150,13 +150,13 @@
     "margin": 54.8,
     "de": 18.9,
     "growth": 24.2,
-    "target": 429.4,
+    "target": 429.5,
     "rec": "strong_buy",
-    "earn_days": 22,
+    "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Communication Services",
-    "forward_pe": 23.0,
+    "forward_pe": 23.1,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -169,8 +169,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 347.7,
-    "diff_pct": 0.0,
+    "close2": 347.68,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -206,17 +206,17 @@
    "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
    "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4 saatlik kapanış planı bozar — o zaman alma.",
    "co": {
-    "pe": 247.2,
+    "pe": 257.1,
     "margin": 2.0,
     "de": 5.7,
     "growth": 30.5,
-    "target": 102.2,
+    "target": 100.7,
     "rec": "strong_buy",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 38.1,
+    "forward_pe": 39.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -229,8 +229,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 43.85,
-    "diff_pct": -0.3,
+    "close2": 43.71,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -266,17 +266,17 @@
    "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
    "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4 saatlik kapanış planı bozar — o zaman alma.",
    "co": {
-    "pe": 18.7,
+    "pe": 18.8,
     "margin": 8.2,
     "de": 234.2,
     "growth": 10.5,
-    "target": 636.7,
+    "target": 637.9,
     "rec": "buy",
-    "earn_days": 16,
+    "earn_days": 15,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 15.5,
+    "forward_pe": 15.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -289,8 +289,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 510.8838,
-    "diff_pct": -0.15,
+    "close2": 510.12,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -332,11 +332,11 @@
     "growth": 185.3,
     "target": 28.5,
     "rec": "buy",
-    "earn_days": 35,
+    "earn_days": 34,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": -73.5,
+    "forward_pe": -73.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -362,8 +362,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 107.22,
    "in_buy": true,
-   "buy_low": 106.4198,
-   "buy_high": 107.7409,
+   "buy_low": 106.4199,
+   "buy_high": 107.7408,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 3,
@@ -386,17 +386,17 @@
    "status_text": "Bölge içinde + teyit güçlü — kademeli giriş düşünülebilir.",
    "next": "Kademeli giriş düşünülebilir. En güçlü onay TradingView'daki SB marker'ıdır. Bölge ALTINDA bir 4 saatlik kapanış planı bozar — o zaman alma.",
    "co": {
-    "pe": 38.1,
+    "pe": 38.0,
     "margin": 3.0,
     "de": 71.7,
     "growth": 5.9,
     "target": 126.8,
     "rec": "buy",
-    "earn_days": 44,
+    "earn_days": 43,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Consumer Defensive",
-    "forward_pe": 32.6,
+    "forward_pe": 33.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -409,8 +409,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 107.14,
-    "diff_pct": 0.07,
+    "close2": 107.2,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -452,11 +452,11 @@
     "growth": 656.9,
     "target": 38.6,
     "rec": "none",
-    "earn_days": 36,
+    "earn_days": 35,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": -12.6,
+    "forward_pe": -12.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -469,8 +469,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 22.98,
-    "diff_pct": -0.65,
+    "close2": 22.83,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -510,13 +510,13 @@
     "margin": -25.4,
     "de": 1027.3,
     "growth": 112.5,
-    "target": 141.6,
+    "target": 140.6,
     "rec": "buy",
-    "earn_days": 36,
+    "earn_days": 35,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": -48.3,
+    "forward_pe": -50.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -529,8 +529,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 91.7,
-    "diff_pct": 0.0,
+    "close2": 91.72,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -572,7 +572,7 @@
     "growth": 12.5,
     "target": 571.4,
     "rec": "buy",
-    "earn_days": 27,
+    "earn_days": 26,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Healthcare",
@@ -589,8 +589,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 500.66,
-    "diff_pct": 0.33,
+    "close2": 502.31,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -626,17 +626,17 @@
    "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "co": {
-    "pe": 350.7,
+    "pe": 352.5,
     "margin": 3.7,
     "de": 18.4,
     "growth": 25.5,
     "target": 396.4,
     "rec": "buy",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Consumer Cyclical",
-    "forward_pe": 176.6,
+    "forward_pe": 177.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -649,122 +649,10 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 380.05,
-    "diff_pct": 0.16,
+    "close2": 380.68,
+    "diff_pct": -0.0,
     "warn": false
    }
-  },
-  {
-   "symbol": "GC=F",
-   "bar_closed_at": "2026-10-06T18:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 4192.0,
-   "in_buy": false,
-   "buy_low": 4125.5463,
-   "buy_high": 4160.6539,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 4236.7424,
-   "sell_high": 4271.85,
-   "sell_conf": 0,
-   "atr_pct": 0.84,
-   "rel_vol": 1.23,
-   "dist_atr": 0.89,
-   "score": 5.0,
-   "bars": 1118,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.89 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.89 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
-   "symbol": "SI=F",
-   "bar_closed_at": "2026-10-06T18:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 61.755,
-   "in_buy": false,
-   "buy_low": 60.6673,
-   "buy_high": 61.5727,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 4,
-   "conf_flags": {
-    "yesil": true,
-    "yukari": true,
-    "hacim": true,
-    "rsi": true
-   },
-   "in_sell": false,
-   "sell_low": 62.0023,
-   "sell_high": 62.9077,
-   "sell_conf": 0,
-   "atr_pct": 1.47,
-   "rel_vol": 1.3,
-   "dist_atr": 0.2,
-   "score": 5.0,
-   "bars": 1119,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.20 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.20 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
   },
   {
    "symbol": "AMGN",
@@ -774,8 +662,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 402.73,
    "in_buy": false,
-   "buy_low": 404.3564,
-   "buy_high": 410.3519,
+   "buy_low": 404.3574,
+   "buy_high": 410.3544,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 3,
@@ -804,7 +692,7 @@
     "growth": 9.5,
     "target": 390.9,
     "rec": "hold",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Healthcare",
@@ -821,8 +709,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 401.32,
-    "diff_pct": 0.35,
+    "close2": 402.6,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -834,8 +722,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 287.19,
    "in_buy": false,
-   "buy_low": 244.2451,
-   "buy_high": 265.726,
+   "buy_low": 244.2453,
+   "buy_high": 265.7265,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 4,
@@ -858,17 +746,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 89.2,
+    "pe": 100.0,
     "margin": 27.9,
     "de": 28.5,
     "growth": 36.5,
     "target": 293.9,
     "rec": "strong_buy",
-    "earn_days": 56,
+    "earn_days": 55,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 40.2,
+    "forward_pe": 40.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -881,8 +769,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 286.45,
-    "diff_pct": 0.26,
+    "close2": 287.01,
+    "diff_pct": 0.06,
     "warn": false
    }
   },
@@ -924,11 +812,11 @@
     "growth": -3.5,
     "target": 42.8,
     "rec": "buy",
-    "earn_days": 34,
+    "earn_days": 33,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 92.1,
+    "forward_pe": 95.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -941,9 +829,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 29.36,
-    "diff_pct": 2.04,
-    "warn": true
+    "close2": 29.94,
+    "diff_pct": 0.07,
+    "warn": false
    }
   },
   {
@@ -978,17 +866,17 @@
    "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "co": {
-    "pe": 37.1,
+    "pe": 37.8,
     "margin": 16.1,
     "de": 220.6,
     "growth": 66.9,
     "target": 371.1,
     "rec": "buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Healthcare",
-    "forward_pe": 17.7,
+    "forward_pe": 18.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1014,8 +902,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 184.98,
    "in_buy": true,
-   "buy_low": 182.0346,
-   "buy_high": 184.9854,
+   "buy_low": 182.0355,
+   "buy_high": 184.9845,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 2,
@@ -1026,10 +914,10 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 185.1796,
-   "sell_high": 188.1304,
+   "sell_low": 185.1805,
+   "sell_high": 188.1295,
    "sell_conf": 2,
-   "atr_pct": 1.6,
+   "atr_pct": 1.59,
    "rel_vol": 1.14,
    "dist_atr": 0.0,
    "score": 5.0,
@@ -1038,17 +926,17 @@
    "status_text": "Bölge içinde — teyit oluşuyor, dönüş barını izle.",
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "co": {
-    "pe": 35.1,
+    "pe": 35.2,
     "margin": 9.0,
     "de": 28.7,
     "growth": 52.5,
     "target": 234.7,
     "rec": "strong_buy",
-    "earn_days": 27,
+    "earn_days": 26,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Energy",
-    "forward_pe": 9.8,
+    "forward_pe": 9.9,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1061,8 +949,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 185.1401,
-    "diff_pct": -0.09,
+    "close2": 184.98,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -1104,11 +992,11 @@
     "growth": 47.7,
     "target": 1328.8,
     "rec": "buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Healthcare",
-    "forward_pe": 24.0,
+    "forward_pe": 24.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1121,8 +1009,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1159.0,
-    "diff_pct": -0.11,
+    "close2": 1157.49,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -1134,8 +1022,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 505.68,
    "in_buy": false,
-   "buy_low": 499.3204,
-   "buy_high": 502.821,
+   "buy_low": 499.322,
+   "buy_high": 502.8193,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 3,
@@ -1146,8 +1034,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 506.214,
-   "sell_high": 509.7146,
+   "sell_low": 506.2156,
+   "sell_high": 509.7129,
    "sell_conf": 1,
    "atr_pct": 0.69,
    "rel_vol": 0.65,
@@ -1164,11 +1052,11 @@
     "growth": 10.0,
     "target": 547.7,
     "rec": "buy",
-    "earn_days": 32,
+    "earn_days": 31,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Financial Services",
-    "forward_pe": 23.3,
+    "forward_pe": 23.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1220,11 +1108,11 @@
     "growth": 14.4,
     "target": 419.4,
     "rec": "strong_buy",
-    "earn_days": 21,
+    "earn_days": 20,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Financial Services",
-    "forward_pe": 24.6,
+    "forward_pe": 24.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1237,8 +1125,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 370.52,
-    "diff_pct": 0.03,
+    "close2": 370.64,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -1274,17 +1162,17 @@
    "status_text": "Alım bölgesine 0.55 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.55 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 44.5,
+    "pe": 45.1,
     "margin": 3.0,
     "de": 24.0,
     "growth": 11.1,
     "target": 1057.9,
     "rec": "buy",
-    "earn_days": 65,
+    "earn_days": 64,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Consumer Defensive",
-    "forward_pe": 36.9,
+    "forward_pe": 37.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1297,8 +1185,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 935.0,
-    "diff_pct": 0.08,
+    "close2": 935.68,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -1335,13 +1223,13 @@
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 2/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "hk_weak": true,
    "co": {
-    "pe": 17.3,
+    "pe": 17.2,
     "margin": 7.2,
     "de": 74.2,
     "growth": 3.7,
     "target": 43.4,
     "rec": "buy",
-    "earn_days": 14,
+    "earn_days": 13,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Energy",
@@ -1358,8 +1246,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 32.88,
-    "diff_pct": -0.47,
+    "close2": 32.72,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -1371,8 +1259,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 419.95,
    "in_buy": false,
-   "buy_low": 370.2291,
-   "buy_high": 395.3914,
+   "buy_low": 370.2295,
+   "buy_high": 395.3924,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 3,
@@ -1383,8 +1271,8 @@
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 412.8997,
-   "sell_high": 423.3492,
+   "sell_low": 412.8994,
+   "sell_high": 423.3494,
    "sell_conf": 0,
    "atr_pct": 2.49,
    "rel_vol": 0.72,
@@ -1395,17 +1283,17 @@
    "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
    "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
    "co": {
-    "pe": 1016.9,
+    "pe": 1024.2,
     "margin": 2.7,
     "de": 9.3,
     "growth": 34.5,
     "target": 396.9,
     "rec": "buy",
-    "earn_days": 44,
+    "earn_days": 43,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 83.4,
+    "forward_pe": 86.1,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1418,8 +1306,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 420.31,
-    "diff_pct": -0.09,
+    "close2": 419.91,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -1461,11 +1349,11 @@
     "growth": 687.3,
     "target": 39.0,
     "rec": "none",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": -67.5,
+    "forward_pe": -69.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1478,8 +1366,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 22.4,
-    "diff_pct": -0.13,
+    "close2": 22.36,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -1525,7 +1413,7 @@
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": null,
-    "forward_pe": 2346.0,
+    "forward_pe": 2364.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1538,8 +1426,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 23.28,
-    "diff_pct": 1.55,
+    "close2": 23.64,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -1551,8 +1439,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 144.9,
    "in_buy": false,
-   "buy_low": 140.9632,
-   "buy_high": 144.3768,
+   "buy_low": 140.963,
+   "buy_high": 144.377,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -1563,8 +1451,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 149.6337,
-   "sell_high": 153.0472,
+   "sell_low": 149.6334,
+   "sell_high": 153.0474,
    "sell_conf": 0,
    "atr_pct": 2.36,
    "rel_vol": 0.28,
@@ -1575,7 +1463,7 @@
    "status_text": "Alım bölgesine 0.15 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.15 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 43.6,
+    "pe": null,
     "margin": null,
     "de": null,
     "growth": null,
@@ -1598,8 +1486,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 144.5,
-    "diff_pct": 0.28,
+    "close2": 144.91,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -1635,77 +1523,17 @@
    "status_text": "Alım bölgesine 0.35 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.35 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 85.0,
+    "pe": 86.2,
     "margin": 11.3,
     "de": 67.5,
     "growth": 24.0,
-    "target": 145.0,
-    "rec": "strong_buy",
-    "earn_days": 22,
-    "news": [],
-    "flabel": "Güncel oranlar",
-    "sector": "Technology",
-    "forward_pe": 27.2,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": "SPY",
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": {
-    "close2": 138.0,
-    "diff_pct": -0.01,
-    "warn": false
-   }
-  },
-  {
-   "symbol": "STX",
-   "bar_closed_at": "2026-10-06T17:30:00+00:00",
-   "data_fresh": false,
-   "data_issue": "Beklenen son kapalı mum eksik",
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 810.425,
-   "in_buy": true,
-   "buy_low": 774.7209,
-   "buy_high": 813.7482,
-   "buy_src": "sr",
-   "buy_touch": 2,
-   "conf": 1,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": true,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 821.7963,
-   "sell_high": 860.8237,
-   "sell_conf": 3,
-   "atr_pct": 4.82,
-   "rel_vol": 2.3,
-   "dist_atr": 0.0,
-   "score": 4.0,
-   "bars": 543,
-   "status": "BEKLE",
-   "status_text": "Güncel kapalı mum doğrulanamadı.",
-   "next": "Veri yenilenene kadar teknik karar bekler.",
-   "co": {
-    "pe": 63.8,
-    "margin": 26.1,
-    "de": 179.9,
-    "growth": 48.5,
-    "target": 1125.0,
+    "target": 146.7,
     "rec": "strong_buy",
     "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 16.0,
+    "forward_pe": 27.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1718,8 +1546,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 806.29,
-    "diff_pct": 0.51,
+    "close2": 137.97,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -1755,17 +1583,17 @@
    "status_text": "Alım bölgesine 0.81 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.81 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 178.5,
+    "pe": 192.0,
     "margin": 30.7,
     "de": 2.6,
     "growth": 104.5,
     "target": 390.0,
     "rec": "buy",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 56.7,
+    "forward_pe": 61.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1778,8 +1606,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 390.9436,
-    "diff_pct": -0.27,
+    "close2": 389.8,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -1815,17 +1643,17 @@
    "status_text": "Alım bölgesine 0.04 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.04 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 641.0,
+    "pe": 646.0,
     "margin": 1.5,
     "de": 31.5,
     "growth": 27.5,
     "target": 54.4,
     "rec": "strong_buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 26.0,
+    "forward_pe": 26.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1838,8 +1666,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 38.7735,
-    "diff_pct": -0.03,
+    "close2": 38.76,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -1875,17 +1703,17 @@
    "status_text": "Alım bölgesine 0.47 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.47 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 14.8,
+    "pe": 14.5,
     "margin": 21.0,
     "de": 6.0,
     "growth": 12.9,
     "target": 165.0,
     "rec": "none",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 13.6,
+    "forward_pe": 13.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1898,8 +1726,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 120.81,
-    "diff_pct": -1.57,
+    "close2": 118.87,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -1935,17 +1763,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 531.4,
+    "pe": 537.9,
     "margin": 5.6,
     "de": 4.8,
     "growth": 62.2,
-    "target": 164.5,
+    "target": 164.2,
     "rec": "none",
-    "earn_days": 27,
+    "earn_days": 26,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 41.3,
+    "forward_pe": 41.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -1995,17 +1823,17 @@
    "status_text": "Alım bölgesine 0.92 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.92 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 55.4,
+    "pe": 55.7,
     "margin": 10.2,
     "de": 65.1,
     "growth": 9.2,
     "target": 104.5,
     "rec": "buy",
-    "earn_days": 27,
+    "earn_days": 26,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 19.0,
+    "forward_pe": 19.1,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2018,8 +1846,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 86.63,
-    "diff_pct": -0.4,
+    "close2": 86.31,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -2055,17 +1883,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 43.5,
+    "pe": 42.9,
     "margin": 7.2,
     "de": 11.9,
     "growth": -3.1,
-    "target": 69.8,
+    "target": 74.4,
     "rec": "hold",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 16.8,
+    "forward_pe": 14.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2078,8 +1906,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 83.231,
-    "diff_pct": -0.63,
+    "close2": 82.79,
+    "diff_pct": -0.1,
     "warn": false
    }
   },
@@ -2121,11 +1949,11 @@
     "growth": 88.4,
     "target": 8.0,
     "rec": "buy",
-    "earn_days": 37,
+    "earn_days": 36,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 30.9,
+    "forward_pe": 31.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2138,8 +1966,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 3.81,
-    "diff_pct": -0.27,
+    "close2": 3.8,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -2175,17 +2003,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 87.2,
+    "pe": 99.3,
     "margin": 10.9,
     "de": 107.5,
     "growth": 37.0,
     "target": 513.0,
     "rec": "buy",
-    "earn_days": -33,
+    "earn_days": -34,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 32.9,
+    "forward_pe": 37.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2198,8 +2026,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 445.38,
-    "diff_pct": -0.39,
+    "close2": 443.65,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2235,17 +2063,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 52.0,
+    "pe": 52.5,
     "margin": 19.1,
     "de": 42.1,
     "growth": 36.5,
-    "target": 415.1,
+    "target": 418.0,
     "rec": "none",
-    "earn_days": 49,
+    "earn_days": 48,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 27.6,
+    "forward_pe": 28.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2258,7 +2086,7 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 388.0,
+    "close2": 388.03,
     "diff_pct": -0.03,
     "warn": false
    }
@@ -2301,11 +2129,11 @@
     "growth": 109.3,
     "target": 1162.0,
     "rec": "strong_buy",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 30.7,
+    "forward_pe": 31.9,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2318,8 +2146,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1133.24,
-    "diff_pct": 0.02,
+    "close2": 1133.4,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2362,11 +2190,11 @@
     "growth": 62.0,
     "target": 109.2,
     "rec": "buy",
-    "earn_days": 34,
+    "earn_days": 33,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 1352.5,
+    "forward_pe": 1390.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2379,8 +2207,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 75.2367,
-    "diff_pct": -0.23,
+    "close2": 75.06,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2408,7 +2236,7 @@
    "sell_high": 13.146,
    "sell_conf": 0,
    "atr_pct": 1.73,
-   "rel_vol": 0.71,
+   "rel_vol": 0.66,
    "dist_atr": 1.17,
    "score": 3.0,
    "bars": 544,
@@ -2420,13 +2248,13 @@
     "margin": -3.9,
     "de": 456.7,
     "growth": -3.8,
-    "target": 16.0,
+    "target": 15.9,
     "rec": "buy",
-    "earn_days": 22,
+    "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Consumer Cyclical",
-    "forward_pe": 6.2,
+    "forward_pe": 6.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2439,8 +2267,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 12.27,
-    "diff_pct": 0.04,
+    "close2": 12.28,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -2476,17 +2304,17 @@
    "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
    "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
    "co": {
-    "pe": 38.2,
+    "pe": 38.3,
     "margin": 27.6,
     "de": 78.4,
     "growth": 16.4,
     "target": 328.1,
     "rec": "buy",
-    "earn_days": 23,
+    "earn_days": 26,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 34.7,
+    "forward_pe": 34.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2499,8 +2327,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 333.55,
-    "diff_pct": 0.03,
+    "close2": 333.63,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -2536,17 +2364,17 @@
    "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
    "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
    "co": {
-    "pe": 20.2,
+    "pe": 20.6,
     "margin": 17.4,
     "de": 45.6,
     "growth": 19.6,
     "target": 330.6,
     "rec": "strong_buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Consumer Cyclical",
-    "forward_pe": 24.0,
+    "forward_pe": 24.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2559,8 +2387,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 256.7,
-    "diff_pct": -0.14,
+    "close2": 256.29,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -2602,11 +2430,11 @@
     "growth": 30.4,
     "target": 372.8,
     "rec": "buy",
-    "earn_days": 7,
+    "earn_days": 6,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Financial Services",
-    "forward_pe": 13.3,
+    "forward_pe": 13.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2619,8 +2447,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 331.8,
-    "diff_pct": -0.16,
+    "close2": 331.28,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -2648,7 +2476,7 @@
    "sell_high": 74.2789,
    "sell_conf": 0,
    "atr_pct": 1.52,
-   "rel_vol": 0.71,
+   "rel_vol": 0.67,
    "dist_atr": 2.95,
    "score": 3.0,
    "bars": 544,
@@ -2656,17 +2484,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 21.2,
+    "pe": 21.6,
     "margin": 28.2,
     "de": 55.2,
     "growth": 13.4,
     "target": 92.8,
     "rec": "buy",
-    "earn_days": 14,
+    "earn_days": 13,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Communication Services",
-    "forward_pe": 17.7,
+    "forward_pe": 18.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2679,10 +2507,66 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 68.75,
-    "diff_pct": -0.07,
+    "close2": 68.69,
+    "diff_pct": 0.02,
     "warn": false
    }
+  },
+  {
+   "symbol": "GC=F",
+   "bar_closed_at": "2026-10-07T06:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 4154.7002,
+   "in_buy": true,
+   "buy_low": 4126.3981,
+   "buy_high": 4157.3986,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 4160.739,
+   "sell_high": 4191.7394,
+   "sell_conf": 3,
+   "atr_pct": 0.8,
+   "rel_vol": 0.57,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 1120,
+   "status": "TEYİT BEKLE",
+   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
+   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
   },
   {
    "symbol": "BNO",
@@ -2692,8 +2576,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 61.915,
    "in_buy": false,
-   "buy_low": 57.9043,
-   "buy_high": 59.2683,
+   "buy_low": 57.905,
+   "buy_high": 59.2676,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -2704,8 +2588,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 62.0284,
-   "sell_high": 63.3924,
+   "sell_low": 62.0291,
+   "sell_high": 63.3917,
    "sell_conf": 0,
    "atr_pct": 2.2,
    "rel_vol": 0.17,
@@ -2739,8 +2623,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 62.08,
-    "diff_pct": -0.27,
+    "close2": 61.93,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -2768,7 +2652,7 @@
    "sell_high": 38.6776,
    "sell_conf": 1,
    "atr_pct": 1.89,
-   "rel_vol": 0.34,
+   "rel_vol": 0.39,
    "dist_atr": 0.96,
    "score": 3.0,
    "bars": 435,
@@ -2776,7 +2660,7 @@
    "status_text": "Güncel kapalı mum doğrulanamadı.",
    "next": "Veri yenilenene kadar teknik karar bekler.",
    "co": {
-    "pe": 7.8,
+    "pe": null,
     "margin": null,
     "de": null,
     "growth": null,
@@ -2836,7 +2720,7 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 44.5,
+    "pe": 44.7,
     "margin": null,
     "de": null,
     "growth": null,
@@ -2872,8 +2756,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 57.8919,
    "in_buy": false,
-   "buy_low": 54.919,
-   "buy_high": 55.821,
+   "buy_low": 54.9193,
+   "buy_high": 55.8207,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 3,
@@ -2884,8 +2768,8 @@
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 57.458,
-   "sell_high": 58.36,
+   "sell_low": 57.4583,
+   "sell_high": 58.3597,
    "sell_conf": 0,
    "atr_pct": 1.56,
    "rel_vol": 0.88,
@@ -2956,17 +2840,17 @@
    "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "co": {
-    "pe": 46.8,
+    "pe": 45.8,
     "margin": 30.1,
     "de": 28.7,
     "growth": 24.8,
     "target": 638.9,
     "rec": "strong_buy",
-    "earn_days": 37,
+    "earn_days": 36,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 29.4,
+    "forward_pe": 28.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -2979,8 +2863,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 530.59,
-    "diff_pct": -0.06,
+    "close2": 530.27,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -3016,17 +2900,17 @@
    "status_text": "Alım bölgesine 0.39 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.39 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 26.8,
+    "pe": 26.5,
     "margin": 7.0,
     "de": 23.9,
     "growth": 8.6,
-    "target": 185.8,
+    "target": 185.4,
     "rec": "strong_buy",
-    "earn_days": 49,
+    "earn_days": 48,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Consumer Cyclical",
-    "forward_pe": 12.0,
+    "forward_pe": 11.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3039,8 +2923,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 109.18,
-    "diff_pct": 0.07,
+    "close2": 109.26,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3080,9 +2964,9 @@
     "margin": -2.9,
     "de": 38.3,
     "growth": -4.2,
-    "target": 145.4,
+    "target": 145.2,
     "rec": "buy",
-    "earn_days": 43,
+    "earn_days": 42,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Communication Services",
@@ -3099,8 +2983,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 87.25,
-    "diff_pct": -0.19,
+    "close2": 87.05,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -3136,17 +3020,17 @@
    "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "co": {
-    "pe": 23.1,
+    "pe": 22.5,
     "margin": 56.5,
     "de": 1.3,
     "growth": 371.6,
-    "target": 2136.5,
+    "target": 2173.0,
     "rec": "buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 6.4,
+    "forward_pe": 6.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3159,8 +3043,68 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1664.0,
-    "diff_pct": -0.22,
+    "close2": 1660.46,
+    "diff_pct": -0.01,
+    "warn": false
+   }
+  },
+  {
+   "symbol": "STX",
+   "bar_closed_at": "2026-10-06T20:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 805.46,
+   "in_buy": true,
+   "buy_low": 775.6895,
+   "buy_high": 812.7796,
+   "buy_src": "sr",
+   "buy_touch": 2,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 822.765,
+   "sell_high": 859.855,
+   "sell_conf": 3,
+   "atr_pct": 4.6,
+   "rel_vol": 0.91,
+   "dist_atr": 0.0,
+   "score": 3.0,
+   "bars": 544,
+   "status": "TEYİT BEKLE",
+   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
+   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "co": {
+    "pe": 58.0,
+    "margin": 26.1,
+    "de": 179.9,
+    "growth": 48.5,
+    "target": 1125.0,
+    "rec": "strong_buy",
+    "earn_days": 20,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": "Technology",
+    "forward_pe": 14.5,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": "SPY",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": {
+    "close2": 805.63,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -3196,17 +3140,17 @@
    "status_text": "Alım bölgesine 0.51 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.51 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 75.3,
+    "pe": 78.3,
     "margin": 33.8,
     "de": 1.0,
     "growth": 114.7,
     "target": 279.1,
     "rec": "strong_buy",
-    "earn_days": 55,
+    "earn_days": 54,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 21.9,
+    "forward_pe": 22.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3219,8 +3163,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 220.78,
-    "diff_pct": 0.0,
+    "close2": 220.83,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -3262,11 +3206,11 @@
     "growth": 24.0,
     "target": 5.7,
     "rec": "none",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 35.2,
+    "forward_pe": 34.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3279,8 +3223,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 2.88,
-    "diff_pct": -1.22,
+    "close2": 2.85,
+    "diff_pct": -0.18,
     "warn": false
    }
   },
@@ -3322,11 +3266,11 @@
     "growth": 286.8,
     "target": 66.6,
     "rec": "strong_buy",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": -33.2,
+    "forward_pe": -33.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3339,8 +3283,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 43.42,
-    "diff_pct": -0.24,
+    "close2": 43.29,
+    "diff_pct": 0.06,
     "warn": false
    }
   },
@@ -3352,8 +3296,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 109.31,
    "in_buy": false,
-   "buy_low": 77.9073,
-   "buy_high": 82.3441,
+   "buy_low": 77.9087,
+   "buy_high": 82.3426,
    "buy_src": "sr",
    "buy_touch": 3,
    "conf": 3,
@@ -3364,8 +3308,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 126.0816,
-   "sell_high": 130.5184,
+   "sell_low": 126.083,
+   "sell_high": 130.517,
    "sell_conf": 0,
    "atr_pct": 4.06,
    "rel_vol": 0.56,
@@ -3382,11 +3326,11 @@
     "growth": 55.2,
     "target": 94.5,
     "rec": "buy",
-    "earn_days": 16,
+    "earn_days": 15,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 40.4,
+    "forward_pe": 41.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3399,8 +3343,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 110.002,
-    "diff_pct": -0.63,
+    "close2": 109.3,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -3436,17 +3380,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 20.7,
+    "pe": 20.9,
     "margin": 22.6,
     "de": 93.3,
     "growth": 19.5,
     "target": 310.5,
     "rec": "buy",
-    "earn_days": 21,
+    "earn_days": 20,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 13.3,
+    "forward_pe": 13.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3459,8 +3403,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 243.99,
-    "diff_pct": 0.19,
+    "close2": 244.38,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -3496,17 +3440,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 43.4,
+    "pe": 45.9,
     "margin": 6.4,
     "de": 77.5,
     "growth": 47.6,
     "target": 74.3,
     "rec": "buy",
-    "earn_days": 0,
+    "earn_days": -1,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 18.0,
+    "forward_pe": 14.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3519,9 +3463,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 66.8358,
-    "diff_pct": -3.71,
-    "warn": true
+    "close2": 64.21,
+    "diff_pct": 0.23,
+    "warn": false
    }
   },
   {
@@ -3556,17 +3500,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 50.6,
+    "pe": 52.3,
     "margin": 31.7,
     "de": 1.5,
     "growth": 20.4,
-    "target": 147.9,
+    "target": 141.6,
     "rec": "strong_buy",
-    "earn_days": 20,
+    "earn_days": 19,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 29.2,
+    "forward_pe": 30.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3616,17 +3560,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 81.0,
+    "pe": 82.1,
     "margin": 11.3,
     "de": 31.6,
     "growth": 33.7,
     "target": 412.5,
     "rec": "buy",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 23.8,
+    "forward_pe": 24.1,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3639,8 +3583,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 337.68,
-    "diff_pct": 0.2,
+    "close2": 338.36,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -3676,17 +3620,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 42.2,
+    "pe": 44.7,
     "margin": 12.8,
     "de": 11.5,
     "growth": 50.3,
     "target": 2197.0,
     "rec": "none",
-    "earn_days": 16,
+    "earn_days": 15,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 28.5,
+    "forward_pe": 30.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3742,11 +3686,11 @@
     "growth": 16.4,
     "target": 49.4,
     "rec": "buy",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 9.1,
+    "forward_pe": 9.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3759,8 +3703,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 42.3,
-    "diff_pct": 0.35,
+    "close2": 42.45,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -3772,8 +3716,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 239.17,
    "in_buy": false,
-   "buy_low": 225.0918,
-   "buy_high": 230.4242,
+   "buy_low": 225.0915,
+   "buy_high": 230.4234,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 1,
@@ -3784,8 +3728,8 @@
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 238.9956,
-   "sell_high": 242.44,
+   "sell_low": 238.9949,
+   "sell_high": 242.4393,
    "sell_conf": 3,
    "atr_pct": 1.44,
    "rel_vol": 0.51,
@@ -3802,7 +3746,7 @@
     "growth": 105.9,
     "target": 328.7,
     "rec": "strong_buy",
-    "earn_days": 42,
+    "earn_days": 41,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
@@ -3819,8 +3763,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 239.67,
-    "diff_pct": -0.21,
+    "close2": 239.24,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -3860,13 +3804,13 @@
     "margin": 40.3,
     "de": 29.1,
     "growth": 17.7,
-    "target": 582.6,
+    "target": 585.6,
     "rec": "strong_buy",
-    "earn_days": 22,
+    "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 22.2,
+    "forward_pe": 22.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3879,8 +3823,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 529.4116,
-    "diff_pct": 0.01,
+    "close2": 529.3,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -3917,17 +3861,17 @@
    "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
    "hk_weak": true,
    "co": {
-    "pe": 40.0,
+    "pe": 39.8,
     "margin": 4.6,
     "de": 3.9,
     "growth": 3.9,
     "target": 273.3,
     "rec": "none",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 31.6,
+    "forward_pe": 31.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -3977,17 +3921,17 @@
    "status_text": "Alım bölgesine 0.36 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.36 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 36.5,
+    "pe": 37.2,
     "margin": 14.5,
     "de": 232.8,
     "growth": 24.0,
     "target": 970.8,
     "rec": "buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 26.2,
+    "forward_pe": 26.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4000,8 +3944,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 863.5,
-    "diff_pct": -0.01,
+    "close2": 863.44,
+    "diff_pct": -0.0,
     "warn": false
    }
   },
@@ -4037,17 +3981,17 @@
    "status_text": "Alım bölgesine 0.06 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.06 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 15.1,
+    "pe": 15.4,
     "margin": 10.5,
     "de": 95.3,
     "growth": 5.1,
-    "target": 639.2,
+    "target": 638.4,
     "rec": "buy",
-    "earn_days": 14,
+    "earn_days": 13,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 15.6,
+    "forward_pe": 15.9,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4060,8 +4004,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 484.26,
-    "diff_pct": -0.22,
+    "close2": 483.11,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -4097,17 +4041,17 @@
    "status_text": "Alım bölgesine 0.43 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.43 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 22.3,
+    "pe": 22.7,
     "margin": 26.4,
     "de": 251.7,
     "growth": 29.6,
     "target": 238.0,
     "rec": "buy",
-    "earn_days": 65,
+    "earn_days": 64,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 13.0,
+    "forward_pe": 13.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4120,8 +4064,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 144.89,
-    "diff_pct": -0.08,
+    "close2": 144.77,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -4133,8 +4077,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 278.93,
    "in_buy": false,
-   "buy_low": 241.3223,
-   "buy_high": 264.9564,
+   "buy_low": 241.322,
+   "buy_high": 264.9556,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 1,
@@ -4145,8 +4089,8 @@
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 275.6097,
-   "sell_high": 281.9582,
+   "sell_low": 275.6083,
+   "sell_high": 281.9576,
    "sell_conf": 3,
    "atr_pct": 2.28,
    "rel_vol": 0.49,
@@ -4157,17 +4101,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 4544.5,
+    "pe": 5577.2,
     "margin": 0.8,
     "de": 16.0,
     "growth": 25.8,
-    "target": 236.3,
+    "target": 237.8,
     "rec": "buy",
-    "earn_days": 56,
+    "earn_days": 55,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 169.8,
+    "forward_pe": 173.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4180,8 +4124,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 279.1,
-    "diff_pct": -0.06,
+    "close2": 278.86,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -4217,17 +4161,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 161.2,
+    "pe": 165.7,
     "margin": 15.6,
     "de": 6.4,
     "growth": 50.1,
-    "target": 629.2,
+    "target": 636.2,
     "rec": "strong_buy",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 40.2,
+    "forward_pe": 41.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4240,8 +4184,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 651.45,
-    "diff_pct": -0.29,
+    "close2": 649.42,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -4253,8 +4197,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 779.14,
    "in_buy": false,
-   "buy_low": 766.2173,
-   "buy_high": 768.7747,
+   "buy_low": 766.2185,
+   "buy_high": 768.7777,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 1,
@@ -4265,8 +4209,8 @@
     "rsi": true
    },
    "in_sell": true,
-   "sell_low": 777.1717,
-   "sell_high": 781.5683,
+   "sell_low": 777.1708,
+   "sell_high": 781.5692,
    "sell_conf": 3,
    "atr_pct": 0.56,
    "rel_vol": 0.66,
@@ -4277,7 +4221,7 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 25.0,
+    "pe": 24.7,
     "margin": null,
     "de": null,
     "growth": null,
@@ -4300,42 +4244,42 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 779.5416,
-    "diff_pct": -0.05,
+    "close2": 779.09,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
   {
    "symbol": "USDTRY=X",
-   "bar_closed_at": "2026-10-06T20:00:00+00:00",
+   "bar_closed_at": "2026-10-07T04:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 49.1728,
+   "close": 49.1924,
    "in_buy": false,
-   "buy_low": 48.8037,
-   "buy_high": 48.9207,
+   "buy_low": 48.8947,
+   "buy_high": 49.0073,
    "buy_src": "sr",
-   "buy_touch": 2,
+   "buy_touch": 1,
    "conf": 2,
    "conf_flags": {
-    "yesil": true,
+    "yesil": false,
     "yukari": true,
     "hacim": false,
-    "rsi": false
+    "rsi": true
    },
-   "in_sell": false,
-   "sell_low": 49.1778,
-   "sell_high": 49.2948,
+   "in_sell": true,
+   "sell_low": 49.1846,
+   "sell_high": 49.2971,
    "sell_conf": 1,
-   "atr_pct": 0.24,
+   "atr_pct": 0.23,
    "rel_vol": null,
-   "dist_atr": 2.15,
+   "dist_atr": 1.64,
    "score": 2.0,
-   "bars": 1578,
-   "status": "BEKLE",
-   "status_text": "İki bölge arasında — net avantaj yok.",
-   "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
+   "bars": 1580,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
    "co": {
     "pe": null,
     "margin": null,
@@ -4416,8 +4360,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 54.6125,
-    "diff_pct": -0.24,
+    "close2": 54.43,
+    "diff_pct": 0.09,
     "warn": false
    }
   },
@@ -4453,17 +4397,17 @@
    "status_text": "Alım bölgesine 0.56 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.56 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 60.4,
+    "pe": 59.5,
     "margin": 30.1,
     "de": 9.1,
     "growth": 21.3,
-    "target": 2093.9,
+    "target": 2104.7,
     "rec": "strong_buy",
-    "earn_days": 8,
+    "earn_days": 7,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 31.9,
+    "forward_pe": 31.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4476,8 +4420,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1833.197,
-    "diff_pct": 0.04,
+    "close2": 1834.1,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -4513,17 +4457,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 60.0,
+    "pe": 60.1,
     "margin": 31.3,
     "de": 33.0,
     "growth": 30.0,
     "target": 375.6,
     "rec": "strong_buy",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 29.4,
+    "forward_pe": 28.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4536,8 +4480,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 333.37,
-    "diff_pct": 0.16,
+    "close2": 333.89,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -4549,8 +4493,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 297.32,
    "in_buy": false,
-   "buy_low": 288.8099,
-   "buy_high": 293.4461,
+   "buy_low": 288.8094,
+   "buy_high": 293.4466,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 1,
@@ -4561,8 +4505,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 307.9719,
-   "sell_high": 312.6081,
+   "sell_low": 307.9714,
+   "sell_high": 312.6086,
    "sell_conf": 2,
    "atr_pct": 1.56,
    "rel_vol": 0.72,
@@ -4573,17 +4517,17 @@
    "status_text": "Alım bölgesine 0.84 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.84 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 44.9,
+    "pe": 45.2,
     "margin": 31.1,
     "de": 78.0,
     "growth": 22.8,
     "target": 324.7,
     "rec": "buy",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 27.7,
+    "forward_pe": 27.9,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4633,17 +4577,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 55.4,
+    "pe": 57.6,
     "margin": 5.3,
     "de": 4.4,
     "growth": 21.7,
-    "target": 162.5,
+    "target": 153.3,
     "rec": "none",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 17.7,
+    "forward_pe": 18.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4699,7 +4643,7 @@
     "growth": 287.1,
     "target": 2.5,
     "rec": "none",
-    "earn_days": 38,
+    "earn_days": 37,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
@@ -4716,8 +4660,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 0.1547,
-    "diff_pct": -0.26,
+    "close2": 0.1537,
+    "diff_pct": 0.39,
     "warn": false
    }
   },
@@ -4743,7 +4687,7 @@
    "in_sell": false,
    "sell_low": 5.0044,
    "sell_high": 5.176,
-   "sell_conf": 3,
+   "sell_conf": 2,
    "atr_pct": 3.52,
    "rel_vol": 1.01,
    "dist_atr": 1.3,
@@ -4753,13 +4697,13 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 121.8,
+    "pe": 122.0,
     "margin": 18.3,
     "de": 1.7,
     "growth": 50.6,
     "target": 8.4,
     "rec": "strong_buy",
-    "earn_days": 35,
+    "earn_days": 34,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
@@ -4776,8 +4720,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 4.9,
-    "diff_pct": -0.61,
+    "close2": 4.88,
+    "diff_pct": -0.2,
     "warn": false
    }
   },
@@ -4813,17 +4757,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 104.6,
+    "pe": 111.7,
     "margin": 20.7,
     "de": 26.9,
     "growth": 35.8,
     "target": 395.3,
     "rec": "buy",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 38.7,
+    "forward_pe": 41.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4836,8 +4780,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 352.52,
-    "diff_pct": -0.47,
+    "close2": 350.67,
+    "diff_pct": 0.06,
     "warn": false
    }
   },
@@ -4849,8 +4793,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 40.18,
    "in_buy": false,
-   "buy_low": 35.8565,
-   "buy_high": 37.3982,
+   "buy_low": 35.8567,
+   "buy_high": 37.3987,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 1,
@@ -4861,8 +4805,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 40.606,
-   "sell_high": 41.7007,
+   "sell_low": 40.6063,
+   "sell_high": 41.7004,
    "sell_conf": 3,
    "atr_pct": 2.72,
    "rel_vol": 0.42,
@@ -4896,8 +4840,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 40.32,
-    "diff_pct": -0.35,
+    "close2": 40.17,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -4933,17 +4877,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 30.7,
+    "pe": 31.3,
     "margin": 57.6,
     "de": 1.5,
     "growth": 80.7,
     "target": null,
     "rec": "none",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 40.3,
+    "forward_pe": 41.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -4956,8 +4900,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 114.61,
-    "diff_pct": 1.72,
+    "close2": 116.53,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -4993,17 +4937,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 127.7,
+    "pe": 130.6,
     "margin": 13.1,
     "de": 70.1,
     "growth": 32.7,
     "target": 212.5,
     "rec": "strong_buy",
-    "earn_days": 48,
+    "earn_days": 47,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 32.9,
+    "forward_pe": 33.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5016,8 +4960,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 197.0,
-    "diff_pct": 0.11,
+    "close2": 197.2,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -5029,8 +4973,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 88.63,
    "in_buy": false,
-   "buy_low": 82.3291,
-   "buy_high": 85.205,
+   "buy_low": 82.329,
+   "buy_high": 85.2048,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 1,
@@ -5053,17 +4997,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 43.6,
+    "pe": 44.3,
     "margin": 17.7,
     "de": 120.4,
     "growth": 55.0,
-    "target": 99.7,
+    "target": 100.9,
     "rec": "strong_buy",
-    "earn_days": 22,
+    "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 26.4,
+    "forward_pe": 26.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5076,8 +5020,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 89.15,
-    "diff_pct": -0.58,
+    "close2": 88.62,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -5089,8 +5033,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 278.88,
    "in_buy": false,
-   "buy_low": 258.6873,
-   "buy_high": 267.6936,
+   "buy_low": 258.6998,
+   "buy_high": 267.7031,
    "buy_src": "dip",
    "buy_touch": 0,
    "conf": 2,
@@ -5101,8 +5045,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 320.3398,
-   "sell_high": 329.3461,
+   "sell_low": 320.3413,
+   "sell_high": 329.3446,
    "sell_conf": 2,
    "atr_pct": 3.23,
    "rel_vol": 0.4,
@@ -5113,17 +5057,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 21.7,
+    "pe": 21.4,
     "margin": 64.6,
     "de": 111.1,
     "growth": 52.8,
     "target": 495.7,
     "rec": "buy",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Communication Services",
-    "forward_pe": 13.4,
+    "forward_pe": 13.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5136,8 +5080,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 278.99,
-    "diff_pct": -0.04,
+    "close2": 278.78,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -5173,17 +5117,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 73.1,
+    "pe": 77.5,
     "margin": 11.2,
     "de": 71.4,
     "growth": 16.6,
     "target": 187.7,
     "rec": "buy",
-    "earn_days": 21,
+    "earn_days": 20,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 36.5,
+    "forward_pe": 38.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5196,8 +5140,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 169.19,
-    "diff_pct": -0.12,
+    "close2": 168.97,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -5233,17 +5177,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 181.7,
+    "pe": 195.2,
     "margin": 3.1,
     "de": 98.6,
     "growth": 454.0,
-    "target": 283.6,
+    "target": 282.5,
     "rec": "buy",
-    "earn_days": 35,
+    "earn_days": 34,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Communication Services",
-    "forward_pe": -66.6,
+    "forward_pe": -71.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5256,8 +5200,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 250.175,
-    "diff_pct": -0.16,
+    "close2": 249.87,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -5293,17 +5237,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 26.2,
+    "pe": 29.4,
     "margin": 11.1,
     "de": 76.4,
     "growth": 23.0,
     "target": 341.5,
     "rec": "buy",
-    "earn_days": 34,
+    "earn_days": 33,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Utilities",
-    "forward_pe": 20.1,
+    "forward_pe": 22.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5316,9 +5260,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 293.99,
-    "diff_pct": 2.1,
-    "warn": true
+    "close2": 300.4,
+    "diff_pct": -0.08,
+    "warn": false
    }
   },
   {
@@ -5359,11 +5303,11 @@
     "growth": 1.1,
     "target": 240.6,
     "rec": "buy",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 16.9,
+    "forward_pe": 16.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5376,8 +5320,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 221.46,
-    "diff_pct": -0.05,
+    "close2": 221.29,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -5387,7 +5331,7 @@
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 375.92,
+   "close": 375.91,
    "in_buy": false,
    "buy_low": null,
    "buy_high": null,
@@ -5419,11 +5363,11 @@
     "growth": 85.5,
     "target": 531.3,
     "rec": "strong_buy",
-    "earn_days": 64,
+    "earn_days": 63,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 18.7,
+    "forward_pe": 19.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5436,8 +5380,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 376.6827,
-    "diff_pct": -0.2,
+    "close2": 375.81,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -5449,8 +5393,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 482.39,
    "in_buy": false,
-   "buy_low": 441.2357,
-   "buy_high": 461.494,
+   "buy_low": 441.2359,
+   "buy_high": 461.4945,
    "buy_src": "pullback",
    "buy_touch": 0,
    "conf": 0,
@@ -5461,8 +5405,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 484.9124,
-   "sell_high": 491.1315,
+   "sell_low": 484.9123,
+   "sell_high": 491.1314,
    "sell_conf": 3,
    "atr_pct": 1.29,
    "rel_vol": 0.65,
@@ -5473,17 +5417,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 35.3,
+    "pe": 35.1,
     "margin": 49.9,
     "de": 16.5,
     "growth": 36.0,
-    "target": 554.3,
+    "target": 555.0,
     "rec": "strong_buy",
-    "earn_days": 9,
+    "earn_days": 8,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 22.2,
+    "forward_pe": 22.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5496,8 +5440,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 483.5,
-    "diff_pct": -0.23,
+    "close2": 482.3,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -5533,13 +5477,13 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 21.1,
+    "pe": 21.2,
     "margin": 9.1,
     "de": 15.9,
     "growth": 44.1,
     "target": 173.4,
     "rec": "buy",
-    "earn_days": 24,
+    "earn_days": 23,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Energy",
@@ -5556,8 +5500,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 164.62,
-    "diff_pct": -0.1,
+    "close2": 164.48,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -5593,17 +5537,17 @@
    "status_text": "Alım bölgesine 0.40 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.40 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 32.5,
+    "pe": 32.3,
     "margin": 8.3,
     "de": 57.0,
     "growth": 14.5,
     "target": 234.1,
     "rec": "buy",
-    "earn_days": 14,
+    "earn_days": 13,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 23.5,
+    "forward_pe": 23.3,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5616,8 +5560,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 183.2952,
-    "diff_pct": -0.0,
+    "close2": 183.29,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -5645,7 +5589,7 @@
    "sell_high": 61.9742,
    "sell_conf": 2,
    "atr_pct": 0.58,
-   "rel_vol": 0.73,
+   "rel_vol": 0.71,
    "dist_atr": 3.14,
    "score": 1.0,
    "bars": 544,
@@ -5653,7 +5597,7 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 18.1,
+    "pe": 18.3,
     "margin": null,
     "de": null,
     "growth": null,
@@ -5680,6 +5624,62 @@
     "diff_pct": -0.01,
     "warn": false
    }
+  },
+  {
+   "symbol": "SI=F",
+   "bar_closed_at": "2026-10-07T06:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 60.84,
+   "in_buy": false,
+   "buy_low": 59.8961,
+   "buy_high": 60.7476,
+   "buy_src": "sr",
+   "buy_touch": 3,
+   "conf": 0,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": false,
+    "rsi": false
+   },
+   "in_sell": true,
+   "sell_low": 60.7727,
+   "sell_high": 61.6242,
+   "sell_conf": 3,
+   "atr_pct": 1.4,
+   "rel_vol": 0.35,
+   "dist_atr": 0.11,
+   "score": 1.0,
+   "bars": 1121,
+   "status": "AZALT",
+   "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
+   "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
   },
   {
    "symbol": "REMX",
@@ -5713,7 +5713,7 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 28.9,
+    "pe": 25.5,
     "margin": null,
     "de": null,
     "growth": null,
@@ -5736,8 +5736,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 63.77,
-    "diff_pct": 0.11,
+    "close2": 63.79,
+    "diff_pct": 0.08,
     "warn": false
    }
   },
@@ -5773,17 +5773,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 49.8,
+    "pe": 49.9,
     "margin": 29.8,
     "de": 27.3,
     "growth": 39.6,
     "target": 470.7,
     "rec": "strong_buy",
-    "earn_days": 49,
+    "earn_days": 48,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 25.6,
+    "forward_pe": 25.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5796,8 +5796,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 419.5,
-    "diff_pct": 0.24,
+    "close2": 420.55,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -5809,8 +5809,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 224.97,
    "in_buy": false,
-   "buy_low": 218.6534,
-   "buy_high": 223.7066,
+   "buy_low": 218.6536,
+   "buy_high": 223.7064,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -5821,8 +5821,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 236.9234,
-   "sell_high": 241.9766,
+   "sell_low": 236.9236,
+   "sell_high": 241.9764,
    "sell_conf": 3,
    "atr_pct": 2.25,
    "rel_vol": 0.83,
@@ -5833,17 +5833,17 @@
    "status_text": "Alım bölgesine 0.25 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.25 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 21.0,
+    "pe": 20.6,
     "margin": 22.0,
     "de": 110.4,
     "growth": 10.8,
     "target": 283.4,
     "rec": "buy",
-    "earn_days": 57,
+    "earn_days": 56,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 14.3,
+    "forward_pe": 14.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5856,8 +5856,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 224.5446,
-    "diff_pct": 0.19,
+    "close2": 224.99,
+    "diff_pct": -0.01,
     "warn": false
    }
   },
@@ -5869,8 +5869,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 197.55,
    "in_buy": false,
-   "buy_low": 188.3402,
-   "buy_high": 193.0662,
+   "buy_low": 188.3405,
+   "buy_high": 193.066,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 0,
@@ -5881,8 +5881,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 203.645,
-   "sell_high": 208.371,
+   "sell_low": 203.6453,
+   "sell_high": 208.3708,
    "sell_conf": 3,
    "atr_pct": 2.39,
    "rel_vol": 0.78,
@@ -5893,17 +5893,17 @@
    "status_text": "Alım bölgesine 0.95 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.95 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 56.5,
+    "pe": 54.0,
     "margin": 35.6,
     "de": 96.9,
     "growth": 15.2,
     "target": 232.8,
     "rec": "buy",
-    "earn_days": 22,
+    "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 30.8,
+    "forward_pe": 29.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -5916,8 +5916,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 197.73,
-    "diff_pct": -0.09,
+    "close2": 197.46,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -5959,7 +5959,7 @@
     "growth": 379.3,
     "target": 1535.6,
     "rec": "strong_buy",
-    "earn_days": 78,
+    "earn_days": 77,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
@@ -5976,8 +5976,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1045.6,
-    "diff_pct": -0.0,
+    "close2": 1045.56,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -6013,17 +6013,17 @@
    "status_text": "Alım bölgesine 0.01 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.01 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 16.4,
+    "pe": 15.3,
     "margin": 72.9,
     "de": 13.4,
     "growth": 43.8,
-    "target": 664.9,
+    "target": 666.6,
     "rec": "buy",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 13.9,
+    "forward_pe": 12.9,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6036,8 +6036,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 412.2999,
-    "diff_pct": -0.29,
+    "close2": 411.04,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -6079,11 +6079,11 @@
     "growth": 13.1,
     "target": 46.7,
     "rec": "none",
-    "earn_days": 34,
+    "earn_days": 33,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 45.7,
+    "forward_pe": 45.1,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6139,11 +6139,11 @@
     "growth": -3.7,
     "target": 275.9,
     "rec": "buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 7.6,
+    "forward_pe": 7.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6156,8 +6156,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 180.19,
-    "diff_pct": -0.21,
+    "close2": 179.8,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -6193,17 +6193,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 90.0,
+    "pe": 89.6,
     "margin": 24.5,
     "de": 0.5,
     "growth": 47.6,
     "target": 1839.8,
     "rec": "strong_buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 42.3,
+    "forward_pe": 42.1,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6216,8 +6216,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 1474.2701,
-    "diff_pct": 0.01,
+    "close2": 1473.69,
+    "diff_pct": 0.05,
     "warn": false
    }
   },
@@ -6259,11 +6259,11 @@
     "growth": -27.3,
     "target": 14.1,
     "rec": "hold",
-    "earn_days": 27,
+    "earn_days": 26,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": -97.9,
+    "forward_pe": -95.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6276,8 +6276,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 12.06,
-    "diff_pct": -0.75,
+    "close2": 11.97,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -6313,17 +6313,17 @@
    "status_text": "Alım bölgesine 0.24 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.24 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 19.3,
+    "pe": 19.2,
     "margin": 32.2,
     "de": 1.3,
     "growth": -11.4,
     "target": 115.4,
     "rec": "none",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 16.8,
+    "forward_pe": 16.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6373,17 +6373,17 @@
    "status_text": "Alım bölgesine 0.56 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.56 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 123.5,
+    "pe": 121.4,
     "margin": 5.6,
     "de": null,
     "growth": 2.7,
     "target": 75.5,
     "rec": "buy",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 29.0,
+    "forward_pe": 28.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6407,10 +6407,10 @@
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 181.04,
+   "close": 181.06,
    "in_buy": false,
-   "buy_low": 173.6454,
-   "buy_high": 178.2946,
+   "buy_low": 173.6455,
+   "buy_high": 178.2945,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -6421,11 +6421,11 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 193.7653,
-   "sell_high": 198.4146,
+   "sell_low": 193.7655,
+   "sell_high": 198.4145,
    "sell_conf": 4,
    "atr_pct": 2.57,
-   "rel_vol": 0.7,
+   "rel_vol": 0.69,
    "dist_atr": 0.59,
    "score": 1.0,
    "bars": 544,
@@ -6433,13 +6433,13 @@
    "status_text": "Alım bölgesine 0.59 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.59 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 20.9,
+    "pe": 21.0,
     "margin": 21.0,
     "de": 55.2,
     "growth": -4.0,
     "target": 194.1,
     "rec": "hold",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
@@ -6456,8 +6456,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 181.15,
-    "diff_pct": -0.06,
+    "close2": 181.03,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -6499,7 +6499,7 @@
     "growth": 8.9,
     "target": 129.3,
     "rec": "hold",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
@@ -6516,8 +6516,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 119.81,
-    "diff_pct": -0.33,
+    "close2": 119.39,
+    "diff_pct": 0.02,
     "warn": false
    }
   },
@@ -6559,11 +6559,11 @@
     "growth": -24.1,
     "target": 27.5,
     "rec": "hold",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": -5.8,
+    "forward_pe": -5.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6576,8 +6576,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 31.75,
-    "diff_pct": 0.24,
+    "close2": 31.83,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -6613,17 +6613,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 386.6,
+    "pe": 393.9,
     "margin": 3.8,
     "de": 19.0,
     "growth": 31.1,
-    "target": 169.8,
+    "target": 168.6,
     "rec": "buy",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Basic Materials",
-    "forward_pe": 9.2,
+    "forward_pe": 9.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6636,8 +6636,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 106.42,
-    "diff_pct": -0.09,
+    "close2": 106.35,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -6679,7 +6679,7 @@
     "growth": 9.2,
     "target": 46.2,
     "rec": "hold",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Energy",
@@ -6696,8 +6696,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 44.1001,
-    "diff_pct": -0.0,
+    "close2": 44.1,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -6709,8 +6709,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 116.03,
    "in_buy": false,
-   "buy_low": 113.1286,
-   "buy_high": 115.7534,
+   "buy_low": 113.1289,
+   "buy_high": 115.753,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 0,
@@ -6721,8 +6721,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 117.2876,
-   "sell_high": 119.9124,
+   "sell_low": 117.2879,
+   "sell_high": 119.9121,
    "sell_conf": 3,
    "atr_pct": 2.26,
    "rel_vol": 0.98,
@@ -6739,7 +6739,7 @@
     "growth": 17.6,
     "target": 127.7,
     "rec": "hold",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Basic Materials",
@@ -6756,8 +6756,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 116.2,
-    "diff_pct": -0.15,
+    "close2": 116.02,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -6793,17 +6793,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 32.1,
+    "pe": 33.4,
     "margin": 7.5,
     "de": null,
     "growth": 57.7,
-    "target": 584.0,
+    "target": 586.0,
     "rec": "buy",
-    "earn_days": 52,
+    "earn_days": 51,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 19.0,
+    "forward_pe": 19.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6816,8 +6816,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 573.91,
-    "diff_pct": -0.01,
+    "close2": 574.0,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -6853,17 +6853,17 @@
    "status_text": "Alım bölgesine 0.20 ATR kaldı — alarmını kur.",
    "next": "Fiyat 0.20 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
-    "pe": 35.8,
+    "pe": 35.7,
     "margin": 11.4,
     "de": 32.1,
     "growth": -7.3,
-    "target": 74.0,
+    "target": 75.3,
     "rec": "buy",
-    "earn_days": 21,
+    "earn_days": 20,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Basic Materials",
-    "forward_pe": 17.4,
+    "forward_pe": 17.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6876,8 +6876,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 72.52,
-    "diff_pct": 0.07,
+    "close2": 72.56,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -6913,17 +6913,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 14.6,
+    "pe": 14.7,
     "margin": 33.4,
     "de": 15.8,
     "growth": 15.1,
     "target": 137.7,
     "rec": "buy",
-    "earn_days": 16,
+    "earn_days": 15,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Basic Materials",
-    "forward_pe": 11.3,
+    "forward_pe": 11.4,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6973,17 +6973,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 163.3,
+    "pe": 165.6,
     "margin": 49.0,
     "de": 2.1,
     "growth": 92.8,
     "target": 195.6,
     "rec": "buy",
-    "earn_days": 27,
+    "earn_days": 26,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 80.8,
+    "forward_pe": 81.9,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -6996,8 +6996,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 191.64,
-    "diff_pct": 0.23,
+    "close2": 192.07,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -7033,17 +7033,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 61.1,
+    "pe": 59.1,
     "margin": 25.8,
     "de": 2.9,
     "growth": 103.9,
     "target": 446.5,
     "rec": "buy",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 38.1,
+    "forward_pe": 36.9,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7056,8 +7056,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 430.82,
-    "diff_pct": -0.08,
+    "close2": 430.32,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -7097,13 +7097,13 @@
     "margin": 5.4,
     "de": 40.1,
     "growth": 51.7,
-    "target": 367.6,
+    "target": 374.7,
     "rec": "buy",
-    "earn_days": 16,
+    "earn_days": 15,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Energy",
-    "forward_pe": 10.2,
+    "forward_pe": 10.1,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7116,8 +7116,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 419.7,
-    "diff_pct": -0.09,
+    "close2": 419.22,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -7153,13 +7153,13 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 57.4,
+    "pe": 57.3,
     "margin": 15.1,
     "de": 70.2,
     "growth": 24.1,
     "target": 337.4,
     "rec": "strong_buy",
-    "earn_days": 15,
+    "earn_days": 14,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
@@ -7176,8 +7176,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 253.6,
-    "diff_pct": -0.15,
+    "close2": 253.14,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -7213,17 +7213,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 377.2,
+    "pe": 389.2,
     "margin": 7.9,
     "de": 171.6,
     "growth": 165.5,
     "target": 282.8,
     "rec": "buy",
-    "earn_days": 21,
+    "earn_days": 20,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Industrials",
-    "forward_pe": 58.0,
+    "forward_pe": 59.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7236,8 +7236,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 295.75,
-    "diff_pct": 0.04,
+    "close2": 295.78,
+    "diff_pct": 0.03,
     "warn": false
    }
   },
@@ -7279,11 +7279,11 @@
     "growth": 21.6,
     "target": 70.1,
     "rec": "buy",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Healthcare",
-    "forward_pe": -10289.4,
+    "forward_pe": -8864.5,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7296,8 +7296,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 72.25,
-    "diff_pct": -0.4,
+    "close2": 71.98,
+    "diff_pct": -0.03,
     "warn": false
    }
   },
@@ -7333,17 +7333,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 28.0,
+    "pe": 27.8,
     "margin": 29.8,
     "de": 43.0,
     "growth": 28.0,
     "target": 795.0,
     "rec": "strong_buy",
-    "earn_days": 22,
+    "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Communication Services",
-    "forward_pe": 21.3,
+    "forward_pe": 21.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7356,8 +7356,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 739.9,
-    "diff_pct": -0.1,
+    "close2": 738.88,
+    "diff_pct": 0.04,
     "warn": false
    }
   },
@@ -7397,13 +7397,13 @@
     "margin": -19.8,
     "de": 49.0,
     "growth": 25.4,
-    "target": 117.5,
+    "target": 118.0,
     "rec": "buy",
-    "earn_days": 16,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 56.3,
+    "forward_pe": 54.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7416,8 +7416,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 112.73,
-    "diff_pct": -0.24,
+    "close2": 112.5,
+    "diff_pct": -0.04,
     "warn": false
    }
   },
@@ -7441,8 +7441,8 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 283.9679,
-   "sell_high": 294.3778,
+   "sell_low": 283.9694,
+   "sell_high": 294.3793,
    "sell_conf": 4,
    "atr_pct": 3.81,
    "rel_vol": 0.88,
@@ -7454,17 +7454,17 @@
    "next": "Fiyat 0.33 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "hk_weak": true,
    "co": {
-    "pe": 54.8,
+    "pe": 51.0,
     "margin": 18.3,
     "de": 89.0,
     "growth": 9.4,
-    "target": 221.8,
+    "target": 223.8,
     "rec": "buy",
-    "earn_days": 23,
+    "earn_days": 22,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Healthcare",
-    "forward_pe": 48.1,
+    "forward_pe": 44.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7520,11 +7520,11 @@
     "growth": 13.2,
     "target": 89.4,
     "rec": "none",
-    "earn_days": 56,
+    "earn_days": 55,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 60.9,
+    "forward_pe": 60.6,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7537,8 +7537,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 68.0,
-    "diff_pct": -0.07,
+    "close2": 67.94,
+    "diff_pct": 0.01,
     "warn": false
    }
   },
@@ -7550,8 +7550,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 81.275,
    "in_buy": false,
-   "buy_low": 77.2179,
-   "buy_high": 78.7821,
+   "buy_low": 77.218,
+   "buy_high": 78.782,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 0,
@@ -7562,8 +7562,8 @@
     "rsi": false
    },
    "in_sell": true,
-   "sell_low": 80.6478,
-   "sell_high": 82.212,
+   "sell_low": 80.648,
+   "sell_high": 82.2119,
    "sell_conf": 3,
    "atr_pct": 1.92,
    "rel_vol": 0.84,
@@ -7574,17 +7574,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 119.8,
+    "pe": 119.5,
     "margin": 9.3,
     "de": 83.7,
     "growth": 38.0,
     "target": 107.8,
     "rec": "buy",
-    "earn_days": 30,
+    "earn_days": 29,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 17.8,
+    "forward_pe": 17.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7640,11 +7640,11 @@
     "growth": 41.9,
     "target": 25.7,
     "rec": "strong_buy",
-    "earn_days": 36,
+    "earn_days": 35,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 37.7,
+    "forward_pe": 36.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7657,8 +7657,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 17.79,
-    "diff_pct": -0.17,
+    "close2": 17.76,
+    "diff_pct": 0.0,
     "warn": false
    }
   },
@@ -7700,11 +7700,11 @@
     "growth": 10.7,
     "target": 180.9,
     "rec": "buy",
-    "earn_days": 22,
+    "earn_days": 21,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 66.1,
+    "forward_pe": 65.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7754,17 +7754,17 @@
    "status_text": "İki bölge arasında — net avantaj yok.",
    "next": "İki bölge arasında — ne alım ne satış avantajı var. Bu hissede bugün yapılacak işlem yok.",
    "co": {
-    "pe": 1267.9,
+    "pe": 1269.8,
     "margin": 3.0,
     "de": 129.4,
     "growth": 126.5,
     "target": 849.5,
     "rec": "buy",
-    "earn_days": 29,
+    "earn_days": 28,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 47.6,
+    "forward_pe": 47.7,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7777,9 +7777,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 726.0,
-    "diff_pct": -2.01,
-    "warn": true
+    "close2": 711.06,
+    "diff_pct": 0.05,
+    "warn": false
    }
   },
   {
@@ -7820,11 +7820,11 @@
     "growth": 18.3,
     "target": 222.9,
     "rec": "hold",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 51.1,
+    "forward_pe": 51.0,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7836,7 +7836,11 @@
     }
    },
    "rejim_up": null,
-   "verify": null
+   "verify": {
+    "close2": 222.62,
+    "diff_pct": -0.02,
+    "warn": false
+   }
   },
   {
    "symbol": "SMCI",
@@ -7870,17 +7874,17 @@
    "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
    "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
    "co": {
-    "pe": 13.2,
+    "pe": 13.3,
     "margin": 5.7,
     "de": 64.0,
     "growth": 93.2,
     "target": 42.4,
     "rec": "none",
-    "earn_days": 28,
+    "earn_days": 27,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 8.1,
+    "forward_pe": 8.2,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7893,8 +7897,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 43.47,
-    "diff_pct": -0.05,
+    "close2": 43.46,
+    "diff_pct": -0.02,
     "warn": false
    }
   },
@@ -7936,11 +7940,11 @@
     "growth": 35.1,
     "target": 425.1,
     "rec": "strong_buy",
-    "earn_days": 57,
+    "earn_days": 56,
     "news": [],
     "flabel": "Güncel oranlar",
     "sector": "Technology",
-    "forward_pe": 112.8,
+    "forward_pe": 111.8,
     "pe_basis": "trailing",
     "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
     "market_context": {
@@ -7953,8 +7957,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 335.5,
-    "diff_pct": 0.1,
+    "close2": 335.95,
+    "diff_pct": -0.03,
     "warn": false
    }
   }
@@ -8165,8 +8169,8 @@
    },
    "XU100.IS": {
     "state": "weak",
-    "close": 12374.259765625,
-    "sma200": 13589.539819335938,
+    "close": 12374.2998046875,
+    "sma200": 13589.54001953125,
     "closed_at": "2026-10-06T15:00:00+00:00",
     "reason": "Günlük kapanış SMA200 üzerinde değil"
    }
