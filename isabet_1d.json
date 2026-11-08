@@ -5,113 +5,113 @@
   "SPCX"
  ],
  "buy_zone_entry": {
-  "n": 4123,
-  "n_resolved": 4099,
-  "win": 2183,
-  "loss": 1916,
+  "n": 4147,
+  "n_resolved": 4123,
+  "win": 2164,
+  "loss": 1959,
   "both": 24,
   "timeout": 0,
-  "wr": 0.533,
-  "fwd12": 1.626
+  "wr": 0.525,
+  "fwd12": 1.48
  },
  "buy_zone_conf2": {
-  "n": 2718,
-  "n_resolved": 2705,
-  "win": 1520,
-  "loss": 1185,
+  "n": 2725,
+  "n_resolved": 2712,
+  "win": 1490,
+  "loss": 1222,
   "both": 13,
   "timeout": 0,
-  "wr": 0.562,
-  "fwd12": 1.958
+  "wr": 0.549,
+  "fwd12": 1.735
  },
  "buy_zone_conf3": {
   "n": 1869,
-  "n_resolved": 1861,
-  "win": 1066,
-  "loss": 795,
-  "both": 8,
+  "n_resolved": 1860,
+  "win": 1039,
+  "loss": 821,
+  "both": 9,
   "timeout": 0,
-  "wr": 0.573,
-  "fwd12": 1.994
+  "wr": 0.559,
+  "fwd12": 1.754
  },
  "buy_sr_only": {
-  "n": 3691,
-  "n_resolved": 3670,
-  "win": 1956,
-  "loss": 1714,
+  "n": 3719,
+  "n_resolved": 3698,
+  "win": 1941,
+  "loss": 1757,
   "both": 21,
   "timeout": 0,
-  "wr": 0.533,
-  "fwd12": 1.7
+  "wr": 0.525,
+  "fwd12": 1.547
  },
  "sell_zone_entry": {
-  "n": 5282,
-  "n_resolved": 5247,
-  "win": 2423,
-  "loss": 2824,
-  "both": 35,
+  "n": 5276,
+  "n_resolved": 5242,
+  "win": 2436,
+  "loss": 2806,
+  "both": 34,
   "timeout": 0,
-  "wr": 0.462,
-  "fwd12": 1.535
+  "wr": 0.465,
+  "fwd12": 1.479
  },
  "baseline_all_bars_long": {
-  "n": 42504,
-  "n_resolved": 42256,
-  "win": 22752,
-  "loss": 19504,
-  "both": 244,
+  "n": 42529,
+  "n_resolved": 42279,
+  "win": 22547,
+  "loss": 19732,
+  "both": 246,
   "timeout": 4,
-  "wr": 0.538,
-  "fwd12": 1.496
+  "wr": 0.533,
+  "fwd12": 1.396
  },
  "baseline_conf3_anywhere": {
-  "n": 8512,
-  "n_resolved": 8463,
-  "win": 4682,
-  "loss": 3781,
-  "both": 49,
+  "n": 8487,
+  "n_resolved": 8437,
+  "win": 4620,
+  "loss": 3817,
+  "both": 50,
   "timeout": 0,
-  "wr": 0.553,
-  "fwd12": 1.522
+  "wr": 0.548,
+  "fwd12": 1.393
  },
  "buy_zone_conf3_mkt_up": {
-  "n": 1410,
-  "n_resolved": 1404,
-  "win": 795,
-  "loss": 609,
-  "both": 6,
+  "n": 1413,
+  "n_resolved": 1406,
+  "win": 787,
+  "loss": 619,
+  "both": 7,
   "timeout": 0,
-  "wr": 0.566,
-  "fwd12": 1.507
+  "wr": 0.56,
+  "fwd12": 1.421
  },
  "buy_zone_conf3_mkt_down": {
-  "n": 459,
-  "n_resolved": 457,
-  "win": 271,
-  "loss": 186,
+  "n": 456,
+  "n_resolved": 454,
+  "win": 252,
+  "loss": 202,
   "both": 2,
   "timeout": 0,
-  "wr": 0.593,
-  "fwd12": 3.491
+  "wr": 0.555,
+  "fwd12": 2.786
  },
  "baseline_mkt_up": {
-  "n": 34747,
-  "n_resolved": 34544,
-  "win": 18267,
-  "loss": 16277,
-  "both": 199,
+  "n": 34772,
+  "n_resolved": 34567,
+  "win": 18199,
+  "loss": 16368,
+  "both": 201,
   "timeout": 4,
-  "wr": 0.529,
-  "fwd12": 1.137
+  "wr": 0.526,
+  "fwd12": 1.094
  },
  "baseline_mkt_down": {
   "n": 7757,
   "n_resolved": 7712,
-  "win": 4485,
-  "loss": 3227,
+  "win": 4348,
+  "loss": 3364,
   "both": 45,
   "timeout": 0,
-  "wr": 0.582,
-  "fwd12": 3.105
+  "wr": 0.564,
+  "fwd12": 2.749
  }
 }
