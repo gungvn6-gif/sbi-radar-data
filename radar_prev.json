@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10 16:52",
+ "generated_at": "2026-11-10 20:35",
  "tf": "4h",
  "rows": [
   {
@@ -694,36 +694,36 @@
    "verify": null
   },
   {
-   "symbol": "USDTRY=X",
-   "bar_closed_at": "2026-11-10T12:00:00+00:00",
+   "symbol": "BZ=F",
+   "bar_closed_at": "2026-11-10T17:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 50.2275,
+   "close": 92.03,
    "in_buy": false,
-   "buy_low": 50.0255,
-   "buy_high": 50.1425,
-   "buy_src": "pullback",
+   "buy_low": 88.4061,
+   "buy_high": 90.8552,
+   "buy_src": "dip",
    "buy_touch": 0,
-   "conf": 3,
+   "conf": 4,
    "conf_flags": {
     "yesil": true,
     "yukari": true,
-    "hacim": false,
+    "hacim": true,
     "rsi": true
    },
-   "in_sell": true,
-   "sell_low": 50.1989,
-   "sell_high": 50.3302,
+   "in_sell": false,
+   "sell_low": 99.6955,
+   "sell_high": 102.1445,
    "sell_conf": 0,
-   "atr_pct": 0.26,
-   "rel_vol": null,
-   "dist_atr": 0.65,
+   "atr_pct": 2.66,
+   "rel_vol": 1.44,
+   "dist_atr": 0.48,
    "score": 5.0,
-   "bars": 1577,
-   "status": "TEPEDE",
-   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
-   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "bars": 1112,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.48 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.48 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": null,
     "margin": null,
@@ -732,7 +732,20 @@
     "target": null,
     "rec": null,
     "earn_days": null,
-    "news": [],
+    "news": [
+     {
+      "t": "Gas prices likely to drop below $4 a gallon in the next week if oil prices keep declining, analyst says",
+      "u": "https://finance.yahoo.com/markets/article/gasoline-could-fall-below-4-in-the-next-week-as-oil-prices-drop-says-analyst-171201913.html"
+     },
+     {
+      "t": "Stocks rebound as oil prices sink, Anthropic releases Q3 financials: AlphaCheck",
+      "u": "https://finance.yahoo.com/markets/article/stocks-rebound-as-oil-prices-ease-anthropic-releases-3rd-quarter-financials-alphacheck-150044554.html"
+     },
+     {
+      "t": "Stock market today: Dow, S&P 500, Nasdaq rise as Fed holds rates steady, Big Tech earnings loom",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html"
+     }
+    ],
     "flabel": "Güncel oranlar",
     "sector": null,
     "forward_pe": null,
@@ -1638,6 +1651,75 @@
     "market_context": {
      "version": "market-v1",
      "benchmark": "SPY",
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
+  },
+  {
+   "symbol": "GC=F",
+   "bar_closed_at": "2026-11-10T15:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 4047.2,
+   "in_buy": true,
+   "buy_low": 4014.0032,
+   "buy_high": 4056.197,
+   "buy_src": "sr",
+   "buy_touch": 1,
+   "conf": 1,
+   "conf_flags": {
+    "yesil": false,
+    "yukari": false,
+    "hacim": true,
+    "rsi": false
+   },
+   "in_sell": false,
+   "sell_low": 4063.0032,
+   "sell_high": 4105.197,
+   "sell_conf": 3,
+   "atr_pct": 1.04,
+   "rel_vol": 1.77,
+   "dist_atr": 0.0,
+   "score": 4.0,
+   "bars": 1117,
+   "status": "TEYİT BEKLE",
+   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
+   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 1/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [
+     {
+      "t": "Top 3 Canadian Penny Stocks To Watch In November 2026",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-penny-stocks-061456505.html"
+     },
+     {
+      "t": "FLSmidth (CPSE:FLS) Stock Could Be 38% Undervalued Despite Its DKK 225 Million Order",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/flsmidth-cpse-fls-stock-could-031636164.html"
+     },
+     {
+      "t": "Lightning Minerals: Mt Turner gold drilling advances toward 2027 resource",
+      "u": "https://finance.yahoo.com/video/lightning-minerals-mt-turner-gold-031515579.html"
+     }
+    ],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
      "state": "unknown",
      "reason": "Birleşik değerlendirme günlük taramada üretilir",
      "role": "context"
@@ -2623,7 +2705,7 @@
    "sell_high": 118.6456,
    "sell_conf": 3,
    "atr_pct": 0.73,
-   "rel_vol": 0.78,
+   "rel_vol": 0.79,
    "dist_atr": 0.0,
    "score": 4.0,
    "bars": 538,
@@ -3451,7 +3533,7 @@
    "sell_high": 265.2191,
    "sell_conf": 0,
    "atr_pct": 2.7,
-   "rel_vol": 0.71,
+   "rel_vol": 0.72,
    "dist_atr": 0.51,
    "score": 3.0,
    "bars": 539,
@@ -4051,6 +4133,62 @@
    "verify": null
   },
   {
+   "symbol": "USDTRY=X",
+   "bar_closed_at": "2026-11-10T16:00:00+00:00",
+   "data_fresh": true,
+   "data_issue": null,
+   "bar_policy": "sessions-v2-2026-09-09",
+   "close": 50.2279,
+   "in_buy": false,
+   "buy_low": 49.6955,
+   "buy_high": 49.8307,
+   "buy_src": "sr",
+   "buy_touch": 3,
+   "conf": 3,
+   "conf_flags": {
+    "yesil": true,
+    "yukari": true,
+    "hacim": false,
+    "rsi": true
+   },
+   "in_sell": true,
+   "sell_low": 50.203,
+   "sell_high": 50.3381,
+   "sell_conf": 0,
+   "atr_pct": 0.27,
+   "rel_vol": null,
+   "dist_atr": 2.94,
+   "score": 3.0,
+   "bars": 1578,
+   "status": "TEPEDE",
+   "status_text": "Satış bölgesinde — zayıflama teyidi henüz yok.",
+   "next": "Tepe bölgesinde ama düşüş kanıtı yok — elindeyse kâr koruma planla, yoksa uzak dur.",
+   "co": {
+    "pe": null,
+    "margin": null,
+    "de": null,
+    "growth": null,
+    "target": null,
+    "rec": null,
+    "earn_days": null,
+    "news": [],
+    "flabel": "Güncel oranlar",
+    "sector": null,
+    "forward_pe": null,
+    "pe_basis": "trailing",
+    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
+    "market_context": {
+     "version": "market-v1",
+     "benchmark": null,
+     "state": "unknown",
+     "reason": "Birleşik değerlendirme günlük taramada üretilir",
+     "role": "context"
+    }
+   },
+   "rejim_up": null,
+   "verify": null
+  },
+  {
    "symbol": "REMX",
    "bar_closed_at": "2026-11-09T21:00:00+00:00",
    "data_fresh": true,
@@ -4101,75 +4239,6 @@
      {
       "t": "Critical Metals Sinks 7% Despite Shareholder Approval of European Lithium Deal; USA Rare Earth Drops 5%, United States Antimony Falls 3%",
       "u": "https://247wallst.com/investing/2026/10/22/critical-metals-sinks-7-despite-shareholder-approval-of-european-lithium-deal-usa-rare-earth-drops-5-united-states-antimony-falls-3/"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
-   "symbol": "BZ=F",
-   "bar_closed_at": "2026-11-10T13:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 90.1,
-   "in_buy": true,
-   "buy_low": 88.7351,
-   "buy_high": 91.138,
-   "buy_src": "dip",
-   "buy_touch": 0,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 99.7186,
-   "sell_high": 102.1214,
-   "sell_conf": 4,
-   "atr_pct": 2.67,
-   "rel_vol": 0.74,
-   "dist_atr": 0.0,
-   "score": 3.0,
-   "bars": 1111,
-   "status": "TEYİT BEKLE",
-   "status_text": "Bölge içinde ama dönüş teyidi yok — acele etme.",
-   "next": "Beklenen: bölge içinde YEŞİL + hacimli bir 4 saatlik kapanış. Teyit 0/4 → 3/4'e ulaşırsa etiket GİRİŞ ADAYI'na döner. O güne kadar izle, alma.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "Gas prices likely to drop below $4 a gallon in the next week if oil prices keep declining, analyst says",
-      "u": "https://finance.yahoo.com/markets/article/gasoline-could-fall-below-4-in-the-next-week-as-oil-prices-drop-says-analyst-171201913.html"
-     },
-     {
-      "t": "Stocks rebound as oil prices sink, Anthropic releases Q3 financials: AlphaCheck",
-      "u": "https://finance.yahoo.com/markets/article/stocks-rebound-as-oil-prices-ease-anthropic-releases-3rd-quarter-financials-alphacheck-150044554.html"
-     },
-     {
-      "t": "Stock market today: Dow, S&P 500, Nasdaq rise as Fed holds rates steady, Big Tech earnings loom",
-      "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html"
      }
     ],
     "flabel": "Güncel oranlar",
@@ -4902,7 +4971,7 @@
    "sell_high": 91.747,
    "sell_conf": 1,
    "atr_pct": 2.81,
-   "rel_vol": 0.58,
+   "rel_vol": 0.59,
    "dist_atr": 1.25,
    "score": 3.0,
    "bars": 540,
@@ -6283,7 +6352,7 @@
    "sell_high": 62.9896,
    "sell_conf": 3,
    "atr_pct": 0.91,
-   "rel_vol": 0.82,
+   "rel_vol": 0.84,
    "dist_atr": 0.2,
    "score": 2.0,
    "bars": 539,
@@ -6329,15 +6398,15 @@
    "verify": null
   },
   {
-   "symbol": "GC=F",
-   "bar_closed_at": "2026-11-10T11:00:00+00:00",
+   "symbol": "SI=F",
+   "bar_closed_at": "2026-11-10T15:00:00+00:00",
    "data_fresh": true,
    "data_issue": null,
    "bar_policy": "sessions-v2-2026-09-09",
-   "close": 4083.2,
+   "close": 51.92,
    "in_buy": false,
-   "buy_low": 4053.1918,
-   "buy_high": 4076.9692,
+   "buy_low": 50.7349,
+   "buy_high": 51.6651,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -6347,18 +6416,18 @@
     "hacim": true,
     "rsi": false
    },
-   "in_sell": true,
-   "sell_low": 4081.1309,
-   "sell_high": 4104.9083,
+   "in_sell": false,
+   "sell_low": 53.0299,
+   "sell_high": 53.9601,
    "sell_conf": 3,
-   "atr_pct": 1.02,
-   "rel_vol": 1.03,
-   "dist_atr": 0.15,
+   "atr_pct": 1.79,
+   "rel_vol": 1.89,
+   "dist_atr": 0.27,
    "score": 2.0,
-   "bars": 1116,
-   "status": "AZALT",
-   "status_text": "Satış bölgesinde + zayıflama — pozisyon varsa kâr al / azalt.",
-   "next": "Elinde bu hisse varsa kâr al / pozisyon azalt. Yeni alım için yanlış yer.",
+   "bars": 1115,
+   "status": "YAKIN",
+   "status_text": "Alım bölgesine 0.27 ATR kaldı — alarmını kur.",
+   "next": "Fiyat 0.27 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
    "co": {
     "pe": null,
     "margin": null,
@@ -6369,16 +6438,16 @@
     "earn_days": null,
     "news": [
      {
-      "t": "Top 3 Canadian Penny Stocks To Watch In November 2026",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-penny-stocks-061456505.html"
+      "t": "3 British Penny Stocks To Own In November 2026",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/3-british-penny-stocks-own-021319496.html"
      },
      {
-      "t": "FLSmidth (CPSE:FLS) Stock Could Be 38% Undervalued Despite Its DKK 225 Million Order",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/flsmidth-cpse-fls-stock-could-031636164.html"
+      "t": "Gold holds near $4,130 as oil retreat eases inflation concerns",
+      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-130-014229117.html"
      },
      {
-      "t": "Lightning Minerals: Mt Turner gold drilling advances toward 2027 resource",
-      "u": "https://finance.yahoo.com/video/lightning-minerals-mt-turner-gold-031515579.html"
+      "t": "Is Endeavour Silver (TSX:EDR) Below Fair Value After Its 11% Rally?",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/endeavour-silver-tsx-edr-below-232221534.html"
      }
     ],
     "flabel": "Güncel oranlar",
@@ -7249,7 +7318,7 @@
    "sell_high": 222.3608,
    "sell_conf": 2,
    "atr_pct": 0.3,
-   "rel_vol": 0.68,
+   "rel_vol": 0.69,
    "dist_atr": 0.8,
    "score": 2.0,
    "bars": 537,
@@ -7903,75 +7972,6 @@
    "verify": null
   },
   {
-   "symbol": "SI=F",
-   "bar_closed_at": "2026-11-10T11:00:00+00:00",
-   "data_fresh": true,
-   "data_issue": null,
-   "bar_policy": "sessions-v2-2026-09-09",
-   "close": 52.385,
-   "in_buy": false,
-   "buy_low": 50.7391,
-   "buy_high": 51.6609,
-   "buy_src": "sr",
-   "buy_touch": 1,
-   "conf": 0,
-   "conf_flags": {
-    "yesil": false,
-    "yukari": false,
-    "hacim": false,
-    "rsi": false
-   },
-   "in_sell": false,
-   "sell_low": 53.0341,
-   "sell_high": 53.9559,
-   "sell_conf": 3,
-   "atr_pct": 1.76,
-   "rel_vol": 0.61,
-   "dist_atr": 0.79,
-   "score": 1.0,
-   "bars": 1114,
-   "status": "YAKIN",
-   "status_text": "Alım bölgesine 0.79 ATR kaldı — alarmını kur.",
-   "next": "Fiyat 0.79 ATR daha inerse alım bölgesine girer — TradingView'da bölge tabanına alarm kur.",
-   "co": {
-    "pe": null,
-    "margin": null,
-    "de": null,
-    "growth": null,
-    "target": null,
-    "rec": null,
-    "earn_days": null,
-    "news": [
-     {
-      "t": "3 British Penny Stocks To Own In November 2026",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/3-british-penny-stocks-own-021319496.html"
-     },
-     {
-      "t": "Gold holds near $4,130 as oil retreat eases inflation concerns",
-      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-130-014229117.html"
-     },
-     {
-      "t": "Is Endeavour Silver (TSX:EDR) Below Fair Value After Its 11% Rally?",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/endeavour-silver-tsx-edr-below-232221534.html"
-     }
-    ],
-    "flabel": "Güncel oranlar",
-    "sector": null,
-    "forward_pe": null,
-    "pe_basis": "trailing",
-    "source": "Yahoo güncel oranları; yayın tarihli finansal rapor değildir",
-    "market_context": {
-     "version": "market-v1",
-     "benchmark": null,
-     "state": "unknown",
-     "reason": "Birleşik değerlendirme günlük taramada üretilir",
-     "role": "context"
-    }
-   },
-   "rejim_up": null,
-   "verify": null
-  },
-  {
    "symbol": "USL",
    "bar_closed_at": "2026-11-09T21:00:00+00:00",
    "data_fresh": true,
@@ -8258,7 +8258,7 @@
    "sell_high": 29.4995,
    "sell_conf": 3,
    "atr_pct": 6.67,
-   "rel_vol": 2.55,
+   "rel_vol": 2.57,
    "dist_atr": 0.2,
    "score": 1.0,
    "bars": 538,
@@ -9536,9 +9536,9 @@
    },
    "XU100.IS": {
     "state": "weak",
-    "close": 11712.7001953125,
-    "sma200": 13560.604013671875,
-    "closed_at": "2026-11-09T15:00:00+00:00",
+    "close": 11661.8603515625,
+    "sma200": 13555.272314453125,
+    "closed_at": "2026-11-10T15:00:00+00:00",
     "reason": "Günlük kapanış SMA200 üzerinde değil"
    }
   }
