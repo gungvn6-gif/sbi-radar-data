@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16 20:46",
+ "generated_at": "2026-11-16 23:47",
  "tf": "1d",
  "rows": [
   {
@@ -10,8 +10,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 246.0,
    "in_buy": true,
-   "buy_low": 238.7131,
-   "buy_high": 249.4869,
+   "buy_low": 238.7166,
+   "buy_high": 249.4834,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 4,
@@ -22,8 +22,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 270.1131,
-   "sell_high": 280.8869,
+   "sell_low": 270.1166,
+   "sell_high": 280.8834,
    "sell_conf": 0,
    "atr_pct": 4.38,
    "rel_vol": 1.49,
@@ -358,9 +358,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 47.73,
-    "diff_pct": 1.49,
-    "warn": false
+    "close2": 47.39,
+    "diff_pct": 2.22,
+    "warn": true
    }
   },
   {
@@ -461,9 +461,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 167.725,
-    "diff_pct": 1.71,
-    "warn": false
+    "close2": 166.84,
+    "diff_pct": 2.25,
+    "warn": true
    }
   },
   {
@@ -760,8 +760,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 179.815,
-    "diff_pct": 2.84,
+    "close2": 178.35,
+    "diff_pct": 3.69,
     "warn": true
    }
   },
@@ -864,8 +864,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 33.065,
-    "diff_pct": 2.16,
+    "close2": 32.47,
+    "diff_pct": 4.03,
     "warn": true
    }
   },
@@ -1065,7 +1065,7 @@
    "sell_high": 5.6117,
    "sell_conf": 0,
    "atr_pct": 10.23,
-   "rel_vol": 0.37,
+   "rel_vol": 0.38,
    "dist_atr": 0.0,
    "score": 5.0,
    "bars": 711,
@@ -1397,8 +1397,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 156.9999,
-    "diff_pct": 3.73,
+    "close2": 155.52,
+    "diff_pct": 4.71,
     "warn": true
    }
   },
@@ -1500,8 +1500,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 286.86,
-    "diff_pct": 3.11,
+    "close2": 284.547,
+    "diff_pct": 3.94,
     "warn": true
    }
   },
@@ -1603,8 +1603,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 627.675,
-    "diff_pct": 2.23,
+    "close2": 626.2539,
+    "diff_pct": 2.46,
     "warn": true
    }
   },
@@ -1803,8 +1803,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 47.58,
-    "diff_pct": 5.13,
+    "close2": 47.105,
+    "diff_pct": 6.19,
     "warn": true
    }
   },
@@ -2100,8 +2100,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 38.5,
    "in_buy": true,
-   "buy_low": 37.3947,
-   "buy_high": 38.6658,
+   "buy_low": 37.3933,
+   "buy_high": 38.6657,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 1,
@@ -2112,8 +2112,8 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 38.84,
-   "sell_high": 40.1112,
+   "sell_low": 38.8402,
+   "sell_high": 40.1126,
    "sell_conf": 2,
    "atr_pct": 4.53,
    "rel_vol": 0.75,
@@ -2865,8 +2865,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 34.84,
-    "diff_pct": 2.55,
+    "close2": 34.585,
+    "diff_pct": 3.31,
     "warn": true
    }
   },
@@ -2968,8 +2968,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 22.89,
-    "diff_pct": 2.66,
+    "close2": 22.68,
+    "diff_pct": 3.62,
     "warn": true
    }
   },
@@ -3058,8 +3058,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 50.21,
-    "diff_pct": 2.45,
+    "close2": 49.77,
+    "diff_pct": 3.36,
     "warn": true
    }
   },
@@ -3161,8 +3161,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 91.48,
-    "diff_pct": 3.17,
+    "close2": 90.75,
+    "diff_pct": 4.0,
     "warn": true
    }
   },
@@ -3264,8 +3264,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 75.025,
-    "diff_pct": 4.15,
+    "close2": 73.86,
+    "diff_pct": 5.79,
     "warn": true
    }
   },
@@ -3454,8 +3454,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 29.58,
    "in_buy": true,
-   "buy_low": 28.5473,
-   "buy_high": 29.8527,
+   "buy_low": 28.5495,
+   "buy_high": 29.8505,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 1,
@@ -3466,10 +3466,10 @@
     "rsi": false
    },
    "in_sell": false,
-   "sell_low": 34.7473,
-   "sell_high": 36.0527,
+   "sell_low": 34.7495,
+   "sell_high": 36.0505,
    "sell_conf": 3,
-   "atr_pct": 4.41,
+   "atr_pct": 4.4,
    "rel_vol": 0.71,
    "dist_atr": 0.0,
    "score": 4.0,
@@ -3807,8 +3807,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 8.29,
    "in_buy": false,
-   "buy_low": 6.3443,
-   "buy_high": 6.8157,
+   "buy_low": 6.3446,
+   "buy_high": 6.8154,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 4,
@@ -3819,10 +3819,10 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 15.5677,
-   "sell_high": 16.0391,
+   "sell_low": 15.568,
+   "sell_high": 16.0388,
    "sell_conf": 1,
-   "atr_pct": 5.69,
+   "atr_pct": 5.68,
    "rel_vol": 1.34,
    "dist_atr": 3.13,
    "score": 4.0,
@@ -4155,8 +4155,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 16.51,
-    "diff_pct": 8.0,
+    "close2": 16.195,
+    "diff_pct": 10.1,
     "warn": true
    }
   },
@@ -4258,8 +4258,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 118.03,
-    "diff_pct": 0.09,
+    "close2": 117.735,
+    "diff_pct": 0.34,
     "warn": false
    }
   },
@@ -4361,8 +4361,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 204.525,
-    "diff_pct": 6.66,
+    "close2": 203.05,
+    "diff_pct": 7.44,
     "warn": true
    }
   },
@@ -4464,8 +4464,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 162.25,
-    "diff_pct": 3.54,
+    "close2": 159.585,
+    "diff_pct": 5.27,
     "warn": true
    }
   },
@@ -4567,8 +4567,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 369.47,
-    "diff_pct": 2.8,
+    "close2": 369.08,
+    "diff_pct": 2.91,
     "warn": true
    }
   },
@@ -4670,9 +4670,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 244.74,
-    "diff_pct": 0.98,
-    "warn": false
+    "close2": 241.86,
+    "diff_pct": 2.18,
+    "warn": true
    }
   },
   {
@@ -4773,8 +4773,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 333.79,
-    "diff_pct": 3.96,
+    "close2": 332.33,
+    "diff_pct": 4.42,
     "warn": true
    }
   },
@@ -4876,8 +4876,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1447.57,
-    "diff_pct": -0.28,
+    "close2": 1431.8462,
+    "diff_pct": 0.81,
     "warn": false
    }
   },
@@ -4979,8 +4979,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 522.635,
-    "diff_pct": 0.24,
+    "close2": 518.2852,
+    "diff_pct": 1.08,
     "warn": false
    }
   },
@@ -5082,8 +5082,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 32.319,
-    "diff_pct": 4.92,
+    "close2": 31.595,
+    "diff_pct": 7.33,
     "warn": true
    }
   },
@@ -5185,8 +5185,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 353.2462,
-    "diff_pct": 0.86,
+    "close2": 351.71,
+    "diff_pct": 1.3,
     "warn": false
    }
   },
@@ -5288,8 +5288,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 429.53,
-    "diff_pct": -0.88,
+    "close2": 426.0,
+    "diff_pct": -0.06,
     "warn": false
    }
   },
@@ -5391,9 +5391,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 61.235,
-    "diff_pct": 1.49,
-    "warn": false
+    "close2": 60.665,
+    "diff_pct": 2.45,
+    "warn": true
    }
   },
   {
@@ -5494,8 +5494,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1110.53,
-    "diff_pct": -0.39,
+    "close2": 1109.64,
+    "diff_pct": -0.31,
     "warn": false
    }
   },
@@ -5597,8 +5597,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 548.75,
-    "diff_pct": 0.31,
+    "close2": 543.625,
+    "diff_pct": 1.25,
     "warn": false
    }
   },
@@ -5700,9 +5700,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 586.245,
-    "diff_pct": 1.67,
-    "warn": false
+    "close2": 584.025,
+    "diff_pct": 2.06,
+    "warn": true
    }
   },
   {
@@ -5803,8 +5803,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 9.16,
-    "diff_pct": 5.02,
+    "close2": 9.045,
+    "diff_pct": 6.36,
     "warn": true
    }
   },
@@ -5906,8 +5906,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 128.3,
-    "diff_pct": -0.16,
+    "close2": 128.22,
+    "diff_pct": -0.1,
     "warn": false
    }
   },
@@ -6007,8 +6007,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 61.905,
-    "diff_pct": 0.73,
+    "close2": 61.575,
+    "diff_pct": 1.27,
     "warn": false
    }
   },
@@ -7363,8 +7363,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 56.07,
-    "diff_pct": 2.44,
+    "close2": 55.5,
+    "diff_pct": 3.5,
     "warn": true
    }
   },
@@ -7466,9 +7466,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 101.269,
-    "diff_pct": 0.97,
-    "warn": false
+    "close2": 99.63,
+    "diff_pct": 2.63,
+    "warn": true
    }
   },
   {
@@ -7651,8 +7651,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 221.8,
    "in_buy": false,
-   "buy_low": 168.1021,
-   "buy_high": 182.2979,
+   "buy_low": 168.0771,
+   "buy_high": 182.3229,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 4,
@@ -7663,12 +7663,12 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 406.9911,
-   "sell_high": 421.1868,
+   "sell_low": 406.9661,
+   "sell_high": 421.2118,
    "sell_conf": 1,
-   "atr_pct": 6.4,
+   "atr_pct": 6.42,
    "rel_vol": 1.8,
-   "dist_atr": 2.78,
+   "dist_atr": 2.77,
    "score": 3.0,
    "bars": 710,
    "status": "BEKLE",
@@ -8183,7 +8183,7 @@
    "sell_high": 25.0526,
    "sell_conf": 0,
    "atr_pct": 6.08,
-   "rel_vol": 2.31,
+   "rel_vol": 2.36,
    "dist_atr": null,
    "score": 3.0,
    "bars": 710,
@@ -8343,8 +8343,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 56.35,
-    "diff_pct": 6.69,
+    "close2": 55.34,
+    "diff_pct": 8.64,
     "warn": true
    }
   },
@@ -8446,9 +8446,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 25.39,
-    "diff_pct": 0.79,
-    "warn": false
+    "close2": 24.89,
+    "diff_pct": 2.81,
+    "warn": true
    }
   },
   {
@@ -8549,8 +8549,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 122.23,
-    "diff_pct": 7.59,
+    "close2": 120.77,
+    "diff_pct": 8.89,
     "warn": true
    }
   },
@@ -8652,8 +8652,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 165.68,
-    "diff_pct": 3.45,
+    "close2": 162.745,
+    "diff_pct": 5.31,
     "warn": true
    }
   },
@@ -8755,8 +8755,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 3.055,
-    "diff_pct": 6.06,
+    "close2": 3.085,
+    "diff_pct": 5.02,
     "warn": true
    }
   },
@@ -8858,8 +8858,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 59.3,
-    "diff_pct": 4.01,
+    "close2": 58.895,
+    "diff_pct": 4.73,
     "warn": true
    }
   },
@@ -8961,8 +8961,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 222.73,
-    "diff_pct": 4.19,
+    "close2": 221.69,
+    "diff_pct": 4.68,
     "warn": true
    }
   },
@@ -9064,8 +9064,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 68.73,
-    "diff_pct": 3.39,
+    "close2": 67.96,
+    "diff_pct": 4.56,
     "warn": true
    }
   },
@@ -9167,8 +9167,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 44.4,
-    "diff_pct": 6.67,
+    "close2": 43.88,
+    "diff_pct": 7.93,
     "warn": true
    }
   },
@@ -9270,8 +9270,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 42.59,
-    "diff_pct": 3.73,
+    "close2": 42.46,
+    "diff_pct": 4.05,
     "warn": true
    }
   },
@@ -9373,8 +9373,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 78.925,
-    "diff_pct": 4.19,
+    "close2": 77.72,
+    "diff_pct": 5.8,
     "warn": true
    }
   },
@@ -9476,8 +9476,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 161.76,
-    "diff_pct": 2.03,
+    "close2": 159.52,
+    "diff_pct": 3.46,
     "warn": true
    }
   },
@@ -9579,8 +9579,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 75.895,
-    "diff_pct": 3.08,
+    "close2": 75.205,
+    "diff_pct": 4.02,
     "warn": true
    }
   },
@@ -9682,8 +9682,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 415.57,
-    "diff_pct": -1.56,
+    "close2": 412.62,
+    "diff_pct": -0.85,
     "warn": false
    }
   },
@@ -9785,8 +9785,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 263.295,
-    "diff_pct": 6.55,
+    "close2": 256.52,
+    "diff_pct": 9.36,
     "warn": true
    }
   },
@@ -9888,8 +9888,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 56.27,
-    "diff_pct": 5.28,
+    "close2": 55.145,
+    "diff_pct": 7.43,
     "warn": true
    }
   },
@@ -9991,8 +9991,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1065.1842,
-    "diff_pct": 4.44,
+    "close2": 1056.62,
+    "diff_pct": 5.29,
     "warn": true
    }
   },
@@ -10094,8 +10094,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 550.695,
-    "diff_pct": 8.34,
+    "close2": 542.21,
+    "diff_pct": 10.03,
     "warn": true
    }
   },
@@ -10197,8 +10197,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 45.885,
-    "diff_pct": -2.06,
+    "close2": 46.15,
+    "diff_pct": -2.62,
     "warn": true
    }
   },
@@ -10300,9 +10300,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 111.56,
-    "diff_pct": 1.42,
-    "warn": false
+    "close2": 110.58,
+    "diff_pct": 2.32,
+    "warn": true
    }
   },
   {
@@ -10403,8 +10403,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 178.64,
-    "diff_pct": 7.47,
+    "close2": 177.02,
+    "diff_pct": 8.46,
     "warn": true
    }
   },
@@ -10506,8 +10506,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 25.265,
-    "diff_pct": 6.35,
+    "close2": 25.035,
+    "diff_pct": 7.33,
     "warn": true
    }
   },
@@ -10609,8 +10609,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 578.165,
-    "diff_pct": 3.81,
+    "close2": 569.13,
+    "diff_pct": 5.46,
     "warn": true
    }
   },
@@ -10712,8 +10712,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 377.5,
-    "diff_pct": 5.62,
+    "close2": 373.8174,
+    "diff_pct": 6.66,
     "warn": true
    }
   },
@@ -10815,9 +10815,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 341.96,
-    "diff_pct": 1.24,
-    "warn": false
+    "close2": 337.35,
+    "diff_pct": 2.62,
+    "warn": true
    }
   },
   {
@@ -10918,9 +10918,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 197.02,
-    "diff_pct": 0.79,
-    "warn": false
+    "close2": 194.41,
+    "diff_pct": 2.14,
+    "warn": true
    }
   },
   {
@@ -11021,9 +11021,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 312.7366,
-    "diff_pct": 3.04,
-    "warn": true
+    "close2": 315.98,
+    "diff_pct": 1.98,
+    "warn": false
    }
   },
   {
@@ -11124,8 +11124,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 508.165,
-    "diff_pct": 5.1,
+    "close2": 503.77,
+    "diff_pct": 6.01,
     "warn": true
    }
   },
@@ -11227,8 +11227,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 23.39,
-    "diff_pct": 7.78,
+    "close2": 22.46,
+    "diff_pct": 12.24,
     "warn": true
    }
   },
@@ -11589,9 +11589,9 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 743.56,
-    "diff_pct": 1.45,
-    "warn": false
+    "close2": 738.98,
+    "diff_pct": 2.08,
+    "warn": true
    }
   },
   {
@@ -12239,8 +12239,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 107.5,
    "in_buy": false,
-   "buy_low": 100.203,
-   "buy_high": 104.4961,
+   "buy_low": 100.2102,
+   "buy_high": 104.489,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 1,
@@ -12251,10 +12251,10 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 107.5534,
-   "sell_high": 111.8466,
+   "sell_low": 107.5606,
+   "sell_high": 111.8394,
    "sell_conf": 2,
-   "atr_pct": 3.99,
+   "atr_pct": 3.98,
    "rel_vol": 0.78,
    "dist_atr": 0.7,
    "score": 2.0,
@@ -12587,8 +12587,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 59.2032,
-    "diff_pct": 3.14,
+    "close2": 58.68,
+    "diff_pct": 4.06,
     "warn": true
    }
   },
@@ -12690,8 +12690,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 50.46,
-    "diff_pct": 5.03,
+    "close2": 49.46,
+    "diff_pct": 7.16,
     "warn": true
    }
   },
@@ -12793,8 +12793,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 141.41,
-    "diff_pct": 2.95,
+    "close2": 140.08,
+    "diff_pct": 3.93,
     "warn": true
    }
   },
@@ -12896,8 +12896,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 388.03,
-    "diff_pct": 2.56,
+    "close2": 383.3,
+    "diff_pct": 3.83,
     "warn": true
    }
   },
@@ -12999,8 +12999,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 468.745,
-    "diff_pct": -0.66,
+    "close2": 462.335,
+    "diff_pct": 0.72,
     "warn": false
    }
   },
@@ -13102,8 +13102,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1427.6,
-    "diff_pct": 4.73,
+    "close2": 1411.29,
+    "diff_pct": 5.94,
     "warn": true
    }
   },
@@ -13205,8 +13205,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 217.45,
-    "diff_pct": 0.18,
+    "close2": 215.091,
+    "diff_pct": 1.28,
     "warn": false
    }
   },
@@ -13308,8 +13308,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 49.91,
-    "diff_pct": 6.45,
+    "close2": 49.662,
+    "diff_pct": 6.98,
     "warn": true
    }
   },
@@ -13579,8 +13579,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 47.4,
    "in_buy": false,
-   "buy_low": 41.6809,
-   "buy_high": 45.5191,
+   "buy_low": 41.678,
+   "buy_high": 45.522,
    "buy_src": "sr",
    "buy_touch": 1,
    "conf": 2,
@@ -13591,10 +13591,10 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 66.2809,
-   "sell_high": 70.1191,
+   "sell_low": 66.278,
+   "sell_high": 70.122,
    "sell_conf": 3,
-   "atr_pct": 8.1,
+   "atr_pct": 8.11,
    "rel_vol": 1.44,
    "dist_atr": 0.49,
    "score": 2.0,
@@ -13665,8 +13665,8 @@
    "bar_policy": "sessions-v2-2026-09-09",
    "close": 91.85,
    "in_buy": false,
-   "buy_low": 85.7234,
-   "buy_high": 90.9012,
+   "buy_low": 85.7252,
+   "buy_high": 90.8994,
    "buy_src": "sr",
    "buy_touch": 2,
    "conf": 1,
@@ -13677,10 +13677,10 @@
     "rsi": true
    },
    "in_sell": false,
-   "sell_low": 95.8258,
-   "sell_high": 101.0036,
+   "sell_low": 95.8276,
+   "sell_high": 101.0018,
    "sell_conf": 2,
-   "atr_pct": 5.64,
+   "atr_pct": 5.63,
    "rel_vol": 1.0,
    "dist_atr": 0.18,
    "score": 2.0,
@@ -14185,8 +14185,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 25.4,
-    "diff_pct": 7.09,
+    "close2": 25.32,
+    "diff_pct": 7.42,
     "warn": true
    }
   },
@@ -14288,8 +14288,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 84.075,
-    "diff_pct": 3.78,
+    "close2": 83.305,
+    "diff_pct": 4.74,
     "warn": true
    }
   },
@@ -14391,8 +14391,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 221.48,
-    "diff_pct": -0.02,
+    "close2": 221.56,
+    "diff_pct": -0.06,
     "warn": false
    }
   },
@@ -14494,9 +14494,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 88.86,
-    "diff_pct": 1.22,
-    "warn": false
+    "close2": 87.82,
+    "diff_pct": 2.41,
+    "warn": true
    }
   },
   {
@@ -14597,8 +14597,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 121.91,
-    "diff_pct": 2.61,
+    "close2": 120.47,
+    "diff_pct": 3.83,
     "warn": true
    }
   },
@@ -14700,8 +14700,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 285.12,
-    "diff_pct": 4.41,
+    "close2": 284.395,
+    "diff_pct": 4.67,
     "warn": true
    }
   },
@@ -14803,9 +14803,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 274.34,
-    "diff_pct": 2.14,
-    "warn": true
+    "close2": 275.5198,
+    "diff_pct": 1.7,
+    "warn": false
    }
   },
   {
@@ -14907,8 +14907,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 57.84,
-    "diff_pct": 6.38,
+    "close2": 57.5208,
+    "diff_pct": 6.97,
     "warn": true
    }
   },
@@ -15010,9 +15010,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 11.685,
-    "diff_pct": 1.93,
-    "warn": false
+    "close2": 11.5083,
+    "diff_pct": 3.49,
+    "warn": true
    }
   },
   {
@@ -15113,8 +15113,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 258.46,
-    "diff_pct": 3.17,
+    "close2": 257.835,
+    "diff_pct": 3.42,
     "warn": true
    }
   },
@@ -15216,8 +15216,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 379.2608,
-    "diff_pct": 2.89,
+    "close2": 377.29,
+    "diff_pct": 3.43,
     "warn": true
    }
   },
@@ -15319,8 +15319,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 119.89,
-    "diff_pct": 4.55,
+    "close2": 118.82,
+    "diff_pct": 5.5,
     "warn": true
    }
   },
@@ -15422,9 +15422,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 220.155,
-    "diff_pct": 2.93,
-    "warn": true
+    "close2": 223.21,
+    "diff_pct": 1.52,
+    "warn": false
    }
   },
   {
@@ -15526,8 +15526,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 200.86,
-    "diff_pct": 3.06,
+    "close2": 199.24,
+    "diff_pct": 3.9,
     "warn": true
    }
   },
@@ -16359,8 +16359,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 355.54,
-    "diff_pct": 4.21,
+    "close2": 350.8299,
+    "diff_pct": 5.61,
     "warn": true
    }
   },
@@ -16462,8 +16462,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 146.37,
-    "diff_pct": 4.07,
+    "close2": 144.24,
+    "diff_pct": 5.6,
     "warn": true
    }
   },
@@ -16565,8 +16565,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 214.26,
-    "diff_pct": 5.44,
+    "close2": 210.465,
+    "diff_pct": 7.34,
     "warn": true
    }
   },
@@ -16668,8 +16668,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 730.505,
-    "diff_pct": 6.54,
+    "close2": 717.89,
+    "diff_pct": 8.42,
     "warn": true
    }
   },
@@ -16771,8 +16771,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 824.71,
-    "diff_pct": 7.31,
+    "close2": 809.69,
+    "diff_pct": 9.3,
     "warn": true
    }
   },
@@ -17132,8 +17132,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 26.5402,
-    "diff_pct": 8.82,
+    "close2": 26.44,
+    "diff_pct": 9.23,
     "warn": true
    }
   },
@@ -17235,9 +17235,9 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 261.43,
-    "diff_pct": 1.4,
-    "warn": false
+    "close2": 255.66,
+    "diff_pct": 3.69,
+    "warn": true
    }
   },
   {
@@ -17338,8 +17338,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 88.09,
-    "diff_pct": 1.36,
+    "close2": 87.955,
+    "diff_pct": 1.52,
     "warn": false
    }
   },
@@ -17441,8 +17441,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 171.69,
-    "diff_pct": 0.45,
+    "close2": 169.33,
+    "diff_pct": 1.85,
     "warn": false
    }
   },
@@ -17544,8 +17544,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 105.435,
-    "diff_pct": 8.68,
+    "close2": 105.47,
+    "diff_pct": 8.65,
     "warn": true
    }
   },
@@ -17647,8 +17647,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1.535,
-    "diff_pct": 24.43,
+    "close2": 1.5001,
+    "diff_pct": 27.32,
     "warn": true
    }
   },
@@ -17834,8 +17834,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 89.275,
-    "diff_pct": 4.77,
+    "close2": 87.945,
+    "diff_pct": 6.35,
     "warn": true
    }
   },
@@ -17937,8 +17937,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 321.87,
-    "diff_pct": 7.04,
+    "close2": 319.195,
+    "diff_pct": 7.94,
     "warn": true
    }
   },
@@ -18040,8 +18040,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 108.52,
-    "diff_pct": 6.78,
+    "close2": 105.79,
+    "diff_pct": 9.54,
     "warn": true
    }
   },
@@ -18143,8 +18143,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 188.485,
-    "diff_pct": 7.21,
+    "close2": 187.8,
+    "diff_pct": 7.6,
     "warn": true
    }
   },
@@ -18247,8 +18247,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 228.47,
-    "diff_pct": 3.03,
+    "close2": 227.0,
+    "diff_pct": 3.7,
     "warn": true
    }
   },
@@ -18350,8 +18350,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 55.72,
-    "diff_pct": 7.07,
+    "close2": 55.435,
+    "diff_pct": 7.62,
     "warn": true
    }
   },
@@ -18724,8 +18724,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 147.4,
-    "diff_pct": 6.35,
+    "close2": 145.33,
+    "diff_pct": 7.86,
     "warn": true
    }
   },
@@ -18827,8 +18827,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 499.805,
-    "diff_pct": 5.7,
+    "close2": 499.0,
+    "diff_pct": 5.87,
     "warn": true
    }
   },
@@ -18930,8 +18930,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 297.07,
-    "diff_pct": 2.2,
+    "close2": 293.49,
+    "diff_pct": 3.44,
     "warn": true
    }
   },
@@ -19033,8 +19033,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 283.69,
-    "diff_pct": 4.22,
+    "close2": 280.755,
+    "diff_pct": 5.31,
     "warn": true
    }
   },
@@ -19136,8 +19136,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 206.84,
-    "diff_pct": 7.25,
+    "close2": 203.495,
+    "diff_pct": 9.01,
     "warn": true
    }
   },
@@ -19239,8 +19239,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 28.45,
-    "diff_pct": 5.91,
+    "close2": 28.175,
+    "diff_pct": 6.94,
     "warn": true
    }
   },
@@ -19342,8 +19342,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 116.39,
-    "diff_pct": 3.26,
+    "close2": 116.23,
+    "diff_pct": 3.41,
     "warn": true
    }
   },
@@ -19445,8 +19445,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 108.99,
-    "diff_pct": 3.08,
+    "close2": 107.905,
+    "diff_pct": 4.12,
     "warn": true
    }
   },
@@ -19548,8 +19548,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 11.4181,
-    "diff_pct": 7.29,
+    "close2": 11.305,
+    "diff_pct": 8.36,
     "warn": true
    }
   },
@@ -19651,8 +19651,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 51.795,
-    "diff_pct": 7.69,
+    "close2": 51.785,
+    "diff_pct": 7.71,
     "warn": true
    }
   },
@@ -19754,8 +19754,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 78.06,
-    "diff_pct": 3.83,
+    "close2": 76.91,
+    "diff_pct": 5.38,
     "warn": true
    }
   },
@@ -19857,8 +19857,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 7.99,
-    "diff_pct": 12.02,
+    "close2": 7.845,
+    "diff_pct": 14.09,
     "warn": true
    }
   },
@@ -19960,8 +19960,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 164.05,
-    "diff_pct": 2.74,
+    "close2": 164.47,
+    "diff_pct": 2.47,
     "warn": true
    }
   },
@@ -20063,8 +20063,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 424.81,
-    "diff_pct": 4.64,
+    "close2": 420.32,
+    "diff_pct": 5.76,
     "warn": true
    }
   },
@@ -20166,8 +20166,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 22.335,
-    "diff_pct": 11.17,
+    "close2": 22.555,
+    "diff_pct": 10.09,
     "warn": true
    }
   },
@@ -20267,8 +20267,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 44.81,
-    "diff_pct": 3.55,
+    "close2": 44.575,
+    "diff_pct": 4.09,
     "warn": true
    }
   },
@@ -20368,8 +20368,8 @@
    },
    "rejim_up": null,
    "verify": {
-    "close2": 42.595,
-    "diff_pct": 3.6,
+    "close2": 42.41,
+    "diff_pct": 4.06,
     "warn": true
    }
   },
@@ -20471,8 +20471,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 107.0425,
-    "diff_pct": 6.57,
+    "close2": 105.962,
+    "diff_pct": 7.66,
     "warn": true
    }
   },
@@ -20574,8 +20574,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 232.69,
-    "diff_pct": 7.25,
+    "close2": 232.365,
+    "diff_pct": 7.4,
     "warn": true
    }
   },
@@ -20677,8 +20677,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 539.775,
-    "diff_pct": -0.22,
+    "close2": 536.32,
+    "diff_pct": 0.43,
     "warn": false
    }
   },
@@ -20780,8 +20780,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 281.83,
-    "diff_pct": 3.25,
+    "close2": 282.075,
+    "diff_pct": 3.16,
     "warn": true
    }
   },
@@ -20883,8 +20883,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 66.04,
-    "diff_pct": 8.42,
+    "close2": 65.291,
+    "diff_pct": 9.66,
     "warn": true
    }
   },
@@ -20986,8 +20986,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 10.635,
-    "diff_pct": 6.06,
+    "close2": 10.545,
+    "diff_pct": 6.97,
     "warn": true
    }
   },
@@ -21089,8 +21089,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 0.0469,
-    "diff_pct": 27.93,
+    "close2": 0.0404,
+    "diff_pct": 48.51,
     "warn": true
    }
   },
@@ -21192,8 +21192,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 2.025,
-    "diff_pct": 3.7,
+    "close2": 1.97,
+    "diff_pct": 6.6,
     "warn": true
    }
   },
@@ -21295,8 +21295,8 @@
    },
    "rejim_up": true,
    "verify": {
-    "close2": 1318.15,
-    "diff_pct": 5.49,
+    "close2": 1312.15,
+    "diff_pct": 5.97,
     "warn": true
    }
   }
